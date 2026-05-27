@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacybeleid — Link2Talent</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:      #08090C;
+  --bg2:     #0E1018;
+  --accent:  #2F6FED;
+  --accent2: #5B8FF5;
+  --white:   #F0EFED;
+  --muted:   #6B7280;
+  --border:  rgba(255,255,255,0.07);
+  --f: 'Inter', sans-serif;
+  --mono: 'DM Mono', monospace;
+}
+*,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+html { scroll-behavior:smooth; }
+body { background:var(--bg); color:var(--white); font-family:var(--f); overflow-x:hidden; font-size:16px; line-height:1.6; }
+a { color:var(--accent2); text-decoration:none; }
+a:hover { color:var(--white); }
+
+nav {
+  position:fixed; top:0; left:0; right:0; z-index:200;
+  padding:0 48px;
+  background:rgba(8,9,12,0.95);
+  backdrop-filter:blur(20px);
+  border-bottom:1px solid var(--border);
+}
+.nav-inner {
+  max-width:1200px; margin:0 auto;
+  display:flex; align-items:center; justify-content:space-between;
+  height:68px;
+}
+.nav-logo { font-size:19px; font-weight:800; letter-spacing:-.5px; color:var(--white); }
+.nav-logo .dot { color:var(--accent); }
+.nav-links { display:flex; align-items:center; gap:36px; list-style:none; }
+.nav-links a { font-size:14px; font-weight:500; color:rgba(255,255,255,0.58); transition:color .2s; }
+.nav-links a:hover { color:var(--white); }
+.nav-cta {
+  background:var(--accent); color:#fff;
+  font-size:14px; font-weight:700;
+  padding:10px 22px; border-radius:100px;
+}
+
+.page-wrap {
+  max-width:760px; margin:0 auto;
+  padding:140px 48px 120px;
+}
+
+.legal-label {
+  font-family:var(--mono); font-size:11px; letter-spacing:3px;
+  text-transform:uppercase; color:var(--accent);
+  margin-bottom:16px; display:block;
+}
+.legal-title {
+  font-size:clamp(36px,5vw,64px);
+  font-weight:900; letter-spacing:-2.5px; line-height:1;
+  margin-bottom:16px;
+}
+.legal-meta {
+  font-size:13px; color:var(--muted);
+  margin-bottom:64px;
+  padding-bottom:32px;
+  border-bottom:1px solid var(--border);
+  line-height:1.6;
+}
+
+.legal-section { margin-bottom:48px; }
+.legal-section h2 {
+  font-size:20px; font-weight:800; letter-spacing:-.3px;
+  margin-bottom:14px; color:var(--white);
+  display:flex; align-items:center; gap:12px;
+}
+.legal-num {
+  font-family:var(--mono); font-size:11px; letter-spacing:1px;
+  color:var(--accent); background:rgba(47,111,237,0.09);
+  border:1px solid rgba(47,111,237,0.2);
+  padding:3px 10px; border-radius:4px;
+}
+.legal-section p {
+  font-size:15px; color:rgba(240,239,237,0.65); line-height:1.75;
+  margin-bottom:12px;
+}
+.legal-section ul {
+  list-style:none; display:flex; flex-direction:column; gap:8px;
+  margin:12px 0;
+}
+.legal-section ul li {
+  font-size:15px; color:rgba(240,239,237,0.65); line-height:1.65;
+  display:flex; align-items:flex-start; gap:10px;
+}
+.legal-section ul li::before {
+  content:'→'; color:var(--accent2); flex-shrink:0; margin-top:1px;
+}
+.legal-section .sub-label {
+  font-size:13px; font-weight:700; color:rgba(240,239,237,0.75);
+  margin:16px 0 8px; font-family:var(--mono); letter-spacing:.5px;
+}
+
+.legal-divider { height:1px; background:var(--border); margin:48px 0; }
+
+footer {
+  background:var(--bg2); border-top:1px solid var(--border);
+  padding:48px;
+}
+.foot-inner {
+  max-width:1200px; margin:0 auto;
+  display:flex; align-items:center; justify-content:space-between;
+  gap:24px; flex-wrap:wrap;
+}
+.foot-logo { font-size:18px; font-weight:800; }
+.foot-logo .dot { color:var(--accent); }
+.foot-links { display:flex; gap:28px; list-style:none; }
+.foot-links a { font-size:13px; color:rgba(255,255,255,0.45); transition:color .2s; }
+.foot-links a:hover { color:var(--white); }
+.foot-copy { font-size:12px; color:var(--muted); }
+
+.nav-hamburger {
+  display:none; flex-direction:column; gap:5px;
+  cursor:pointer; padding:8px; border-radius:6px;
+  background:transparent; border:none;
+}
+.nav-hamburger span { display:block; width:22px; height:2px; background:var(--white); border-radius:2px; transition:transform .3s, opacity .3s; }
+.nav-hamburger.open span:nth-child(1) { transform:translateY(7px) rotate(45deg); }
+.nav-hamburger.open span:nth-child(2) { opacity:0; }
+.nav-hamburger.open span:nth-child(3) { transform:translateY(-7px) rotate(-45deg); }
+.nav-mobile-menu { display:none; position:fixed; top:68px; left:0; right:0; z-index:199; background:rgba(8,9,12,0.98); backdrop-filter:blur(20px); border-bottom:1px solid var(--border); padding:24px; flex-direction:column; gap:0; }
+.nav-mobile-menu.open { display:flex; }
+.nav-mobile-menu a { display:block; padding:16px 0; font-size:18px; font-weight:600; color:rgba(255,255,255,0.75); border-bottom:1px solid var(--border); transition:color .2s; }
+.nav-mobile-menu a:last-child { border-bottom:none; }
+.nav-mobile-cta { background:var(--accent); color:#fff !important; text-align:center; padding:16px !important; border-radius:100px; font-weight:700 !important; border-bottom:none !important; margin-top:16px; }
+
+@media (max-width:768px) {
+  nav { padding:0 20px; }
+  .nav-links { display:none; }
+  .nav-cta { display:none; }
+  .nav-hamburger { display:flex; }
+  .page-wrap { padding:110px 20px 80px; }
+  .legal-title { font-size:clamp(32px,8vw,52px); letter-spacing:-2px; }
+  footer { padding:40px 20px; }
+  .foot-inner { flex-direction:column; gap:16px; }
+  .foot-links { flex-wrap:wrap; gap:16px; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Link<span class="dot">2</span>Talent</a>
+    <ul class="nav-links">
+      <li><a href="index.html#aanpak">Aanpak</a></li>
+      <li><a href="index.html#modellen">Modellen</a></li>
+      <li><a href="index.html#reviews">Reviews</a></li>
+      <li><a href="index.html#team">Team</a></li>
+    </ul>
+    <a href="https://app.link2talent.nl" class="nav-cta" target="_blank">Maak een account aan</a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="nav-mobile-menu" id="mobileMenu">
+  <a href="index.html#aanpak" onclick="closeMenu()">Aanpak</a>
+  <a href="index.html#modellen" onclick="closeMenu()">Modellen</a>
+  <a href="index.html#reviews" onclick="closeMenu()">Reviews</a>
+  <a href="index.html#team" onclick="closeMenu()">Team</a>
+  <a href="https://app.link2talent.nl" class="nav-mobile-cta" target="_blank">Maak een account aan</a>
+</div>
+
+<div class="page-wrap">
+
+  <span class="legal-label">Juridisch</span>
+  <h1 class="legal-title">Privacybeleid</h1>
+  <p class="legal-meta">
+    Link2Talent<br>
+    Laatst bijgewerkt: mei 2026<br><br>
+    Wij gaan zorgvuldig om met gegevens van opdrachtgevers, setters en prospects.
+  </p>
+
+  <div class="legal-section">
+    <h2><span class="legal-num">01</span> Wie wij zijn</h2>
+    <p>Link2Talent is een platform dat B2B-bedrijven koppelt aan freelance salesprofessionals (setters) voor remote salescapaciteit. Wij faciliteren matching, contracten, communicatie en facturering via ons platform op app.link2talent.nl.</p>
+    <p><a href="mailto:info@link2talent.nl">info@link2talent.nl</a></p>
+  </div>
+
+  <div class="legal-divider"></div>
+
+  <div class="legal-section">
+    <h2><span class="legal-num">02</span> Welke gegevens we verwerken</h2>
+    <p class="sub-label">Van opdrachtgevers</p>
+    <ul>
+      <li>Naam en contactgegevens</li>
+      <li>Bedrijfsinformatie en aanbodgegevens</li>
+      <li>Platformactiviteit en matchgegevens</li>
+      <li>Factuur- en betalingsgegevens</li>
+    </ul>
+    <p class="sub-label">Van setters</p>
+    <ul>
+      <li>Naam, contactgegevens en profiel</li>
+      <li>Ervaring, branche en beschikbaarheid</li>
+      <li>Activiteit, uren en resultaten via het platform</li>
+      <li>Factuur- en betalingsgegevens</li>
+    </ul>
+    <p class="sub-label">Van prospects</p>
+    <ul>
+      <li>Zakelijke contactgegevens zoals naam, e-mailadres, functie en bedrijf</li>
+      <li>Interacties zoals reacties op outreach en geboekte afspraken</li>
+    </ul>
+    <p class="sub-label">Platformgebruik</p>
+    <ul>
+      <li>Inloggegevens en sessie-informatie</li>
+      <li>Activiteiten en statistieken binnen het platform</li>
+    </ul>
+  </div>
+
+  <div class="legal-divider"></div>
+
+  <div class="legal-section">
+    <h2><span class="legal-num">03</span> Waarom we dit doen</h2>
+    <p>We gebruiken gegevens om:</p>
+    <ul>
+      <li>Matches te maken tussen opdrachtgevers en setters</li>
+      <li>Contracten en facturering te verwerken</li>
+      <li>Communicatie tussen alle partijen te faciliteren</li>
+      <li>Resultaten te meten en de dienstverlening te verbeteren</li>
+      <li>Wettelijke verplichtingen na te komen</li>
+    </ul>
+  </div>
+
+  <div class="legal-divider"></div>
+
+  <div class="legal-section">
+    <h2><span class="legal-num">04</span> Rechtsgrond</h2>
+    <p>Wij verwerken gegevens op basis van:</p>
+    <ul>
+      <li>Uitvoering van een overeenkomst</li>
+      <li>Gerechtvaardigd belang bij B2B-dienstverlening</li>
+      <li>Wettelijke verplichtingen (zoals bewaarplicht facturen)</li>
+      <li>Toestemming waar dit wettelijk vereist is</li>
+    </ul>
+  </div>
+
+  <div class="legal-divider"></div>
+
+  <div class="legal-section">
+    <h2><span class="legal-num">05</span> Bewaartermijnen</h2>
+    <ul>
+      <li>Platformdata en matchgegevens: zolang nodig voor de uitvoering</li>
+      <li>Klant- en settergegevens: zolang de samenwerking loopt</li>
+      <li>Facturen: 7 jaar conform wettelijke verplichting</li>
+    </ul>
+  </div>
+
+  <div class="legal-divider"></div>
+
+  <div class="legal-section">
+    <h2><span class="legal-num">06</span> Delen met derden</h2>
+    <p>Wij werken met externe tools voor het platform, e-mailverzending, CRM en analyse. Gegevens worden alleen gedeeld wanneer dit noodzakelijk is voor de uitvoering van de dienst. Setterprofielen worden gedeeld met opdrachtgevers in het kader van de matching.</p>
+  </div>
+
+  <div class="legal-divider"></div>
+
+  <div class="legal-section">
+    <h2><span class="legal-num">07</span> Beveiliging</h2>
+    <p>Wij nemen passende technische en organisatorische maatregelen om gegevens te beschermen:</p>
+    <ul>
+      <li>Beveiligde verbindingen en versleutelde opslag</li>
+      <li>Beperkte toegang op basis van rol en noodzaak</li>
+      <li>Actieve monitoring van het platform</li>
+    </ul>
+  </div>
+
+  <div class="legal-divider"></div>
+
+  <div class="legal-section">
+    <h2><span class="legal-num">08</span> Jouw rechten</h2>
+    <p>Je hebt het recht om:</p>
+    <ul>
+      <li>Inzage aan te vragen in jouw gegevens</li>
+      <li>Gegevens te laten aanpassen of verwijderen</li>
+      <li>Bezwaar te maken tegen verwerking</li>
+    </ul>
+    <p>Stuur een e-mail naar <a href="mailto:info@link2talent.nl">info@link2talent.nl</a></p>
+  </div>
+
+  <div class="legal-divider"></div>
+
+  <div class="legal-section">
+    <h2><span class="legal-num">09</span> Wijzigingen</h2>
+    <p>Dit beleid kan worden aangepast. De meest actuele versie staat altijd op onze website.</p>
+  </div>
+
+  <div class="legal-divider"></div>
+
+  <div class="legal-section">
+    <h2><span class="legal-num">10</span> Contact</h2>
+    <p>Link2Talent<br>
+    <a href="mailto:info@link2talent.nl">info@link2talent.nl</a><br>
+    <a href="tel:+31850805381">085 080 5381</a></p>
+  </div>
+
+</div>
+
+<footer>
+  <div class="foot-inner">
+    <a href="index.html" class="foot-logo">Link<span class="dot">2</span>Talent</a>
+    <ul class="foot-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#modellen">Modellen</a></li>
+      <li><a href="index.html#team">Over ons</a></li>
+      <li><a href="privacy.html">Privacybeleid</a></li>
+      <li><a href="algemene-voorwaarden.html">Algemene Voorwaarden</a></li>
+    </ul>
+    <span class="foot-copy">© 2026 Link2Talent</span>
+  </div>
+</footer>
+
+<script>
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+hamburger.addEventListener('click', () => { hamburger.classList.toggle('open'); mobileMenu.classList.toggle('open'); });
+function closeMenu() { hamburger.classList.remove('open'); mobileMenu.classList.remove('open'); }
+</script>
+</body>
+</html>
