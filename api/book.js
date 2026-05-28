@@ -1,39 +1,29 @@
 const nodemailer = require('nodemailer');
 
-// Generate .ics calendar invite content
-function makeICS({ ref, name, email, notifyEmail, companyLabel, date, time, dateObj }) {
-  // Parse the date and time
+function makeICS({ ref, name, email, notifyEmail, companyLabel, time, dateObj }) {
   const [hour, minute] = time.split(':').map(Number);
   const start = new Date(dateObj);
   start.setHours(hour, minute, 0, 0);
   const end = new Date(start);
   end.setMinutes(end.getMinutes() + 30);
-
   const fmt = d => d.toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');
   const now = fmt(new Date());
-  const dtStart = fmt(start);
-  const dtEnd = fmt(end);
-
   return [
-    'BEGIN:VCALENDAR',
-    'VERSION:2.0',
+    'BEGIN:VCALENDAR','VERSION:2.0',
     'PRODID:-//' + companyLabel + '//Booking//NL',
-    'CALSCALE:GREGORIAN',
-    'METHOD:REQUEST',
+    'CALSCALE:GREGORIAN','METHOD:REQUEST',
     'BEGIN:VEVENT',
-    'UID:' + ref + '@' + companyLabel.toLowerCase().replace(/\s/g,'') + '.nl',
+    'UID:' + ref + '@link2talent.nl',
     'DTSTAMP:' + now,
-    'DTSTART:' + dtStart,
-    'DTEND:' + dtEnd,
-    'SUMMARY:Kennismakingsgesprek ' + companyLabel + ' — ' + name,
+    'DTSTART:' + fmt(start),
+    'DTEND:' + fmt(end),
+    'SUMMARY:Kennismakingsgesprek ' + companyLabel + ' - ' + name,
     'DESCRIPTION:Gesprek met ' + companyLabel + '. Boekingsnummer: ' + ref,
     'ORGANIZER;CN=' + companyLabel + ':mailto:' + notifyEmail,
     'ATTENDEE;CN=' + name + ';RSVP=TRUE:mailto:' + email,
     'ATTENDEE;CN=' + companyLabel + ';RSVP=FALSE:mailto:' + notifyEmail,
-    'STATUS:CONFIRMED',
-    'SEQUENCE:0',
-    'END:VEVENT',
-    'END:VCALENDAR'
+    'STATUS:CONFIRMED','SEQUENCE:0',
+    'END:VEVENT','END:VCALENDAR'
   ].join('\r\n');
 }
 
@@ -54,11 +44,9 @@ module.exports = async (req, res) => {
   const companyLabel = company === 'link2talent' ? 'Link2Talent' : 'Link2Leads';
   const accentColor = '#2F6FED';
 
-  // Build ICS
-  const icsContent = makeICS({ ref, name, email, notifyEmail, companyLabel, date, time, dateObj: dateObj || new Date().toISOString() });
+  const icsContent = makeICS({ ref, name, email, notifyEmail, companyLabel, time, dateObj: dateObj || new Date().toISOString() });
   const icsAttachment = { filename: 'afspraak.ics', content: icsContent, contentType: 'text/calendar; method=REQUEST' };
 
-  // Build answers HTML rows
   const answersHtml = answers ? Object.entries(answers).map(([k, v]) => `
     <tr>
       <td style="padding:8px 12px;color:#6B7280;font-size:12px;vertical-align:top;border-bottom:1px solid #1a1a2a;width:38%">${k}</td>
@@ -77,13 +65,13 @@ module.exports = async (req, res) => {
     <p style="font-size:15px;color:#F0EFED;margin:0 0 22px;line-height:1.6">
       ${isNotify
         ? `<strong>${name}</strong> heeft een kennismakingsgesprek ingepland.`
-        : `Beste <strong>${name}</strong>,<br><br>Je afspraak met ${companyLabel} is bevestigd. Je vindt de agenda-uitnodiging als bijlage bij deze e-mail.`
+        : `Beste <strong>${name}</strong>,<br><br>Je afspraak met ${companyLabel} is bevestigd. De agenda-uitnodiging staat als bijlage bij deze mail — klik erop om de afspraak toe te voegen aan je agenda.`
       }
     </p>
     <div style="background:#0E1018;border-radius:10px;overflow:hidden;margin-bottom:20px">
       <table style="width:100%;border-collapse:collapse">
         <tr><td style="padding:10px 14px;color:#6B7280;font-size:12px;border-bottom:1px solid #1a1a2a;width:38%">Datum</td><td style="padding:10px 14px;font-weight:600;font-size:13px;color:#F0EFED;border-bottom:1px solid #1a1a2a">${date}</td></tr>
-        <tr><td style="padding:10px 14px;color:#6B7280;font-size:12px;border-bottom:1px solid #1a1a2a">Tijd</td><td style="padding:10px 14px;font-weight:600;font-size:13px;color:#F0EFED;border-bottom:1px solid #1a1a2a">${time} · 30 min · Midden-Europese tijd</td></tr>
+        <tr><td style="padding:10px 14px;color:#6B7280;font-size:12px;border-bottom:1px solid #1a1a2a">Tijd</td><td style="padding:10px 14px;font-weight:600;font-size:13px;color:#F0EFED;border-bottom:1px solid #1a1a2a">${time} · 30 min · CET</td></tr>
         <tr><td style="padding:10px 14px;color:#6B7280;font-size:12px;border-bottom:1px solid #1a1a2a">Naam</td><td style="padding:10px 14px;font-weight:600;font-size:13px;color:#F0EFED;border-bottom:1px solid #1a1a2a">${name}</td></tr>
         ${companyName ? `<tr><td style="padding:10px 14px;color:#6B7280;font-size:12px;border-bottom:1px solid #1a1a2a">Bedrijf</td><td style="padding:10px 14px;font-weight:600;font-size:13px;color:#F0EFED;border-bottom:1px solid #1a1a2a">${companyName}</td></tr>` : ''}
         ${phone ? `<tr><td style="padding:10px 14px;color:#6B7280;font-size:12px;border-bottom:1px solid #1a1a2a">Telefoon</td><td style="padding:10px 14px;font-weight:600;font-size:13px;color:#F0EFED;border-bottom:1px solid #1a1a2a">${phone}</td></tr>` : ''}
@@ -95,10 +83,10 @@ module.exports = async (req, res) => {
       <div style="padding:10px 14px;font-size:10px;font-weight:700;color:#6B7280;letter-spacing:1.5px;text-transform:uppercase;border-bottom:1px solid #1a1a2a">Ingevulde vragen</div>
       <table style="width:100%;border-collapse:collapse">${answersHtml}</table>
     </div>` : ''}
-    <div style="font-size:12px;color:#6B7280;line-height:1.7;margin-top:8px">
+    <div style="font-size:12px;color:#6B7280;line-height:1.7">
       ${isNotify
-        ? `Verwerk deze afspraak en neem indien nodig contact op met <a href="mailto:${email}" style="color:${accentColor}">${email}</a>.`
-        : `Vragen? Mail naar <a href="mailto:${notifyEmail}" style="color:${accentColor}">${notifyEmail}</a>.<br>De agenda-uitnodiging staat als bijlage (.ics) bij deze mail — klik erop om de afspraak aan je agenda toe te voegen.`
+        ? `Contact opnemen: <a href="mailto:${email}" style="color:${accentColor}">${email}</a>`
+        : `Vragen? Mail naar <a href="mailto:${notifyEmail}" style="color:${accentColor}">${notifyEmail}</a>.`
       }
     </div>
   </div>
@@ -107,24 +95,26 @@ module.exports = async (req, res) => {
 
   try {
     const transporter = nodemailer.createTransport({
-      service: 'hotmail',
-      auth: { user: process.env.MAIL_USER, pass: process.env.MAIL_PASS },
+      host: process.env.MAIL_HOST || 'shared168.cloud86-host.io',
+      port: parseInt(process.env.MAIL_PORT) || 587,
+      secure: false,
+      auth: {
+        user: process.env.MAIL_USER,
+        pass: process.env.MAIL_PASS,
+      },
+      tls: { rejectUnauthorized: false },
     });
 
-    // Mail to booker — with ICS attachment
+    // Mail to booker
     await transporter.sendMail({
       from: `"${companyLabel}" <${process.env.MAIL_USER}>`,
       to: email,
       subject: `Afspraakbevestiging ${companyLabel} — ${date} om ${time}`,
       html: emailHtml(false),
       attachments: [icsAttachment],
-      alternatives: [{
-        contentType: 'text/calendar; method=REQUEST',
-        content: icsContent,
-      }],
     });
 
-    // Notification to Demi — with ICS attachment
+    // Mail to Demi
     await transporter.sendMail({
       from: `"${companyLabel} Booking" <${process.env.MAIL_USER}>`,
       to: notifyEmail,
