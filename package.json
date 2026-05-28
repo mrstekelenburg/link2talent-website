@@ -1,0 +1,17 @@
+{
+  "name": "link2talent-website",
+  "version": "1.0.0",
+  "description": "Link2Talent website with Vercel Web Analytics",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "npm run build:analytics && echo 'Static HTML build complete'",
+    "build:analytics": "esbuild src/analytics.js --bundle --outfile=dist/analytics.js --format=iife --minify"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0"
+  }
+}
