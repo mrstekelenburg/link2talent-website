@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kennismaking inplannen | Link2Talent</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:      #08090C;
+  --bg2:     #0E1018;
+  --bg3:     #141620;
+  --card:    #12141C;
+  --accent:  #2F6FED;
+  --accent2: #5B8FF5;
+  --green:   #22C55E;
+  --red:     #EF4444;
+  --white:   #F0EFED;
+  --muted:   #6B7280;
+  --border:  rgba(255,255,255,0.07);
+  --border2: rgba(255,255,255,0.12);
+  --f: 'Inter', sans-serif;
+}
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { font-family:var(--f); background:var(--bg); color:var(--white); min-height:100vh; -webkit-font-smoothing:antialiased; }
+
+/* ── NAV ── */
+nav {
+  position: fixed;
+  top: 12px; left: 12px; right: 12px;
+  z-index: 200;
+}
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background: rgba(8,9,12,0.85);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--border2);
+  border-radius: 100px;
+  padding: 10px 10px 10px 22px;
+}
+.nav-logo { font-size:16px; font-weight:800; letter-spacing:-.4px; color:var(--white); text-decoration:none; }
+.nav-logo .dot { color:var(--accent); }
+.nav-back {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid var(--border2);
+  color: rgba(255,255,255,0.7);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 9px 18px;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: all .2s;
+  white-space: nowrap;
+}
+.nav-back:hover { background:rgba(255,255,255,0.12); color:var(--white); }
+
+/* ── LAYOUT ── */
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 108px 24px 80px;
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 52px;
+  align-items: start;
+}
+
+/* ── LEFT ── */
+.left { position: sticky; top: 100px; }
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(47,111,237,0.12);
+  border: 1px solid rgba(47,111,237,0.25);
+  color: var(--accent2);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  border-radius: 100px;
+  margin-bottom: 22px;
+}
+.chip::before { content:''; width:6px; height:6px; border-radius:50%; background:var(--accent); display:block; }
+
+.left h1 {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -.6px;
+  margin-bottom: 14px;
+}
+
+.left p {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+.meta-cards { display:flex; flex-direction:column; gap:8px; }
+.meta-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+.meta-card-icon {
+  width: 32px; height: 32px;
+  border-radius: 8px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+.meta-card-lbl { font-size: 11px; color: var(--muted); font-weight: 500; margin-bottom: 2px; }
+.meta-card-val { font-size: 13px; color: var(--white); font-weight: 600; }
+
+/* ── WIDGET ── */
+.widget {
+  background: var(--card);
+  border: 1px solid var(--border2);
+  border-radius: 16px;
+  overflow: hidden;
+}
+.widget-head {
+  padding: 16px 22px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.widget-head-title { font-size: 14px; font-weight: 700; }
+.widget-head-step { font-size: 12px; color: var(--muted); font-weight: 500; }
+.widget-body { padding: 22px; }
+
+.step-panel { display:none; }
+.step-panel.active { display:block; }
+
+/* ── CALENDAR ── */
+.cal-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:14px; }
+.cal-month { font-size:14px; font-weight:700; letter-spacing:-.2px; }
+.cal-navs { display:flex; gap:4px; }
+.cal-nav {
+  width:28px; height:28px;
+  border-radius:6px;
+  border: 1px solid var(--border2);
+  background: var(--bg3);
+  color: var(--muted);
+  font-size: 14px;
+  cursor: pointer;
+  display:flex; align-items:center; justify-content:center;
+  transition: all .15s;
+}
+.cal-nav:hover { background:var(--accent); border-color:var(--accent); color:#fff; }
+
+.cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 3px;
+  margin-bottom: 18px;
+}
+.cal-dh {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  padding: 3px 0 8px;
+}
+.cal-d {
+  aspect-ratio: 1;
+  border-radius: 6px;
+  display:flex; align-items:center; justify-content:center;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: default;
+  transition: all .12s;
+  position: relative;
+  color: var(--muted);
+}
+.cal-d.avail { cursor:pointer; color:var(--white); }
+.cal-d.avail:hover { background:var(--bg3); }
+.cal-d.sel { background:var(--accent) !important; color:#fff !important; font-weight:700; }
+.cal-d.today::after {
+  content:'';
+  position:absolute;
+  bottom:2px; left:50%;
+  transform:translateX(-50%);
+  width:3px; height:3px;
+  border-radius:50%;
+  background:var(--accent);
+}
+.cal-d.sel.today::after { background:rgba(255,255,255,.5); }
+
+/* ── SLOTS ── */
+.slots-lbl {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  margin-bottom: 9px;
+}
+.slots-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  max-height: 176px;
+  overflow-y: auto;
+}
+.slots-grid::-webkit-scrollbar { width:2px; }
+.slots-grid::-webkit-scrollbar-thumb { background:var(--border2); }
+.slot {
+  padding: 8px 4px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+  cursor: pointer;
+  background: var(--bg3);
+  transition: all .12s;
+}
+.slot:hover { border-color:var(--accent); color:var(--accent2); }
+.slot.sel { background:var(--accent); border-color:var(--accent); color:#fff; font-weight:700; }
+
+.no-date { font-size:13px; color:var(--muted); text-align:center; padding:18px 0; }
+
+/* ── BUTTONS ── */
+.btn-main {
+  display:inline-flex; align-items:center; justify-content:center; gap:8px;
+  width:100%;
+  background:var(--accent); color:#fff;
+  font-size:14px; font-weight:700;
+  padding:13px 22px; border-radius:10px;
+  border:none; cursor:pointer;
+  font-family:var(--f);
+  transition: opacity .2s, transform .15s;
+  margin-top:14px;
+}
+.btn-main:hover { opacity:.9; transform:translateY(-1px); }
+.btn-main:disabled { opacity:.3; cursor:not-allowed; transform:none; }
+
+.btn-ghost {
+  display:inline-flex; align-items:center; justify-content:center;
+  width:100%;
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  color: var(--muted);
+  font-size:13px; font-weight:600;
+  padding:12px; border-radius:10px;
+  cursor:pointer;
+  font-family:var(--f);
+  transition: all .15s;
+  margin-top:8px;
+}
+.btn-ghost:hover { color:var(--white); border-color:var(--border2); }
+
+/* ── FORM ── */
+.slot-preview {
+  display:flex; align-items:center; gap:10px;
+  background: rgba(47,111,237,0.08);
+  border: 1px solid rgba(47,111,237,0.2);
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-bottom: 18px;
+}
+.sp-icon { font-size:16px; }
+.sp-info { flex:1; }
+.sp-date { font-size:13px; font-weight:700; color:var(--accent2); }
+.sp-time { font-size:12px; color:var(--muted); margin-top:2px; }
+.sp-edit {
+  font-size:11px; color:var(--muted);
+  cursor:pointer; background:none; border:none;
+  font-family:var(--f); text-decoration:underline;
+}
+.sp-edit:hover { color:var(--accent2); }
+
+.fg { margin-bottom:12px; }
+.fg label {
+  display:block;
+  font-size:11px; font-weight:700;
+  color:var(--muted);
+  letter-spacing:.5px; text-transform:uppercase;
+  margin-bottom:5px;
+}
+.fg input, .fg textarea {
+  width:100%;
+  padding:11px 13px;
+  background:var(--bg3);
+  border:1px solid var(--border2);
+  border-radius:8px;
+  color:var(--white);
+  font-size:13px;
+  font-family:var(--f);
+  outline:none;
+  transition:border-color .15s;
+}
+.fg input:focus, .fg textarea:focus { border-color:var(--accent); }
+.fg input::placeholder, .fg textarea::placeholder { color:var(--muted); }
+.fg textarea { resize:vertical; min-height:64px; }
+.req { color:var(--accent2); }
+
+.err-box {
+  background:rgba(239,68,68,.08);
+  border:1px solid rgba(239,68,68,.2);
+  border-radius:8px;
+  padding:10px 13px;
+  font-size:12px; color:#f87171;
+  margin-bottom:12px;
+  display:none;
+}
+.err-box.show { display:block; }
+
+/* ── SUCCESS ── */
+.succ { text-align:center; padding:8px 0; }
+.succ-ring {
+  width:64px; height:64px;
+  border-radius:50%;
+  background:rgba(34,197,94,.1);
+  border:1.5px solid var(--green);
+  display:flex; align-items:center; justify-content:center;
+  font-size:26px;
+  margin:0 auto 18px;
+  animation:pop .45s cubic-bezier(.34,1.56,.64,1);
+}
+@keyframes pop { from{transform:scale(.3);opacity:0} to{transform:scale(1);opacity:1} }
+.succ-title { font-size:22px; font-weight:800; letter-spacing:-.5px; margin-bottom:10px; }
+.succ-sub { font-size:13px; color:var(--muted); line-height:1.75; margin-bottom:22px; }
+.ref-box {
+  background:var(--bg3);
+  border:1px solid var(--border2);
+  border-radius:10px;
+  padding:14px;
+  font-size:11px; color:var(--muted);
+  text-align:center;
+  margin-bottom:16px;
+  letter-spacing:.3px;
+}
+.ref-box span {
+  display:block;
+  font-size:17px; font-weight:800;
+  color:var(--white);
+  letter-spacing:3px;
+  margin-top:5px;
+  font-family:'DM Mono', monospace;
+}
+
+@media(max-width:780px) {
+  .page { grid-template-columns:1fr; gap:28px; padding-top:90px; }
+  .left { position:static; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="https://www.link2talent.nl" class="nav-logo">Link<span class="dot">2</span>Talent</a>
+    <a href="https://www.link2talent.nl" class="nav-back">← Terug naar site</a>
+  </div>
+</nav>
+
+<div class="page">
+
+  <!-- LEFT INFO -->
+  <div class="left">
+    <div class="chip">Kennismakingsgesprek</div>
+    <h1>Plan een gesprek met Link2Talent</h1>
+    <p>We bespreken jullie salesinrichting, doelen en welk commercieel profiel daar het meeste impact maakt. Geen verplichtingen, wel een eerlijk gesprek.</p>
+    <div class="meta-cards">
+      <div class="meta-card">
+        <div class="meta-card-icon">⏱</div>
+        <div>
+          <div class="meta-card-lbl">Duur</div>
+          <div class="meta-card-val">30 minuten</div>
+        </div>
+      </div>
+      <div class="meta-card">
+        <div class="meta-card-icon">📹</div>
+        <div>
+          <div class="meta-card-lbl">Format</div>
+          <div class="meta-card-val">Web conferencing (details na bevestiging)</div>
+        </div>
+      </div>
+      <div class="meta-card">
+        <div class="meta-card-icon">📅</div>
+        <div>
+          <div class="meta-card-lbl">Beschikbaar</div>
+          <div class="meta-card-val">Ma t/m do 9:00–17:00, vr 9:00–13:00</div>
+        </div>
+      </div>
+      <div class="meta-card">
+        <div class="meta-card-icon">🌍</div>
+        <div>
+          <div class="meta-card-lbl">Tijdzone</div>
+          <div class="meta-card-val">Midden-Europese tijd (CET)</div>
+        </div>
+      </div>
+      <div class="meta-card">
+        <div class="meta-card-icon">✉️</div>
+        <div>
+          <div class="meta-card-lbl">Bevestiging</div>
+          <div class="meta-card-val">Direct per e-mail + uitnodiging</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- WIDGET -->
+  <div class="widget">
+    <div class="widget-head">
+      <div class="widget-head-title" id="wTitle">Selecteer een datum</div>
+      <div class="widget-head-step" id="wStep">Stap 1 van 2</div>
+    </div>
+    <div class="widget-body">
+
+      <!-- STEP 1: Calendar + Slots -->
+      <div class="step-panel active" id="s1">
+        <div class="cal-top">
+          <div class="cal-month" id="calLbl">-</div>
+          <div class="cal-navs">
+            <button class="cal-nav" onclick="prevM()">‹</button>
+            <button class="cal-nav" onclick="nextM()">›</button>
+          </div>
+        </div>
+        <div class="cal-grid" id="calGrid"></div>
+        <div id="slotsWrap" style="display:none">
+          <div class="slots-lbl" id="slotsLbl">Beschikbare tijden</div>
+          <div class="slots-grid" id="slotsGrid"></div>
+        </div>
+        <div class="no-date" id="noDate">Kies een datum om beschikbare tijden te zien</div>
+        <button class="btn-main" id="btnNext" onclick="goS2()" disabled>Doorgaan →</button>
+      </div>
+
+      <!-- STEP 2: Form -->
+      <div class="step-panel" id="s2">
+        <div class="slot-preview">
+          <div class="sp-icon">📅</div>
+          <div class="sp-info">
+            <div class="sp-date" id="pvDate">-</div>
+            <div class="sp-time" id="pvTime">-</div>
+          </div>
+          <button class="sp-edit" onclick="goS1()">Wijzigen</button>
+        </div>
+
+        <div class="err-box" id="fErr">Vul alle verplichte velden in om verder te gaan.</div>
+
+        <div class="fg">
+          <label>Naam <span class="req">*</span></label>
+          <input type="text" id="fName" placeholder="Voor- en achternaam">
+        </div>
+        <div class="fg">
+          <label>E-mailadres <span class="req">*</span></label>
+          <input type="email" id="fEmail" placeholder="naam@bedrijf.nl">
+        </div>
+        <div class="fg">
+          <label>Bedrijfsnaam</label>
+          <input type="text" id="fCompany" placeholder="Optioneel">
+        </div>
+        <div class="fg">
+          <label>Telefoonnummer</label>
+          <input type="tel" id="fPhone" placeholder="Optioneel">
+        </div>
+        <div class="fg">
+          <label>Hoe is jullie sales nu ingericht? <span class="req">*</span></label>
+          <textarea id="q1" placeholder="Team, outbound, inbound, opvolging..."></textarea>
+        </div>
+        <div class="fg">
+          <label>Waar loopt sales momenteel het meest vast? <span class="req">*</span></label>
+          <textarea id="q2" placeholder="Bijv. te weinig leads, geen structurele opvolging..."></textarea>
+        </div>
+        <div class="fg">
+          <label>Wat is jullie doel qua extra salesgesprekken of deals per maand? <span class="req">*</span></label>
+          <textarea id="q3" placeholder="Bijv. 10 extra afspraken per maand..."></textarea>
+        </div>
+        <div class="fg">
+          <label>Wanneer willen jullie starten met extra salescapaciteit? <span class="req">*</span></label>
+          <textarea id="q4" placeholder="Bijv. zo snel mogelijk, Q3 2026..."></textarea>
+        </div>
+        <div class="fg">
+          <label>Wat is momenteel jullie gemiddelde dealwaarde (ongeveer)? <span class="req">*</span></label>
+          <textarea id="q5" placeholder="Bijv. €5.000, €25.000..."></textarea>
+        </div>
+
+        <button class="btn-main" id="btnBook" onclick="book()">Afspraak bevestigen ✓</button>
+        <button class="btn-ghost" onclick="goS1()">← Terug</button>
+      </div>
+
+      <!-- STEP 3: Success -->
+      <div class="step-panel" id="s3">
+        <div class="succ">
+          <div class="succ-ring">✓</div>
+          <div class="succ-title">Afspraak bevestigd!</div>
+          <div class="succ-sub">
+            Je ontvangt direct een bevestiging op <strong id="confMail">je e-mail</strong> inclusief een agenda-uitnodiging.<br>Een dag van tevoren sturen we een herinnering.
+          </div>
+          <div class="ref-box">
+            Boekingsnummer
+            <span id="bookRef">L2T-000000</span>
+          </div>
+          <button class="btn-ghost" onclick="reset()" style="margin-top:0">Nieuwe afspraak plannen</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<script>
+const MONTHS = ['Januari','Februari','Maart','April','Mei','Juni','Juli','Augustus','September','Oktober','November','December'];
+const now = new Date();
+let vY = now.getFullYear(), vM = now.getMonth(), selD = null, selSlot = null;
+
+function getSlots(d) {
+  const day = d.getDay();
+  if (!day || day === 6) return [];
+  const endH = day === 5 ? 12.5 : 16.5;
+  const out = [];
+  for (let h = 9; h <= endH; h += .5) {
+    const hh = Math.floor(h), mm = h % 1 ? '30' : '00';
+    out.push(`${String(hh).padStart(2,'0')}:${mm}`);
+  }
+  return out;
+}
+
+function renderCal() {
+  document.getElementById('calLbl').textContent = MONTHS[vM] + ' ' + vY;
+  const g = document.getElementById('calGrid');
+  g.innerHTML = '';
+  ['ma','di','wo','do','vr','za','zo'].forEach(d => {
+    const e = document.createElement('div');
+    e.className = 'cal-dh'; e.textContent = d; g.appendChild(e);
+  });
+  const first = new Date(vY, vM, 1), last = new Date(vY, vM+1, 0);
+  const today = new Date(); today.setHours(0,0,0,0);
+  let off = first.getDay() - 1; if (off < 0) off = 6;
+  for (let i = 0; i < off; i++) { const e = document.createElement('div'); e.className = 'cal-d'; g.appendChild(e); }
+  for (let d = 1; d <= last.getDate(); d++) {
+    const date = new Date(vY, vM, d);
+    const e = document.createElement('div');
+    e.textContent = d;
+    const past = date < today, we = !date.getDay() || date.getDay() === 6;
+    const isSel = selD && date.toDateString() === selD.toDateString();
+    const isToday = date.toDateString() === today.toDateString();
+    e.className = 'cal-d' + (isToday ? ' today' : '') + (isSel ? ' sel' : '') + (past || we ? '' : ' avail');
+    if (!past && !we) e.onclick = () => pickD(new Date(vY, vM, d));
+    g.appendChild(e);
+  }
+}
+
+function pickD(d) {
+  selD = d; selSlot = null;
+  document.getElementById('btnNext').disabled = true;
+  renderCal(); renderSlots();
+}
+
+function renderSlots() {
+  const wrap = document.getElementById('slotsWrap');
+  const nd = document.getElementById('noDate');
+  const g = document.getElementById('slotsGrid');
+  if (!selD) { wrap.style.display = 'none'; nd.style.display = 'block'; return; }
+  wrap.style.display = 'block'; nd.style.display = 'none';
+  const lbl = selD.toLocaleDateString('nl-NL', {weekday:'long', day:'numeric', month:'long'});
+  document.getElementById('slotsLbl').textContent = lbl.charAt(0).toUpperCase() + lbl.slice(1);
+  g.innerHTML = getSlots(selD).map(t =>
+    `<div class="slot${selSlot === t ? ' sel' : ''}" onclick="pickSlot('${t}')">${t}</div>`
+  ).join('');
+}
+
+function pickSlot(t) {
+  selSlot = t; renderSlots();
+  document.getElementById('btnNext').disabled = false;
+}
+
+function prevM() { vM--; if (vM < 0) { vM = 11; vY--; } renderCal(); }
+function nextM() { vM++; if (vM > 11) { vM = 0; vY++; } renderCal(); }
+
+function setPanel(n) {
+  document.querySelectorAll('.step-panel').forEach(p => p.classList.remove('active'));
+  document.getElementById('s' + n).classList.add('active');
+}
+
+function goS1() {
+  setPanel(1);
+  document.getElementById('wTitle').textContent = 'Selecteer een datum';
+  document.getElementById('wStep').textContent = 'Stap 1 van 2';
+}
+
+function goS2() {
+  if (!selD || !selSlot) return;
+  const ds = selD.toLocaleDateString('nl-NL', {weekday:'long', day:'numeric', month:'long', year:'numeric'});
+  document.getElementById('pvDate').textContent = ds.charAt(0).toUpperCase() + ds.slice(1);
+  document.getElementById('pvTime').textContent = selSlot + ' · 30 minuten · Midden-Europese tijd';
+  setPanel(2);
+  document.getElementById('wTitle').textContent = 'Jouw gegevens';
+  document.getElementById('wStep').textContent = 'Stap 2 van 2';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+async function book() {
+  const name    = document.getElementById('fName').value.trim();
+  const email   = document.getElementById('fEmail').value.trim();
+  const company = document.getElementById('fCompany').value.trim();
+  const phone   = document.getElementById('fPhone').value.trim();
+  const q1      = document.getElementById('q1').value.trim();
+  const q2      = document.getElementById('q2').value.trim();
+  const q3      = document.getElementById('q3').value.trim();
+  const q4      = document.getElementById('q4').value.trim();
+  const q5      = document.getElementById('q5').value.trim();
+  const err     = document.getElementById('fErr');
+
+  if (!name || !email || !q1 || !q2 || !q3 || !q4 || !q5) {
+    err.classList.add('show');
+    return;
+  }
+  err.classList.remove('show');
+
+  const btn = document.getElementById('btnBook');
+  btn.disabled = true; btn.textContent = 'Bevestigen...';
+
+  const ds = selD.toLocaleDateString('nl-NL', {weekday:'long', day:'numeric', month:'long', year:'numeric'});
+
+  try {
+    const res = await fetch('/api/book', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        company: 'link2talent',
+        notifyEmail: 'demi@link2talent.nl',
+        name, email,
+        companyName: company,
+        phone,
+        date: ds.charAt(0).toUpperCase() + ds.slice(1),
+        time: selSlot,
+        dateObj: selD.toISOString(),
+        answers: {
+          'Salesinrichting':        q1,
+          'Knelpunten sales':       q2,
+          'Doel afspraken/deals':   q3,
+          'Gewenste startdatum':    q4,
+          'Gemiddelde dealwaarde':  q5,
+        }
+      })
+    });
+
+    const data = await res.json();
+
+    if (data.success) {
+      document.getElementById('confMail').textContent = email;
+      document.getElementById('bookRef').textContent = data.ref;
+      setPanel(3);
+      document.getElementById('wTitle').textContent = 'Bevestigd!';
+      document.getElementById('wStep').textContent = '';
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      alert('Er ging iets mis. Probeer het opnieuw.');
+      btn.disabled = false; btn.textContent = 'Afspraak bevestigen ✓';
+    }
+  } catch (e) {
+    alert('Verbindingsfout. Probeer het opnieuw.');
+    btn.disabled = false; btn.textContent = 'Afspraak bevestigen ✓';
+  }
+}
+
+function reset() {
+  selD = null; selSlot = null;
+  ['fName','fEmail','fCompany','fPhone','q1','q2','q3','q4','q5'].forEach(id => {
+    document.getElementById(id).value = '';
+  });
+  document.getElementById('btnNext').disabled = true;
+  goS1(); renderCal(); renderSlots();
+}
+
+renderCal();
+renderSlots();
+</script>
+</body>
+</html>

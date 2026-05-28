@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Omzetcalculator — Link2Talent</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:      #08090C;
+  --bg2:     #0E1018;
+  --bg3:     #141620;
+  --accent:  #2F6FED;
+  --accent2: #5B8FF5;
+  --green:   #22C55E;
+  --red:     #EF4444;
+  --white:   #F0EFED;
+  --muted:   #6B7280;
+  --border:  rgba(255,255,255,0.07);
+  --f: 'Inter', sans-serif;
+  --mono: 'DM Mono', monospace;
+}
+*,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+html { scroll-behavior:smooth; }
+body {
+  background:var(--bg); color:var(--white);
+  font-family:var(--f); min-height:100vh;
+  overflow-x:hidden;
+}
+
+/* NAV */
+nav {
+  position:fixed; top:0; left:0; right:0; z-index:200;
+  padding:0 48px;
+  background:rgba(8,9,12,0.95);
+  backdrop-filter:blur(20px);
+  border-bottom:1px solid var(--border);
+}
+.nav-inner {
+  max-width:1200px; margin:0 auto;
+  display:flex; align-items:center; justify-content:space-between;
+  height:64px;
+}
+.nav-logo { font-size:18px; font-weight:800; letter-spacing:-.4px; color:var(--white); text-decoration:none; }
+.nav-logo .dot { color:var(--accent); }
+.nav-cta {
+  background:var(--accent); color:#fff;
+  font-size:13px; font-weight:700;
+  padding:9px 20px; border-radius:100px;
+  text-decoration:none; transition:opacity .2s;
+}
+.nav-cta:hover { opacity:.88; }
+
+/* HERO */
+.hero {
+  padding:120px 24px 64px;
+  text-align:center;
+  background: radial-gradient(ellipse 800px 400px at 50% 0%, rgba(47,111,237,0.1) 0%, transparent 70%);
+}
+.eyebrow {
+  display:inline-flex; align-items:center; gap:8px;
+  background:rgba(47,111,237,0.08); border:1px solid rgba(47,111,237,0.2);
+  padding:6px 14px; border-radius:100px;
+  font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase;
+  color:var(--accent2); margin-bottom:24px;
+}
+.pulse { width:6px; height:6px; background:var(--accent); border-radius:50%; animation:blink 1.4s infinite; }
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:.2} }
+.hero h1 {
+  font-size:clamp(36px,6vw,68px); font-weight:900;
+  letter-spacing:-2px; line-height:1.02; margin-bottom:16px;
+}
+.hero h1 .blue { color:var(--accent); }
+.hero-sub {
+  font-size:17px; color:rgba(240,239,237,0.6);
+  line-height:1.65; max-width:520px; margin:0 auto;
+}
+
+/* MAIN */
+.main {
+  max-width:760px; margin:0 auto;
+  padding:0 24px 80px;
+}
+
+/* CARDS */
+.card {
+  background:var(--bg2);
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:40px;
+  margin-bottom:20px;
+}
+.card-title {
+  font-size:13px; font-weight:700; letter-spacing:1.5px;
+  text-transform:uppercase; color:var(--muted);
+  margin-bottom:28px;
+  display:flex; align-items:center; gap:10px;
+}
+.card-title::after { content:''; flex:1; height:1px; background:var(--border); }
+
+/* FIELDS */
+.fields { display:flex; flex-direction:column; gap:28px; }
+.field-label {
+  font-size:12px; font-weight:600; letter-spacing:1px; text-transform:uppercase;
+  color:var(--muted); margin-bottom:10px;
+  display:flex; justify-content:space-between; align-items:center;
+}
+.field-hint { font-size:11px; color:rgba(107,114,128,.7); font-weight:400; letter-spacing:0; text-transform:none; }
+
+.input-row {
+  display:flex; align-items:center;
+  background:var(--bg3); border:1px solid var(--border);
+  border-radius:10px; overflow:hidden; transition:border-color .2s;
+}
+.input-row:focus-within { border-color:var(--accent); }
+.input-prefix, .input-suffix {
+  padding:14px 16px;
+  font-family:var(--mono); font-size:14px; color:var(--muted);
+  background:rgba(255,255,255,0.03);
+  border-right:1px solid var(--border);
+  white-space:nowrap;
+}
+.input-suffix { border-right:none; border-left:1px solid var(--border); }
+input[type="number"] {
+  flex:1; background:transparent; border:none; outline:none;
+  color:var(--white); font-family:var(--mono);
+  font-size:18px; font-weight:500; padding:14px 16px;
+}
+input[type="number"]::-webkit-inner-spin-button { -webkit-appearance:none; }
+
+/* SLIDER */
+.slider-val {
+  font-family:var(--mono); font-size:28px; font-weight:500;
+  color:var(--accent); margin-bottom:12px; display:block;
+}
+input[type="range"] {
+  width:100%; -webkit-appearance:none; appearance:none;
+  height:4px; border-radius:2px; outline:none; cursor:pointer;
+  background:linear-gradient(to right, var(--accent) 0%, var(--accent) var(--pct,25%), rgba(255,255,255,0.1) var(--pct,25%), rgba(255,255,255,0.1) 100%);
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance:none; width:20px; height:20px;
+  border-radius:50%; background:var(--white);
+  box-shadow:0 0 0 4px rgba(47,111,237,0.35);
+  cursor:pointer; transition:box-shadow .15s;
+}
+input[type="range"]::-webkit-slider-thumb:hover { box-shadow:0 0 0 6px rgba(47,111,237,0.45); }
+.slider-labels {
+  display:flex; justify-content:space-between;
+  margin-top:8px; font-family:var(--mono); font-size:11px; color:var(--muted);
+}
+
+/* SETTER COST BOX */
+.cost-box {
+  background:rgba(47,111,237,0.06); border:1px solid rgba(47,111,237,0.15);
+  border-radius:12px; padding:20px; margin-top:24px;
+  display:flex; align-items:center; gap:16px; flex-wrap:wrap;
+}
+.cost-icon { font-size:24px; flex-shrink:0; }
+.cost-text { flex:1; }
+.cost-title { font-size:14px; font-weight:700; margin-bottom:4px; }
+.cost-desc { font-size:13px; color:var(--muted); line-height:1.5; }
+.cost-price {
+  font-family:var(--mono); font-size:22px; font-weight:500;
+  color:var(--accent2); white-space:nowrap;
+}
+
+/* RESULT */
+.result-card {
+  background:linear-gradient(135deg, rgba(34,197,94,0.06) 0%, rgba(47,111,237,0.06) 100%);
+  border:1px solid rgba(34,197,94,0.2);
+  border-radius:16px; padding:40px; margin-bottom:20px;
+  opacity:0; transform:translateY(12px);
+  transition:opacity .5s, transform .5s;
+}
+.result-card.visible { opacity:1; transform:translateY(0); }
+
+.result-main { text-align:center; margin-bottom:32px; }
+.result-label {
+  font-size:11px; letter-spacing:2px; text-transform:uppercase;
+  color:var(--green); margin-bottom:12px;
+}
+.result-big {
+  font-size:clamp(52px,10vw,88px); font-weight:900;
+  letter-spacing:-3px; line-height:1; color:var(--green);
+  margin-bottom:8px;
+}
+.result-sub { font-size:15px; color:rgba(240,239,237,0.65); line-height:1.6; max-width:440px; margin:0 auto; }
+
+/* BREAKDOWN */
+.breakdown {
+  display:grid; grid-template-columns:repeat(3,1fr);
+  gap:12px; margin-bottom:32px;
+}
+.bitem {
+  background:rgba(255,255,255,0.03); border:1px solid var(--border);
+  border-radius:10px; padding:16px; text-align:center;
+}
+.bnum {
+  font-family:var(--mono); font-size:22px; font-weight:500;
+  margin-bottom:4px; display:block;
+}
+.bnum.green { color:var(--green); }
+.bnum.blue  { color:var(--accent); }
+.bnum.white { color:var(--white); }
+.blabel { font-size:11px; color:var(--muted); line-height:1.4; }
+
+/* SETTER FLOW */
+.setter-flow {
+  background:rgba(255,255,255,0.02); border:1px solid var(--border);
+  border-radius:12px; padding:20px; margin-bottom:32px;
+}
+.flow-title { font-size:12px; color:var(--muted); letter-spacing:1px; text-transform:uppercase; margin-bottom:16px; }
+.flow-steps { display:flex; flex-direction:column; gap:0; }
+.flow-step {
+  display:flex; align-items:flex-start; gap:12px; padding:12px 0;
+  border-bottom:1px solid var(--border);
+}
+.flow-step:last-child { border-bottom:none; }
+.flow-icon { font-size:18px; margin-top:1px; flex-shrink:0; width:28px; text-align:center; }
+.flow-content {}
+.flow-label { font-size:14px; font-weight:600; margin-bottom:2px; }
+.flow-desc { font-size:13px; color:var(--muted); line-height:1.5; }
+.flow-num {
+  font-family:var(--mono); font-size:15px; font-weight:500;
+  color:var(--accent2); margin-left:auto; flex-shrink:0; padding-left:12px; padding-top:2px;
+}
+
+/* CTA */
+.cta-block { text-align:center; padding-top:8px; }
+.cta-title { font-size:18px; font-weight:800; margin-bottom:8px; }
+.cta-sub { font-size:14px; color:var(--muted); margin-bottom:20px; }
+.btn-cta {
+  display:inline-flex; align-items:center; gap:8px;
+  background:var(--accent); color:#fff;
+  font-size:15px; font-weight:700;
+  padding:15px 30px; border-radius:10px;
+  text-decoration:none;
+  box-shadow:0 6px 24px rgba(47,111,237,0.3);
+  transition:opacity .2s, transform .15s;
+}
+.btn-cta:hover { opacity:.9; transform:translateY(-1px); }
+.cta-note { font-size:12px; color:var(--muted); margin-top:12px; }
+
+/* FOOTER */
+footer {
+  background:var(--bg2); border-top:1px solid var(--border);
+  padding:32px 48px;
+}
+.foot-inner {
+  max-width:1200px; margin:0 auto;
+  display:flex; align-items:center; justify-content:space-between;
+  gap:16px; flex-wrap:wrap;
+}
+.foot-logo { font-size:16px; font-weight:800; text-decoration:none; color:var(--white); }
+.foot-logo .dot { color:var(--accent); }
+.foot-copy { font-size:12px; color:var(--muted); }
+.foot-links { display:flex; gap:20px; list-style:none; }
+.foot-links a { font-size:12px; color:var(--muted); text-decoration:none; transition:color .2s; }
+.foot-links a:hover { color:var(--white); }
+
+@media (max-width:600px) {
+  nav { padding:0 20px; }
+  .card { padding:24px; }
+  .result-card { padding:24px; }
+  .breakdown { grid-template-columns:1fr; }
+  footer { padding:28px 20px; }
+  .foot-inner { flex-direction:column; gap:12px; }
+  .cost-box { flex-direction:column; gap:10px; }
+  .flow-num { display:none; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Link<span class="dot">2</span>Talent</a>
+    <a href="https://app.link2talent.nl" class="nav-cta" target="_blank">Maak een account aan</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="eyebrow"><span class="pulse"></span> Gratis calculator</div>
+  <h1>Wat levert een<br><span class="blue">setter</span> jou op?</h1>
+  <p class="hero-sub">Vul je dealwaarde en closing rate in. Zie direct hoeveel omzet een setter via Link2Talent voor jou kan genereren.</p>
+</div>
+
+<div class="main">
+
+  <!-- INPUT CARD -->
+  <div class="card">
+    <div class="card-title">Jouw salesproces</div>
+    <div class="fields">
+
+      <div class="field-group">
+        <div class="field-label">
+          Gemiddelde dealwaarde
+          <span class="field-hint">Wat levert één nieuwe klant op?</span>
+        </div>
+        <div class="input-row">
+          <span class="input-prefix">€</span>
+          <input type="number" id="dealValue" value="5000" min="500" max="500000" oninput="calc()">
+        </div>
+      </div>
+
+      <div class="field-group">
+        <div class="field-label">
+          Closing rate
+          <span class="field-hint">Hoeveel % van gesprekken wordt klant?</span>
+        </div>
+        <span class="slider-val" id="closeDisplay">25%</span>
+        <input type="range" id="closeRate" min="5" max="80" value="25"
+          oninput="updateSlider(this,'closeDisplay',v=>v+'%')">
+        <div class="slider-labels"><span>5%</span><span>40%</span><span>80%</span></div>
+      </div>
+
+    </div>
+
+    <!-- SETTER COST -->
+    <div class="cost-box">
+      <span class="cost-icon">🧑‍💼</span>
+      <div class="cost-text">
+        <div class="cost-title">Wat kost een setter via Link2Talent?</div>
+        <div class="cost-desc">€37,50/uur · 10 uur per week · ~4 weken per maand</div>
+      </div>
+      <span class="cost-price">≈ €1.500/mnd</span>
+    </div>
+  </div>
+
+  <!-- RESULT CARD -->
+  <div class="result-card" id="resultCard">
+
+    <div class="result-main">
+      <div class="result-label">💰 Potentiële omzet per maand</div>
+      <div class="result-big" id="resultBig">€0</div>
+      <p class="result-sub" id="resultDesc">—</p>
+    </div>
+
+    <div class="breakdown">
+      <div class="bitem">
+        <span class="bnum blue" id="bConvs">5–10</span>
+        <span class="blabel">Gekwalificeerde gesprekken per maand</span>
+      </div>
+      <div class="bitem">
+        <span class="bnum green" id="bDeals">0</span>
+        <span class="blabel">Nieuwe klanten per maand</span>
+      </div>
+      <div class="bitem">
+        <span class="bnum white" id="bROI">0×</span>
+        <span class="blabel">ROI op setterkosten (€1.500/mnd)</span>
+      </div>
+    </div>
+
+    <!-- SETTER FLOW -->
+    <div class="setter-flow">
+      <div class="flow-title">Hoe een setter via Link2Talent werkt</div>
+      <div class="flow-steps">
+        <div class="flow-step">
+          <span class="flow-icon">🔍</span>
+          <div class="flow-content">
+            <div class="flow-label">Match binnen 1 week</div>
+            <div class="flow-desc">Jij kiest de setter die past bij je branche, aanbod en beschikbaarheid.</div>
+          </div>
+          <span class="flow-num">Week 1</span>
+        </div>
+        <div class="flow-step">
+          <span class="flow-icon">📋</span>
+          <div class="flow-content">
+            <div class="flow-label">Contract & start</div>
+            <div class="flow-desc">Digitaal contract via het platform. Betaling, communicatie en rapportage — alles op één plek.</div>
+          </div>
+          <span class="flow-num">Week 2</span>
+        </div>
+        <div class="flow-step">
+          <span class="flow-icon">📞</span>
+          <div class="flow-content">
+            <div class="flow-label"><span id="flowConvs">5–10 gesprekken</span> per maand</div>
+            <div class="flow-desc">De setter plant afspraken in jouw agenda. Jij focust op sluiten.</div>
+          </div>
+          <span class="flow-num">Doorlopend</span>
+        </div>
+        <div class="flow-step">
+          <span class="flow-icon">🏆</span>
+          <div class="flow-content">
+            <div class="flow-label" id="flowRevenue">€0 extra omzet/maand</div>
+            <div class="flow-desc" id="flowRevenueDesc">Op basis van jouw dealwaarde en closing rate.</div>
+          </div>
+          <span class="flow-num" id="flowROILabel">ROI: 0×</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta-block">
+      <div class="cta-title">Klinkt dit goed?</div>
+      <div class="cta-sub">Maak een gratis account aan. Binnen minuten zie je beschikbare setters en start je een match.</div>
+      <a href="https://app.link2talent.nl" class="btn-cta" target="_blank">
+        Maak gratis een account aan →
+      </a>
+      <p class="cta-note">Geen verplichtingen · Gratis account</p>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  <div class="foot-inner">
+    <a href="index.html" class="foot-logo">Link<span class="dot">2</span>Talent</a>
+    <ul class="foot-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="privacy.html">Privacybeleid</a></li>
+      <li><a href="algemene-voorwaarden.html">Voorwaarden</a></li>
+    </ul>
+    <span class="foot-copy">© 2026 Link2Talent</span>
+  </div>
+</footer>
+
+<script>
+function fmt(n) {
+  if (n >= 1000000) return '€' + (n/1000000).toFixed(1) + 'M';
+  if (n >= 1000)    return '€' + Math.round(n/1000) + 'K';
+  return '€' + Math.round(n);
+}
+
+function updateSlider(el, displayId, formatter) {
+  const v = parseInt(el.value);
+  document.getElementById(displayId).textContent = formatter(v);
+  const pct = ((v - el.min) / (el.max - el.min)) * 100;
+  el.style.setProperty('--pct', pct + '%');
+  calc();
+}
+
+function calc() {
+  const deal  = parseFloat(document.getElementById('dealValue').value) || 0;
+  const close = parseInt(document.getElementById('closeRate').value) / 100;
+
+  // Setter levert 5–10 gesprekken/maand
+  const convsLow  = 5;
+  const convsHigh = 10;
+  const dealsLow  = (convsLow  * close);
+  const dealsHigh = (convsHigh * close);
+  const revLow    = dealsLow  * deal;
+  const revHigh   = dealsHigh * deal;
+
+  // Show midpoint for breakdown
+  const convsMid  = 7.5;
+  const dealsMid  = (convsMid * close);
+  const revMid    = dealsMid * deal;
+
+  const setterCost = 1500;
+  const roiLow     = setterCost > 0 ? (revLow  / setterCost).toFixed(1) : '∞';
+  const roiHigh    = setterCost > 0 ? (revHigh / setterCost).toFixed(1) : '∞';
+  const roiMid     = setterCost > 0 ? (revMid  / setterCost).toFixed(1) : '∞';
+
+  // Display
+  document.getElementById('resultBig').textContent = fmt(revLow) + ' – ' + fmt(revHigh);
+  document.getElementById('bConvs').textContent    = '5 – 10';
+  document.getElementById('bDeals').textContent    = dealsLow.toFixed(1).replace('.0','') + ' – ' + dealsHigh.toFixed(1).replace('.0','');
+  document.getElementById('bROI').textContent      = roiLow + '× – ' + roiHigh + '×';
+
+  // Flow
+  document.getElementById('flowConvs').textContent   = '5–10 gesprekken';
+  document.getElementById('flowRevenue').textContent  = fmt(revLow) + ' – ' + fmt(revHigh) + ' extra omzet/maand';
+  document.getElementById('flowRevenueDesc').textContent = `Bij ${Math.round(close*100)}% closing rate en ${fmt(deal)} per deal.`;
+  document.getElementById('flowROILabel').textContent = 'ROI: ' + roiLow + '×–' + roiHigh + '×';
+
+  let desc = '';
+  if (revLow <= 0) {
+    desc = 'Vul een dealwaarde in om je potentieel te berekenen.';
+  } else if (revMid < 5000) {
+    desc = `Een setter kost je circa €1.500 per maand en levert gemiddeld 5–10 gesprekken op. Met jouw closing rate en dealwaarde is dat ${fmt(revLow)}–${fmt(revHigh)} extra per maand.`;
+  } else {
+    desc = `Met een setter via Link2Talent genereer je gemiddeld ${fmt(revLow)}–${fmt(revHigh)} extra omzet per maand — bij een investering van €1.500. ROI: ${roiLow}×–${roiHigh}×.`;
+  }
+  document.getElementById('resultDesc').textContent = desc;
+
+  document.getElementById('resultCard').classList.add('visible');
+}
+
+// Init sliders
+document.querySelectorAll('input[type="range"]').forEach(el => {
+  const pct = ((el.value - el.min) / (el.max - el.min)) * 100;
+  el.style.setProperty('--pct', pct + '%');
+});
+
+calc();
+</script>
+</body>
+</html>
