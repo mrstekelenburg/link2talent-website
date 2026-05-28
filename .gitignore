@@ -1,0 +1,8 @@
+# Dependencies
+node_modules/
+
+# Build artifacts - keep dist/ since it's needed for deployment
+# dist/
+
+# Backup files
+*.bak
