@@ -63,8 +63,32 @@ window.L2T_I18N_DATA = {
 "Jij stuurt aan, wij leveren de capaciteit": {
 "en": "You direct, we supply the capacity"
 },
-"5.0 op Google": {
-"en": "5.0 on Google"
+"Demi en Anne-Roos doen de match zelf. Geen recruiter ertussen.": {
+"en": "Demi and Anne-Roos make the match themselves. No recruiter in between."
+},
+"4,8 gemiddeld. Op naam, dus na te lopen.": {
+"en": "4.8 average. Under real names, so you can check them."
+},
+"Matches": {
+"en": "Matches"
+},
+"Contracten": {
+"en": "Contracts"
+},
+"Facturatie": {
+"en": "Invoicing"
+},
+"Berichten": {
+"en": "Messages"
+},
+"Rapportage": {
+"en": "Reporting"
+},
+"Nieuwe match": {
+"en": "New match"
+},
+"4,8 op Google Reviews": {
+"en": "4.8 on Google Reviews"
 },
 "Setters actief in deze branches": {
 "en": "Setters working in these sectors"

@@ -30,7 +30,7 @@ body>*:not(#bg-canvas){position:relative;z-index:1;}
 nav{height:58px;padding:0 32px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border);background:rgba(13,13,13,0.95);backdrop-filter:blur(12px);position:sticky;top:0;z-index:100;}
 .logo{font-size:17px;font-weight:800;color:var(--text);text-decoration:none;letter-spacing:-.3px;}
 .logo span{color:var(--accent);}
-.nav-back{font-size:13px;color:var(--muted2);text-decoration:none;transition:color .15s;}
+.nav-back{font-size:14px;color:var(--muted2);text-decoration:none;transition:color .15s;}
 .nav-back:hover{color:var(--text);}
 
 /* LAYOUT */
@@ -46,7 +46,7 @@ nav{height:58px;padding:0 32px;display:flex;align-items:center;justify-content:s
 @keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
 
 /* WELCOME PANEL */
-.welcome-chip{display:inline-flex;align-items:center;gap:8px;background:rgba(47,111,237,0.12);border:1px solid rgba(47,111,237,0.3);color:#5B8FF5;font-size:11px;font-weight:700;letter-spacing:.2px;padding:8px 16px;border-radius:100px;margin-bottom:24px;}
+.welcome-chip{display:inline-flex;align-items:center;gap:8px;background:rgba(47,111,237,0.12);border:1px solid rgba(47,111,237,0.3);color:#5B8FF5;font-size:12.5px;font-weight:700;letter-spacing:.2px;padding:8px 16px;border-radius:100px;margin-bottom:24px;}
 .welcome-chip::before{content:'';width:8px;height:8px;border-radius:50%;background:var(--accent);}
 .welcome-title{font-size:46px;font-weight:800;letter-spacing:-.8px;line-height:1.1;margin-bottom:16px;}
 .welcome-title span{color:var(--accent);}
@@ -55,22 +55,22 @@ nav{height:58px;padding:0 32px;display:flex;align-items:center;justify-content:s
 .timeline{display:flex;flex-direction:column;gap:0;margin-bottom:36px;}
 .tl-item{display:flex;gap:16px;position:relative;}
 .tl-item:not(:last-child)::before{content:'';position:absolute;left:15px;top:36px;bottom:-4px;width:1px;background:var(--border2);}
-.tl-dot{width:32px;height:32px;border-radius:50%;background:rgba(47,111,237,0.15);border:1px solid rgba(47,111,237,0.3);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:var(--accent);flex-shrink:0;margin-top:2px;}
+.tl-dot{width:32px;height:32px;border-radius:50%;background:rgba(47,111,237,0.15);border:1px solid rgba(47,111,237,0.3);display:flex;align-items:center;justify-content:center;font-size:13.5px;font-weight:700;color:var(--accent);flex-shrink:0;margin-top:2px;}
 .tl-body{padding-bottom:24px;}
 .tl-title{font-size:16px;font-weight:600;margin-bottom:5px;}
 .tl-sub{font-size:14px;color:var(--muted2);line-height:1.65;}
 
 .info-cards{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:36px;}
 .info-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 16px;}
-.info-card .ic-label{font-size:10px;font-weight:700;letter-spacing:.2px;color:var(--muted);margin-bottom:4px;}
+.info-card .ic-label{font-size:11.5px;font-weight:700;letter-spacing:.2px;color:var(--muted);margin-bottom:4px;}
 .info-card .ic-val{font-size:15px;font-weight:600;}
 
 /* QUESTION PANELS */
-.q-label{font-size:11px;font-weight:700;letter-spacing:.2px;color:var(--accent);margin-bottom:12px;display:flex;align-items:center;gap:8px;}
+.q-label{font-size:12.5px;font-weight:700;letter-spacing:.2px;color:var(--accent);margin-bottom:12px;display:flex;align-items:center;gap:8px;}
 .q-label::before{content:'';width:16px;height:2px;background:var(--accent);}
-.q-num{font-size:11px;color:var(--muted2);}
+.q-num{font-size:12.5px;color:var(--muted2);}
 .q-title{font-size:24px;font-weight:800;letter-spacing:-.4px;line-height:1.2;margin-bottom:8px;}
-.q-hint{font-size:13px;color:var(--muted2);margin-bottom:28px;line-height:1.6;}
+.q-hint{font-size:14px;color:var(--muted2);margin-bottom:28px;line-height:1.6;}
 
 .q-input{width:100%;padding:14px 16px;background:var(--card);border:1.5px solid var(--border2);border-radius:10px;color:var(--text);font-size:15px;font-family:var(--font);outline:none;transition:border-color .15s;resize:vertical;}
 .q-input:focus{border-color:var(--accent);}
@@ -79,7 +79,7 @@ textarea.q-input{min-height:100px;}
 
 /* CONTACT PANEL */
 .fg{margin-bottom:14px;}
-.fg label{display:block;font-size:11px;font-weight:700;letter-spacing:.5px;color:var(--muted2);margin-bottom:6px;}
+.fg label{display:block;font-size:12.5px;font-weight:700;letter-spacing:.5px;color:var(--muted2);margin-bottom:6px;}
 .fg input{width:100%;padding:12px 14px;background:var(--card);border:1.5px solid var(--border2);border-radius:8px;color:var(--text);font-size:14px;font-family:var(--font);outline:none;transition:border-color .15s;}
 .fg input:focus{border-color:var(--accent);}
 .fg input::placeholder{color:var(--muted);}
@@ -97,8 +97,8 @@ textarea.q-input{min-height:100px;}
 
 /* REFERRAL */
 .referral-box{background:rgba(47,111,237,0.06);border:1px solid rgba(47,111,237,0.2);border-radius:12px;padding:20px 22px;margin-bottom:28px;}
-.referral-box .rb-title{font-size:13px;font-weight:700;color:var(--accent);margin-bottom:6px;}
-.referral-box .rb-text{font-size:13px;color:var(--muted2);line-height:1.65;}
+.referral-box .rb-title{font-size:14px;font-weight:700;color:var(--accent);margin-bottom:6px;}
+.referral-box .rb-text{font-size:14px;color:var(--muted2);line-height:1.65;}
 .referral-box .rb-discount{font-size:14px;font-weight:700;color:var(--text);margin-top:8px;}
 
 /* SUCCESS */
@@ -108,10 +108,10 @@ textarea.q-input{min-height:100px;}
 .succ-title{font-size:26px;font-weight:800;letter-spacing:-.5px;margin-bottom:10px;}
 .succ-sub{font-size:14px;color:var(--muted2);line-height:1.75;margin-bottom:28px;}
 .succ-ref{background:var(--card);border:1px solid var(--border2);border-radius:10px;padding:18px;text-align:center;margin-bottom:24px;}
-.succ-ref .ref-lbl{font-size:10px;font-weight:700;letter-spacing:.2px;color:var(--muted);margin-bottom:6px;}
+.succ-ref .ref-lbl{font-size:11.5px;font-weight:700;letter-spacing:.2px;color:var(--muted);margin-bottom:6px;}
 .succ-ref .ref-val{font-size:22px;font-weight:800;letter-spacing:4px;color:var(--accent);}
 
-.err{background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.2);border-radius:8px;padding:10px 14px;font-size:13px;color:#f87171;margin-top:12px;display:none;}
+.err{background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.2);border-radius:8px;padding:10px 14px;font-size:14px;color:#f87171;margin-top:12px;display:none;}
 .err.show{display:block;}
 
 @media(max-width:600px){.welcome-title{font-size:30px;}.info-cards{grid-template-columns:1fr;}.btn-row{flex-direction:column-reverse;}.btn-ghost{width:100%;justify-content:center;}}
@@ -165,8 +165,8 @@ textarea.q-input{min-height:100px;}
       </div>
     </div>
 
-    <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px 20px;margin-bottom:24px;font-size:13px;color:var(--muted2);line-height:1.7;">
-      <span style="font-size:13px;font-weight:600;color:var(--text);display:block;margin-bottom:4px;">Wij regelen de rest.</span>
+    <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px 20px;margin-bottom:24px;font-size:14px;color:var(--muted2);line-height:1.7;">
+      <span style="font-size:14px;font-weight:600;color:var(--text);display:block;margin-bottom:4px;">Wij regelen de rest.</span>
       Werving, selectie, training, aansturing en vervanging bij uitval. Alles. Jij hoeft alleen deze vragenlijst in te vullen en de setter akkoord te geven.
     </div>
     <button class="btn-start" onclick="goTo(1)">Vragenlijst invullen →</button>
@@ -386,7 +386,7 @@ textarea.q-input{min-height:100px;}
         <div class="ref-lbl">Jouw referentienummer</div>
         <div class="ref-val" id="ref-val">—</div>
       </div>
-      <a href="/" style="display:inline-block;color:var(--muted2);font-size:13px;text-decoration:none;">← Terug naar Link2Talent.nl</a>
+      <a href="/" style="display:inline-block;color:var(--muted2);font-size:14px;text-decoration:none;">← Terug naar Link2Talent.nl</a>
     </div>
   </div>
 
@@ -534,5 +534,5 @@ async function submit() {
 </script>
 <script src="/assets/i18n/l2l-i18n-data.js"></script><script src="/assets/i18n/l2l-i18n.js"></script>
 <script src="/assets/tracking.js"></script>
-<script src="/assets/i18n/l2t-i18n.js?v=2"></script></body>
+<script src="/assets/i18n/l2t-i18n.js?v=3"></script></body>
 </html>
