@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>
-<meta charset="UTF-8">
+<head><meta charset="UTF-8"><script>/*l2t-i18n-boot*/(function(){try{var L=['nl','en'];var p=new URLSearchParams(location.search).get('lang');var s=p&&L.indexOf(p)>-1?p:(localStorage.getItem('l2t_lang')||'nl');if(L.indexOf(s)===-1)s='nl';document.documentElement.setAttribute('lang',s);if(s!=='nl'){document.documentElement.className+=' i18n-pending';var st=document.createElement('style');st.textContent='html.i18n-pending body{visibility:hidden}';document.head.appendChild(st);}}catch(e){}})();</script>
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -30,7 +29,7 @@
 <meta name="twitter:image" content="https://www.link2talent.nl/og-image.png">
 <title>Omzetcalculator — Link2Talent</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
 :root {
   --bg:      #0A0A0A;
@@ -43,8 +42,8 @@
   --white:   #F0EFED;
   --muted:   #6B7280;
   --border:  rgba(255,255,255,0.08);
-  --f: 'Inter', sans-serif;
-  --mono: 'Inter', sans-serif;
+  --f: 'DM Sans', sans-serif;
+  --mono: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 *,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
 html { scroll-behavior:smooth; }
@@ -92,7 +91,7 @@ nav {
   display:inline-flex; align-items:center; gap:8px;
   background:rgba(47,111,237,0.08); border:1px solid rgba(47,111,237,0.2);
   padding:6px 14px; border-radius:100px;
-  font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase;
+  font-size:11px; font-weight:700; letter-spacing:.2px;
   color:var(--accent2); margin-bottom:24px;
 }
 .pulse { width:6px; height:6px; background:var(--accent); border-radius:50%; animation:blink 1.4s infinite; }
@@ -122,8 +121,7 @@ nav {
   margin-bottom:20px;
 }
 .card-title {
-  font-size:13px; font-weight:700; letter-spacing:.5px;
-  text-transform:uppercase; color:rgba(240,239,237,0.7);
+  font-size:13px; font-weight:700; letter-spacing:.5px; color:rgba(240,239,237,0.7);
   margin-bottom:28px;
   display:flex; align-items:center; gap:10px;
 }
@@ -133,7 +131,7 @@ nav {
 .fields { display:flex; flex-direction:column; gap:28px; }
 .field-group {}
 .field-label {
-  font-size:12px; font-weight:700; letter-spacing:.5px; text-transform:uppercase;
+  font-size:12px; font-weight:700; letter-spacing:.5px;
   color:rgba(240,239,237,0.7); margin-bottom:10px;
   display:flex; justify-content:space-between; align-items:center;
 }
@@ -211,7 +209,7 @@ input[type="range"]::-webkit-slider-thumb:hover { box-shadow:0 0 0 6px rgba(47,1
 
 .result-main { text-align:center; margin-bottom:32px; }
 .result-label {
-  font-size:11px; letter-spacing:2px; text-transform:uppercase;
+  font-size:11px; letter-spacing:.2px;
   color:var(--green); margin-bottom:12px;
 }
 .result-big {
@@ -244,7 +242,7 @@ input[type="range"]::-webkit-slider-thumb:hover { box-shadow:0 0 0 6px rgba(47,1
   background:rgba(255,255,255,0.02); border:1px solid var(--border);
   border-radius:12px; padding:20px; margin-bottom:32px;
 }
-.funnel-title { font-size:12px; color:var(--muted); letter-spacing:1px; text-transform:uppercase; margin-bottom:16px; }
+.funnel-title { font-size:12px; color:var(--muted); letter-spacing:.2px; margin-bottom:16px; }
 .funnel-steps { display:flex; flex-direction:column; gap:0; }
 .funnel-step {
   display:flex; align-items:center; gap:12px; padding:10px 0;
@@ -331,8 +329,8 @@ body { background: transparent !important; color: #F0EFED; }
   --white:   #F0EFED;
   --muted:   #6B7280;
   --border:  rgba(255,255,255,0.07);
-  --f: 'Inter', sans-serif;
-  --mono: 'Inter', sans-serif;
+  --f: 'DM Sans', sans-serif;
+  --mono: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 *,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
 html { scroll-behavior:smooth; }
@@ -375,7 +373,7 @@ nav {
   display:inline-flex; align-items:center; gap:8px;
   background:rgba(47,111,237,0.08); border:1px solid rgba(47,111,237,0.2);
   padding:6px 14px; border-radius:100px;
-  font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase;
+  font-size:11px; font-weight:700; letter-spacing:.2px;
   color:var(--accent2); margin-bottom:24px;
 }
 .pulse { width:6px; height:6px; background:var(--accent); border-radius:50%; animation:blink 1.4s infinite; }
@@ -405,8 +403,7 @@ nav {
   margin-bottom:20px;
 }
 .card-title {
-  font-size:13px; font-weight:700; letter-spacing:.5px;
-  text-transform:uppercase; color:rgba(240,239,237,0.7);
+  font-size:13px; font-weight:700; letter-spacing:.5px; color:rgba(240,239,237,0.7);
   margin-bottom:28px;
   display:flex; align-items:center; gap:10px;
 }
@@ -415,7 +412,7 @@ nav {
 /* FIELDS */
 .fields { display:flex; flex-direction:column; gap:28px; }
 .field-label {
-  font-size:12px; font-weight:700; letter-spacing:.5px; text-transform:uppercase;
+  font-size:12px; font-weight:700; letter-spacing:.5px;
   color:rgba(240,239,237,0.7); margin-bottom:10px;
   display:flex; justify-content:space-between; align-items:center;
 }
@@ -491,7 +488,7 @@ input[type="range"]::-webkit-slider-thumb:hover { box-shadow:0 0 0 6px rgba(47,1
 
 .result-main { text-align:center; margin-bottom:32px; }
 .result-label {
-  font-size:11px; letter-spacing:2px; text-transform:uppercase;
+  font-size:11px; letter-spacing:.2px;
   color:var(--green); margin-bottom:12px;
 }
 .result-big {
@@ -524,7 +521,7 @@ input[type="range"]::-webkit-slider-thumb:hover { box-shadow:0 0 0 6px rgba(47,1
   background:rgba(255,255,255,0.02); border:1px solid var(--border);
   border-radius:12px; padding:20px; margin-bottom:32px;
 }
-.flow-title { font-size:12px; color:var(--muted); letter-spacing:1px; text-transform:uppercase; margin-bottom:16px; }
+.flow-title { font-size:12px; color:var(--muted); letter-spacing:.2px; margin-bottom:16px; }
 .flow-steps { display:flex; flex-direction:column; gap:0; }
 .flow-step {
   display:flex; align-items:flex-start; gap:12px; padding:12px 0;
@@ -703,9 +700,10 @@ footer {
   requestAnimationFrame(draw);
 
   // Nav scroll style
-  const nav = document.querySelector('nav');
+  let nav = null;
   window.addEventListener('scroll', () => {
-    nav.classList.toggle('scrolled', window.scrollY > 60);
+    if (!nav) nav = document.querySelector('nav');
+    if (nav) nav.classList.toggle('scrolled', window.scrollY > 60);
   }, { passive: true });
 })();
 </script>
@@ -928,5 +926,5 @@ calc();
 </script>
 
 <script src="/assets/tracking.js" defer></script>
-</body>
+<script src="/assets/i18n/l2t-i18n.js?v=2"></script></body>
 </html>

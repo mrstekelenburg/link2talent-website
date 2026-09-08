@@ -31,8 +31,21 @@ B2B-bedrijven met een bewezen aanbod die vastlopen op salescapaciteit: de direct
 - [Kennismakingsgesprek boeken](https://www.link2talent.nl/book): plan een gratis gesprek van 30 minuten
 - [Omzetcalculator](https://www.link2talent.nl/calculator-l2t): bereken de potentiele opbrengst per model
 - [Onboarding](https://www.link2talent.nl/klant): vragenlijst voor nieuwe klanten
+- [Kennisbank](https://www.link2talent.nl/kennis/): besliskaders over rollen, modellen en kosten
+- [Wanneer is een remote setter inhuren logisch?](https://www.link2talent.nl/kennis/remote-setter-inhuren): capaciteitsprobleem of strategieprobleem, met vier toetsvragen
+- [Remote setter vs. SDR in dienst](https://www.link2talent.nl/kennis/remote-setter-vs-sdr): opstarttijd, risico, aansturing en kosten op zes punten vergeleken
+- [Wat kost een interne SDR echt?](https://www.link2talent.nl/kennis/interne-sdr-kosten): rekenschema met alle posten, inclusief aansturing en inwerktijd
+- [Setter vs. closer: wie doet wat?](https://www.link2talent.nl/kennis/setter-vs-closer): rolverdeling, sturing en waar de overdracht misgaat
+- [Salescapaciteit uitbesteden](https://www.link2talent.nl/kennis/salescapaciteit-uitbesteden): vier lagen commercieel werk en wat je zelf houdt
+- [Performance vs. seat-model](https://www.link2talent.nl/kennis/performance-vs-seat-model): welk prijsmodel past bij de meetbaarheid van je resultaat
+- [Praktijksituaties](https://www.link2talent.nl/cases/): de capaciteitsvraagstukken die we het vaakst tegenkomen
 - [Privacybeleid](https://www.link2talent.nl/privacy)
 - [Algemene voorwaarden](https://www.link2talent.nl/algemene-voorwaarden)
+
+## Zusterbedrijven
+
+- [Link2Leads](https://www.link2leads.nl/): koude acquisitie per e-mail, van lijst tot positieve reactie in de mailbox van de klant
+- [Link2Group](https://link2group.nl/): het moederbedrijf achter Link2Talent en Link2Leads
 
 ## Contact
 

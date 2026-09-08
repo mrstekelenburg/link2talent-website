@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>
-<meta charset="UTF-8">
+<head><meta charset="UTF-8"><script>/*l2t-i18n-boot*/(function(){try{var L=['nl','en'];var p=new URLSearchParams(location.search).get('lang');var s=p&&L.indexOf(p)>-1?p:(localStorage.getItem('l2t_lang')||'nl');if(L.indexOf(s)===-1)s='nl';document.documentElement.setAttribute('lang',s);if(s!=='nl'){document.documentElement.className+=' i18n-pending';var st=document.createElement('style');st.textContent='html.i18n-pending body{visibility:hidden}';document.head.appendChild(st);}}catch(e){}})();</script>
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -30,7 +29,7 @@
 <meta name="twitter:image" content="https://www.link2talent.nl/og-image.png">
 <title>Link2Talent -> Algemene Voorwaarden</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
 :root {
   --black:   #0A0A0A;
@@ -43,8 +42,8 @@
   --muted2:  #444444;
   --border:  rgba(255,255,255,0.08);
   --card-bg: #161616;
-  --f: 'Inter', sans-serif;
-  --mono: 'DM Mono', monospace;
+  --f: 'DM Sans', sans-serif;
+  --mono: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 *,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
 html { scroll-behavior:smooth; }
@@ -81,8 +80,7 @@ nav {
 }
 
 .legal-label {
-  font-family:var(--mono); font-size:11px; letter-spacing:3px;
-  text-transform:uppercase; color:var(--accent);
+  font-family:var(--mono); font-size:11px; letter-spacing:.2px; color:var(--accent);
   margin-bottom:16px; display:block;
 }
 .legal-title {
@@ -307,9 +305,10 @@ html body a.nav-logo span {
   requestAnimationFrame(draw);
 
   // Nav scroll style
-  const nav = document.querySelector('nav');
-  window.addEventListener('scroll', () => {
-    nav.classList.toggle('scrolled', window.scrollY > 60);
+  let nav = null;
+  window.addEventListener('scroll', function () {
+    if (!nav) nav = document.querySelector('nav');
+    if (nav) nav.classList.toggle('scrolled', window.scrollY > 60);
   }, { passive: true });
 })();
 </script>
@@ -320,7 +319,7 @@ html body a.nav-logo span {
     <a href="/" class="nav-logo" style="color:#F0EFED!important">Link<span class="dot" style="color:#2F6FED!important">2</span>Talent</a>
     <ul class="nav-links">
       <li><a href="/#aanpak">Aanpak</a></li>
-      <li><a href="/#pakketten">Pakketten</a></li>
+      <li><a href="/#modellen">Modellen</a></li>
       <li><a href="/#reviews">Reviews</a></li>
       <li><a href="/#team">Het Team</a></li>
     </ul>
@@ -330,7 +329,7 @@ html body a.nav-logo span {
 </nav>
 <div class="nav-mobile-menu" id="mobileMenu">
   <a href="/#aanpak" onclick="closeMenu()">Aanpak</a>
-  <a href="/#pakketten" onclick="closeMenu()">Pakketten</a>
+  <a href="/#modellen" onclick="closeMenu()">Modellen</a>
   <a href="/#reviews" onclick="closeMenu()">Reviews</a>
   <a href="/#team" onclick="closeMenu()">Het Team</a>
   <a href="/book" class="nav-mobile-cta" target="_blank">Boek een strategiecall</a>
@@ -485,7 +484,7 @@ html body a.nav-logo span {
     <a href="/" class="foot-logo">Link<span class="dot">2</span>Talent</a>
     <ul class="foot-links">
       <li><a href="/">Home</a></li>
-      <li><a href="/#pakketten">Pakketten</a></li>
+      <li><a href="/#modellen">Modellen</a></li>
       <li><a href="/#team">Over ons</a></li>
       <li><a href="/privacy">Privacybeleid</a></li>
       <li><a href="/algemene-voorwaarden">Algemene Voorwaarden</a></li>
@@ -519,5 +518,5 @@ html body a.nav-logo span {
 })();
 </script>
 <script src="/assets/tracking.js" defer></script>
-</body>
+<script src="/assets/i18n/l2t-i18n.js?v=2"></script></body>
 </html>
