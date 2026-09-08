@@ -1,5 +1,54 @@
 /* Link2Talent i18n data — NL is de brontaal. Sleutels = exacte Nederlandse tekst. */
 window.L2T_I18N_DATA = {
+"Wij koppelen je aan een bewezen setter die dagelijks afspraken voor je inplant. Geen recruitment en geen vaste hire. Jij kiest het model dat past.": {
+"en": "We match you with a proven setter who books meetings for you every day. No recruitment and no permanent hire. You pick the model that fits."
+},
+"Bereken jouw omzet": {
+"en": "Calculate your revenue"
+},
+"Google Reviews": {
+"en": "Google Reviews"
+},
+"Bel ons: 085 080 5381": {
+"en": "Call us: +31 85 080 5381"
+},
+"Matches in je eigen omgeving": {
+"en": "Matches in your own workspace"
+},
+"Voorgestelde matches": {
+"en": "Suggested matches"
+},
+"Live": {
+"en": "Live"
+},
+"Setter · SaaS en IT": {
+"en": "Setter · SaaS and IT"
+},
+"Vier jaar ervaring, Nederlandstalig": {
+"en": "Four years of experience, Dutch speaking"
+},
+"Voorgesteld": {
+"en": "Suggested"
+},
+"Setter · Consultancy": {
+"en": "Setter · Consultancy"
+},
+"Kan binnen tien dagen starten": {
+"en": "Can start within ten days"
+},
+"Closer · B2B dienstverlening": {
+"en": "Closer · B2B services"
+},
+"Beschikbaar vanaf week 3": {
+"en": "Available from week 3"
+},
+"Jij keurt de match goed. Daarna lopen contract, betaling en communicatie via dezelfde omgeving.": {
+"en": "You approve the match. After that the contract, payment and communication all run through the same workspace."
+},
+"Contract en facturatie inbegrepen": {
+"en": "Contract and invoicing included"
+},
+
 "Link": {
 "en": "Link"
 },

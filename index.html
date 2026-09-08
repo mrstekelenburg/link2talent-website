@@ -873,15 +873,7 @@ footer { background:var(--black); border-top:1px solid var(--border); padding:64
   .hero-guaranteed { font-size:13.5px; padding:9px 14px; }
   .hero-sub { font-size:15px; }
   .hero-btns { flex-direction:column; align-items:stretch; }
-  .btn-solid, .btn-outline {
-  display:inline-flex; align-items:center; justify-content:center; gap:8px;
-  background:rgba(255,255,255,0.05);
-  border:1px solid rgba(255,255,255,0.12);
-  color:rgba(255,255,255,0.7);
-  font-size:15px; font-weight:600;
-  padding:15px 28px; border-radius:10px;
-  transition:all .2s; text-decoration:none;
-}
+  .btn-solid, .btn-outline { justify-content:center; padding:15px 24px; font-size:15px; }
   .hero-checks li { font-size:14px; }
 
   .problem-section,
@@ -1055,19 +1047,88 @@ section,
 /* ── HERO ── */
 .hero-wrap { max-width:1100px; margin:0 auto; padding:0 48px; display:flex; flex-direction:column; align-items:center; }
 .hero {
-  width:100%; padding:120px 0 84px;
-  display:grid; grid-template-columns:1.22fr .78fr; gap:48px; align-items:center;
+  width:100%; padding:118px 0 82px;
+  display:grid; grid-template-columns:1.08fr .92fr; gap:50px; align-items:center;
 }
-.hero-left { max-width:660px; width:100%; }
-.hero-visual { margin:0; position:relative; }
-.hero-visual img { display:block; width:100%; height:430px; object-fit:cover; object-position:center 30%;
-  border-radius:20px; border:1px solid var(--border); box-shadow:0 30px 70px rgba(0,0,0,.45); }
-.hero-visual figcaption { position:absolute; left:16px; right:16px; bottom:16px;
-  background:rgba(8,9,12,.78); backdrop-filter:blur(8px);
-  border:1px solid rgba(255,255,255,.10); border-radius:13px; padding:13px 16px;
-  font-size:14px; line-height:1.5; color:rgba(255,255,255,.86); }
-@media(max-width:900px){ .hero { grid-template-columns:1fr; gap:36px; padding:100px 0 64px; }
-  .hero-visual img { height:320px; } }
+.hero-left { max-width:600px; width:100%; }
+.hero-note { margin:0 0 18px; font-size:14.5px; line-height:1.6; color:rgba(255,255,255,0.42); }
+
+/* proof-pillen, gelijk aan Link2Leads */
+.hero-proof { display:flex; flex-direction:column; align-items:stretch; gap:10px; width:300px; max-width:100%; }
+.hero-proof .hero-google, .hero-proof .hero-call {
+  width:100%; box-sizing:border-box; min-height:46px; padding:0 18px;
+  display:flex; align-items:center; justify-content:center; gap:9px;
+  background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.11);
+  border-radius:100px; margin:0; text-decoration:none;
+  transition:border-color .2s, background .2s, transform .2s;
+}
+.hero-proof .hero-google:hover, .hero-proof .hero-call:hover {
+  border-color:rgba(47,111,237,.5); background:rgba(47,111,237,.09); transform:translateY(-1px);
+}
+.hero-google-score { font-size:14.5px; font-weight:800; color:#fff; }
+.hero-google-stars { color:#FBBF24; font-size:13.5px; letter-spacing:1.5px; }
+.hero-google-txt { font-size:13.5px; font-weight:600; color:rgba(240,239,237,0.6); }
+.hero-call { font-size:14.5px; font-weight:700; color:var(--white); white-space:nowrap; }
+.hero-call svg { color:var(--accent2); flex-shrink:0; }
+
+/* app-widget rechts */
+.hero-right { display:flex; flex-direction:column; align-items:flex-start; gap:12px; position:relative; padding:0; }
+.mw-pill {
+  display:inline-flex; align-items:center; gap:9px;
+  background:rgba(16,19,26,.92); backdrop-filter:blur(10px);
+  border:1px solid rgba(255,255,255,0.11); border-radius:100px;
+  padding:11px 17px; font-size:14px; font-weight:700; color:var(--white);
+  box-shadow:0 14px 34px rgba(0,0,0,.45); white-space:nowrap;
+}
+.mw-pill.bottom { align-self:flex-end; }
+.mw-card {
+  width:100%;
+  background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.015));
+  border:1px solid var(--border); border-radius:20px; overflow:hidden;
+  box-shadow:0 32px 74px rgba(0,0,0,.5);
+}
+.mw-bar { display:flex; align-items:center; gap:12px; padding:11px 15px;
+  background:rgba(255,255,255,.035); border-bottom:1px solid var(--border); }
+.mw-dots { display:flex; gap:6px; }
+.mw-dots i { width:9px; height:9px; border-radius:50%; background:rgba(255,255,255,.18); }
+.mw-dots i:first-child { background:#EF4444; opacity:.75; }
+.mw-dots i:nth-child(2) { background:#FBBF24; opacity:.75; }
+.mw-dots i:nth-child(3) { background:#22C55E; opacity:.75; }
+.mw-url { display:inline-flex; align-items:center; gap:7px; font-size:13px; color:rgba(255,255,255,.5);
+  background:rgba(255,255,255,.05); border-radius:100px; padding:5px 14px; }
+.mw-head { display:flex; align-items:center; justify-content:space-between; gap:12px;
+  padding:14px 18px; border-bottom:1px solid var(--border); }
+.mw-head-l { display:inline-flex; align-items:center; gap:9px; font-size:14.5px; font-weight:700; color:var(--white); }
+.mw-live { width:8px; height:8px; border-radius:50%; background:#22C55E; box-shadow:0 0 0 4px rgba(34,197,94,.16); }
+.mw-badge { font-size:12.5px; font-weight:700; color:var(--accent2);
+  background:rgba(47,111,237,.13); border:1px solid rgba(47,111,237,.3);
+  border-radius:100px; padding:4px 12px; }
+.mw-list { display:flex; flex-direction:column; }
+.mw-row { display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:13px;
+  padding:14px 18px; border-bottom:1px solid var(--border); }
+.mw-row.on { background:rgba(47,111,237,.06); }
+.mw-av { width:40px; height:40px; border-radius:11px; display:flex; align-items:center; justify-content:center;
+  background:rgba(255,255,255,.06); border:1px solid var(--border);
+  font-size:13.5px; font-weight:800; letter-spacing:.3px; color:rgba(255,255,255,.6); }
+.mw-av.blue { background:rgba(47,111,237,.18); border-color:rgba(47,111,237,.35); color:var(--accent2); }
+.mw-txt { min-width:0; }
+.mw-txt b { display:block; font-size:14.5px; font-weight:700; color:var(--white); letter-spacing:-.2px;
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.mw-txt span { display:block; margin-top:3px; font-size:13.5px; color:rgba(255,255,255,.45);
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.mw-tag { font-size:12.5px; font-weight:700; border-radius:100px; padding:5px 12px; white-space:nowrap; }
+.mw-tag.tag-open { color:rgba(255,255,255,.6); background:rgba(255,255,255,.05); border:1px solid var(--border); }
+.mw-tag.tag-match { color:#4ade80; background:rgba(34,197,94,.1); border:1px solid rgba(34,197,94,.28); }
+.mw-foot { padding:14px 18px; font-size:13.5px; line-height:1.55; color:rgba(255,255,255,.45); }
+@media(max-width:900px){
+  .hero { grid-template-columns:1fr; gap:44px; padding:100px 0 64px; }
+  .hero-left { max-width:none; }
+}
+@media(max-width:520px){
+  .mw-pill { font-size:13px; padding:9px 13px; }
+  .mw-row { padding:12px 14px; gap:10px; }
+  .mw-av { width:34px; height:34px; border-radius:9px; font-size:12.5px; }
+}
 .hero-label {
   display:inline-flex; align-items:center; gap:8px;
   font-family:var(--mono); font-size:12.5px; letter-spacing:.2px; color:var(--accent2);
@@ -1755,7 +1816,7 @@ h2 span[style*="color:var(--accent)"] {
 <!-- NAV -->
 <nav>
   <div class="nav-inner">
-    <div class="nav-logo">Link<span class="dot">2</span>Talent</div>
+    <a class="nav-logo" href="/" style="text-decoration:none;color:inherit;cursor:pointer;">Link<span class="dot">2</span>Talent</a>
     <ul class="nav-links">
       <li><a href="#aanpak">Aanpak</a></li>
       <li><a href="#modellen">Modellen</a></li>
@@ -1782,37 +1843,73 @@ h2 span[style*="color:var(--accent)"] {
 <!-- HERO -->
 <div class="hero-wrap">
   <div class="hero">
-    <div>
+    <div class="hero-left">
       <h1 class="hero-h">
         Voeg binnen 14 dagen <span class="blue">een remote setter</span> toe aan je salesteam
       </h1>
-      <div class="hero-guaranteed">
-        Binnen 14 dagen actief of je betaalt niets totdat we dat wel leveren.
-      </div>
       <p class="hero-sub">
-        Geen recruitment, vaste hires of mis-hires. Wij koppelen je aan een bewezen setter die dagelijks afspraken voor je inplant. Jij kiest het model dat past.
+        Wij koppelen je aan een bewezen setter die dagelijks afspraken voor je inplant. Geen recruitment en geen vaste hire. Jij kiest het model dat past.
       </p>
       <div class="hero-btns">
         <a href="/book" class="btn-solid" target="_blank">Plan een gesprek</a>
-        <a href="/calculator-l2t" class="btn-calc" target="_blank">Bereken jouw omzet →</a>
-        <a href="https://app.link2talent.nl" class="btn-outline" target="_blank">Open de app</a>
+        <a href="/calculator-l2t" class="btn-outline" target="_blank">Bereken jouw omzet</a>
       </div>
-      <ul class="hero-checks">
-        <li>Binnen 14 dagen actief</li>
-        <li>Performance, uurtarief of seat model</li>
-        <li>Flexibel op- en afschalen</li>
-        <li>Jij stuurt aan, wij leveren de capaciteit</li>
-      </ul>
-      <a class="hero-google" href="https://www.google.com/search?q=Link2Group+Reviews" rel="noopener noreferrer" target="_blank" aria-label="4,8 sterren op Google, bekijk de reviews">
-        <svg width="16" height="16" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.611 20.083H42V20H24v8h11.303c-1.649 4.657-6.08 8-11.303 8-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4 12.955 4 4 12.955 4 24s8.955 20 20 20 20-8.955 20-20c0-1.341-.138-2.65-.389-3.917z"/><path fill="#FF3D00" d="M6.306 14.691l6.571 4.819C14.655 15.108 18.961 12 24 12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4 16.318 4 9.656 8.337 6.306 14.691z"/><path fill="#4CAF50" d="M24 44c5.166 0 9.86-1.977 13.409-5.192l-6.19-5.238C29.211 35.091 26.715 36 24 36c-5.202 0-9.619-3.317-11.283-7.946l-6.522 5.025C9.505 39.556 16.227 44 24 44z"/><path fill="#1976D2" d="M43.611 20.083H42V20H24v8h11.303c-.792 2.237-2.231 4.166-4.087 5.571l6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917z"/></svg>
-        <span class="hero-google-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-        <span class="hero-google-txt">4,8 op Google Reviews</span>
-      </a>
+      <p class="hero-note">Binnen 14 dagen actief of je betaalt niets totdat we dat wel leveren.</p>
+      <div class="hero-proof">
+        <a class="hero-google" href="https://www.google.com/search?q=Link2Group+Reviews" rel="noopener noreferrer" target="_blank" aria-label="4,8 sterren op Google, bekijk de reviews">
+          <svg width="16" height="16" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.611 20.083H42V20H24v8h11.303c-1.649 4.657-6.08 8-11.303 8-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4 12.955 4 4 12.955 4 24s8.955 20 20 20 20-8.955 20-20c0-1.341-.138-2.65-.389-3.917z"/><path fill="#FF3D00" d="M6.306 14.691l6.571 4.819C14.655 15.108 18.961 12 24 12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4 16.318 4 9.656 8.337 6.306 14.691z"/><path fill="#4CAF50" d="M24 44c5.166 0 9.86-1.977 13.409-5.192l-6.19-5.238C29.211 35.091 26.715 36 24 36c-5.202 0-9.619-3.317-11.283-7.946l-6.522 5.025C9.505 39.556 16.227 44 24 44z"/><path fill="#1976D2" d="M43.611 20.083H42V20H24v8h11.303c-.792 2.237-2.231 4.166-4.087 5.571l6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917z"/></svg>
+          <span class="hero-google-score">4,8</span>
+          <span class="hero-google-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          <span class="hero-google-txt">Google Reviews</span>
+        </a>
+        <a class="hero-call" href="tel:+31850805381">
+          <svg aria-hidden="true" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="17"><path d="M21 16.9v2.6a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 1.1 3.8 2 2 0 0 1 3.1 1.6h2.6a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L6.8 9.3a16 16 0 0 0 6 6l1.1-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"></path></svg>
+          Bel ons: 085 080 5381
+        </a>
+      </div>
     </div>
-    <figure class="hero-visual reveal">
-      <img src="/assets/img/demi-anne-roos.jpg" alt="Demi en Anne-Roos van Link2Talent" width="900" height="700" loading="eager">
-      <figcaption>Demi en Anne-Roos doen de match zelf. Geen recruiter ertussen.</figcaption>
-    </figure>
+
+    <div class="hero-right reveal">
+      <div class="mw-pill top">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2F6FED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="m17 11 2 2 4-4"></path></svg>
+        Matches in je eigen omgeving
+      </div>
+      <div class="mw-card">
+        <div class="mw-bar">
+          <span class="mw-dots"><i></i><i></i><i></i></span>
+          <span class="mw-url">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>
+            app.link2talent.nl/matches
+          </span>
+        </div>
+        <div class="mw-head">
+          <span class="mw-head-l"><span class="mw-live"></span> Voorgestelde matches</span>
+          <span class="mw-badge">Live</span>
+        </div>
+        <div class="mw-list">
+          <div class="mw-row">
+            <span class="mw-av">ST</span>
+            <span class="mw-txt"><b>Setter &middot; SaaS en IT</b><span>Vier jaar ervaring, Nederlandstalig</span></span>
+            <span class="mw-tag tag-open">Voorgesteld</span>
+          </div>
+          <div class="mw-row on">
+            <span class="mw-av blue">ST</span>
+            <span class="mw-txt"><b>Setter &middot; Consultancy</b><span>Kan binnen tien dagen starten</span></span>
+            <span class="mw-tag tag-match">Jouw match</span>
+          </div>
+          <div class="mw-row">
+            <span class="mw-av">CL</span>
+            <span class="mw-txt"><b>Closer &middot; B2B dienstverlening</b><span>Beschikbaar vanaf week 3</span></span>
+            <span class="mw-tag tag-open">Voorgesteld</span>
+          </div>
+        </div>
+        <div class="mw-foot">Jij keurt de match goed. Daarna lopen contract, betaling en communicatie via dezelfde omgeving.</div>
+      </div>
+      <div class="mw-pill bottom">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#22C55E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"></path></svg>
+        Contract en facturatie inbegrepen
+      </div>
+    </div>
   </div>
 </div>
 
@@ -2298,5 +2395,5 @@ for (let i = 0; i < 50; i++) {
  </script>
 
 <script src="/assets/tracking.js" defer></script>
-<script src="/assets/i18n/l2t-i18n.js?v=3"></script></body>
+<script src="/assets/i18n/l2t-i18n.js?v=4"></script></body>
 </html>
