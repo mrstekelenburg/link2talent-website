@@ -1615,6 +1615,22 @@ h2 span[style*="color:var(--accent)"] {
   ]
 }
 </script>
+<style>
+/* zusterbedrijven onderaan de pagina */
+.foot-family{max-width:1200px;margin:0 auto 26px;padding:24px 0 0;border-top:1px solid var(--border);
+  display:grid;grid-template-columns:auto 1fr 1fr;gap:16px 26px;align-items:stretch;}
+.foot-family .ff-label{align-self:center;max-width:190px;font-size:11.5px;font-weight:800;letter-spacing:1.3px;
+  text-transform:uppercase;color:var(--muted2);line-height:1.5;}
+.foot-family a{display:block;padding:15px 18px;border-radius:13px;text-decoration:none;
+  background:rgba(255,255,255,.035);border:1px solid var(--border);transition:border-color .2s,background .2s,transform .2s;}
+.foot-family a:hover{border-color:rgba(47,111,237,.42);background:rgba(47,111,237,.06);transform:translateY(-2px);}
+.foot-family a b{display:block;font-size:15px;font-weight:800;letter-spacing:-.3px;color:var(--white);}
+.foot-family a b i{font-style:normal;color:var(--accent);}
+.foot-family a span{display:block;margin-top:5px;font-size:13px;line-height:1.5;color:var(--muted2);}
+.foot-family a em{font-style:normal;color:var(--accent2);font-weight:700;}
+@media(max-width:860px){.foot-family{grid-template-columns:1fr 1fr;}.foot-family .ff-label{grid-column:1 / -1;max-width:none;}}
+@media(max-width:560px){.foot-family{grid-template-columns:1fr;}}
+</style>
 </head>
 <body>
 <canvas id="bg-canvas"></canvas>
@@ -1862,7 +1878,7 @@ h2 span[style*="color:var(--accent)"] {
   <div style="max-width:1100px; margin:0 auto; padding:0 48px;">
     <div class="reveal">
       <div class="tag">Ons platform</div>
-      <h2 class="sec-h">Alles op <span class="blue">één plek</span></h2>
+      <h2 class="sec-h">Alles in <span class="blue">dezelfde app</span></h2>
       <p class="sec-sub" style="margin-bottom:48px;">Van matching tot facturering, van communicatie tot contracten. Alles loopt via onze app.</p>
     </div>
     <div class="platform-features-grid reveal">
@@ -1884,7 +1900,7 @@ h2 span[style*="color:var(--accent)"] {
       <div style="background:var(--bg2); padding:32px 28px; border-top:1px solid var(--border);">
         <div style="margin-bottom:14px;"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M4 6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H9l-5 4V6z" stroke="#2F6FED" stroke-width="2" stroke-linejoin="round"/></svg></div>
         <div style="font-size:16px; font-weight:700; margin-bottom:8px; letter-spacing:-.2px;">Communicatie</div>
-        <p style="font-size:14px; color:var(--muted); line-height:1.65;">Direct contact met je setter en met ons team via de app. Alles op één plek, niets verloren in e-mail.</p>
+        <p style="font-size:14px; color:var(--muted); line-height:1.65;">Direct contact met je setter en met ons team via de app. Niets dat verdwijnt in een mailbox.</p>
       </div>
       <div style="background:var(--bg2); padding:32px 28px; border-top:1px solid var(--border); border-left:1px solid var(--border); border-right:1px solid var(--border);">
         <div style="margin-bottom:14px;"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect x="4" y="16" width="5" height="8" rx="1" fill="#2F6FED" opacity=".3"/><rect x="11" y="10" width="5" height="14" rx="1" fill="#2F6FED" opacity=".6"/><rect x="18" y="4" width="5" height="20" rx="1" fill="#2F6FED"/></svg></div>
@@ -1898,7 +1914,7 @@ h2 span[style*="color:var(--accent)"] {
       </div>
     </div>
     <div style="margin-top:20px; padding:20px 28px; background:rgba(47,111,237,0.06); border:1px solid rgba(47,111,237,0.15); border-radius:12px; font-size:14px; color:rgba(240,239,237,0.65); text-align:center; line-height:1.65;" class="reveal">
-      <strong style="color:rgba(240,239,237,.8);">Geen losse tools of e-mailchaos.</strong> Matching, contract, betaling en communicatie. Alles via onze app, alles op één plek.
+      <strong style="color:rgba(240,239,237,.8);">Geen losse tools of e-mailchaos.</strong> Matching, contract, betaling en communicatie lopen allemaal via onze app.
     </div>
   </div>
 </section>
@@ -1923,10 +1939,10 @@ h2 span[style*="color:var(--accent)"] {
           APP.LINK2TALENT.NL
         </div>
         <h2 style="font-size:clamp(26px,3vw,40px);font-weight:900;letter-spacing:-1.5px;line-height:1.05;margin-bottom:16px;">
-          Alles geregeld.<br>Vanaf dag <span style="color:var(--accent);">één.</span>
+          Alles geregeld.<br>Vanaf de <span style="color:var(--accent);">eerste dag.</span>
         </h2>
         <p style="font-size:16px;color:var(--muted);line-height:1.7;margin-bottom:32px;">
-          Maak een gratis account aan op ons platform. Binnen minuten zie je beschikbare setters, start je een match en regel je alles: contract, betaling en communicatie, op één plek.
+          Maak een gratis account aan op ons platform. Binnen een paar minuten zie je beschikbare setters, start je een match en regel je het contract, de betaling en de communicatie in dezelfde omgeving.
         </p>
         <p style="font-size:14px;color:rgba(240,239,237,0.5);margin-bottom:28px;">
           Ook voor kandidaten. Als setter aanmelden doe je via dezelfde app.
@@ -2077,6 +2093,9 @@ h2 span[style*="color:var(--accent)"] {
         </ul>
       </div>
     </div>
+    <p class="reveal" style="text-align:center;margin-top:22px;font-size:14.5px;color:var(--muted2);">
+      Heb je juist wel capaciteit, maar te weinig gesprekken om op te volgen? Dan is <a href="https://www.link2leads.nl" rel="noopener" target="_blank" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">Link2Leads</a> de kant waar je moet beginnen.
+    </p>
   </div>
 </section>
 
@@ -2131,7 +2150,8 @@ h2 span[style*="color:var(--accent)"] {
   <div class="team-inner">
     <div class="team-header reveal">
       <div class="tag">Het team</div>
-      <h2 class="sec-h">De mensen <span class="blue">achter jouw capaciteit</span></h2>
+      <h2 class="sec-h">Met wie je <span class="blue">te maken krijgt</span></h2>
+      <p class="sec-sub">Link2Talent is een dienst van <a href="https://link2group.nl" rel="noopener" target="_blank" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">Link2Group</a>. Wij doen de match en blijven aanspreekpunt zolang de setter bij je zit.</p>
     </div>
     <div class="team-grid">
       <div class="team-card reveal">
@@ -2162,8 +2182,8 @@ h2 span[style*="color:var(--accent)"] {
     <div class="cta-card">
       <div class="cta-glow"></div>
       <div class="cta-stars" id="stars"></div>
-      <span class="cta-tag">Klaar om te starten?</span>
-      <h2 class="cta-h">Blijf je zelf alles doen<br>of bouw je een team dat voor je <span class="blue">werkt?</span></h2>
+      <span class="cta-tag">Matchgesprek</span>
+      <h2 class="cta-h">Zelf blijven bellen,<br>of er <span class="blue">iemand op zetten?</span></h2>
       <p class="cta-sub">Plan een gesprek en we laten je zien hoe snel je live kunt gaan. Geen verplichtingen, gewoon een eerlijk gesprek over wat bij jou past.</p>
       <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;position:relative;z-index:1;" class="reveal">
         <a href="https://app.link2talent.nl" target="_blank" class="btn-main">Maak een account aan</a>
@@ -2208,8 +2228,13 @@ h2 span[style*="color:var(--accent)"] {
       </ul>
     </div>
   </div>
+  <div class="foot-family">
+    <span class="ff-label">Onderdeel van Link2Group</span>
+    <a href="https://www.link2leads.nl" rel="noopener" target="_blank"><b>Link<i>2</i>Leads</b><span>Koude acquisitie per e-mail, van lijst tot <em>positieve reactie in je mailbox</em>. Voor als er wel capaciteit is, maar te weinig gesprekken.</span></a>
+    <a href="https://link2group.nl" rel="noopener" target="_blank"><b>Link<i>2</i>Group</b><span>Het moederbedrijf achter <em>Link2Talent en Link2Leads</em>. Nieuwe gesprekken en de capaciteit om ze op te volgen, onder een dak.</span></a>
+  </div>
   <div class="foot-bottom">
-    <span class="foot-copy">2026 Link2Talent</span>
+    <span class="foot-copy">2026 Link2Talent, onderdeel van <a href="https://link2group.nl" rel="noopener" target="_blank" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">Link2Group</a></span>
     <span class="foot-geo">SALESCAPACITEIT OP MAAT</span>
   </div>
 </footer>
