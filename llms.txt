@@ -83,6 +83,18 @@ Een setter zonder instroom zit stil. Via zusterbedrijf Link2Leads (https://www.l
 
 **Ik ben zelf setter of closer. Kan ik me aanmelden?** Ja, via app.link2talent.nl. We zoeken mensen met ervaring in echte B2B-sales die hun afspraken nakomen. Daar staat een serieuze opdrachtgever tegenover, met een uurtarief en de vrijheid om overal te werken.
 
+## Cases (lopende plaatsingen, klantnamen weggelaten)
+
+- Marketingbureau (uurtarief): setter werkt 10 uur per week en zet gemiddeld 10 afspraken per week, dus een afspraak per gewerkt uur. De eigenaar sluit 30 procent; dat is drie nieuwe klanten per week. Tegen 37,50 per uur kost een afspraak 37,50 en een nieuwe klant 125 euro aan setterkosten. https://www.link2talent.nl/cases/marketingbureau
+- Belkantoor (uurtarief): tien setters geplaatst bij een cold calling agency. Op toegankelijke campagnes gemiddeld een afspraak per uur, op moeilijkere campagnes een per twee uur. Het uurtarief is dezelfde dag terugverdiend omdat het kantoor per afspraak factureert. https://www.link2talent.nl/cases/belkantoor
+- Eigen setter op doorlopende commissie (performance): bij zusterbedrijf Link2Leads krijgt een setter 10 procent van het maandbedrag van elke klant die hij als afspraak aanbrengt, elke maand zolang die klant blijft, uitbetaald zodra de klant betaalt. Geen vaste kosten voor de opdrachtgever. https://www.link2talent.nl/cases/setter-op-commissie
+
+Benchmark uit deze plaatsingen: een afspraak per gewerkt uur als het aanbod helder is en de instroom er is; een afspraak per twee uur bij een smalle doelgroep of een aanbod dat uitleg vraagt.
+
+## Capaciteitsscan (gratis)
+
+Op https://www.link2talent.nl/#capaciteitsscan vraagt een bedrijf met alleen een e-mailadres en een korte beschrijving van aanbod, doelgroep en instroom een gratis capaciteitsscan aan: hoeveel afspraken per week realistisch is, hoeveel uur daarbij past, welk model aansluit en wat een afspraak en een nieuwe klant kost. Binnen een werkdag per mail, zonder gesprek vooraf. Contactformulier en telefoonnummer op https://www.link2talent.nl/#contact.
+
 ## Belangrijkste pagina's
 
 - [Homepage](https://www.link2talent.nl/): propositie, werkwijze, samenwerkingsvormen, FAQ
@@ -96,7 +108,13 @@ Een setter zonder instroom zit stil. Via zusterbedrijf Link2Leads (https://www.l
 - [Setter vs. closer: wie doet wat?](https://www.link2talent.nl/kennis/setter-vs-closer): rolverdeling, sturing en waar de overdracht misgaat
 - [Salescapaciteit uitbesteden](https://www.link2talent.nl/kennis/salescapaciteit-uitbesteden): vier lagen commercieel werk en wat je zelf houdt
 - [Performance vs. seat-model](https://www.link2talent.nl/kennis/performance-vs-seat-model): welk prijsmodel past bij de meetbaarheid van je resultaat
-- [Praktijksituaties](https://www.link2talent.nl/cases/): de capaciteitsvraagstukken die we het vaakst tegenkomen
+- [Hoeveel afspraken zet een setter per week?](https://www.link2talent.nl/kennis/afspraken-per-week-setter): benchmark uit eigen plaatsingen en hoe je die omrekent
+- [Wat kost een appointment setter inhuren?](https://www.link2talent.nl/kennis/appointment-setter-inhuren-kosten): de drie modellen met rekenvoorbeelden per afspraak en per nieuwe klant
+- [Remote setter aansturen: de eerste 30 dagen](https://www.link2talent.nl/kennis/remote-setter-aansturen): inwerken, dagelijkse feedback, definitie van een afspraak, weekritme
+- [Appointment setting uitbesteden: bureau, freelancer of platform](https://www.link2talent.nl/kennis/appointment-setting-uitbesteden): vier routes vergeleken
+- [Appointment setting bureaus in Nederland vergeleken](https://www.link2talent.nl/appointment-setting-bureaus-nederland): vijf soorten aanbieders op zes punten, plus de vragen die je elke aanbieder stelt
+- [Appointment setter inhuren in Amsterdam](https://www.link2talent.nl/appointment-setter-amsterdam): remote setter voor Amsterdamse B2B-bedrijven
+- [Cases met cijfers](https://www.link2talent.nl/cases/): drie lopende plaatsingen met startsituatie, inzet en resultaat
 - [Privacybeleid](https://www.link2talent.nl/privacy)
 - [Algemene voorwaarden](https://www.link2talent.nl/algemene-voorwaarden)
 

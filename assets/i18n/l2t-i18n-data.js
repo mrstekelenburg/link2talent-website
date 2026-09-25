@@ -2689,5 +2689,1255 @@ window.L2T_I18N_DATA = {
 },
 "Anne-Roos, co-founder van Link2Talent": {
 "en": "Anne-Roos, co-founder of Link2Talent"
+},
+/* ── Cases, nieuwe kennisartikelen, vergelijkingspagina, Amsterdam, 404, homepage cases/scan/contact (25 sept 2026) ── */
+"Deze pagina": {
+"en": "This page"
+},
+"bestaat niet": {
+"en": "does not exist"
+},
+"De link is verouderd of de pagina is verplaatst. Dit zijn de plekken waar de meeste mensen naartoe willen.": {
+"en": "The link is outdated or the page has moved. These are the places most people are looking for."
+},
+"Wat Link2Talent doet": {
+"en": "What Link2Talent does"
+},
+"Remote setters en closers, binnen 14 dagen actief, drie modellen en de vergelijking met zelf aannemen.": {
+"en": "Remote setters and closers, active within 14 days, three models and the comparison with hiring yourself."
+},
+"Naar de homepage →": {
+"en": "To the homepage →"
+},
+"Setters in de praktijk": {
+"en": "Setters in practice"
+},
+"Drie plaatsingen met cijfers: afspraken per uur, per week en wat dat kost.": {
+"en": "Three placements with numbers: meetings per hour, per week and what that costs."
+},
+"Naar de cases →": {
+"en": "To the cases →"
+},
+"Rollen, modellen en kosten": {
+"en": "Roles, models and costs"
+},
+"Tien artikelen over wanneer een setter logisch is en wat hij oplevert.": {
+"en": "Ten articles on when a setter makes sense and what one delivers."
+},
+"Naar de kennisbank →": {
+"en": "To the knowledge base →"
+},
+"Zocht je iets specifieks?": {
+"en": "Looking for something specific?"
+},
+"Mail info@link2talent.nl of plan direct een gesprek.": {
+"en": "Email info@link2talent.nl or book a call directly."
+},
+"/ Amsterdam": {
+"en": "/ Amsterdam"
+},
+"Appointment setter inhuren": {
+"en": "Hiring an appointment setter"
+},
+"in Amsterdam": {
+"en": "in Amsterdam"
+},
+"Voor B2B-bedrijven in Amsterdam die meer gesprekken willen voeren zonder een extra bureau in de Zuidas of een vacature die maanden openstaat. Een remote setter, binnen 14 dagen actief, aangestuurd door jou.": {
+"en": "For B2B companies in Amsterdam that want more conversations without an extra desk in the Zuidas or a vacancy that stays open for months. A remote setter, active within 14 days, managed by you."
+},
+"25 september 2026": {
+"en": "25 September 2026"
+},
+"Leestijd 5 minuten": {
+"en": "5 minute read"
+},
+"Kort antwoord: een setter via Link2Talent werkt remote, dus je hebt geen werkplek nodig en geen woon-werkverkeer over de A10. Wij zijn zelf gevestigd in Amsterdam, dus kennismaken kan op locatie. De setter zelf zet vanaf week 3 afspraken in je agenda.": {
+"en": "Short answer: a setter through Link2Talent works remotely, so you need no workplace and no commute on the A10. We are based in Amsterdam ourselves, so meeting in person is possible. From week 3 the setter books meetings in your calendar."
+},
+"Waarom Amsterdamse bedrijven een remote setter kiezen": {
+"en": "Why Amsterdam companies choose a remote setter"
+},
+"Kantoorruimte in Amsterdam is duur en een SDR in dienst kost naast salaris ook een bureau, een laptop en iemand die hem dagelijks aanstuurt. Een remote setter belt vanuit zijn eigen omgeving, werkt de uren die je afspreekt en zet de afspraak direct in jouw agenda. Je betaalt per uur, per afspraak of per seat, en schaalt per maand op en af.": {
+"en": "Office space in Amsterdam is expensive and an in-house SDR costs a desk, a laptop and someone to manage them daily on top of salary. A remote setter calls from their own environment, works the hours you agree and puts the meeting straight into your calendar. You pay per hour, per meeting or per seat, and scale up and down per month."
+},
+"Voor welke bedrijven het werkt": {
+"en": "Which companies it works for"
+},
+"SaaS-bedrijven en IT-dienstverleners rond de Zuidas en Sloterdijk, consultancy- en adviesbureaus in het centrum, marketingbureaus in Noord en West, en recruitment- en detacheringsbureaus overal in de stad. Wat ze gemeen hebben: een bewezen aanbod, een duidelijke doelgroep en te weinig tijd om zelf te bellen. Past cold calling of opvolging niet bij je markt, dan zeggen we dat in het eerste gesprek.": {
+"en": "SaaS companies and IT service providers around the Zuidas and Sloterdijk, consultancy and advisory firms in the centre, marketing agencies in Noord and West, and recruitment and staffing agencies across the city. What they share: a proven offer, a clear target group and too little time to call themselves. If cold calling or follow-up doesn't fit your market, we say so in the first call."
+},
+"Hoe het werkt": {
+"en": "How it works"
+},
+"Week 1: intake en match. We bespreken je aanbod, doelgroep en salesproces en dragen een setter voor die daarbij past. Jij keurt hem goed. Week 2: inwerken op je product en toon. Week 3: de setter belt dagelijks en de eerste afspraken staan in je agenda. Staat de setter niet binnen 14 dagen aan het werk, dan betaal je niets totdat we dat wel leveren.": {
+"en": "Week 1: intake and match. We discuss your offer, target group and sales process and propose a setter who fits. You approve. Week 2: onboarding on your product and tone. Week 3: the setter calls daily and the first meetings are in your calendar. If the setter is not at work within 14 days, you pay nothing until we deliver."
+},
+"Wat het kost": {
+"en": "What it costs"
+},
+"Op het meest gekozen model betaal je het uurtarief van de setter plus 20 procent, bijvoorbeeld 37,50 per uur. Bij een afspraak per uur, wat onze setters op toegankelijke campagnes halen, is dat 37,50 per afspraak. Geen opstartkosten, geen recruitmentfee. De andere modellen staan op de": {
+"en": "On the most chosen model you pay the setter's hourly rate plus 20 percent, for example 37.50 per hour. At one meeting per hour, which our setters achieve on accessible campaigns, that is 37.50 per meeting. No setup costs, no recruitment fee. The other models are on the"
+},
+"homepage": {
+"en": "homepage"
+},
+", de rekenvoorbeelden in": {
+"en": ", the worked examples in"
+},
+"wat kost een appointment setter inhuren": {
+"en": "what does hiring an appointment setter cost"
+},
+"Heb je te weinig instroom voor een setter, dan regelen we die via ons zusterbedrijf": {
+"en": "If you have too little inflow for a setter, we arrange it through our sister company"
+},
+": e-mailcampagnes naar jouw doelgroep, ook in de regio Amsterdam, waarvan alleen de positieve reacties bij je setter komen. Dezelfde mensen aan tafel, dus geen afstemming tussen twee bureaus.": {
+"en": ": email campaigns to your target group, also in the Amsterdam region, of which only the positive replies reach your setter. The same people at the table, so no coordination between two agencies."
+},
+"Link2Group in Amsterdam": {
+"en": "Link2Group in Amsterdam"
+},
+"Link2Talent en Link2Leads vallen onder Link2Group, gevestigd in Amsterdam. Een kennismaking op locatie is te regelen; de samenwerking daarna loopt online, via het platform en de agenda van de setter.": {
+"en": "Link2Talent and Link2Leads are part of Link2Group, based in Amsterdam. An in-person introduction can be arranged; after that the collaboration runs online, through the platform and the setter's calendar."
+},
+"Werkt de setter op locatie in Amsterdam?": {
+"en": "Does the setter work on site in Amsterdam?"
+},
+"Onze setters werken remote. Voor bedrijven in Amsterdam scheelt dat een werkplek en reistijd; de setter belt vanuit zijn eigen omgeving en zet de afspraak in jouw agenda.": {
+"en": "Our setters work remotely. For companies in Amsterdam that saves a workplace and travel time; the setter calls from their own environment and puts the meeting in your calendar."
+},
+"Kunnen we elkaar wel ontmoeten?": {
+"en": "Can we still meet in person?"
+},
+"Ja. Link2Group zit in Amsterdam, dus een kennismaking op locatie is te regelen. De samenwerking zelf loopt daarna online.": {
+"en": "Yes. Link2Group is based in Amsterdam, so an in-person introduction can be arranged. The collaboration itself then runs online."
+},
+"Hoe snel kan een setter starten voor een Amsterdams bedrijf?": {
+"en": "How fast can a setter start for an Amsterdam company?"
+},
+"Binnen 14 dagen na akkoord, net als overal. Week 1 intake en match, week 2 inwerken, week 3 de eerste afspraken.": {
+"en": "Within 14 days of signing, as everywhere. Week 1 intake and match, week 2 onboarding, week 3 the first meetings."
+},
+"Capaciteitsprobleem of strategieprobleem": {
+"en": "Capacity problem or strategy problem"
+},
+"Cases met cijfers": {
+"en": "Cases with numbers"
+},
+"Drie plaatsingen zoals ze nu draaien": {
+"en": "Three placements as they run today"
+},
+"Appointment setting bureaus vergeleken": {
+"en": "Appointment setting agencies compared"
+},
+"De soorten aanbieders op zes punten": {
+"en": "The types of providers on six points"
+},
+"In een gratis kennismakingsgesprek van 30 minuten leggen we je bottleneck en de benodigde capaciteit naast elkaar.": {
+"en": "In a free 30-minute intro call we put your bottleneck and the capacity you need side by side."
+},
+"/ Vergelijking": {
+"en": "/ Comparison"
+},
+"Appointment setting bureaus in Nederland": {
+"en": "Appointment setting agencies in the Netherlands"
+},
+"vergeleken": {
+"en": "compared"
+},
+"Wie in Nederland afspraken wil laten zetten, kiest uit vijf soorten aanbieders. Ze verschillen op zes punten die je vooraf wilt weten. Hier staan ze naast elkaar, inclusief de plek waar wij zelf staan.": {
+"en": "Anyone in the Netherlands who wants meetings booked chooses from five types of providers. They differ on six points you want to know upfront. Here they are side by side, including where we stand ourselves."
+},
+"Leestijd 9 minuten": {
+"en": "9 minute read"
+},
+"Kort antwoord: callbureaus zijn het snelst geregeld en het minst van jou. Een SDR-as-a-service-bureau levert een compleet team, tegen een maandbedrag dat daarbij hoort. Freelanceplatforms zijn het goedkoopst en het meest werk. Recruitmentbureaus leveren een hire. Link2Talent zit tussen freelance en bureau in: jij kiest en stuurt aan, wij regelen selectie, contract en betaling, binnen 14 dagen.": {
+"en": "Short answer: call centres are the fastest to arrange and the least yours. An SDR-as-a-service agency delivers a complete team, at a monthly fee to match. Freelance platforms are the cheapest and the most work. Recruitment agencies deliver a hire. Link2Talent sits between freelance and agency: you choose and manage, we arrange selection, contract and payment, within 14 days."
+},
+"De vijf soorten aanbieders": {
+"en": "The five types of providers"
+},
+"Callbureaus.": {
+"en": "Call centres."
+},
+"Een belvloer met teamleads, een script en een minimumafname. Je koopt uren of afspraken. Snel geregeld, weinig invloed op wie er belt en wat hij zegt.": {
+"en": "A call floor with team leads, a script and a minimum commitment. You buy hours or meetings. Quick to arrange, little say over who calls and what they say."
+},
+"SDR-as-a-service.": {
+"en": "SDR-as-a-service."
+},
+"Bureaus die een SDR of een klein team leveren inclusief tooling, data en aansturing. Compleet, tegen een maandbedrag dat vaak begint waar een fulltime salaris ophoudt.": {
+"en": "Agencies that deliver an SDR or a small team including tooling, data and management. Complete, at a monthly fee that often starts where a full-time salary ends."
+},
+"Freelanceplatforms.": {
+"en": "Freelance platforms."
+},
+"Marktplaatsen waar je zelf zoekt, selecteert en contracteert. Goedkoop per uur, duur in je eigen tijd, en bij een mismatch begin je opnieuw.": {
+"en": "Marketplaces where you search, select and contract yourself. Cheap per hour, expensive in your own time, and with a mismatch you start over."
+},
+"Recruitmentbureaus.": {
+"en": "Recruitment agencies."
+},
+"Werving en selectie voor een SDR in dienst. Een fee als percentage van het jaarsalaris, daarna een arbeidscontract. Past als je zeker weet dat de rol voor een jaar of langer gevuld moet zijn.": {
+"en": "Recruitment and selection for an in-house SDR. A fee as a percentage of the annual salary, then an employment contract. Fits when you are sure the role needs filling for a year or more."
+},
+"Link2Talent.": {
+"en": "Link2Talent."
+},
+"Wij dragen een ervaren setter voor, jij keurt hem goed en stuurt hem aan als een eigen collega. Contract, betaling, rapportage en wisselen lopen via ons platform. Binnen 14 dagen actief, per maand op- en afschalen.": {
+"en": "We propose an experienced setter, you approve and manage them like a colleague of your own. Contract, payment, reporting and switching run through our platform. Active within 14 days, scale up and down per month."
+},
+"De zes punten naast elkaar": {
+"en": "The six points side by side"
+},
+"SDR-as-a-service": {
+"en": "SDR-as-a-service"
+},
+"Freelanceplatform": {
+"en": "Freelance platform"
+},
+"Recruitmentbureau": {
+"en": "Recruitment agency"
+},
+"2 tot 6 weken": {
+"en": "2 to 6 weeks"
+},
+"4 tot 8 weken": {
+"en": "4 to 8 weeks"
+},
+"Zolang je zoektocht duurt": {
+"en": "As long as your search takes"
+},
+"6 weken tot maanden": {
+"en": "6 weeks to months"
+},
+"Binnen 14 dagen, met garantie": {
+"en": "Within 14 days, guaranteed"
+},
+"Wie belt": {
+"en": "Who calls"
+},
+"Het team van het bureau": {
+"en": "The agency's team"
+},
+"De kandidaat die je aanneemt": {
+"en": "The candidate you hire"
+},
+"Een geselecteerde setter, door jou goedgekeurd": {
+"en": "A selected setter, approved by you"
+},
+"Het bureau": {
+"en": "The agency"
+},
+"Jij, als werkgever": {
+"en": "You, as employer"
+},
+"Jij, als bij een eigen collega": {
+"en": "You, as with a colleague of your own"
+},
+"Opstartfee plus minimumafname": {
+"en": "Setup fee plus minimum commitment"
+},
+"Vast maandbedrag": {
+"en": "Fixed monthly fee"
+},
+"Uurtarief, zelf onderhandeld": {
+"en": "Hourly rate, negotiated yourself"
+},
+"Fee plus salaris en werkgeverslasten": {
+"en": "Fee plus salary and employer costs"
+},
+"Uurtarief plus 20 procent, commissie of 295 per seat": {
+"en": "Hourly rate plus 20 percent, commission or 295 per seat"
+},
+"Als het niet klikt": {
+"en": "If it doesn't click"
+},
+"Opzegtermijn": {
+"en": "Notice period"
+},
+"Opnieuw zoeken": {
+"en": "Search again"
+},
+"Proeftijd of ontslagtraject": {
+"en": "Probation or dismissal procedure"
+},
+"Vaak inbegrepen": {
+"en": "Often included"
+},
+"Zelf regelen": {
+"en": "Arrange yourself"
+},
+"Via zusterbedrijf Link2Leads": {
+"en": "Through sister company Link2Leads"
+},
+"Hoe je hieruit kiest": {
+"en": "How to choose"
+},
+"Begin bij de vraag of je zelf wilt bepalen wie er belt en wat hij zegt. Zo nee, dan is een callbureau of SDR-as-a-service de kortste route en betaal je voor het gemak. Zo ja, dan kies je tussen zelf werven (freelance of recruitment) en een platform dat de selectie en het contract voor je doet.": {
+"en": "Start with whether you want to decide who calls and what they say. If not, a call centre or SDR-as-a-service is the shortest route and you pay for the convenience. If so, you choose between recruiting yourself (freelance or recruitment) and a platform that does the selection and contract for you."
+},
+"De tweede vraag is hoe zeker je bent van het volume. Weet je dat de rol over een jaar nog bestaat, dan is een hire op termijn goedkoper. Weet je dat niet, dan betaal je met een hoger uurtarief voor de mogelijkheid om binnen twee weken te starten en per maand te stoppen. Die afweging staat uitgewerkt in": {
+"en": "The second question is how sure you are of the volume. If you know the role will still exist in a year, a hire is cheaper in the long run. If you don't, you pay a higher hourly rate for the option to start within two weeks and stop per month. That trade-off is worked out in"
+},
+"De zes vragen die je elke aanbieder stelt": {
+"en": "The six questions to ask every provider"
+},
+"Wie belt er precies, en mag ik die persoon vooraf spreken?": {
+"en": "Who exactly calls, and can I speak to that person beforehand?"
+},
+"Wie stuurt aan, en hoe vaak spreek ik die persoon?": {
+"en": "Who manages, and how often do I speak to that person?"
+},
+"Wat betaal ik als er een maand geen afspraken uitkomen?": {
+"en": "What do I pay in a month with no meetings?"
+},
+"Wat gebeurt er als de beller niet bevalt, en hoe snel?": {
+"en": "What happens if the caller isn't right, and how fast?"
+},
+"Waar komt de instroom vandaan: mijn lijst, hun data of een campagne?": {
+"en": "Where does the inflow come from: my list, their data or a campaign?"
+},
+"Wat zie ik per week aan cijfers zonder erom te vragen?": {
+"en": "What numbers do I see each week without asking?"
+},
+"Waar wij staan": {
+"en": "Where we stand"
+},
+"Link2Talent is geen callbureau en geen recruitmentbureau. Wij plaatsen ervaren setters bij bedrijven die zelf willen aansturen, en nemen het werven, contracteren en factureren weg. De cijfers uit lopende plaatsingen staan in de": {
+"en": "Link2Talent is not a call centre and not a recruitment agency. We place experienced setters with companies that want to manage themselves, and take away the recruiting, contracting and invoicing. The numbers from current placements are in the"
+},
+"cases": {
+"en": "cases"
+},
+": een afspraak per uur op toegankelijke campagnes, een per twee uur op moeilijkere. Past een andere route beter bij jou, dan zeggen we dat in het eerste gesprek.": {
+"en": ": one meeting per hour on accessible campaigns, one per two hours on harder ones. If another route fits you better, we say so in the first call."
+},
+"Methodologie": {
+"en": "Methodology"
+},
+"De tabel beschrijft soorten aanbieders, geen individuele bedrijven, omdat voorwaarden per aanbieder en per jaar verschillen. De kenmerken zijn wat we in gesprekken met opdrachtgevers terugkrijgen en wat aanbieders zelf publiceren. Wijkt een aanbieder af, dan is dat de vraag om te stellen. Bijgewerkt 25 september 2026.": {
+"en": "The table describes types of providers, not individual companies, because terms differ per provider and per year. The characteristics are what we hear from clients and what providers publish themselves. If a provider deviates, that is the question to ask. Updated 25 September 2026."
+},
+"Welk bureau is het beste voor appointment setting?": {
+"en": "Which agency is best for appointment setting?"
+},
+"Dat hangt af van of je zelf wilt kiezen wie er belt en of je tijd hebt om aan te sturen. Wil je dat niet, dan een callbureau. Wil je dat wel, dan een platform of een eigen hire.": {
+"en": "That depends on whether you want to choose who calls and whether you have time to manage. If not, a call centre. If so, a platform or your own hire."
+},
+"Wat kost appointment setting uitbesteden gemiddeld?": {
+"en": "What does outsourcing appointment setting cost on average?"
+},
+"Bij een callbureau betaal je meestal een opstartfee plus een minimumafname per maand. Bij Link2Talent betaal je het uurtarief van de setter plus 20 procent, bijvoorbeeld 37,50 per uur, of een commissie per afspraak. Geen opstartkosten.": {
+"en": "At a call centre you usually pay a setup fee plus a minimum monthly commitment. At Link2Talent you pay the setter's hourly rate plus 20 percent, for example 37.50 per hour, or a commission per meeting. No setup costs."
+},
+"Bij Link2Talent binnen 14 dagen na akkoord, met garantie. Bij een callbureau twee tot zes weken, bij een eigen hire zes weken tot maanden.": {
+"en": "At Link2Talent within 14 days of signing, guaranteed. At a call centre two to six weeks, with your own hire six weeks to months."
+},
+"Waarom staan er geen bedrijfsnamen in deze vergelijking?": {
+"en": "Why are there no company names in this comparison?"
+},
+"Omdat aanbieders hun voorwaarden regelmatig veranderen en een verouderde tabel je verkeerd informeert. De soorten aanbieders veranderen niet. Vraag bij elke aanbieder de zes punten hierboven na.": {
+"en": "Because providers change their terms regularly and an outdated table misinforms you. The types of providers don't change. Ask every provider about the six points above."
+},
+"Appointment setting uitbesteden": {
+"en": "Outsourcing appointment setting"
+},
+"Bureau, freelancer of platform": {
+"en": "Agency, freelancer or platform"
+},
+"Wat kost een appointment setter inhuren?": {
+"en": "What does hiring an appointment setter cost?"
+},
+"De drie modellen met rekenvoorbeelden": {
+"en": "The three models with worked examples"
+},
+"Tien setters,": {
+"en": "Ten setters,"
+},
+"een afspraak per uur": {
+"en": "one meeting per hour"
+},
+"Een belkantoor dat voor opdrachtgevers afspraken zet, wilde sneller opschalen dan werving toeliet. Link2Talent plaatst er nu tien setters die elk hun uurtarief per dag terugverdienen.": {
+"en": "A call centre that books meetings for clients wanted to scale faster than recruitment allowed. Link2Talent now places ten setters there, each earning back their hourly rate every day."
+},
+"10 setters": {
+"en": "10 setters"
+},
+"geplaatst via Link2Talent": {
+"en": "placed through Link2Talent"
+},
+"1 per uur": {
+"en": "1 per hour"
+},
+"afspraak op toegankelijke campagnes": {
+"en": "meeting on accessible campaigns"
+},
+"1 per 2 uur": {
+"en": "1 per 2 hours"
+},
+"afspraak op moeilijkere campagnes": {
+"en": "meeting on harder campaigns"
+},
+"Het belkantoor draait campagnes voor meerdere opdrachtgevers en groeide harder dan de eigen werving kon bijhouden. Elke nieuwe campagne vroeg om extra bellers, en elke vacature kostte weken. De vraag was niet of ze konden verkopen, maar hoe ze binnen twee weken capaciteit erbij konden zetten zonder tien arbeidscontracten.": {
+"en": "The call centre runs campaigns for several clients and grew faster than its own recruitment could keep up with. Every new campaign needed extra callers, and every vacancy took weeks. The question was not whether they could sell, but how to add capacity within two weeks without ten employment contracts."
+},
+"Via Link2Talent zijn in stappen tien setters geplaatst op het uurtarief-model. Elke setter is door ons geselecteerd op ervaring in echte B2B-sales en door het kantoor goedgekeurd voordat hij startte. De setters werken remote, worden door het kantoor ingewerkt op de campagne en aangestuurd door de eigen teamleads. Contract, uren en betaling lopen via ons platform.": {
+"en": "Through Link2Talent ten setters were placed in stages on the hourly-rate model. Each setter was selected by us for experience in real B2B sales and approved by the centre before starting. The setters work remotely, are onboarded on the campaign by the centre and managed by its own team leads. Contract, hours and payment run through our platform."
+},
+"Resultaat": {
+"en": "Result"
+},
+"Op de toegankelijke campagnes, met een helder aanbod en een brede doelgroep, zet een setter gemiddeld een afspraak per gewerkt uur. Op de moeilijkere campagnes, met een smallere doelgroep of een aanbod dat meer uitleg vraagt, is dat een afspraak per twee uur. In beide gevallen is het uurtarief van de setter binnen dezelfde dag terugverdiend, omdat het kantoor per afspraak aan zijn opdrachtgever factureert.": {
+"en": "On the accessible campaigns, with a clear offer and a broad target group, a setter books on average one meeting per hour worked. On the harder campaigns, with a narrower target group or an offer that needs more explanation, it is one meeting per two hours. In both cases the setter's hourly rate is earned back the same day, because the centre invoices its client per meeting."
+},
+"Wat het verschil maakte: het kantoor had al een werkende campagnestructuur en teamleads die dagelijks sturen. Onze setters stapten in een lopend proces. Dat is de situatie waarin opschalen met tien mensen tegelijk zonder gedoe lukt.": {
+"en": "What made the difference: the centre already had a working campaign structure and team leads who manage daily. Our setters stepped into a running process. That is the situation in which scaling with ten people at once works without hassle."
+},
+"Wat je hieruit kunt halen": {
+"en": "What you can take from this"
+},
+"De twee cijfers hierboven zijn een bruikbare benchmark voor je eigen rekensom. Weet je hoeveel je een afspraak waard is, dan weet je bij een afspraak per uur of per twee uur direct of een setter uitkan. Meer over die benchmark in": {
+"en": "The two numbers above are a usable benchmark for your own calculation. If you know what a meeting is worth to you, then at one meeting per hour or per two hours you know immediately whether a setter pays off. More on that benchmark in"
+},
+"hoeveel afspraken zet een setter per week": {
+"en": "how many meetings does a setter book per week"
+},
+"Waarom verschilt het per campagne?": {
+"en": "Why does it differ per campaign?"
+},
+"Een breed aanbod met een grote doelgroep levert meer gesprekken per uur op dan een smal aanbod dat uitleg vraagt. Een afspraak per uur en een per twee uur zijn de twee uitersten die we bij dit kantoor zien.": {
+"en": "A broad offer with a large target group yields more conversations per hour than a narrow offer that needs explanation. One meeting per hour and one per two hours are the two extremes we see at this centre."
+},
+"Kan ik ook meerdere setters tegelijk starten?": {
+"en": "Can I start several setters at once?"
+},
+"Ja. Bij dit kantoor zijn de tien setters in stappen geplaatst, telkens binnen twee weken na akkoord. Via het platform zie je wie beschikbaar is.": {
+"en": "Yes. At this centre the ten setters were placed in stages, each within two weeks of approval. In the platform you see who is available."
+},
+"Wie stuurt de setters aan?": {
+"en": "Who manages the setters?"
+},
+"Het kantoor zelf, met eigen teamleads. Wij regelen selectie, contract, uren en betaling. Dat is bij elke plaatsing zo.": {
+"en": "The centre itself, with its own team leads. We arrange selection, contract, hours and payment. That is the case with every placement."
+},
+"Case: setter bij een marketingbureau": {
+"en": "Case: setter at a marketing agency"
+},
+"Tien afspraken per week in tien uur, 30 procent close": {
+"en": "Ten meetings per week in ten hours, 30 percent close"
+},
+"Uurtarief, performance en seat naast elkaar met rekenvoorbeelden": {
+"en": "Hourly rate, performance and seat side by side with worked examples"
+},
+"Remote setter aansturen: de eerste 30 dagen": {
+"en": "Managing a remote setter: the first 30 days"
+},
+"Wat je zelf doet zodat een setter snel rendeert": {
+"en": "What you do yourself so a setter pays off fast"
+},
+"Setters in de praktijk,": {
+"en": "Setters in practice,"
+},
+"met cijfers": {
+"en": "with numbers"
+},
+"Drie plaatsingen zoals ze nu draaien: wat de startsituatie was, wat er is ingezet en wat het per week oplevert. Klantnamen laten we weg, de cijfers niet.": {
+"en": "Three placements as they run today: what the starting situation was, what was deployed and what it delivers per week. We leave out client names, not the numbers."
+},
+"Case · Uurtarief": {
+"en": "Case · Hourly rate"
+},
+"Tien uur per week, tien afspraken per week": {
+"en": "Ten hours per week, ten meetings per week"
+},
+"Een B2B-marketingbureau zet een parttime setter op de opvolging van reacties. Een afspraak per gewerkt uur, 30 procent wordt klant.": {
+"en": "A B2B marketing agency puts a part-time setter on following up replies. One meeting per hour worked, 30 percent become clients."
+},
+"Lees de case →": {
+"en": "Read the case →"
+},
+"Tien setters, een afspraak per uur": {
+"en": "Ten setters, one meeting per hour"
+},
+"Een belkantoor schaalt met tien setters van Link2Talent. Een afspraak per uur op toegankelijke campagnes, een per twee uur op moeilijkere.": {
+"en": "A call centre scales with ten setters from Link2Talent. One meeting per hour on accessible campaigns, one per two hours on harder ones."
+},
+"Case · Performance": {
+"en": "Case · Performance"
+},
+"Onze eigen setter op doorlopende commissie": {
+"en": "Our own setter on recurring commission"
+},
+"Bij Link2Leads verdient een setter 10 procent van het maandbedrag van elke klant die hij aanbrengt, elke maand zolang die klant blijft.": {
+"en": "At Link2Leads a setter earns 10 percent of the monthly fee of every client he brings in, every month for as long as that client stays."
+},
+"Welke capaciteit en welk model?": {
+"en": "Which capacity and which model?"
+},
+"Afspraken per uur of per week, en wat dat kost": {
+"en": "Meetings per hour or per week, and what that costs"
+},
+"Geen verzonnen klantnamen en geen omzetclaims die we niet kunnen onderbouwen. De cijfers hierboven komen uit lopende plaatsingen en worden bijgewerkt als ze veranderen.": {
+"en": "No invented client names and no revenue claims we cannot substantiate. The numbers above come from current placements and are updated when they change."
+},
+"staan de cases van e-mailcampagnes, inclusief investering en looptijd. Beide bedrijven vallen onder": {
+"en": "has the cases of email campaigns, including investment and duration. Both companies are part of"
+},
+"Wil je weten wat een setter in jouw situatie zet?": {
+"en": "Want to know what a setter would book in your situation?"
+},
+"Vraag de gratis capaciteitsscan aan of plan direct een gesprek.": {
+"en": "Request the free capacity scan or book a call directly."
+},
+"Tien uur per week,": {
+"en": "Ten hours per week,"
+},
+"tien afspraken per week": {
+"en": "ten meetings per week"
+},
+"Een B2B-marketingbureau had leads genoeg en niemand die structureel belde. Een parttime setter via Link2Talent vult nu elke week de agenda van de eigenaar.": {
+"en": "A B2B marketing agency had plenty of leads and nobody calling consistently. A part-time setter through Link2Talent now fills the owner's calendar every week."
+},
+"10 uur": {
+"en": "10 hours"
+},
+"per week ingezet": {
+"en": "deployed per week"
+},
+"10 afspraken": {
+"en": "10 meetings"
+},
+"per week gemiddeld": {
+"en": "per week on average"
+},
+"van de afspraken wordt klant": {
+"en": "of the meetings become clients"
+},
+"Het bureau levert marketingdiensten aan MKB-bedrijven en had een volle pijplijn aan reacties uit campagnes en netwerk. De eigenaar deed de opvolging zelf, tussen klantwerk door. Dat betekende dat een deel van de reacties dagen bleef liggen en dat de agenda per week wisselde van vol naar leeg.": {
+"en": "The agency delivers marketing services to SMEs and had a full pipeline of replies from campaigns and network. The owner did the follow-up himself, in between client work. That meant some replies sat for days and the calendar swung from full to empty week by week."
+},
+"Via Link2Talent is een setter gestart op het uurtarief-model, tien uur per week verdeeld over de ochtenden. Week 1 was intake en match, week 2 inwerken op het aanbod, de doelgroep en de toon van het bureau. Vanaf week 3 belt de setter dagelijks de nieuwe reacties en de openstaande opvolging, en zet de afspraak direct in de agenda van de eigenaar.": {
+"en": "Through Link2Talent a setter started on the hourly-rate model, ten hours per week spread over the mornings. Week 1 was intake and match, week 2 onboarding on the agency's offer, target group and tone. From week 3 the setter calls the new replies and the open follow-ups daily, and puts the meeting straight into the owner's calendar."
+},
+"Gemiddeld tien afspraken per week, dus een afspraak per gewerkt uur. De eigenaar sluit ongeveer drie op de tien, wat neerkomt op drie nieuwe klanten per week. Tegen het uurtarief van 37,50 kost een afspraak 37,50 en een nieuwe klant 125 euro aan setterkosten. Bij een gemiddelde ordergrootte van een marketingbureau is dat in de eerste maand terugverdiend.": {
+"en": "On average ten meetings per week, so one meeting per hour worked. The owner closes about three in ten, which comes to three new clients per week. At the hourly rate of 37.50 a meeting costs 37.50 and a new client 125 euros in setter costs. At a marketing agency's average order size that is earned back in the first month."
+},
+"Wat het verschil maakte: de instroom was er al. De setter hoefde geen koude lijst te bellen, maar reacties op te volgen die anders bleven liggen. Dat is de situatie waarin een setter het snelst rendeert.": {
+"en": "What made the difference: the inflow was already there. The setter didn't have to call a cold list, but follow up replies that would otherwise sit. That is the situation in which a setter pays off fastest."
+},
+"Heb je reacties die je niet dezelfde dag terugbelt, dan is tien uur per week meestal genoeg om dat gat te dichten. Reken het voor je eigen situatie door met de": {
+"en": "If you have replies you don't call back the same day, ten hours per week is usually enough to close that gap. Work it out for your own situation with the"
+},
+": vul je ordergrootte en je close rate in en je ziet wat een afspraak je waard is.": {
+"en": ": enter your order size and close rate and you see what a meeting is worth to you."
+},
+"Hoeveel uur per week is een setter nodig?": {
+"en": "How many hours per week does a setter need?"
+},
+"Bij dit bureau was tien uur per week genoeg om alle reacties dezelfde dag op te volgen. Hoeveel uur jij nodig hebt hangt af van de instroom: meer reacties, meer uren.": {
+"en": "At this agency ten hours per week was enough to follow up all replies the same day. How many hours you need depends on the inflow: more replies, more hours."
+},
+"Wat kost een afspraak in dit voorbeeld?": {
+"en": "What does a meeting cost in this example?"
+},
+"Tien uur tegen 37,50 is 375 euro per week, gedeeld door tien afspraken is 37,50 per afspraak. Met 30 procent close kost een nieuwe klant 125 euro aan setterkosten.": {
+"en": "Ten hours at 37.50 is 375 euros per week, divided by ten meetings is 37.50 per meeting. With 30 percent close a new client costs 125 euros in setter costs."
+},
+"Werkt dit ook zonder bestaande instroom?": {
+"en": "Does this also work without existing inflow?"
+},
+"Dan belt de setter een lijst in plaats van reacties, en zet hij minder afspraken per uur. Zie de case van het belkantoor voor die cijfers, of combineer een setter met een campagne van Link2Leads.": {
+"en": "Then the setter calls a list instead of replies, and books fewer meetings per hour. See the call centre case for those numbers, or combine a setter with a Link2Leads campaign."
+},
+"Case: tien setters bij een belkantoor": {
+"en": "Case: ten setters at a call centre"
+},
+"Een afspraak per uur op toegankelijke campagnes, een per twee uur op moeilijke": {
+"en": "One meeting per hour on accessible campaigns, one per two hours on hard ones"
+},
+"Hoeveel afspraken zet een setter per week?": {
+"en": "How many meetings does a setter book per week?"
+},
+"De cijfers uit onze eigen plaatsingen en wat ze bepaalt": {
+"en": "The numbers from our own placements and what determines them"
+},
+"Omzetcalculator": {
+"en": "Revenue calculator"
+},
+"Wat een afspraak je waard is bij jouw ordergrootte": {
+"en": "What a meeting is worth at your order size"
+},
+"Onze eigen setter": {
+"en": "Our own setter"
+},
+"op doorlopende commissie": {
+"en": "on recurring commission"
+},
+"Bij ons zusterbedrijf Link2Leads brengt een setter afspraken aan en wordt betaald per gesloten klant. Niet eenmalig, maar elke maand zolang die klant blijft. Zo ziet het performance-model er in de praktijk uit.": {
+"en": "At our sister company Link2Leads a setter brings in meetings and is paid per closed client. Not once, but every month for as long as that client stays. This is what the performance model looks like in practice."
+},
+"van het maandbedrag, per aangebrachte klant": {
+"en": "of the monthly fee, per client brought in"
+},
+"Elke maand": {
+"en": "Every month"
+},
+"zolang de klant blijft": {
+"en": "as long as the client stays"
+},
+"vaste kosten voor de opdrachtgever": {
+"en": "fixed costs for the client"
+},
+"Link2Leads, ons zusterbedrijf voor e-mailcampagnes, kreeg meer inkomende interesse via LinkedIn dan de oprichters zelf konden opvolgen. De gesprekken zelf wilden ze blijven voeren, het aanbrengen en kwalificeren niet. Een vaste hire paste niet bij een instroom die per week wisselt.": {
+"en": "Link2Leads, our sister company for email campaigns, received more inbound interest via LinkedIn than the founders could follow up themselves. They wanted to keep running the conversations, not the sourcing and qualifying. A permanent hire didn't fit an inflow that varies by week."
+},
+"Een setter uit het netwerk van Link2Talent benadert prospects via LinkedIn, kwalificeert ze en zet ze door naar een gesprek met Link2Leads. Hij krijgt daarvoor geen uurtarief, maar 10 procent van het maandbedrag van elke klant die uit zijn afspraak voortkomt. Dat percentage loopt elke maand door zolang die klant klant blijft, en wordt uitbetaald zodra de klant betaalt.": {
+"en": "A setter from the Link2Talent network approaches prospects via LinkedIn, qualifies them and passes them on to a call with Link2Leads. He gets no hourly rate for that, but 10 percent of the monthly fee of every client that comes out of his meeting. That percentage continues every month for as long as that client stays a client, and is paid out as soon as the client pays."
+},
+"Voor de setter stapelt het inkomen: elke gesloten klant is een terugkerend bedrag erbij. Een klant op het meest gekozen pakket van 1.695 per maand levert hem 169,50 per maand op, en tien van die klanten 1.695 per maand, zonder dat hij daar nog een uur voor hoeft te werken. Voor Link2Leads is er geen vaste last: de setter kost pas iets als er omzet tegenover staat.": {
+"en": "For the setter the income stacks: every closed client is another recurring amount. A client on the most chosen package of 1,695 per month earns him 169.50 per month, and ten such clients 1,695 per month, without working another hour for it. For Link2Leads there is no fixed cost: the setter only costs something when there is revenue to match."
+},
+"Wat het verschil maakte: een aanbod met een terugkerend maandbedrag. Doorlopende commissie werkt als de klant maandelijks betaalt, want dan is de commissie ook maandelijks. Bij eenmalige orders past een commissie per deal of het uurtarief beter.": {
+"en": "What made the difference: an offer with a recurring monthly fee. Recurring commission works when the client pays monthly, because then the commission is monthly too. For one-off orders a commission per deal or the hourly rate fits better."
+},
+"Verkoop je een abonnement of een maandfee, dan is dit model het overwegen waard. De setter denkt mee over kwaliteit in plaats van aantallen, omdat hij pas verdient als de klant blijft. Welk model bij jouw aanbod past staat in": {
+"en": "If you sell a subscription or a monthly fee, this model is worth considering. The setter thinks about quality instead of numbers, because he only earns when the client stays. Which model fits your offer is in"
+},
+"Is dit het performance-model?": {
+"en": "Is this the performance model?"
+},
+"Ja, in de vorm van doorlopende commissie. Bij een eenmalige order is het meestal een vast bedrag per afspraak of per deal.": {
+"en": "Yes, in the form of recurring commission. For a one-off order it is usually a fixed amount per meeting or per deal."
+},
+"Wanneer wordt de setter betaald?": {
+"en": "When is the setter paid?"
+},
+"Zodra de klant zijn factuur betaalt. Geen wachttijd tot het einde van het kwartaal.": {
+"en": "As soon as the client pays their invoice. No waiting until the end of the quarter."
+},
+"Werkt dit voor elk aanbod?": {
+"en": "Does this work for every offer?"
+},
+"Het werkt het beste bij een terugkerend maandbedrag. Verkoop je eenmalige projecten, dan bespreken we in het kennismakingsgesprek welke variant past.": {
+"en": "It works best with a recurring monthly fee. If you sell one-off projects, we discuss in the intro call which variant fits."
+},
+"Welk prijsmodel past bij de meetbaarheid van je resultaat": {
+"en": "Which pricing model fits the measurability of your result"
+},
+"Tien afspraken per week in tien uur": {
+"en": "Ten meetings per week in ten hours"
+},
+"E-mailcampagnes voor de instroom die je setter nodig heeft": {
+"en": "Email campaigns for the inflow your setter needs"
+},
+"Wat een setter oplevert,": {
+"en": "What a setter delivers,"
+},
+"Drie plaatsingen zoals ze nu draaien. Klantnamen laten we weg, de cijfers niet.": {
+"en": "Three placements as they run today. We leave out client names, not the numbers."
+},
+"Marketingbureau · uurtarief": {
+"en": "Marketing agency · hourly rate"
+},
+"afspraken per week, in 10 uur": {
+"en": "meetings per week, in 10 hours"
+},
+"Een afspraak per gewerkt uur": {
+"en": "One meeting per hour worked"
+},
+"Een parttime setter volgt elke ochtend de reacties op. De eigenaar sluit drie op de tien.": {
+"en": "A part-time setter follows up the replies every morning. The owner closes three in ten."
+},
+"wordt klant": {
+"en": "become clients"
+},
+"per nieuwe klant": {
+"en": "per new client"
+},
+"Belkantoor · uurtarief": {
+"en": "Call centre · hourly rate"
+},
+"setters geplaatst": {
+"en": "setters placed"
+},
+"Een afspraak per uur, of per twee uur": {
+"en": "One meeting per hour, or per two hours"
+},
+"Op toegankelijke campagnes een afspraak per uur, op moeilijkere een per twee uur. Uurtarief dezelfde dag terugverdiend.": {
+"en": "One meeting per hour on accessible campaigns, one per two hours on harder ones. Hourly rate earned back the same day."
+},
+"1 / uur": {
+"en": "1 / hour"
+},
+"toegankelijk": {
+"en": "accessible"
+},
+"1 / 2 uur": {
+"en": "1 / 2 hours"
+},
+"moeilijker": {
+"en": "harder"
+},
+"Link2Leads · performance": {
+"en": "Link2Leads · performance"
+},
+"van het maandbedrag, elke maand": {
+"en": "of the monthly fee, every month"
+},
+"Per aangebrachte klant 10 procent van het maandbedrag, zolang die klant blijft. Geen vaste kosten.": {
+"en": "Per client brought in, 10 percent of the monthly fee, for as long as that client stays. No fixed costs."
+},
+"vaste kosten": {
+"en": "fixed costs"
+},
+"Direct": {
+"en": "Immediately"
+},
+"uitbetaald bij betaling": {
+"en": "paid out on payment"
+},
+"Alle drie met startsituatie, inzet en resultaat op": {
+"en": "All three with starting situation, deployment and result on"
+},
+"de casespagina": {
+"en": "the cases page"
+},
+". Reken je eigen situatie door met de": {
+"en": ". Work out your own situation with the"
+},
+"Hoeveel afspraken zet een setter": {
+"en": "How many meetings does a setter book"
+},
+"in jouw situatie?": {
+"en": "in your situation?"
+},
+"Vraag de gratis capaciteitsscan aan. Binnen een werkdag in je mailbox, zonder gesprek vooraf.": {
+"en": "Request the free capacity scan. In your inbox within one working day, no call needed first."
+},
+"Eerst rekenen,": {
+"en": "Calculate first,"
+},
+"dan beslissen": {
+"en": "then decide"
+},
+"Op basis van je aanbod, je instroom en je doelgroep rekenen we uit wat een setter bij jou realistisch zet. Je krijgt een eerlijk oordeel, ook als het antwoord is dat een setter nu nog te vroeg is.": {
+"en": "Based on your offer, your inflow and your target group we work out what a setter would realistically book for you. You get an honest verdict, even if the answer is that a setter is still too early."
+},
+"Hoeveel afspraken per week realistisch is, met de benchmark uit onze plaatsingen": {
+"en": "How many meetings per week is realistic, with the benchmark from our placements"
+},
+"Hoeveel uur per week daarbij past": {
+"en": "How many hours per week fit that"
+},
+"Welk model het beste aansluit: uurtarief, performance of seat": {
+"en": "Which model fits best: hourly rate, performance or seat"
+},
+"Wat een afspraak en een nieuwe klant je kost": {
+"en": "What a meeting and a new client cost you"
+},
+"Zakelijk e-mailadres *": {
+"en": "Business email address *"
+},
+"Wat verkoop je, aan wie, en waar komen je leads nu vandaan? *": {
+"en": "What do you sell, to whom, and where do your leads come from now? *"
+},
+"Website": {
+"en": "Website"
+},
+"Stuur mij de capaciteitsscan →": {
+"en": "Send me the capacity scan →"
+},
+"Binnen een werkdag in je mailbox. Geen verplichtingen en geen verkoopgesprek vooraf.": {
+"en": "In your inbox within one working day. No obligations and no sales call first."
+},
+"anders betaal je niets totdat we dat wel leveren": {
+"en": "otherwise you pay nothing until we deliver"
+},
+"Zelf blijven bellen, of": {
+"en": "Keep calling yourself, or"
+},
+"In het gratis kennismakingsgesprek van 30 minuten kijken we naar je aanbod, je instroom en welk model past. Je krijgt een eerlijk advies, ook als we niet samenwerken.": {
+"en": "In the free 30-minute intro call we look at your offer, your inflow and which model fits. You get honest advice, even if we don't work together."
+},
+"Anne-Roos en Demi, de oprichters. Zij doen zelf de kennismaking en de match.": {
+"en": "Anne-Roos and Demi, the founders. They do the intro and the match themselves."
+},
+"Liever eerst een vraag stellen?": {
+"en": "Rather ask a question first?"
+},
+"Demi of Anne-Roos antwoordt binnen een werkdag.": {
+"en": "Demi or Anne-Roos replies within one working day."
+},
+"Naam *": {
+"en": "Name *"
+},
+"Je vraag": {
+"en": "Your question"
+},
+"(optioneel)": {
+"en": "(optional)"
+},
+"Verstuur je vraag →": {
+"en": "Send your question →"
+},
+"Antwoord binnen een werkdag. Geen nieuwsbrief. Zie ons": {
+"en": "Reply within one working day. No newsletter. See our"
+},
+"privacybeleid": {
+"en": "privacy policy"
+},
+"Direct mailen kan ook, zelfde antwoordtijd": {
+"en": "Emailing directly works too, same response time"
+},
+"Op werkdagen tussen 9 en 18 uur": {
+"en": "On working days between 9 and 18"
+},
+"Bekijk beschikbare setters zonder gesprek": {
+"en": "See available setters without a call"
+},
+"Bijvoorbeeld: wij verkopen IT-beheer aan MKB-bedrijven in de Randstad, leads komen uit onze website en e-mailcampagnes, niemand belt ze dezelfde dag terug": {
+"en": "For example: we sell IT management to SMEs in the Randstad, leads come from our website and email campaigns, nobody calls them back the same day"
+},
+"Anne-Roos en Demi, de oprichters van Link2Talent, aan het werk": {
+"en": "Anne-Roos and Demi, the founders of Link2Talent, at work"
+},
+"Bijvoorbeeld: wij krijgen 30 reacties per week uit onze campagne en niemand belt ze dezelfde dag terug. Is 10 uur per week genoeg?": {
+"en": "For example: we get 30 replies per week from our campaign and nobody calls them back the same day. Is 10 hours per week enough?"
+},
+"per week?": {
+"en": "per week?"
+},
+"De vraag die iedereen stelt voordat hij een setter inhuurt. Hier staan de cijfers uit onze eigen plaatsingen, wat ze bepaalt en hoe je ze omrekent naar jouw situatie.": {
+"en": "The question everyone asks before hiring a setter. Here are the numbers from our own placements, what determines them and how to convert them to your situation."
+},
+"Kort antwoord: een afspraak per gewerkt uur als het aanbod helder is en de instroom er al is, een afspraak per twee uur als de doelgroep smal is of het aanbod uitleg vraagt. Bij tien uur per week is dat vijf tot tien afspraken per week.": {
+"en": "Short answer: one meeting per hour worked if the offer is clear and the inflow is already there, one meeting per two hours if the target group is narrow or the offer needs explanation. At ten hours per week that is five to ten meetings per week."
+},
+"De cijfers uit onze eigen plaatsingen": {
+"en": "The numbers from our own placements"
+},
+"Situatie": {
+"en": "Situation"
+},
+"Afspraken": {
+"en": "Meetings"
+},
+"Bron": {
+"en": "Source"
+},
+"Reacties opvolgen bij een marketingbureau": {
+"en": "Following up replies at a marketing agency"
+},
+"10 per week bij 10 uur, dus 1 per uur": {
+"en": "10 per week at 10 hours, so 1 per hour"
+},
+"Case marketingbureau": {
+"en": "Marketing agency case"
+},
+"Toegankelijke campagne bij een belkantoor": {
+"en": "Accessible campaign at a call centre"
+},
+"Case belkantoor": {
+"en": "Call centre case"
+},
+"Moeilijkere campagne bij een belkantoor": {
+"en": "Harder campaign at a call centre"
+},
+"Drie situaties, twee uitersten. Een afspraak per uur is wat een ervaren setter haalt als de instroom er is en het aanbod in een zin uit te leggen is. Een afspraak per twee uur is de ondergrens die we zien als de doelgroep smal is of als de setter eerst moet uitleggen wat het product doet.": {
+"en": "Three situations, two extremes. One meeting per hour is what an experienced setter achieves when the inflow is there and the offer can be explained in one sentence. One meeting per two hours is the lower limit we see when the target group is narrow or the setter first has to explain what the product does."
+},
+"Wat het aantal bepaalt": {
+"en": "What determines the number"
+},
+"De setter zelf is maar een van de vier variabelen. De andere drie liggen bij jou.": {
+"en": "The setter is only one of four variables. The other three are on your side."
+},
+"Instroom.": {
+"en": "Inflow."
+},
+"Een setter die reacties opvolgt zet meer afspraken dan een setter die een koude lijst belt. Reacties zijn warm, een lijst is dat niet. Heb je geen instroom, dan combineer je de setter met een campagne, bijvoorbeeld via": {
+"en": "A setter who follows up replies books more meetings than a setter who calls a cold list. Replies are warm, a list is not. If you have no inflow, combine the setter with a campaign, for example through"
+},
+"Aanbod.": {
+"en": "Offer."
+},
+"Een dienst die in een zin uit te leggen is, met een duidelijke prijs, converteert sneller aan de telefoon dan een product dat een demo nodig heeft om begrepen te worden.": {
+"en": "A service that can be explained in one sentence, with a clear price, converts faster on the phone than a product that needs a demo to be understood."
+},
+"Doelgroep.": {
+"en": "Target group."
+},
+"Hoe breder de doelgroep, hoe meer bereikbare beslissers per uur. Een smalle niche betekent meer zoeken per gesprek.": {
+"en": "The broader the target group, the more reachable decision-makers per hour. A narrow niche means more searching per conversation."
+},
+"Aansturing.": {
+"en": "Management."
+},
+"Een setter die dagelijks feedback krijgt op gesprekken en bezwaren zit binnen twee weken op niveau. Zonder feedback duurt dat langer. Wat je daarvoor doet staat in": {
+"en": "A setter who gets daily feedback on conversations and objections is up to speed within two weeks. Without feedback it takes longer. What you do for that is in"
+},
+"remote setter aansturen: de eerste 30 dagen": {
+"en": "managing a remote setter: the first 30 days"
+},
+"Omrekenen naar jouw situatie": {
+"en": "Converting to your situation"
+},
+"Neem het aantal uren dat je een setter wilt inzetten en vermenigvuldig met een afspraak per uur voor het gunstige scenario en een per twee uur voor het voorzichtige. Bij 16 uur per week is dat 8 tot 16 afspraken per week. Vermenigvuldig met je close rate en je hebt het aantal nieuwe klanten per week. Zet daar je ordergrootte naast en je ziet wat de setter oplevert tegenover wat hij kost.": {
+"en": "Take the number of hours you want to deploy a setter and multiply by one meeting per hour for the favourable scenario and one per two hours for the cautious one. At 16 hours per week that is 8 to 16 meetings per week. Multiply by your close rate and you have the number of new clients per week. Put your order size next to that and you see what the setter delivers against what they cost."
+},
+"De": {
+"en": "The"
+},
+"doet die som voor je. Vul je uurtarief, je close rate en je ordergrootte in.": {
+"en": "does that calculation for you. Enter your hourly rate, your close rate and your order size."
+},
+"Wat een realistische verwachting is in de eerste weken": {
+"en": "What a realistic expectation is in the first weeks"
+},
+"Week 1 en 2 zijn intake, match en inwerken. De eerste afspraken komen in week 3. Reken de eerste maand op de ondergrens en beoordeel pas na zes weken of het aantal klopt met de benchmark. Wie na twee weken oordeelt, beoordeelt het inwerken en niet de setter.": {
+"en": "Weeks 1 and 2 are intake, match and onboarding. The first meetings come in week 3. Count on the lower limit in the first month and only judge after six weeks whether the number matches the benchmark. Whoever judges after two weeks is judging the onboarding, not the setter."
+},
+"Zet een fulltime setter twee keer zoveel als een parttime setter?": {
+"en": "Does a full-time setter book twice as much as a part-time one?"
+},
+"Meestal wel, zolang de instroom het toelaat. Bij reacties opvolgen is de instroom de grens: als er twintig reacties per week zijn, heeft een setter aan tien uur genoeg.": {
+"en": "Usually yes, as long as the inflow allows it. When following up replies the inflow is the limit: with twenty replies per week, ten hours is enough for a setter."
+},
+"Wat als mijn setter onder de benchmark zit?": {
+"en": "What if my setter is below the benchmark?"
+},
+"Kijk eerst naar de instroom en het aanbod, daar zit het meestal. Zit het bij de setter, dan wisselen we. Dat kan altijd, zonder ontslagtraject.": {
+"en": "Look at the inflow and the offer first, that is usually where it is. If it is the setter, we switch. That is always possible, without a dismissal procedure."
+},
+"Tellen alleen gekwalificeerde afspraken mee?": {
+"en": "Do only qualified meetings count?"
+},
+"Ja. Een afspraak is pas een afspraak als de prospect past bij de definitie die je vooraf hebt gegeven. Die definitie leggen we in de intake vast.": {
+"en": "Yes. A meeting only counts when the prospect fits the definition you gave upfront. We set that definition during intake."
+},
+"Een afspraak per uur op toegankelijke campagnes": {
+"en": "One meeting per hour on accessible campaigns"
+},
+"Wat kost een appointment setter": {
+"en": "What does an appointment setter"
+},
+"inhuren?": {
+"en": "cost to hire?"
+},
+"De prijs van een setter is geen geheim. Hier staan de drie modellen, wat een afspraak per model kost en hoe je dat naast een SDR in dienst legt.": {
+"en": "The price of a setter is no secret. Here are the three models, what a meeting costs per model and how to put that next to an in-house SDR."
+},
+"Kort antwoord: op het uurtarief-model betaal je het tarief van de setter plus 20 procent, bijvoorbeeld 37,50 per uur bij een setter van 30. Bij een afspraak per uur is dat 37,50 per afspraak. Geen recruitmentfee, geen opstartkosten, per maand op- en afschalen.": {
+"en": "Short answer: on the hourly-rate model you pay the setter's rate plus 20 percent, for example 37.50 per hour for a setter at 30. At one meeting per hour that is 37.50 per meeting. No recruitment fee, no setup costs, scale up and down per month."
+},
+"De drie modellen": {
+"en": "The three models"
+},
+"Model": {
+"en": "Model"
+},
+"Wat je betaalt": {
+"en": "What you pay"
+},
+"Wanneer het past": {
+"en": "When it fits"
+},
+"Tarief van de setter plus 20 procent bemiddelingsfee. Setter 30 per uur wordt 37,50.": {
+"en": "Setter's rate plus 20 percent placement fee. Setter at 30 per hour becomes 37.50."
+},
+"Als je voorspelbare kosten wilt en zelf aanstuurt. Het meest gekozen model.": {
+"en": "If you want predictable costs and manage yourself. The most chosen model."
+},
+"Commissie per geboekte afspraak of per gesloten klant, plus een kleine bemiddelingsfee.": {
+"en": "Commission per booked meeting or per closed client, plus a small placement fee."
+},
+"Als het resultaat eenduidig meetbaar is en je alleen bij resultaat wilt betalen.": {
+"en": "If the result is clearly measurable and you only want to pay on results."
+},
+"295 per maand per setter.": {
+"en": "295 per month per setter."
+},
+"Als je structurele capaciteit wilt met alles via het platform geregeld.": {
+"en": "If you want structural capacity with everything arranged through the platform."
+},
+"Wat een afspraak kost": {
+"en": "What a meeting costs"
+},
+"Op het uurtarief-model hangt de prijs per afspraak af van hoeveel afspraken de setter per uur zet. Uit onze plaatsingen: een per uur op toegankelijke campagnes, een per twee uur op moeilijkere. Bij 37,50 per uur is een afspraak dus 37,50 tot 75 euro.": {
+"en": "On the hourly-rate model the price per meeting depends on how many meetings the setter books per hour. From our placements: one per hour on accessible campaigns, one per two hours on harder ones. At 37.50 per hour a meeting is therefore 37.50 to 75 euros."
+},
+"Reken door naar een nieuwe klant. Bij een close rate van 30 procent, zoals bij het": {
+"en": "Work it through to a new client. At a close rate of 30 percent, as with the"
+},
+"marketingbureau in onze case": {
+"en": "marketing agency in our case"
+},
+", kost een nieuwe klant 125 tot 250 euro aan setterkosten. Zet daar je ordergrootte naast en de beslissing is een rekensom.": {
+"en": ", a new client costs 125 to 250 euros in setter costs. Put your order size next to that and the decision is a calculation."
+},
+"Wat er in de fee zit": {
+"en": "What is in the fee"
+},
+"Selectie en voordracht van een setter die bij je aanbod past, het contract, de betaling en de facturatie via het platform, communicatie met de setter en met ons op een plek, rapportage van activiteit, afspraken en uren, wisselen van setter als je dat wilt en opschalen met extra setters of closers. Wat er niet in zit: het inhoudelijk aansturen van de setter, dat doe jij, en de instroom van leads, daar is": {
+"en": "Selection and proposal of a setter who fits your offer, the contract, payment and invoicing through the platform, communication with the setter and with us in one place, reporting on activity, meetings and hours, switching setters whenever you want and scaling with extra setters or closers. What is not in it: managing the setter day to day, that is on you, and the inflow of leads, that is what"
+},
+"voor.": {
+"en": "is for."
+},
+"Naast een SDR in dienst": {
+"en": "Next to an in-house SDR"
+},
+"Per uur is een SDR in dienst goedkoper zodra hij goed draait. Alles eromheen is duurder: werving, inwerktijd, werkgeverslasten, tooling en de uren van degene die aanstuurt. De volledige rekensom staat in": {
+"en": "Per hour an in-house SDR is cheaper once they are performing. Everything around it is more expensive: recruitment, onboarding time, employer costs, tooling and the hours of whoever manages. The full calculation is in"
+},
+", de afweging in": {
+"en": ", the trade-off in"
+},
+"Naast een callbureau": {
+"en": "Next to a call centre"
+},
+"Een callbureau rekent meestal een opstartfee en een minimumafname, en de beller is wie er die dag beschikbaar is. Bij ons kies je de setter zelf, stuur je hem aan als een eigen collega en betaal je per uur, per afspraak of per seat. De vergelijking op negen punten staat op de": {
+"en": "A call centre usually charges a setup fee and a minimum commitment, and the caller is whoever is available that day. With us you choose the setter yourself, manage them like a colleague of your own and pay per hour, per meeting or per seat. The nine-point comparison is on the"
+},
+"Zijn er opstartkosten?": {
+"en": "Are there setup costs?"
+},
+"Nee. Geen recruitmentfee en geen setupfee. Je betaalt vanaf het moment dat de setter werkt.": {
+"en": "No. No recruitment fee and no setup fee. You pay from the moment the setter works."
+},
+"Ja, per maand via het platform. Veel opdrachtgevers starten op uurtarief en stappen over zodra ze weten wat een afspraak oplevert.": {
+"en": "Yes, per month through the platform. Many clients start on the hourly rate and switch once they know what a meeting delivers."
+},
+"Wat bepaalt het uurtarief van de setter?": {
+"en": "What determines the setter's hourly rate?"
+},
+"Ervaring en beschikbaarheid. De meeste setters zitten rond de 30 per uur; daar komt onze fee van 20 procent bovenop.": {
+"en": "Experience and availability. Most setters are around 30 per hour; our 20 percent fee comes on top."
+},
+"De benchmark uit onze eigen plaatsingen": {
+"en": "The benchmark from our own placements"
+},
+"Alle posten naast het salaris": {
+"en": "All the items besides salary"
+},
+"Welk prijsmodel bij je resultaat past": {
+"en": "Which pricing model fits your result"
+},
+"Appointment setting uitbesteden:": {
+"en": "Outsourcing appointment setting:"
+},
+"bureau, freelancer of platform": {
+"en": "agency, freelancer or platform"
+},
+"Wie afspraken wil laten zetten heeft vier routes. Ze verschillen vooral in wie de beller kiest, wie aanstuurt en wat je betaalt als het niet loopt.": {
+"en": "Anyone who wants meetings booked has four routes. They differ mainly in who chooses the caller, who manages and what you pay if it doesn't work out."
+},
+"Kort antwoord: een callbureau is het snelst als je geen tijd hebt om aan te sturen en het script niet uitmaakt. Een freelancer is het goedkoopst als je zelf kunt zoeken en selecteren. Een recruitmentbureau past als je iemand in dienst wilt. Een platform zit ertussenin: jij kiest en stuurt aan, het platform regelt de rest.": {
+"en": "Short answer: a call centre is fastest if you have no time to manage and the script doesn't matter. A freelancer is cheapest if you can search and select yourself. A recruitment agency fits if you want to hire someone. A platform sits in between: you choose and manage, the platform arranges the rest."
+},
+"De vier routes naast elkaar": {
+"en": "The four routes side by side"
+},
+"Freelancer": {
+"en": "Freelancer"
+},
+"Platform (Link2Talent)": {
+"en": "Platform (Link2Talent)"
+},
+"Afhankelijk van je zoektocht": {
+"en": "Depends on your search"
+},
+"Wie beschikbaar is op de belvloer": {
+"en": "Whoever is available on the call floor"
+},
+"De persoon die je zelf vindt": {
+"en": "The person you find yourself"
+},
+"Een geselecteerde setter die jij goedkeurt": {
+"en": "A selected setter you approve"
+},
+"Fee als percentage van het jaarsalaris, plus salaris": {
+"en": "Fee as a percentage of annual salary, plus salary"
+},
+"Uurtarief plus 20 procent, commissie of seat": {
+"en": "Hourly rate plus 20 percent, commission or seat"
+},
+"Contract uitzitten of afkopen": {
+"en": "Sit out the contract or buy it off"
+},
+"Contract en betaling": {
+"en": "Contract and payment"
+},
+"Via het bureau": {
+"en": "Through the agency"
+},
+"Arbeidscontract en salarisadministratie": {
+"en": "Employment contract and payroll"
+},
+"Via het platform": {
+"en": "Through the platform"
+},
+"Wanneer een callbureau past": {
+"en": "When a call centre fits"
+},
+"Als je een groot volume hebt, een eenvoudig aanbod en geen tijd of zin om zelf aan te sturen. Je koopt uren of afspraken, het bureau regelt de rest. De prijs daarvoor is dat je niet kiest wie er belt en dat het script van het bureau is.": {
+"en": "If you have a large volume, a simple offer and no time or desire to manage yourself. You buy hours or meetings, the agency arranges the rest. The price is that you don't choose who calls and that the script is the agency's."
+},
+"Wanneer een freelancer past": {
+"en": "When a freelancer fits"
+},
+"Als je zelf goed kunt selecteren, tijd hebt om te zoeken en het niet erg vindt om contract, uren en betaling zelf te regelen. Het is de goedkoopste route per uur en de duurste in je eigen tijd. Zit je ernaast, dan begin je opnieuw.": {
+"en": "If you can select well yourself, have time to search and don't mind arranging contract, hours and payment yourself. It is the cheapest route per hour and the most expensive in your own time. If you get it wrong, you start over."
+},
+"Wanneer een recruitmentbureau past": {
+"en": "When a recruitment agency fits"
+},
+"Als je zeker weet dat je voor minstens een jaar een fulltime rol te vullen hebt en iemand in dienst wilt. Dan bouw je iets op wat blijft. De rekensom daarvoor staat in": {
+"en": "If you are sure you have a full-time role to fill for at least a year and want to hire someone. Then you build something that stays. The calculation for that is in"
+},
+"Wanneer een platform past": {
+"en": "When a platform fits"
+},
+"Als je wel zelf wilt kiezen en aansturen, maar niet wilt werven, contracteren en factureren. Bij Link2Talent dragen wij een setter voor, jij keurt hem goed en werkt hem in, en contract, betaling en rapportage lopen via het platform. Klikt het niet, dan wisselen we. Dat is de route voor wie de voordelen van een eigen setter wil zonder de werkgeversrol.": {
+"en": "If you do want to choose and manage yourself, but don't want to recruit, contract and invoice. At Link2Talent we propose a setter, you approve and onboard them, and contract, payment and reporting run through the platform. If it doesn't click, we switch. That is the route for anyone who wants the benefits of their own setter without the employer role."
+},
+"Drie vragen. Wil je zelf bepalen wie er belt en wat hij zegt? Dan valt het callbureau af. Heb je tijd om zelf te werven en te contracteren? Zo niet, dan valt de freelancer af. Weet je zeker dat het volume er over twaalf maanden nog is? Zo niet, dan valt het dienstverband af. Wat overblijft is het platform, of een combinatie: starten via het platform en na een half jaar beslissen of het een vaste rol wordt.": {
+"en": "Three questions. Do you want to decide who calls and what they say? Then the call centre is out. Do you have time to recruit and contract yourself? If not, the freelancer is out. Are you sure the volume will still be there in twelve months? If not, employment is out. What remains is the platform, or a combination: start through the platform and decide after six months whether it becomes a permanent role."
+},
+"Kan ik via Link2Talent ook een closer inhuren?": {
+"en": "Can I also hire a closer through Link2Talent?"
+},
+"Ja. Een closer voert de verkoopgesprekken die de setter inplant. Los of samen, via hetzelfde platform.": {
+"en": "Yes. A closer runs the sales conversations the setter books. Separately or together, through the same platform."
+},
+"Wat als ik geen leads heb om te laten bellen?": {
+"en": "What if I have no leads to call?"
+},
+"Dan regelen we de instroom via ons zusterbedrijf Link2Leads: e-mailcampagnes naar jouw doelgroep, waarvan alleen de positieve reacties bij je setter komen.": {
+"en": "Then we arrange the inflow through our sister company Link2Leads: email campaigns to your target group, of which only the positive replies reach your setter."
+},
+"Is een platform duurder dan een freelancer?": {
+"en": "Is a platform more expensive than a freelancer?"
+},
+"Per uur ja, met de fee van 20 procent. Daar staat tegenover dat selectie, contract, betaling en wisselen geregeld zijn. Wie dat zelf doet, betaalt het in tijd.": {
+"en": "Per hour yes, with the 20 percent fee. In return, selection, contract, payment and switching are taken care of. Whoever does that themselves pays in time."
+},
+"Appointment setting bureaus in Nederland vergeleken": {
+"en": "Appointment setting agencies in the Netherlands compared"
+},
+"Inhuren of aannemen": {
+"en": "Hire or employ"
+},
+"Tien praktische artikelen over rollen, modellen, kosten en aansturing, plus de": {
+"en": "Ten practical articles on roles, models, costs and management, plus the"
+},
+"vergelijking van aanbieders in Nederland": {
+"en": "comparison of providers in the Netherlands"
+},
+"Cijfers": {
+"en": "Numbers"
+},
+"Uit onze eigen plaatsingen: een afspraak per uur op toegankelijke campagnes, een per twee uur op moeilijke. Wat het bepaalt en hoe je het doorrekent.": {
+"en": "From our own placements: one meeting per hour on accessible campaigns, one per two hours on hard ones. What determines it and how to work it out."
+},
+"Uurtarief plus 20 procent, commissie per afspraak of 295 per seat. Met rekenvoorbeelden per afspraak en per nieuwe klant.": {
+"en": "Hourly rate plus 20 percent, commission per meeting or 295 per seat. With worked examples per meeting and per new client."
+},
+"Wat je zelf doet in de eerste maand zodat een setter binnen drie weken op de benchmark zit.": {
+"en": "What you do yourself in the first month so a setter reaches the benchmark within three weeks."
+},
+"Appointment setting uitbesteden: bureau, freelancer of platform": {
+"en": "Outsourcing appointment setting: agency, freelancer or platform"
+},
+"Vier routes op opstarttijd, kosten, aansturing en wat er gebeurt als het niet klikt.": {
+"en": "Four routes on start-up time, costs, management and what happens if it doesn't click."
+},
+"Remote setter aansturen:": {
+"en": "Managing a remote setter:"
+},
+"de eerste 30 dagen": {
+"en": "the first 30 days"
+},
+"Wij regelen de match, het contract en de betaling. Het aansturen doe jij. Dit is wat de opdrachtgevers doen bij wie een setter binnen drie weken op de benchmark zit.": {
+"en": "We arrange the match, the contract and the payment. The managing is on you. This is what the clients do whose setter reaches the benchmark within three weeks."
+},
+"Kort antwoord: werk de setter in op je aanbod en je toon, geef de eerste twee weken dagelijks feedback op gesprekken, leg vast wat een goede afspraak is en houd een vast weekmoment aan. Meer is het niet, minder werkt niet.": {
+"en": "Short answer: onboard the setter on your offer and tone, give daily feedback on calls in the first two weeks, define what a good meeting is and keep a fixed weekly slot. That's all it is, and less doesn't work."
+},
+"Week 1: inwerken op aanbod, doelgroep en toon": {
+"en": "Week 1: onboarding on offer, target group and tone"
+},
+"De setter belt namens jou, dus hij moet klinken als jij. Plan in de eerste week drie sessies van een uur: een over het aanbod en de prijs, een over de doelgroep en de bezwaren die je vaak hoort, en een waarin je zelf twee gesprekken voert terwijl de setter meeluistert. Geef hem daarna je drie beste klantverhalen, kort en concreet. Dat is zijn materiaal aan de telefoon.": {
+"en": "The setter calls on your behalf, so they need to sound like you. Plan three one-hour sessions in the first week: one on the offer and the price, one on the target group and the objections you hear often, and one in which you run two calls yourself while the setter listens in. Then give them your three best client stories, short and concrete. That is their material on the phone."
+},
+"Week 2: dagelijks tien minuten feedback": {
+"en": "Week 2: ten minutes of feedback daily"
+},
+"De eerste belweek is de belangrijkste. Luister elke dag een of twee gesprekken terug, of bel tien minuten aan het einde van de dag. Zeg wat goed ging en wat je anders zou zeggen. Setters die in week 2 dagelijks feedback krijgen zitten in week 3 op niveau; setters die het zelf moeten uitzoeken doen daar een maand langer over.": {
+"en": "The first calling week is the most important. Listen back to one or two calls each day, or call for ten minutes at the end of the day. Say what went well and what you would say differently. Setters who get daily feedback in week 2 are up to speed in week 3; setters who have to work it out themselves take a month longer."
+},
+"Een definitie van een goede afspraak": {
+"en": "A definition of a good meeting"
+},
+"Zonder definitie stuur je op aantallen, en dan krijg je aantallen. Leg vast wie de prospect moet zijn, wat er in het gesprek bevestigd moet zijn en wat de prospect verwacht in het vervolggesprek. Zet die definitie in de agenda-uitnodiging die de setter verstuurt. Zo weet iedereen wat er telt.": {
+"en": "Without a definition you manage on numbers, and then you get numbers. Define who the prospect must be, what must be confirmed in the call and what the prospect expects in the follow-up. Put that definition in the calendar invite the setter sends. That way everyone knows what counts."
+},
+"Instroom regelen": {
+"en": "Arranging inflow"
+},
+"Een setter zonder lijst of reacties zit stil. Zorg dat er op dag een iets te bellen is: openstaande reacties, oude offertes, een lijst uit je CRM of een campagne. Heb je dat niet, dan regelen we de instroom via": {
+"en": "A setter without a list or replies sits idle. Make sure there is something to call on day one: open replies, old quotes, a list from your CRM or a campaign. If you don't have that, we arrange the inflow through"
+},
+"Vanaf week 3: een vast weekmoment": {
+"en": "From week 3: a fixed weekly slot"
+},
+"Een half uur per week, vaste dag, vaste tijd. Drie vragen: hoeveel gesprekken, hoeveel afspraken, wat hoorde je aan bezwaren. De rapportage in het platform geeft de cijfers, het gesprek geeft de context. Meer overleg is zelden nodig als de eerste twee weken goed zijn gedaan.": {
+"en": "Half an hour per week, fixed day, fixed time. Three questions: how many conversations, how many meetings, what objections did you hear. The reporting in the platform gives the numbers, the conversation gives the context. More consultation is rarely needed if the first two weeks were done well."
+},
+"Wat je niet hoeft te doen": {
+"en": "What you don't have to do"
+},
+"Contracten, uren bijhouden, facturatie en het gesprek als een match niet klikt. Dat loopt via ons. Wil je wisselen van setter, dan zeg je het en dragen wij een ander voor.": {
+"en": "Contracts, tracking hours, invoicing and the conversation when a match doesn't click. That runs through us. If you want to switch setters, you say so and we propose another."
+},
+"Hoeveel tijd kost aansturen per week?": {
+"en": "How much time does managing take per week?"
+},
+"In week 1 en 2 een tot twee uur per dag, daarna een half uur per week. Dat is de investering die het verschil maakt tussen een setter op de benchmark en een setter eronder.": {
+"en": "In weeks 1 and 2 one to two hours per day, after that half an hour per week. That is the investment that makes the difference between a setter on the benchmark and one below it."
+},
+"Moet ik gesprekken opnemen?": {
+"en": "Should I record calls?"
+},
+"Het helpt bij feedback, zeker in de eerste twee weken. Regel het volgens de regels die voor jouw sector gelden en zeg het tegen de setter.": {
+"en": "It helps with feedback, especially in the first two weeks. Arrange it according to the rules that apply in your sector and tell the setter."
+},
+"Wat als ik zelf geen tijd heb om aan te sturen?": {
+"en": "What if I have no time to manage myself?"
+},
+"Dan is een setter te vroeg. Dat staat ook in \"dit werkt, maar niet voor iedereen\" op de homepage. Een closer die het hele traject overneemt is dan een optie om te bespreken.": {
+"en": "Then a setter is too early. That is also in \"this works, but not for everyone\" on the homepage. A closer who takes over the whole process is then an option to discuss."
+},
+"De benchmark om op te sturen": {
+"en": "The benchmark to manage on"
+},
+"Wat een opdrachtgever deed die in drie weken op niveau zat": {
+"en": "What a client did who was up to speed in three weeks"
+},
+/* ── Alt-teksten foto's (25 sept 2026) ── */
+"Anne-Roos en Demi van Link2Talent": {
+"en": "Anne-Roos and Demi of Link2Talent"
+},
+"Anne-Roos van Link2Talent": {
+"en": "Anne-Roos of Link2Talent"
+},
+"Demi van Link2Talent aan de telefoon": {
+"en": "Demi of Link2Talent on the phone"
+},
+"Demi van Link2Talent": {
+"en": "Demi of Link2Talent"
+},
+"Anne-Roos en Demi van Link2Talent in overleg": {
+"en": "Anne-Roos and Demi of Link2Talent in discussion"
 }
 };

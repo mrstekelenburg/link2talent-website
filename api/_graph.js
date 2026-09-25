@@ -1,11 +1,11 @@
-/* Microsoft Graph — maakt de afspraak aan in de Outlook-agenda van Link2Talent
+/* Microsoft Graph — maakt de afspraak aan in de Outlook-agenda van Link2Talent (dezelfde agenda als Link2Leads)
    en laat Outlook zelf de uitnodiging naar de prospect sturen (incl. Teams-link).
 
    Benodigde omgevingsvariabelen in Vercel:
      MS_TENANT_ID        - de tenant-id uit Entra
      MS_CLIENT_ID        - de app-id (client-id) van de app-registratie
      MS_CLIENT_SECRET    - het geheim van die app-registratie
-     MS_CALENDAR_USER    - het postvak waarin de afspraak komt (bijv. demi@link2leads.nl (dezelfde agenda als Link2Leads))
+     MS_CALENDAR_USER    - het postvak waarin de afspraak komt (bijv. demi@link2leads.nl)
      MS_EXTRA_ATTENDEES  - optioneel, komma-gescheiden extra deelnemers (bijv. anneroos@link2leads.nl)
      MS_CHECK_CALENDARS  - optioneel, komma-gescheiden agenda's die meetellen voor de
                            beschikbaarheid. Standaard alleen MS_CALENDAR_USER.
@@ -14,6 +14,10 @@
    api/book.js automatisch terug op het meesturen van een .ics-bestand. */
 
 const GRAPH = 'https://graph.microsoft.com/v1.0';
+
+/* Onderwerp van elke afspraak die via /book wordt gemaakt. api/remind.js
+   herkent de kennismakingsgesprekken in de agenda aan dit begin van het onderwerp. */
+const EVENT_PREFIX = 'Kennismaking Link2Talent';
 
 function configured() {
   return !!(process.env.MS_TENANT_ID && process.env.MS_CLIENT_ID &&
@@ -88,11 +92,11 @@ async function createEvent(opts) {
     .forEach(a => attendees.push({ emailAddress: { address: a }, type: 'required' }));
 
   const body = {
-    subject: 'Strategiecall Link2Leads' + (opts.companyName ? ' x ' + opts.companyName : ''),
+    subject: EVENT_PREFIX + (opts.companyName ? ' x ' + opts.companyName : ''),
     body: {
       contentType: 'HTML',
       content:
-        `<p>Strategiecall van ${opts.minutes || 30} minuten met Link2Leads.</p>` +
+        `<p>Gratis kennismakingsgesprek van ${opts.minutes || 30} minuten met Link2Talent.</p>` +
         (opts.companyName ? `<p>Bedrijf: ${opts.companyName}</p>` : '') +
         (opts.phone ? `<p>Telefoon: ${opts.phone}</p>` : '') +
         `<p>Boekingsnummer: ${opts.ref || '-'}</p>`
@@ -226,6 +230,78 @@ async function getBusy(dateKey) {
   return busy;
 }
 
+/* Alle gesprekken in de agenda die tussen nu en over `hoursAhead` uur beginnen
+   en waar een herinnering voor moet. Regel: het woord "Link2Talent" in het
+   onderwerp (boekingen van /book beginnen met EVENT_PREFIX, handmatige
+   uitnodigingen heten bijv. "Intake Link2Talent x Bedrijf") of de
+   categorie CAT_AAN. Categorie CAT_UIT sluit een afspraak uit.
+   Tijden komen in wereldtijd terug (ISO met Z), inclusief deelnemers,
+   categorieen en de Teams-link. Voor api/remind.js. */
+const CAT_AAN = 'L2T herinnering aan';
+const CAT_UIT = 'L2T geen herinnering';
+
+async function listUpcoming(hoursAhead) {
+  if (!configured()) return null;
+  const user = encodeURIComponent(process.env.MS_CALENDAR_USER);
+  const from = new Date(Date.now() - 60 * 60 * 1000).toISOString();
+  const to = new Date(Date.now() + (hoursAhead || 26) * 60 * 60 * 1000).toISOString();
+  const url = `${GRAPH}/users/${user}/calendarView` +
+    `?startDateTime=${encodeURIComponent(from)}&endDateTime=${encodeURIComponent(to)}` +
+    `&$select=id,subject,start,end,isCancelled,isAllDay,attendees,categories,onlineMeeting,webLink,bodyPreview` +
+    `&$top=100&$orderby=start/dateTime`;
+
+  const res = await fetch(url, { headers: { Authorization: 'Bearer ' + (await token()) } });
+  if (!res.ok) {
+    const txt = await res.text();
+    throw new Error('Agenda uitlezen mislukt (' + res.status + '): ' + txt.slice(0, 250));
+  }
+  const data = await res.json();
+  return (data.value || [])
+    .filter(ev => {
+      if (ev.isCancelled || ev.isAllDay) return false;
+      const cats = ev.categories || [];
+      if (cats.includes(CAT_UIT)) return false;
+      const subj = String(ev.subject || '');
+      return subj.startsWith(EVENT_PREFIX) || /link2talent/i.test(subj) || cats.includes(CAT_AAN);
+    })
+    .map(ev => ({
+      id: ev.id,
+      subject: ev.subject,
+      startUtc: new Date(String(ev.start.dateTime).slice(0, 19) + 'Z'),
+      endUtc: new Date(String(ev.end.dateTime).slice(0, 19) + 'Z'),
+      attendees: (ev.attendees || []).map(a => ({
+        email: (a.emailAddress && a.emailAddress.address) || '',
+        name: (a.emailAddress && a.emailAddress.name) || ''
+      })),
+      categories: ev.categories || [],
+      joinUrl: (ev.onlineMeeting && ev.onlineMeeting.joinUrl) || null,
+      webLink: ev.webLink || null,
+      bodyPreview: ev.bodyPreview || ''
+    }));
+}
+
+/* Zet een categorie op de afspraak. Categorieen zijn alleen zichtbaar voor de
+   eigenaar van de agenda, dus de deelnemers krijgen hier geen update-mail van.
+   Zo weet api/remind.js welke herinnering al verstuurd is. */
+async function addCategory(eventId, category) {
+  if (!configured()) return;
+  const user = encodeURIComponent(process.env.MS_CALENDAR_USER);
+  const getRes = await fetch(`${GRAPH}/users/${user}/events/${encodeURIComponent(eventId)}?$select=categories`, {
+    headers: { Authorization: 'Bearer ' + (await token()) }
+  });
+  const cur = getRes.ok ? ((await getRes.json()).categories || []) : [];
+  if (cur.includes(category)) return;
+  const res = await fetch(`${GRAPH}/users/${user}/events/${encodeURIComponent(eventId)}`, {
+    method: 'PATCH',
+    headers: { Authorization: 'Bearer ' + (await token()), 'Content-Type': 'application/json' },
+    body: JSON.stringify({ categories: cur.concat([category]) })
+  });
+  if (!res.ok) {
+    const txt = await res.text();
+    throw new Error('Categorie zetten mislukt (' + res.status + '): ' + txt.slice(0, 250));
+  }
+}
+
 /* Overlapt [start, end) met een van de bezette blokken? */
 function overlaps(busy, start, end) {
   return busy.some(b => start < b.end && b.start < end);
@@ -239,4 +315,4 @@ async function isFree(dateKey, time, minutes) {
   return !overlaps(busy, start, start + (minutes || 30));
 }
 
-module.exports = { configured, createEvent, getBusy, overlaps, isFree };
+module.exports = { configured, createEvent, getBusy, overlaps, isFree, listUpcoming, addCategory, EVENT_PREFIX, CAT_AAN, CAT_UIT };

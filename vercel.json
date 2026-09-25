@@ -1,3 +1,13 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/WIJZIGINGEN.md", "destination": "/", "permanent": false },
+    { "source": "/contact", "destination": "/#contact", "permanent": true },
+    { "source": "/modellen", "destination": "/#modellen", "permanent": true },
+    { "source": "/vergelijking", "destination": "/appointment-setting-bureaus-nederland", "permanent": true },
+    { "source": "/blog", "destination": "/kennis", "permanent": true },
+    { "source": "/kennis/index", "destination": "/kennis", "permanent": true },
+    { "source": "/cases/index", "destination": "/cases", "permanent": true }
+  ]
 }

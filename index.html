@@ -2017,6 +2017,89 @@ h2 span[style*="color:var(--accent)"] {
 .faq-note a{color:var(--accent2);text-decoration:underline;text-underline-offset:3px;}
 @media(max-width:640px){.faq-section{padding:72px 20px;}}
 
+
+/* ═══════════ CASES (homepage) ═══════════ */
+.hc-section{padding:0 48px 100px;}
+.hc-head{max-width:1100px;margin:0 auto 30px;}
+.hc-grid{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+.hc-card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--border);border-radius:20px;padding:26px 26px 22px;text-decoration:none;color:inherit;transition:border-color .2s,transform .2s;}
+.hc-card:hover{border-color:rgba(47,111,237,.4);transform:translateY(-3px);}
+.hc-kicker{font-size:12.5px;font-weight:800;letter-spacing:.2px;color:var(--accent2);margin-bottom:12px;}
+.hc-big{font-size:clamp(30px,3.4vw,40px);font-weight:900;letter-spacing:-1.6px;line-height:1;color:var(--white);}
+.hc-big small{display:block;margin-top:6px;font-size:14px;font-weight:600;letter-spacing:0;color:var(--muted2);}
+.hc-t{margin:18px 0 8px;font-size:17px;font-weight:800;letter-spacing:-.3px;color:var(--white);line-height:1.3;}
+.hc-p{margin:0 0 18px;font-size:14.5px;line-height:1.6;color:var(--muted2);flex:1;}
+.hc-row{display:flex;gap:14px;padding-top:14px;border-top:1px solid var(--border);}
+.hc-row span{font-size:13px;color:var(--muted2);}
+.hc-row span b{display:block;font-size:15px;font-weight:800;color:var(--white);}
+.hc-go{margin-top:16px;font-size:14px;font-weight:700;color:var(--accent2);}
+.hc-foot{max-width:1100px;margin:22px auto 0;text-align:center;font-size:14px;color:var(--muted2);}
+.hc-foot a{color:var(--accent2);text-decoration:underline;text-underline-offset:3px;}
+@media(max-width:1000px){.hc-grid{grid-template-columns:1fr;}}
+@media(max-width:900px){.hc-section{padding:0 24px 80px;}}
+
+/* ═══════════ CAPACITEITSSCAN ═══════════ */
+.scan-section{padding:0 48px 100px;}
+.scan-head{max-width:1100px;margin:0 auto 26px;}
+.scan-window{max-width:1100px;margin:0 auto;background:var(--card);border:1px solid var(--border);border-radius:22px;overflow:hidden;}
+.scan-bar{display:flex;align-items:center;gap:12px;padding:12px 18px;background:rgba(255,255,255,.04);border-bottom:1px solid var(--border);}
+.scan-bar i{width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,.16);display:inline-block;}
+.scan-bar i:nth-child(1){background:#EF4444;opacity:.8;}.scan-bar i:nth-child(2){background:#FBBF24;opacity:.8;}.scan-bar i:nth-child(3){background:#22C55E;opacity:.8;}
+.scan-url{margin-left:auto;margin-right:auto;font-size:13px;color:rgba(255,255,255,.5);background:rgba(255,255,255,.05);border-radius:100px;padding:5px 14px;}
+.scan-body{display:grid;grid-template-columns:1.05fr 1fr;gap:36px;padding:34px 36px;}
+.scan-body h3{font-size:clamp(22px,2.6vw,30px);font-weight:900;letter-spacing:-1px;line-height:1.1;margin:0 0 12px;color:var(--white);}
+.scan-body h3 .blue{color:var(--accent);}
+.scan-body p{font-size:15.5px;line-height:1.7;color:var(--muted2);margin:0 0 18px;}
+.scan-list{list-style:none;margin:0;padding:0;display:grid;gap:9px;}
+.scan-list li{position:relative;padding-left:24px;font-size:14.5px;line-height:1.55;color:rgba(240,239,237,.8);}
+.scan-list li::before{content:'\2713';position:absolute;left:0;color:#4ADE80;font-weight:700;}
+.cf-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.cf-field{display:flex;flex-direction:column;gap:7px;margin-bottom:14px;}
+.cf-field label{font-weight:700;font-size:12.5px;letter-spacing:.2px;color:var(--muted2);}
+.cf-field input,.cf-field textarea{width:100%;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.10);border-radius:11px;padding:13px 15px;color:var(--white);font-size:15px;font-family:var(--f);transition:border-color .2s,background .2s;}
+.cf-field textarea{resize:vertical;min-height:100px;line-height:1.6;}
+.cf-field input:focus,.cf-field textarea:focus{outline:none;border-color:var(--accent);background:rgba(47,111,237,.06);}
+.cf-field input::placeholder,.cf-field textarea::placeholder{color:rgba(255,255,255,.30);}
+.cf-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;}
+.cf-submit{width:100%;justify-content:center;margin-top:4px;}
+.cf-note{margin-top:14px;font-size:13.5px;line-height:1.6;color:var(--muted2);text-align:center;}
+.cf-note a{color:var(--accent2);text-decoration:underline;text-underline-offset:3px;}
+.cf-msg{margin-top:14px;border-radius:12px;padding:14px 16px;font-size:14.5px;line-height:1.6;display:none;}
+.cf-msg.ok{display:block;background:rgba(74,222,128,.09);border:1px solid rgba(74,222,128,.3);color:#BBF7D0;}
+.cf-msg.err{display:block;background:rgba(248,113,113,.09);border:1px solid rgba(248,113,113,.3);color:#FECACA;}
+@media(max-width:900px){.scan-section{padding:0 24px 80px;}.scan-body{grid-template-columns:1fr;gap:24px;padding:26px 22px;}}
+@media(max-width:520px){.cf-row{grid-template-columns:1fr;}}
+
+/* ═══════════ CONTACT ═══════════ */
+.contact-section{padding:40px 48px 110px;scroll-margin-top:60px;}
+.contact-card{max-width:1100px;margin:0 auto;background:var(--card);border:1px solid var(--border);border-radius:22px;padding:40px 36px;display:grid;grid-template-columns:1fr 1.02fr;gap:36px;align-items:stretch;}
+.contact-left{display:flex;flex-direction:column;}
+.ct-sticker{align-self:flex-start;position:relative;z-index:2;max-width:250px;margin:-70px 0 26px -58px;transform:rotate(-4deg);padding:15px 19px 16px;border-radius:16px;background:linear-gradient(150deg,#3B7BF5 0%,#1E4FC4 100%);box-shadow:0 20px 44px rgba(6,14,38,.62),inset 0 0 0 1px rgba(255,255,255,.2);}
+.ct-sticker b{display:block;font-size:20px;font-weight:900;letter-spacing:-.7px;line-height:1.1;color:#fff;}
+.ct-sticker span{display:block;margin-top:7px;font-size:13.5px;line-height:1.4;color:rgba(255,255,255,.88);}
+.contact-left h2{font-size:clamp(24px,3.4vw,31px);line-height:1.18;letter-spacing:-1px;font-weight:800;margin:0 0 14px;text-align:left;max-width:none;}
+.contact-left h2 .blue{color:var(--accent);}
+.contact-left p{font-size:15.5px;line-height:1.7;color:rgba(240,239,237,.68);margin:0 0 22px;}
+.ct-btn{display:inline-flex;align-self:flex-start;margin:0 0 24px;}
+.contact-photo{margin:auto 0 0;border-radius:16px;overflow:hidden;border:1px solid var(--border);position:relative;}
+.contact-photo img{display:block;width:100%;height:300px;object-fit:cover;object-position:center 18%;}
+.contact-photo figcaption{padding:11px 16px;font-size:13.5px;line-height:1.5;color:var(--muted2);background:rgba(255,255,255,.03);border-top:1px solid var(--border);}
+.contact-right{display:flex;flex-direction:column;gap:14px;}
+.contact-form-box{flex:1;display:flex;flex-direction:column;background:rgba(255,255,255,.028);border:1px solid var(--border);border-radius:16px;padding:22px 22px 18px;}
+.contact-form-box h3{font-size:18px;font-weight:800;letter-spacing:-.3px;color:var(--white);margin:0 0 4px;}
+.contact-form-box .cfb-sub{font-size:14px;line-height:1.55;color:var(--muted2);margin:0 0 16px;}
+.contact-right form{width:100%;flex:1;display:flex;flex-direction:column;}
+.cf-field.cf-grow{flex:1;}.cf-field.cf-grow textarea{flex:1;}
+.contact-direct{display:grid;grid-template-columns:1fr;gap:12px;}
+.contact-direct a{display:flex;align-items:center;gap:13px;background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:12px;padding:14px 16px;font-size:15px;font-weight:600;color:var(--white);transition:border-color .2s,background .2s,transform .2s;}
+.contact-direct a > span:nth-child(2){flex:1;min-width:0;}
+.contact-direct a small{display:block;margin-top:2px;font-size:12.5px;font-weight:500;color:var(--muted2);}
+.contact-direct a:hover{border-color:rgba(47,111,237,.45);background:rgba(47,111,237,.08);transform:translateX(2px);}
+.contact-direct .ci{width:36px;height:36px;border-radius:10px;background:rgba(47,111,237,.14);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--accent2);}
+.contact-direct .ci svg{width:17px;height:17px;display:block;}
+.contact-direct .cgo{color:var(--muted2);display:flex;}
+@media(max-width:900px){.contact-section{padding:20px 24px 90px;}.contact-card{grid-template-columns:1fr;gap:24px;padding:26px 18px;}.ct-sticker{margin:-50px 0 20px -6px;max-width:240px;padding:13px 16px;transform:rotate(-3deg);}.ct-sticker b{font-size:18px;}.ct-sticker span{font-size:13px;}.contact-photo img{height:210px;}}
+
 /* zusterbedrijven onderaan de pagina */
 .foot-family{max-width:1100px;margin:0 auto 26px;padding:26px 0 0;border-top:1px solid var(--border);
   display:grid;grid-template-columns:auto 1fr 1fr;gap:16px 26px;align-items:stretch;}
@@ -2170,6 +2253,7 @@ h2 span[style*="color:var(--accent)"] {
       <li><a href="/kennis/">Kennis</a></li>
       <li><a href="/cases/">Cases</a></li>
       <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
     <a href="/book" class="nav-cta" target="_blank">Plan een gesprek</a>
     <button class="nav-hamburger" id="hamburger" aria-label="Menu openen">
@@ -2186,6 +2270,7 @@ h2 span[style*="color:var(--accent)"] {
   <a href="#reviews" onclick="closeMenu()">Reviews</a>
   <a href="#faq" onclick="closeMenu()">Vragen</a>
   <a href="#team" onclick="closeMenu()">Team</a>
+  <a href="#contact" onclick="closeMenu()">Contact</a>
   <a href="/book" class="nav-mobile-cta" target="_blank">Plan een gesprek</a>
 </div>
 
@@ -2364,6 +2449,42 @@ h2 span[style*="color:var(--accent)"] {
   </div>
 </section>
 
+
+
+<!-- CASES -->
+<section class="hc-section" id="cases">
+  <div class="hc-head reveal">
+    <h2 class="sec-h">Wat een setter oplevert, <span class="blue">met cijfers</span></h2>
+    <p class="sec-sub">Drie plaatsingen zoals ze nu draaien. Klantnamen laten we weg, de cijfers niet.</p>
+  </div>
+  <div class="hc-grid">
+    <a class="hc-card reveal" href="/cases/marketingbureau">
+      <span class="hc-kicker">Marketingbureau · uurtarief</span>
+      <span class="hc-big">10 <small>afspraken per week, in 10 uur</small></span>
+      <span class="hc-t">Een afspraak per gewerkt uur</span>
+      <span class="hc-p">Een parttime setter volgt elke ochtend de reacties op. De eigenaar sluit drie op de tien.</span>
+      <span class="hc-row"><span><b>30%</b>wordt klant</span><span><b>125</b>per nieuwe klant</span></span>
+      <span class="hc-go">Lees de case →</span>
+    </a>
+    <a class="hc-card reveal" href="/cases/belkantoor">
+      <span class="hc-kicker">Belkantoor · uurtarief</span>
+      <span class="hc-big">10 <small>setters geplaatst</small></span>
+      <span class="hc-t">Een afspraak per uur, of per twee uur</span>
+      <span class="hc-p">Op toegankelijke campagnes een afspraak per uur, op moeilijkere een per twee uur. Uurtarief dezelfde dag terugverdiend.</span>
+      <span class="hc-row"><span><b>1 / uur</b>toegankelijk</span><span><b>1 / 2 uur</b>moeilijker</span></span>
+      <span class="hc-go">Lees de case →</span>
+    </a>
+    <a class="hc-card reveal" href="/cases/setter-op-commissie">
+      <span class="hc-kicker">Link2Leads · performance</span>
+      <span class="hc-big">10% <small>van het maandbedrag, elke maand</small></span>
+      <span class="hc-t">Onze eigen setter op doorlopende commissie</span>
+      <span class="hc-p">Per aangebrachte klant 10 procent van het maandbedrag, zolang die klant blijft. Geen vaste kosten.</span>
+      <span class="hc-row"><span><b>0</b>vaste kosten</span><span><b>Direct</b>uitbetaald bij betaling</span></span>
+      <span class="hc-go">Lees de case →</span>
+    </a>
+  </div>
+  <p class="hc-foot reveal">Alle drie met startsituatie, inzet en resultaat op <a href="/cases/">de casespagina</a>. Reken je eigen situatie door met de <a href="/calculator-l2t">omzetcalculator</a>.</p>
+</section>
 
 <!-- PLATFORM -->
 <section style="padding:100px 0; background:var(--bg);">
@@ -2673,6 +2794,67 @@ h2 span[style*="color:var(--accent)"] {
   </div>
 </section>
 
+
+<!-- CAPACITEITSSCAN -->
+<section class="scan-section" id="capaciteitsscan">
+  <div class="scan-head reveal">
+    <h2 class="sec-h">Hoeveel afspraken zet een setter <span class="blue">in jouw situatie?</span></h2>
+    <p class="sec-sub">Vraag de gratis capaciteitsscan aan. Binnen een werkdag in je mailbox, zonder gesprek vooraf.</p>
+  </div>
+  <div class="scan-window reveal">
+    <div class="scan-bar"><i></i><i></i><i></i><span class="scan-url">link2talent.nl/capaciteitsscan</span></div>
+    <div class="scan-body">
+      <div>
+        <h3>Eerst rekenen, <span class="blue">dan beslissen</span></h3>
+        <p>Op basis van je aanbod, je instroom en je doelgroep rekenen we uit wat een setter bij jou realistisch zet. Je krijgt een eerlijk oordeel, ook als het antwoord is dat een setter nu nog te vroeg is.</p>
+        <ul class="scan-list">
+          <li>Hoeveel afspraken per week realistisch is, met de benchmark uit onze plaatsingen</li>
+          <li>Hoeveel uur per week daarbij past</li>
+          <li>Welk model het beste aansluit: uurtarief, performance of seat</li>
+          <li>Wat een afspraak en een nieuwe klant je kost</li>
+        </ul>
+      </div>
+      <form id="scanForm" novalidate="">
+        <div class="cf-field">
+          <label for="sc-email">Zakelijk e-mailadres *</label>
+          <input autocomplete="email" id="sc-email" name="email" placeholder="naam@bedrijf.nl" required="" type="email"/>
+        </div>
+        <div class="cf-field">
+          <label for="sc-doel">Wat verkoop je, aan wie, en waar komen je leads nu vandaan? *</label>
+          <textarea id="sc-doel" name="situatie" placeholder="Bijvoorbeeld: wij verkopen IT-beheer aan MKB-bedrijven in de Randstad, leads komen uit onze website en e-mailcampagnes, niemand belt ze dezelfde dag terug" required="" style="min-height:110px;"></textarea>
+        </div>
+        <div class="cf-hp"><label for="sc-website">Website</label><input autocomplete="off" id="sc-website" name="website" tabindex="-1" type="text"/></div>
+        <button class="btn-solid cf-submit" id="scSubmit" type="submit">Stuur mij de capaciteitsscan →</button>
+        <div aria-live="polite" class="cf-msg" id="scMsg" role="status"></div>
+        <p class="cf-note">Binnen een werkdag in je mailbox. Geen verplichtingen en geen verkoopgesprek vooraf.</p>
+      </form>
+    </div>
+  </div>
+  <script>
+  (function(){
+    var f=document.getElementById('scanForm');
+    if(!f) return;
+    var btn=document.getElementById('scSubmit'), msg=document.getElementById('scMsg');
+    function show(k,t){ msg.className='cf-msg '+k; msg.textContent=t; }
+    f.addEventListener('submit',function(e){
+      e.preventDefault();
+      var email=f.email.value.trim(), doel=f.situatie.value.trim();
+      if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)){ show('err','Vul een geldig e-mailadres in, bijvoorbeeld naam@bedrijf.nl.'); f.email.focus(); return; }
+      if(!doel){ show('err','Beschrijf kort wat je verkoopt en waar je leads vandaan komen.'); f.situatie.focus(); return; }
+      btn.disabled=true; var lab=btn.textContent; btn.textContent='Versturen...'; msg.className='cf-msg';
+      fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({type:'scan',name:email.split('@')[0],email:email,question:doel,website:f.website.value})})
+        .then(function(r){ return r.json().then(function(d){ return {ok:r.ok,d:d}; }); })
+        .then(function(r){
+          if(r.ok&&r.d.ok){ f.reset(); show('ok','Dank je. Je capaciteitsscan is aangevraagd en je krijgt hem binnen een werkdag in je mailbox.'); btn.textContent='Aangevraagd'; }
+          else { show('err',(r.d&&r.d.error)||'Versturen is niet gelukt. Mail ons direct op info@link2talent.nl.'); btn.disabled=false; btn.textContent=lab; }
+        })
+        .catch(function(){ show('err','Versturen is niet gelukt. Mail ons direct op info@link2talent.nl.'); btn.disabled=false; btn.textContent=lab; });
+    });
+  })();
+  </script>
+</section>
+
 <!-- LEADS ERBIJ -->
 <section class="l2lb-section" id="leads">
   <div class="l2lb-head reveal">
@@ -2807,21 +2989,65 @@ h2 span[style*="color:var(--accent)"] {
   </div>
 </section>
 
-<!-- CTA -->
-<section class="cta-section">
-  <div class="cta-inner">
-    <div class="cta-card">
-      <div class="cta-glow"></div>
-      <div class="cta-stars" id="stars"></div>
-      <h2 class="cta-h">Zelf blijven bellen,<br>of <span class="blue">een setter erop zetten?</span></h2>
-      <p class="cta-sub">Plan een gesprek en we laten je zien hoe snel je live kunt gaan. Geen verplichtingen, gewoon een eerlijk gesprek over wat bij jou past.</p>
-      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;position:relative;z-index:1;" class="reveal">
-        <a href="https://app.link2talent.nl" target="_blank" class="btn-main">Maak een account aan</a>
-        <a href="/book" target="_blank" style="display:inline-flex;align-items:center;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);color:rgba(240,239,237,.8);font-size:15px;font-weight:600;padding:14px 26px;border-radius:10px;">Liever eerst een gesprek</a>
-      </div>
-      <p class="cta-note" style="position:relative;z-index:1;">Gratis account zonder verplichtingen</p>
-    </div>
-  </div>
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+<div class="contact-card reveal">
+<div class="contact-left">
+<div class="ct-sticker"><b>Binnen 14 dagen actief</b><span>anders betaal je niets totdat we dat wel leveren</span></div>
+<h2>Zelf blijven bellen, of <span class="blue">een setter erop zetten?</span></h2>
+<p>In het gratis kennismakingsgesprek van 30 minuten kijken we naar je aanbod, je instroom en welk model past. Je krijgt een eerlijk advies, ook als we niet samenwerken.</p>
+<a class="btn-solid ct-btn" href="/book" target="_blank">Plan een gesprek</a>
+<figure class="contact-photo">
+<img alt="Anne-Roos en Demi, de oprichters van Link2Talent, aan het werk" height="700" loading="lazy" src="/assets/img/demi-anne-roos.jpg" width="900"/>
+<figcaption>Anne-Roos en Demi, de oprichters. Zij doen zelf de kennismaking en de match.</figcaption>
+</figure>
+</div>
+<div class="contact-right">
+<div class="contact-form-box">
+<h3>Liever eerst een vraag stellen?</h3>
+<p class="cfb-sub">Demi of Anne-Roos antwoordt binnen een werkdag.</p>
+<form id="contactForm" novalidate="">
+<div class="cf-row">
+<div class="cf-field"><label for="cf-name">Naam *</label><input autocomplete="name" id="cf-name" name="name" placeholder="Voor- en achternaam" required="" type="text"/></div>
+<div class="cf-field"><label for="cf-email">Zakelijk e-mailadres *</label><input autocomplete="email" id="cf-email" name="email" placeholder="naam@bedrijf.nl" required="" type="email"/></div>
+</div>
+<div class="cf-field cf-grow"><label for="cf-question">Je vraag <span style="text-transform:none;letter-spacing:0;">(optioneel)</span></label><textarea id="cf-question" name="question" placeholder="Bijvoorbeeld: wij krijgen 30 reacties per week uit onze campagne en niemand belt ze dezelfde dag terug. Is 10 uur per week genoeg?"></textarea></div>
+<div class="cf-hp"><label for="cf-website">Website</label><input autocomplete="off" id="cf-website" name="website" tabindex="-1" type="text"/></div>
+<button class="btn-solid cf-submit" id="cfSubmit" type="submit">Verstuur je vraag →</button>
+<div aria-live="polite" class="cf-msg" id="cfMsg" role="status"></div>
+<p class="cf-note">Antwoord binnen een werkdag. Geen nieuwsbrief. Zie ons <a href="/privacy">privacybeleid</a>.</p>
+</form>
+</div>
+<div class="contact-direct">
+<a href="mailto:info@link2talent.nl"><span class="ci"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewBox="0 0 24 24"><rect height="15" rx="2.5" width="19" x="2.5" y="4.5"></rect><path d="m3 7 8.13 5.42a1.6 1.6 0 0 0 1.74 0L21 7"></path></svg></span><span>info@link2talent.nl<small>Direct mailen kan ook, zelfde antwoordtijd</small></span><span class="cgo"><svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewBox="0 0 24 24" width="16"><path d="m9 5 7 7-7 7"></path></svg></span></a>
+<a href="tel:+31850805381"><span class="ci"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewBox="0 0 24 24"><path d="M21 16.9v2.6a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.4 19.4 0 0 1-6-6A19.8 19.8 0 0 1 1.1 3.7 2 2 0 0 1 3.1 1.5h2.6a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L6.8 9.2a16 16 0 0 0 6 6l1.1-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"></path></svg></span><span>085 080 5381<small>Op werkdagen tussen 9 en 18 uur</small></span><span class="cgo"><svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewBox="0 0 24 24" width="16"><path d="m9 5 7 7-7 7"></path></svg></span></a>
+<a href="https://app.link2talent.nl" rel="noopener" target="_blank"><span class="ci"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2.5"></rect><path d="M3 9h18"></path><path d="M8 14h5"></path></svg></span><span>Maak een account aan<small>Bekijk beschikbare setters zonder gesprek</small></span><span class="cgo"><svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewBox="0 0 24 24" width="16"><path d="m9 5 7 7-7 7"></path></svg></span></a>
+</div>
+</div>
+</div>
+<script>
+(function(){
+  var f=document.getElementById('contactForm');
+  if(!f) return;
+  var btn=document.getElementById('cfSubmit'), msg=document.getElementById('cfMsg');
+  function show(kind,text){ msg.className='cf-msg '+kind; msg.textContent=text; }
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var name=f.name.value.trim(), email=f.email.value.trim();
+    if(!name){ show('err','Vul je naam in.'); f.name.focus(); return; }
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)){ show('err','Vul een geldig e-mailadres in, bijvoorbeeld naam@bedrijf.nl.'); f.email.focus(); return; }
+    btn.disabled=true; var label=btn.textContent; btn.textContent='Versturen...'; msg.className='cf-msg';
+    fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({name:name,email:email,question:f.question.value.trim(),website:f.website.value})})
+      .then(function(r){ return r.json().then(function(d){ return {ok:r.ok,d:d}; }); })
+      .then(function(r){
+        if(r.ok&&r.d.ok){ f.reset(); show('ok','Dank je. Je vraag is binnen en je hebt een bevestiging in je mailbox. Je krijgt binnen een werkdag antwoord.'); btn.textContent='Verstuurd'; }
+        else { show('err',(r.d&&r.d.error)||'Versturen is niet gelukt. Mail ons direct op info@link2talent.nl.'); btn.disabled=false; btn.textContent=label; }
+      })
+      .catch(function(){ show('err','Versturen is niet gelukt. Mail ons direct op info@link2talent.nl.'); btn.disabled=false; btn.textContent=label; });
+  });
+})();
+</script>
 </section>
 
 <!-- FOOTER -->
@@ -2892,13 +3118,6 @@ const io = new IntersectionObserver(entries => {
   });
 }, { threshold: 0.1 });
 document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-const starsEl = document.getElementById('stars');
-for (let i = 0; i < 50; i++) {
-  const s = document.createElement('div');
-  s.className = 'cta-star';
-  s.style.cssText = `left:${Math.random()*100}%;top:${Math.random()*100}%;--d:${2+Math.random()*4}s;--dl:${Math.random()*3}s`;
-  starsEl.appendChild(s);
-}
 </script>
 <script 
   src="https://widgets.leadconnectorhq.com/loader.js"  
