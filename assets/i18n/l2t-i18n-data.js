@@ -4450,5 +4450,11 @@ window.L2T_I18N_DATA = {
 },
 "Bemiddelaar van remote setters en closers voor B2B-bedrijven, onderdeel van": {
 "en": "Intermediary for remote setters and closers for B2B companies, part of"
+},
+"Liever eerst even mailen? Dat kan ook:": {
+"en": "Rather send an email first? That works too:"
+},
+"Vergelijking": {
+"en": "Comparison"
 }
 };

@@ -14,7 +14,7 @@
   // De vertaaldata is een groot bestand. Nederlandse bezoekers hebben het
   // niet nodig, dus we laden het pas zodra er daadwerkelijk naar Engels of
   // Spaans wordt geschakeld. Dat scheelt elke NL-bezoeker een halve MB.
-  var DATA_URL = "/assets/i18n/l2t-i18n-data.js?v=5";
+  var DATA_URL = "/assets/i18n/l2t-i18n-data.js?v=7";
   var dataPromise = null;
   function loadData() {
     if (window.L2T_I18N_DATA) { DATA = window.L2T_I18N_DATA; NORM = null; return Promise.resolve(); }
@@ -381,8 +381,8 @@
     if (!switcherEl) return;
     // Bij voorkeur in de navigatiebalk, links van de call to action. Zo staat
     // hij bovenaan vast, schuift hij mee met de nav en dekt hij niets af.
-    var nav = document.querySelector(".nav-inner") || document.querySelector(".navin") || document.querySelector("nav");
-    var cta = nav && (nav.querySelector(".nav-cta") || nav.querySelector(".btn.primary") || nav.querySelector(".nav-hamburger") || nav.querySelector(".nav-back"));
+    var nav = document.querySelector(".l2n-inner") || document.querySelector(".nav-inner") || document.querySelector(".navin") || document.querySelector("nav");
+    var cta = nav && (nav.querySelector(".l2n-cta") || nav.querySelector(".nav-cta") || nav.querySelector(".btn.primary") || nav.querySelector(".nav-hamburger") || nav.querySelector(".nav-back"));
     if (nav && cta) {
       switcherEl.className = "l2t-lang l2t-lang-in-nav";
       if (switcherEl.parentNode !== nav) nav.insertBefore(switcherEl, cta);

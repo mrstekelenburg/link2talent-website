@@ -37,5 +37,9 @@
 
 **Alle subpagina's** (kennis, cases, vergelijking, Amsterdam, 404, privacy, voorwaarden, calculator, book, klant) hebben nu hetzelfde menu, dezelfde footer en de WhatsApp-knop. Gedeelde stijl staat in `/assets/l2t-shared.css`.
 
+**Knoppen gelijk aan L2L (aanvulling):** alle knoppen op subpagina's hebben nu exact de L2L-opmaak (effen blauwe pil-knop en omlijnde pil-knop, zelfde maat en dikte, nagemeten). Het eindblok op kennis-, case- en vergelijkingspagina's is opgemaakt als de eind-CTA op L2L, met tweede knop "Stel eerst je vraag" en een mailregel. "Plan een matchgesprek" heet overal "Plan een gesprek". Vertalingen meegeleverd (v=6).
+
+**Footer en taalkeuze (aanvulling):** footer op de homepage stond binnen het contactblok en was daardoor smaller; staat nu over de volle breedte, net als op L2L. Kolommen gelijk aan L2L (Bedrijf: over ons, contact, voorwaarden, privacy). Taalkeuze staat nu in de menubalk naast de knop, zoals op L2L, in plaats van los linksonder.
+
 **Vertalingen:** 170 nieuwe Engelse teksten toegevoegd, data-bestand naar v=5.
 
