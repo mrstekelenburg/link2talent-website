@@ -8,8 +8,8 @@ Link2Talent levert remote salescapaciteit aan B2B-bedrijven die meer gesprekken 
 
 - Remote setters die dagelijks bellen en afspraken direct in de agenda van de klant zetten
 - Remote closers voor bedrijven die de verkoopgesprekken zelf niet meer willen of kunnen voeren
-- Werving, selectie, training en aansturing volledig uit handen; bij uitval regelen wij vervanging
-- Setter actief binnen ongeveer 14 dagen na onboarding
+- Selectie, matching, contract en betaling uit handen; wisselen van setter kan altijd
+- Setter actief binnen 14 dagen na akkoord, met garantie: anders betaalt de opdrachtgever niets totdat dat wel geleverd is
 - Drie samenwerkingsvormen: performance, uurtarief en seat-model
 - Maandelijks op- en afschalen, geen vast dienstverband en geen recruitmentfee
 
@@ -24,6 +24,64 @@ B2B-bedrijven met een bewezen aanbod die vastlopen op salescapaciteit: de direct
 3. Matching: wij dragen een setter voor die bij het aanbod past; jij spreekt hem of haar en geeft akkoord
 4. Inwerken en training op jullie propositie, bezwaren en CRM
 5. Live: de setter belt dagelijks, afspraken komen in de agenda, wij sturen bij op kwaliteit en volume
+
+## Samenwerkingsvormen en prijzen (gepubliceerd, exclusief btw)
+
+| Model | Structuur | Toelichting |
+|---|---|---|
+| Uurtarief (meest gekozen) | Tarief van de setter plus 20 procent bemiddelingsfee | Voorbeeld: setter 30 per uur, opdrachtgever betaalt 37,50. Fulltime of parttime, per maand op- en afschalen |
+| Performance | Commissie per geboekte afspraak plus een kleine bemiddelingsfee | Alleen betalen bij resultaat, schaalbaar zonder vaste lasten |
+| Seat | 295 per maand per setter | Vaste maandelijkse vergoeding, alles via het platform, uit te breiden met closers |
+
+Geen recruitmentfee en geen opstartkosten. Contract, betaling, communicatie en rapportage lopen via app.link2talent.nl.
+
+## Garantie
+
+Binnen 14 dagen na akkoord staat de setter aan het werk. Zo niet, dan betaalt de opdrachtgever niets totdat Link2Talent dat wel levert. Geldt op elk model. Wisselen van setter kan altijd: Link2Talent draagt dan een andere setter voor, zonder ontslagtraject of opzegtermijn van maanden. Op- en afschalen en stoppen kan per maand.
+
+## Vergelijking met een SDR in dienst en een callbureau (homepage, sectie #vergelijk)
+
+| Punt | Link2Talent | SDR in dienst | Callbureau |
+|---|---|---|---|
+| Opstarttijd | Binnen 14 dagen actief (garantie) | Zes weken tot enkele maanden, inclusief opzegtermijn kandidaat | Twee tot zes weken |
+| Vaste lasten | Geen; per uur, per afspraak of per seat, per maand op en af | Salaris, werkgeverslasten en werkplek lopen door | Minimumafname en vaak een opstartfee |
+| Wisselen | Andere setter, zonder ontslagtraject | Proeftijd, ontslagprocedure of vaststellingsovereenkomst | Contract uitzitten of afkopen |
+| Wie stuurt aan | De opdrachtgever, als bij een eigen collega; Link2Talent regelt alles eromheen | De opdrachtgever, inclusief werkgeversrol | Het bureau, met een script |
+| Contract, betaling, rapportage | Via het platform op een plek | Zelf opzetten | Contract met het bureau, rapportage in hun format |
+| Wie er belt | Ervaren setter uit B2B-sales, door Link2Talent geselecteerd en door de opdrachtgever goedgekeurd | Wie je zelf vindt na een wervingstraject | Wie die dag beschikbaar is |
+| Leads erbij | Via zusterbedrijf Link2Leads (e-mailcampagnes), dezelfde mensen aan tafel | Apart regelen | Soms, tegen meerprijs |
+| Setters en closers | Los of samen, via hetzelfde platform | Twee vacatures | Alleen afspraken zetten |
+| Inzicht in resultaat | Activiteit, afspraken en uren live in het platform | Zelf bijhouden in het CRM | Wekelijks overzicht van het bureau |
+
+Een eigen SDR is de betere keuze zodra het volume voor twaalf maanden zeker is en er iemand is die dagelijks kan aansturen; Link2Talent zegt dat ook als het zo ligt. Volledige afweging: https://www.link2talent.nl/kennis/remote-setter-vs-sdr
+
+## Combinatie met Link2Leads
+
+Een setter zonder instroom zit stil. Via zusterbedrijf Link2Leads (https://www.link2leads.nl/) regelt Link2Group ook de instroom: koude e-mailcampagnes naar de doelgroep van de opdrachtgever, alleen positieve reacties komen door en de setter belt die na. Campagne live binnen twee weken, vanaf 995 per maand, zeven verzenddagen per week.
+
+## Veelgestelde vragen (homepage, sectie #faq)
+
+**Hoe snel kan een setter starten?** Binnen 14 dagen na akkoord. Week 1 is intake en match, week 2 is inwerken op je product en doelgroep. Daarna belt de setter dagelijks. Staat de setter niet binnen 14 dagen aan het werk, dan betaal je niets totdat we dat wel leveren.
+
+**Hoeveel uur per week werkt een setter?** Dat spreek je zelf af. De meeste opdrachtgevers starten met 16 tot 24 uur per week en schalen op als de agenda volloopt. Fulltime kan ook.
+
+**Wat doet een setter precies?** Bellen en opvolgen. De setter benadert je doelgroep of de reacties op je campagne, kwalificeert het gesprek en zet de afspraak direct in jouw agenda. Het verkoopgesprek zelf voer jij, tenzij je een closer erbij neemt.
+
+**Moet ik zelf leads aanleveren?** Je setter heeft instroom nodig: een lijst, inkomende reacties of een campagne. Heb je die niet, dan regelen we de instroom via ons zusterbedrijf Link2Leads, met dezelfde mensen aan tafel.
+
+**Wie stuurt de setter aan?** Jij, inhoudelijk. Je werkt de setter in op je product, doelgroep en toon en stuurt aan op resultaat, zoals bij een eigen collega. Wij regelen contract, betaling, rapportage en de samenwerking eromheen.
+
+**Kan ik wisselen van setter?** Ja. Wil je liever iemand anders, dan dragen wij een andere setter voor. Geen ontslagtraject en geen opzegtermijn van maanden. Zeg het en we schakelen.
+
+**Wat kost het?** Dat hangt af van het model. Uurtarief: je bepaalt het tarief van de setter en wij rekenen een bemiddelingsfee van 20 procent daarbovenop (setter 30 per uur wordt 37,50). Performance: commissie per afspraak plus een kleine fee. Seat: 295 per maand per setter. Geen recruitmentfee en geen opstartkosten. Reken het door op de omzetcalculator.
+
+**Is een setter goedkoper dan een SDR in dienst?** Per uur is een SDR in dienst goedkoper zodra hij goed draait, en duurder op alles daaromheen: werving, inwerktijd, werkgeverslasten, aansturing en het risico dat de eerste hire het niet wordt. De eerlijke som staat in wat kost een interne SDR echt.
+
+**Kan ik op- en afschalen of stoppen?** Ja, per maand. Extra setter erbij, van parttime naar fulltime, of wisselen van model regel je via het platform. Stoppen kan per maand, zonder verborgen voorwaarden.
+
+**Leveren jullie ook closers?** Ja. Een closer voert de verkoopgesprekken die de setter inplant. Los of samen met een setter, via hetzelfde platform. Wie wat doet staat in setter vs. closer.
+
+**Ik ben zelf setter of closer. Kan ik me aanmelden?** Ja, via app.link2talent.nl. We zoeken mensen met ervaring in echte B2B-sales die hun afspraken nakomen. Daar staat een serieuze opdrachtgever tegenover, met een uurtarief en de vrijheid om overal te werken.
 
 ## Belangrijkste pagina's
 

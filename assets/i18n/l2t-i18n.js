@@ -14,7 +14,7 @@
   // De vertaaldata is een groot bestand. Nederlandse bezoekers hebben het
   // niet nodig, dus we laden het pas zodra er daadwerkelijk naar Engels of
   // Spaans wordt geschakeld. Dat scheelt elke NL-bezoeker een halve MB.
-  var DATA_URL = "/assets/i18n/l2t-i18n-data.js?v=2";
+  var DATA_URL = "/assets/i18n/l2t-i18n-data.js?v=3";
   var dataPromise = null;
   function loadData() {
     if (window.L2T_I18N_DATA) { DATA = window.L2T_I18N_DATA; NORM = null; return Promise.resolve(); }

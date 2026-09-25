@@ -1,45 +1,561 @@
-# Link2Talent
+# Link2Talent, volledige tekst van de homepage en alle kennispagina's
 
-> Link2Talent helpt B2B-bedrijven met flexibele remote salescapaciteit. De dienst richt zich op het toevoegen van geselecteerde salesprofessionals, waaronder setters en closers, rondom een bestaand commercieel proces. Link2Talent is geen klassiek recruitmentbureau en presenteert omzet of aantallen afspraken niet als universele garantie.
+Laatst bijgewerkt: 25 september 2026. Samenvatting en bedrijfsgegevens: https://www.link2talent.nl/llms.txt
 
-## Kerninformatie
-- Doelgroep: B2B-bedrijven met een duidelijk aanbod en definieerbare doelgroep.
-- Diensten: remote setters, closers en begeleiding rondom matching, onboarding en kwaliteit.
-- Samenwerkingsmodellen: performance waar resultaat eenduidig definieerbaar is, uurtarief en seat-model.
-- Belangrijk: geschiktheid hangt af van aanbod, doelgroep, proces, tooling en interne opvolging.
-- Link2Talent maakt onderscheid tussen capaciteitsproblemen en strategie-/propositieproblemen.
+==============================================================================
+
+# Homepage
+Bron: https://www.link2talent.nl/
+
+> Link2Talent koppelt Nederlandse B2B-bedrijven aan bewezen remote setters en closers. Geen recruitmenttraject, geen vaste hire en geen mis-hire: wij selecteren, trainen en sturen het salestalent aan, jij krijgt de afspraken in je agenda. Flexibel op- en afschalen per maand. Onderdeel van Link2Group (Amsterdam).
+
+## Wat wij doen
+
+Link2Talent levert remote salescapaciteit aan B2B-bedrijven die meer gesprekken willen voeren zonder zelf een salesteam op te bouwen.
+
+- Remote setters die dagelijks bellen en afspraken direct in de agenda van de klant zetten
+- Remote closers voor bedrijven die de verkoopgesprekken zelf niet meer willen of kunnen voeren
+- Selectie, matching, contract en betaling uit handen; wisselen van setter kan altijd
+- Setter actief binnen 14 dagen na akkoord, met garantie: anders betaalt de opdrachtgever niets totdat dat wel geleverd is
+- Drie samenwerkingsvormen: performance, uurtarief en seat-model
+- Maandelijks op- en afschalen, geen vast dienstverband en geen recruitmentfee
+
+## Voor wie
+
+B2B-bedrijven met een bewezen aanbod die vastlopen op salescapaciteit: de directeur doet de acquisitie er nog bij, of het verkoopteam heeft geen tijd om zelf te bellen. Werkt het beste bij een duidelijk afgebakende doelgroep en een aanbod dat telefonisch uit te leggen is.
 
 ## Werkwijze
-1. Matchgesprek: bottleneck, rol en randvoorwaarden bespreken.
-2. Profiel: taken, verantwoordelijkheden en gewenste output afbakenen.
-3. Matching en onboarding: context, propositie, bezwaren, tooling en feedbackloop voorbereiden.
-4. Live: commerciële activiteit uitvoeren en periodiek kwaliteit/output evalueren.
 
-## Wat Link2Talent wel en niet belooft
-Wel: een proces voor het beoordelen van salescapaciteit, matching en onboarding.
-Niet: gegarandeerde omzet, gegarandeerde aantallen afspraken in iedere markt, of een oplossing voor een onduidelijk aanbod.
+1. Gratis kennismakingsgesprek van 30 minuten: doelgroep, salesproces en capaciteitsvraag in beeld
+2. Onboarding: vragenlijst over aanbod, doelgroep, salesproces en gewenste afspraken
+3. Matching: wij dragen een setter voor die bij het aanbod past; jij spreekt hem of haar en geeft akkoord
+4. Inwerken en training op jullie propositie, bezwaren en CRM
+5. Live: de setter belt dagelijks, afspraken komen in de agenda, wij sturen bij op kwaliteit en volume
 
-## Belangrijke definities
-- Setter: richt zich primair op prospecting, opvolging, kwalificatie en het creëren van relevante gesprekken.
-- Closer: richt zich primair op het voeren van verkoopgesprekken en het begeleiden naar een commercieel besluit.
-- Seat-model: structurele capaciteit rondom een afgebakende rol.
-- Performance-model: variabele vergoeding gekoppeld aan vooraf gedefinieerde, meetbare output/resultaten.
+## Samenwerkingsvormen en prijzen (gepubliceerd, exclusief btw)
 
-## Belangrijke pagina's
-- Homepage: https://www.link2talent.nl/
-- Matchgesprek: https://www.link2talent.nl/book.html
-- Calculator: https://www.link2talent.nl/calculator-l2t.html
-- Kennisbank: https://www.link2talent.nl/kennis/
-- Cases: https://www.link2talent.nl/cases/
+| Model | Structuur | Toelichting |
+|---|---|---|
+| Uurtarief (meest gekozen) | Tarief van de setter plus 20 procent bemiddelingsfee | Voorbeeld: setter 30 per uur, opdrachtgever betaalt 37,50. Fulltime of parttime, per maand op- en afschalen |
+| Performance | Commissie per geboekte afspraak plus een kleine bemiddelingsfee | Alleen betalen bij resultaat, schaalbaar zonder vaste lasten |
+| Seat | 295 per maand per setter | Vaste maandelijkse vergoeding, alles via het platform, uit te breiden met closers |
 
-## Contact
-- info@link2talent.nl
-- Website: https://www.link2talent.nl/
+Geen recruitmentfee en geen opstartkosten. Contract, betaling, communicatie en rapportage lopen via app.link2talent.nl.
 
-## Kennisbankonderwerpen
-- Wanneer is een remote setter inhuren logisch?
-- Remote setter vs. SDR in dienst
-- Salescapaciteit uitbesteden: wat besteed je wel uit?
-- Setter vs. closer: wie doet wat?
-- Performance vs. seat-model
-- Wat kost een interne SDR echt?
+## Garantie
+
+Binnen 14 dagen na akkoord staat de setter aan het werk. Zo niet, dan betaalt de opdrachtgever niets totdat Link2Talent dat wel levert. Geldt op elk model. Wisselen van setter kan altijd: Link2Talent draagt dan een andere setter voor, zonder ontslagtraject of opzegtermijn van maanden. Op- en afschalen en stoppen kan per maand.
+
+## Vergelijking met een SDR in dienst en een callbureau (homepage, sectie #vergelijk)
+
+| Punt | Link2Talent | SDR in dienst | Callbureau |
+|---|---|---|---|
+| Opstarttijd | Binnen 14 dagen actief (garantie) | Zes weken tot enkele maanden, inclusief opzegtermijn kandidaat | Twee tot zes weken |
+| Vaste lasten | Geen; per uur, per afspraak of per seat, per maand op en af | Salaris, werkgeverslasten en werkplek lopen door | Minimumafname en vaak een opstartfee |
+| Wisselen | Andere setter, zonder ontslagtraject | Proeftijd, ontslagprocedure of vaststellingsovereenkomst | Contract uitzitten of afkopen |
+| Wie stuurt aan | De opdrachtgever, als bij een eigen collega; Link2Talent regelt alles eromheen | De opdrachtgever, inclusief werkgeversrol | Het bureau, met een script |
+| Contract, betaling, rapportage | Via het platform op een plek | Zelf opzetten | Contract met het bureau, rapportage in hun format |
+| Wie er belt | Ervaren setter uit B2B-sales, door Link2Talent geselecteerd en door de opdrachtgever goedgekeurd | Wie je zelf vindt na een wervingstraject | Wie die dag beschikbaar is |
+| Leads erbij | Via zusterbedrijf Link2Leads (e-mailcampagnes), dezelfde mensen aan tafel | Apart regelen | Soms, tegen meerprijs |
+| Setters en closers | Los of samen, via hetzelfde platform | Twee vacatures | Alleen afspraken zetten |
+| Inzicht in resultaat | Activiteit, afspraken en uren live in het platform | Zelf bijhouden in het CRM | Wekelijks overzicht van het bureau |
+
+Een eigen SDR is de betere keuze zodra het volume voor twaalf maanden zeker is en er iemand is die dagelijks kan aansturen; Link2Talent zegt dat ook als het zo ligt. Volledige afweging: https://www.link2talent.nl/kennis/remote-setter-vs-sdr
+
+## Combinatie met Link2Leads
+
+Een setter zonder instroom zit stil. Via zusterbedrijf Link2Leads (https://www.link2leads.nl/) regelt Link2Group ook de instroom: koude e-mailcampagnes naar de doelgroep van de opdrachtgever, alleen positieve reacties komen door en de setter belt die na. Campagne live binnen twee weken, vanaf 995 per maand, zeven verzenddagen per week.
+
+## Veelgestelde vragen (homepage, sectie #faq)
+
+**Hoe snel kan een setter starten?** Binnen 14 dagen na akkoord. Week 1 is intake en match, week 2 is inwerken op je product en doelgroep. Daarna belt de setter dagelijks. Staat de setter niet binnen 14 dagen aan het werk, dan betaal je niets totdat we dat wel leveren.
+
+**Hoeveel uur per week werkt een setter?** Dat spreek je zelf af. De meeste opdrachtgevers starten met 16 tot 24 uur per week en schalen op als de agenda volloopt. Fulltime kan ook.
+
+**Wat doet een setter precies?** Bellen en opvolgen. De setter benadert je doelgroep of de reacties op je campagne, kwalificeert het gesprek en zet de afspraak direct in jouw agenda. Het verkoopgesprek zelf voer jij, tenzij je een closer erbij neemt.
+
+**Moet ik zelf leads aanleveren?** Je setter heeft instroom nodig: een lijst, inkomende reacties of een campagne. Heb je die niet, dan regelen we de instroom via ons zusterbedrijf Link2Leads, met dezelfde mensen aan tafel.
+
+**Wie stuurt de setter aan?** Jij, inhoudelijk. Je werkt de setter in op je product, doelgroep en toon en stuurt aan op resultaat, zoals bij een eigen collega. Wij regelen contract, betaling, rapportage en de samenwerking eromheen.
+
+**Kan ik wisselen van setter?** Ja. Wil je liever iemand anders, dan dragen wij een andere setter voor. Geen ontslagtraject en geen opzegtermijn van maanden. Zeg het en we schakelen.
+
+**Wat kost het?** Dat hangt af van het model. Uurtarief: je bepaalt het tarief van de setter en wij rekenen een bemiddelingsfee van 20 procent daarbovenop (setter 30 per uur wordt 37,50). Performance: commissie per afspraak plus een kleine fee. Seat: 295 per maand per setter. Geen recruitmentfee en geen opstartkosten. Reken het door op de omzetcalculator.
+
+**Is een setter goedkoper dan een SDR in dienst?** Per uur is een SDR in dienst goedkoper zodra hij goed draait, en duurder op alles daaromheen: werving, inwerktijd, werkgeverslasten, aansturing en het risico dat de eerste hire het niet wordt. De eerlijke som staat in wat kost een interne SDR echt.
+
+**Kan ik op- en afschalen of stoppen?** Ja, per maand. Extra setter erbij, van parttime naar fulltime, of wisselen van model regel je via het platform. Stoppen kan per maand, zonder verborgen voorwaarden.
+
+**Leveren jullie ook closers?** Ja. Een closer voert de verkoopgesprekken die de setter inplant. Los of samen met een setter, via hetzelfde platform. Wie wat doet staat in setter vs. closer.
+
+**Ik ben zelf setter of closer. Kan ik me aanmelden?** Ja, via app.link2talent.nl. We zoeken mensen met ervaring in echte B2B-sales die hun afspraken nakomen. Daar staat een serieuze opdrachtgever tegenover, met een uurtarief en de vrijheid om overal te werken.
+
+==============================================================================
+
+# Wanneer is een remote setter inhuren logisch?
+Bron: https://www.link2talent.nl/kennis/remote-setter-inhuren
+
+
+Een setter inhuren lost een capaciteitsprobleem op, geen strategieprobleem. Deze pagina helpt je vaststellen welk van de twee je hebt, voordat je iemand aanneemt of inhuurt.
+Bijgewerkt 8 september 2026 · Demi Stekelenburg · Leestijd 7 minuten. Kort antwoord: het is logisch zodra er meer gesprekken te voeren zijn dan er tijd is om ze te voeren, en je aanbod al bewezen verkoopt. Zolang een van die twee niet klopt, lost extra capaciteit niets op.
+
+## Het verschil tussen een capaciteitsprobleem en een strategieprobleem
+
+Bijna elke ondernemer die belt zegt hetzelfde: er komen te weinig nieuwe klanten binnen. Dat kan twee heel verschillende oorzaken hebben en de oplossing verschilt volledig.
+
+Bij een capaciteitsprobleem werkt je aanbod. Je hebt klanten die betalen en tevreden zijn, je weet hoe een goed gesprek loopt en je sluit een redelijk deel van je offertes. Alleen: er is niemand die de agenda vult. De oprichter doet het erbij, of een accountmanager doet het als er tijd over is, en dat is er zelden. Dan is een setter het antwoord.
+
+Bij een strategieprobleem is de bottleneck een stap eerder. Je weet niet scherp wie je ideale klant is, je propositie verandert per gesprek, of je hebt nog geen klant die uit zichzelf zou terugkomen. Zet je daar een setter op, dan gaat die improviseren op een verhaal dat nog niet staat. Het resultaat is een lage boekingsgraad en een setter die je binnen twee maanden wilt vervangen, terwijl de setter niet het probleem was.
+
+## Vier vragen die het onderscheid maken
+
+- Heb je minstens drie klanten die je opnieuw zou willen hebben? Niet drie klanten, maar drie waar je blij mee bent. Daaruit haal je het profiel waar een setter op gaat werken. Zonder dat profiel is elke lijst een gok.
+
+- Weet je wat een goede afspraak is? Kun je in een zin zeggen wanneer een gesprek de moeite waard was? Bijvoorbeeld: een beslisser bij een bedrijf van 20 tot 100 medewerkers die dit kwartaal iets aan het onderwerp gaat doen. Kun je dat niet, dan kan niemand op resultaat sturen.
+
+- Blijft er nu werk liggen? Als je vandaag tien extra afspraken zou krijgen, kun je die dan voeren en opvolgen? Zo niet, dan heb je eerder een closer of een offerteproces nodig dan een setter.
+
+- Heb je een uur per week om aan te sturen? Een setter is geen dienst die op de achtergrond draait. Hij heeft context nodig, feedback op de gesprekken die niet doorgingen en antwoord op vragen uit de markt. Een uur per week is het minimum.
+
+Vier keer ja betekent dat capaciteit je bottleneck is. Twee of meer keer nee betekent dat je eerst iets anders moet oplossen, en dat zeggen we in een matchgesprek ook gewoon.
+
+## Wat een setter wel en niet doet
+
+| Wel | Niet | 
+| Lijsten doorwerken en beslissers benaderen | Je propositie bedenken | 
+| Bellen, mailen en via LinkedIn opvolgen | Het verkoopgesprek voeren en afsluiten | 
+| Kwalificeren op de criteria die jij geeft | Bepalen wat een goede klant is | 
+| Afspraken in je agenda zetten en bevestigen | Offertes maken en onderhandelen | 
+| Terugkoppelen wat de markt zegt | Zelfstandig de commerciële koers bepalen | 
+
+Wil je de stap na de afspraak ook uitbesteden, dan heb je het over een closer. Het verschil tussen beide rollen staat in setter vs. closer.
+
+## Remote of op kantoor
+
+De vraag die daarna komt is of iemand fysiek aanwezig moet zijn. Voor setwerk is dat zelden nodig. Het werk bestaat uit bellen, mailen en vastleggen, en dat gebeurt in dezelfde systemen of de setter nu naast je zit of niet. Wat wel verandert is hoe je aanstuurt. Op kantoor pik je vanzelf op hoe gesprekken lopen. Remote moet je dat organiseren: een vast wekelijks moment, meeluisteren of meelezen met een paar gesprekken, en een plek waar vragen binnenkomen zonder dat ze in een mailbox verdwijnen.
+
+Bij ons loopt dat via de app, zodat het contract, de betaling en de communicatie op dezelfde plek staan en er niets in losse mailtjes blijft hangen.
+
+## Wat je zelf geregeld moet hebben voor de start
+
+- Een profiel van je beste klanten: type bedrijf, omvang, en wie daar tekent
+
+- Een definitie van een goede afspraak waar je zelf achter staat
+
+- Een agenda waarin de setter direct kan boeken
+
+- Een plek waar gesprekken en uitkomsten worden vastgelegd, ook al is dat een simpele lijst
+
+- Een vast moment per week waarop jij bereikbaar bent voor vragen en feedback
+
+Dit is bewust kort. Wie eerst een compleet salesapparaat wil inrichten voordat de eerste belafspraak staat, is over een half jaar nog bezig.
+
+## Wanneer je beter kunt wachten
+
+Er zijn situaties waarin we zelf adviseren om nog niet te starten. Als je aanbod nog nooit aan een vreemde is verkocht, is elk gesprek een test van je propositie en niet van je capaciteit. Als je doelgroep kleiner is dan een paar honderd bedrijven, ben je die binnen enkele weken door en heb je een probleem van een andere orde. En als je zelf geen tijd hebt om de gesprekken te voeren die de setter boekt, verplaats je de bottleneck alleen maar.
+
+## Veelgestelde vragen
+
+**Hoe snel kan een setter beginnen?**
+
+Bij ons is dat binnen veertien dagen na het matchgesprek. Die tijd zit vooral in de match zelf en in de inwerkperiode: de setter moet je aanbod kunnen uitleggen voordat hij namens jou belt.
+
+**Wat als de match niet werkt?**
+
+Dan wisselen we. Je zit niet vast aan een contract met een medewerker die niet past, en er is geen ontslagtraject. Dat is het belangrijkste verschil met iemand in dienst nemen, uitgewerkt in remote setter vs. SDR in dienst.
+
+**Kan een setter ook mailcampagnes draaien?**
+
+Een setter volgt op wat er binnenkomt en benadert zelf ook. Het bouwen en beheren van e-mailcampagnes op volume is ander werk, met eigen domeinen en techniek erachter. Dat doet ons zusterbedrijf Link2Leads.
+
+==============================================================================
+
+# Remote setter vs. SDR in dienst
+Bron: https://www.link2talent.nl/kennis/remote-setter-vs-sdr
+
+
+Dezelfde taak, twee heel verschillende afspraken. Het verschil zit in wie het risico draagt, hoe snel je kunt bijsturen en wat er gebeurt als het niet werkt.
+Bijgewerkt 8 september 2026 · Demi Stekelenburg · Leestijd 7 minuten. Kort antwoord: een SDR in dienst is goedkoper per uur zodra hij goed draait, en duurder op alles daaromheen. Een ingehuurde setter kost meer per uur en veel minder als het misgaat. De keuze hangt af van hoe zeker je bent van het volume voor de komende twaalf maanden.
+
+## Waar de vergelijking meestal misgaat
+
+De meeste vergelijkingen zetten een uurtarief naast een maandsalaris en concluderen dat inhuren duur is. Dat klopt alleen als je ervan uitgaat dat de eerste hire raak is, dat hij blijft, en dat werving en inwerken niets kosten. In de praktijk gaat een op de zoveel hires mis, en dan betaal je twee keer.
+
+De eerlijke vergelijking loopt over een periode van twaalf maanden en telt alles mee: werving, inwerktijd, aansturing, tooling en het risico dat je halverwege opnieuw begint. Die rekensom staat uitgewerkt in wat kost een interne SDR echt.
+
+## Zes punten waarop ze verschillen
+
+| | Remote setter inhuren | SDR in dienst | 
+| Opstarttijd | Twee weken tot actief | Zes weken tot enkele maanden, inclusief opzegtermijn van de kandidaat | 
+| Vaste lasten | Geen, je schaalt op en af | Salaris loopt door in rustige maanden | 
+| Risico bij mismatch | Wisselen, geen ontslagtraject | Proeftijd, ontslagprocedure of vaststellingsovereenkomst | 
+| Aansturing | Jij stuurt aan, wij regelen contract en betaling | Volledig bij jou, inclusief werkgeversrol | 
+| Kennis blijft | Bij vertrek gaat de opgebouwde marktkennis mee | Blijft in huis zolang de medewerker blijft | 
+| Kosten per uur | Hoger, alles inbegrepen | Lager op papier, hoger als je alles meetelt | 
+
+## Wanneer een eigen SDR de betere keuze is
+
+Er zijn goede redenen om iemand in dienst te nemen. Als je jaarlijks genoeg volume hebt om een fulltime rol structureel te vullen, als je verkoop veel productkennis vraagt die maanden kost om op te bouwen, en als je een salesmanager hebt die dagelijks kan sturen, dan is een eigen SDR op termijn goedkoper en beter ingebed. Je bouwt dan iets op wat blijft.
+
+Wij zeggen dat ook wanneer het zo ligt. Een setter inhuren om een structurele fulltime rol te dekken is duurder dan nodig.
+
+## Wanneer inhuren de betere keuze is
+
+Inhuren wint zodra er onzekerheid in het spel is. Je weet niet of het volume er over zes maanden nog is. Je wilt een nieuwe markt of een nieuw segment testen zonder er meteen een dienstverband aan te hangen. Je hebt een piek in het seizoen en daarna een rustige periode. Of je hebt eerder een hire gehad die niet werkte en je wilt niet nog eens drie maanden kwijt zijn aan werving.
+
+In al die gevallen betaal je met een hoger uurtarief voor het recht om binnen twee weken te starten en binnen een maand te stoppen. Dat is geen inefficiëntie, dat is waar je voor betaalt.
+
+## De tussenvorm die vaak over het hoofd wordt gezien
+
+Je hoeft niet te kiezen tussen alles of niets. Een veelgebruikte route is starten met een ingehuurde setter, drie tot zes maanden meten wat het oplevert, en pas daarna beslissen of het volume een vaste rol rechtvaardigt. Je hebt dan cijfers in plaats van een aanname, en de kosten van die maanden zijn lager dan de kosten van een mislukte hire.
+
+Wat je in die periode wilt vastleggen: hoeveel bedrijven zijn benaderd, hoeveel gesprekken zijn er ontstaan, hoeveel daarvan waren de moeite waard volgens jouw eigen definitie, en wat is er uiteindelijk uit gekomen. Zonder die vier getallen is de beslissing daarna weer een gevoelskwestie.
+
+## Checklist voor de keuze
+
+- Weet je zeker dat het volume er over twaalf maanden nog is?
+
+- Heb je iemand die dagelijks kan aansturen, of alleen wekelijks?
+
+- Hoeveel maanden kun je overbruggen tussen tekenen en de eerste afspraak?
+
+- Wat kost het je als de eerste kandidaat het niet wordt?
+
+- Wil je eerst meten of dit werkt, of ben je daar al zeker van?
+
+## Veelgestelde vragen
+
+**Kan ik een ingehuurde setter later in dienst nemen?**
+
+Dat kan, en het gebeurt. Bespreek het van tevoren, dan leggen we de voorwaarden vast in plaats van dat het achteraf een discussie wordt.
+
+**Wie is de werkgever van de setter?**
+
+Niet jij. Wij regelen het contract en de betaling, jij stuurt inhoudelijk aan. Dat is precies het verschil met een dienstverband.
+
+**Werkt een remote setter fulltime voor mij?**
+
+Dat kan fulltime of parttime. Welk model daarbij past staat in performance vs. seat-model.
+
+==============================================================================
+
+# Wat kost een interne SDR echt?
+Bron: https://www.link2talent.nl/kennis/interne-sdr-kosten
+
+
+Het salaris is de post die iedereen noemt en zelden de grootste. Deze pagina zet de complete rekensom op een rij, zodat je hem met je eigen bedragen kunt invullen.
+Bijgewerkt 8 september 2026 · Demi Stekelenburg · Leestijd 8 minuten. Kort antwoord: tel naast het brutosalaris ook werkgeverslasten, werving, inwerktijd, aansturing en tooling mee, plus de kans dat de eerste hire het niet wordt. De post die het vaakst ontbreekt is de tijd van degene die aanstuurt.
+
+## Waarom de rekensom meestal te laag uitvalt
+
+Wie een SDR begroot, rekent doorgaans met twaalf maandsalarissen plus wat vakantiegeld. Die berekening klopt pas als de kandidaat op dag een productief is, blijft, en zichzelf aanstuurt. Geen van die drie is realistisch.
+
+Onderstaand schema loopt alle posten langs. De bedragen zijn bewust leeg gelaten, want ze verschillen te veel per functieniveau, regio en cao om er een gemiddelde op te plakken dat voor jou klopt. Vul je eigen cijfers in en je hebt binnen tien minuten een getal waar je iets aan hebt.
+
+## Het rekenschema
+
+| Post | Wat je invult | Waarom hij meetelt | 
+| Brutosalaris | Maandbedrag maal twaalf | De basis | 
+| Vakantiegeld | Doorgaans 8 procent van het jaarsalaris | Wettelijk verplicht, wordt vaak vergeten | 
+| Werkgeverslasten | Sociale premies, pensioenbijdrage en verzekeringen | Komt bovenop het brutoloon, vraag je boekhouder om jouw percentage | 
+| Werving | Advertenties of bureaufee, plus jouw uren aan selectie | Een bureaufee is doorgaans een percentage van het jaarsalaris | 
+| Inwerktijd | Aantal weken tot volledige productiviteit maal het weekbedrag | Je betaalt volledig salaris voor gedeeltelijke output | 
+| Aansturing | Uren per week van de leidinggevende maal diens uurkosten | De post die het vaakst ontbreekt en zelden klein is | 
+| Tooling en data | CRM, belsoftware, databronnen, mailboxen | Per gebruiker per maand, loopt op | 
+| Werkplek | Laptop, telefoon, bureau of thuiswerkvergoeding | Eenmalig en maandelijks | 
+| Risico op mismatch | Kans dat je opnieuw begint maal de kosten tot dat moment | Werving, inwerktijd en verloren maanden tellen dan dubbel | 
+
+Reken de som uit over twaalf maanden en deel door het aantal productieve uren dat je verwacht. Dat is je werkelijke uurprijs, en dat is het getal om naast een extern tarief te leggen.
+
+## De post die de doorslag geeft
+
+In de meeste rekensommen die wij langs zien komen zijn twee posten bepalend, en het salaris is er daar niet een van.
+
+De eerste is aansturing. Een SDR die net begint heeft dagelijks vragen, feedback op gesprekken en hulp bij bezwaren nodig. Bij een oprichter die zelf verkoopt, is dat het duurste uur van het bedrijf. Reken uit wat vijf uur per week van die persoon kost en tel dat op, dan wordt de vergelijking eerlijk.
+
+De tweede is de inwerkperiode. Tussen tekenen en de eerste zelfstandige belweek zitten al snel enkele maanden, inclusief opzegtermijn bij de vorige werkgever. In die periode lopen alle kosten en komt er nog geen resultaat binnen. Wie dat niet meetelt, vergelijkt een startdatum van vandaag met een startdatum over een kwartaal.
+
+## Wanneer dat alsnog de moeite waard is
+
+Deze pagina is geen pleidooi tegen een eigen SDR. Zodra de rol structureel gevuld is, iemand blijft en er iemand is die kan aansturen, wordt een medewerker in dienst op termijn goedkoper per gesprek dan externe capaciteit. Je bouwt bovendien kennis op die in huis blijft.
+
+De vraag is of je die zekerheid nu al hebt. Heb je hem niet, dan betaal je met een hoger uurtarief voor de mogelijkheid om over drie maanden te stoppen of te verdubbelen. De afweging staat naast elkaar in remote setter vs. SDR in dienst.
+
+## Reken het door voor je eigen situatie
+
+Op de omzetcalculator vul je je ordergrootte en je conversie in en zie je wat een setter aan extra omzet zou moeten opleveren om uit te komen. Zet die uitkomst naast het getal uit het schema hierboven en de beslissing wordt een rekensom in plaats van een gevoel.
+
+## Checklist
+
+- Heb je de werkgeverslasten opgevraagd bij je boekhouder in plaats van geschat?
+
+- Heb je de uren van degene die aanstuurt meegeteld?
+
+- Heb je de maanden tussen tekenen en productief zijn meegerekend?
+
+- Weet je wat het kost als je na vier maanden opnieuw moet beginnen?
+
+- Heb je een productief urenaantal per jaar aangehouden dat je kunt verdedigen?
+
+## Veelgestelde vragen
+
+**Waarom staan er geen bedragen in dit artikel?**
+
+Omdat een gemiddeld salaris niets zegt over jouw functieniveau, regio en cao. Een schema dat je zelf invult geeft een getal waar je op kunt beslissen, een gemiddelde niet.
+
+**Wat is een realistische inwerktijd?**
+
+Dat hangt af van hoe complex je aanbod is. Bij een dienst die in een gesprek uit te leggen is gaat het sneller dan bij techniek die maanden kost om te doorgronden. Zet je eigen inschatting in het schema.
+
+**Tellen commissies ook mee?**
+
+Ja, als je die uitkeert. Neem ze op in de post salaris en reken met een realistisch scenario, niet met het minimum.
+
+==============================================================================
+
+# Setter vs. closer: wie doet wat?
+Bron: https://www.link2talent.nl/kennis/setter-vs-closer
+
+
+Een setter maakt de afspraak, een closer voert het gesprek. Het klinkt simpel, en toch loopt het bij de meeste bedrijven precies op de overdracht tussen die twee vast.
+Bijgewerkt 8 september 2026 · Demi Stekelenburg · Leestijd 6 minuten. Kort antwoord: splits de rollen zodra het maken van afspraken en het voeren van gesprekken om elkaars tijd beginnen te vechten. Onder dat punt is splitsen alleen maar meer overdracht.
+
+## Wat een setter doet
+
+Een setter werkt vooruit in de lijst. Hij benadert bedrijven die passen bij het profiel dat jij hebt gegeven, komt bij de juiste persoon terecht, checkt of er iets te halen valt en zet een afspraak in de agenda. Het werk is repetitief en het tempo bepaalt het resultaat: veel korte contacten, snel opvolgen, en accepteren dat de meeste gesprekken nergens toe leiden.
+
+Waarop je stuurt: aantal benaderde bedrijven, aantal gesprekken dat daaruit ontstaat, en hoeveel van de geboekte afspraken daadwerkelijk doorgaan. Dat laatste getal is het belangrijkste en wordt het vaakst vergeten. Een setter die veel boekt maar waarvan de helft niet komt opdagen, kwalificeert te los.
+
+## Wat een closer doet
+
+Een closer begint waar de setter stopt. Hij voert het gesprek, brengt de situatie in kaart, maakt het aanbod passend en begeleidt naar een besluit. Dat werk is trager en dieper: minder gesprekken, meer voorbereiding per gesprek, en een langere staart van opvolging.
+
+Waarop je stuurt: welk deel van de gesprekken tot een voorstel leidt, welk deel van de voorstellen sluit, en hoe lang dat duurt. Een closer met een lage conversie kan een probleem met de leadkwaliteit hebben in plaats van met zijn gesprekken, en dat zie je alleen als je beide kanten meet.
+
+## Waar de overdracht misgaat
+
+De meeste omzet lekt weg tussen de twee rollen, niet erbinnen. Drie oorzaken komen steeds terug.
+
+De eerste is een verschil in wat een goede afspraak is. De setter denkt: iemand wilde praten. De closer denkt: iemand met budget die dit kwartaal beslist. Zolang die definitie niet op papier staat en door beiden is geaccepteerd, is elke discussie achteraf een welles-nietes.
+
+De tweede is context die niet meekomt. De setter weet waarom iemand ja zei, en dat staat nergens. De closer begint het gesprek opnieuw, de prospect merkt dat en het momentum is weg. Een veld met drie regels aanleiding lost dit op.
+
+De derde is tijd. Hoe langer tussen boeking en gesprek, hoe meer afzeggingen. Wat helpt is dezelfde week inplannen en de dag ervoor bevestigen, door dezelfde persoon die de afspraak maakte.
+
+## Wanneer een persoon beide rollen kan doen
+
+Bij lage volumes is splitsen onzin. Als je vijf gesprekken per maand voert, kost de overdracht meer dan hij oplevert en verlies je bovendien de directe lijn tussen wat er in de markt gebeurt en hoe je aanbod klinkt.
+
+Het omslagpunt ligt ruwweg daar waar het maken van afspraken structureel wegvalt omdat de agenda vol zit met gesprekken. Dat is het moment waarop je in golven gaat werken: een week prospecten, dan twee weken gesprekken, dan is de pijplijn weer leeg. Die golfbeweging is het duidelijkste signaal dat de rollen uit elkaar moeten.
+
+## Hoe je het praktisch inricht
+
+- Schrijf in een zin op wat een geldige afspraak is en laat beide rollen daarmee akkoord gaan
+
+- Spreek af dat de setter drie regels aanleiding vastlegt bij elke boeking
+
+- Meet per rol: de setter op gesprekken en opkomst, de closer op voorstellen en sluitingen
+
+- Laat de setter de afspraak de dag ervoor bevestigen
+
+- Bespreek wekelijks de afspraken die niet doorgingen, dat is waar de definitie scherper wordt
+
+## Wat wij leveren
+
+De meeste vraag die bij ons binnenkomt is een setter, omdat het maken van afspraken het eerste is wat wegvalt zodra een bedrijf het druk krijgt. Closers plaatsen we ook, meestal bij bedrijven die al een setter hebben draaien en merken dat het gesprek zelf de bottleneck wordt. Welke vorm van samenwerking daarbij past staat in performance vs. seat-model.
+
+## Veelgestelde vragen
+
+**Kan dezelfde setter later ook closen?**
+
+Soms, maar het is een ander vak. Iemand die goed is in vijftig korte contacten per dag is niet vanzelf goed in een gesprek van een uur met een directeur. Beoordeel het per persoon en niet als vanzelfsprekende doorgroei.
+
+**Wie doet de opvolging na het gesprek?**
+
+De closer, want die kent de inhoud. De setter pakt het pas weer op als een prospect afhaakt en later opnieuw benaderd moet worden.
+
+**Hoeveel afspraken maakt een setter per week?**
+
+Dat hangt te veel af van markt, lijstkwaliteit en aanbod om er een getal aan te hangen dat voor jou klopt. In het matchgesprek rekenen we het door op jouw doelgroep in plaats van op een gemiddelde.
+
+==============================================================================
+
+# Salescapaciteit uitbesteden: wat besteed je wel uit?
+Bron: https://www.link2talent.nl/kennis/salescapaciteit-uitbesteden
+
+
+Niet elk commercieel werk leent zich om extern neer te leggen. De vuistregel: hoe herhaalbaarder het werk en hoe duidelijker de uitkomst, hoe beter het uitbesteden werkt.
+Bijgewerkt 8 september 2026 · Demi Stekelenburg · Leestijd 7 minuten. Kort antwoord: besteed uit wat herhaalbaar is en een duidelijke uitkomst heeft. Houd zelf wat oordeel vraagt over je aanbod, je prijs of je klantrelatie.
+
+## Vier lagen commercieel werk
+
+Het helpt om je verkoopproces niet als een geheel te zien maar als vier lagen, van buiten naar binnen. Hoe verder naar buiten, hoe beter uitbesteden werkt.
+
+Laag 1, de lijst. Bepalen welke bedrijven passen, gegevens verzamelen, controleren of adressen kloppen. Volledig herhaalbaar, meetbaar op kwaliteit, en het kost intern veel tijd zonder dat er iemand beter van wordt. Dit is de makkelijkste laag om weg te zetten.
+
+Laag 2, het eerste contact. Bellen, mailen en opvolgen tot er een gesprek staat. Herhaalbaar werk met een heldere uitkomst: er staat een afspraak of niet. Dit is waar een setter zit en waar de meeste winst te halen valt, omdat het intern altijd als eerste sneuvelt.
+
+Laag 3, het verkoopgesprek. Uitbesteedbaar, maar met meer voorwaarden. De persoon moet je aanbod echt begrijpen, en jij moet accepteren dat hij namens jou prijsafspraken bespreekt. Dit werkt als je propositie staat en je een duidelijk kader voor korting en voorwaarden hebt.
+
+Laag 4, de klantrelatie en de koers. Wat je aanbiedt, wat het kost, welke markt je kiest, en wie je vaste klanten blijft bedienen. Dit hoort thuis bij jou. Wie deze laag uitbesteedt, besteedt niet capaciteit uit maar richting.
+
+## De test per taak
+
+Twijfel je over een specifieke taak, loop dan deze drie vragen langs.
+
+- Kan ik in een zin zeggen wanneer dit goed is gedaan? Zo niet, dan kun je er ook niet op sturen en gaat uitbesteden mis.
+
+- Gebeurt dit vaker dan een paar keer per week? Werk dat zelden voorkomt is zelden de moeite van het overdragen waard, omdat de inwerktijd nooit wordt terugverdiend.
+
+- Wat gebeurt er als het een keer verkeerd gaat? Een verkeerd gekwalificeerde afspraak kost een uur. Een verkeerde prijsafspraak bij je grootste klant kost meer. Hoe hoger die kosten, hoe meer reden om het zelf te houden.
+
+## Wat je zelf moet blijven doen, ook bij uitbesteden
+
+Uitbesteden betekent niet dat het van je bordje is. Er zijn drie dingen die je zelf houdt, hoe je het ook inricht.
+
+Het eerste is de definitie van een goede lead. Die verandert in de loop van de maanden en alleen jij weet waarom, omdat jij de gesprekken voert die eruit komen.
+
+Het tweede is feedback. De afspraken die niet goed waren, zijn de meest waardevolle informatie die je terug kunt geven. Zonder dat is een externe kracht aan het gokken.
+
+Het derde is de opvolging aan jouw kant. Als er een gesprek staat en jij belt drie dagen later terug, is de waarde van dat gesprek grotendeels weg. Dat is geen verwijt aan de leverancier.
+
+## Waar het meestal misgaat
+
+Twee patronen zien we vaak. Het eerste is uitbesteden om een strategisch gat te dempen: er komen te weinig klanten, dus er moet iemand bellen, terwijl niemand precies weet naar wie of waarom. Dat levert activiteit op en geen resultaat.
+
+Het tweede is uitbesteden zonder aan te sturen. De verwachting is dat er een dienst draait op de achtergrond en dat er afspraken uit rollen. Externe capaciteit heeft dezelfde context nodig als een eigen medewerker, alleen in minder tijd en beter gedoseerd. Reken op een uur per week.
+
+## Checklist voordat je iets uitbesteedt
+
+- De taak is herhaalbaar en de uitkomst is in een zin te beschrijven
+
+- Je hebt een profiel van je beste klanten, niet alleen een branche
+
+- Er is iemand bij jou die wekelijks context en feedback geeft
+
+- Je hebt afgesproken hoe en wanneer er wordt gerapporteerd
+
+- Je kunt binnen een werkdag opvolgen wat er binnenkomt
+
+## Veelgestelde vragen
+
+**Wat is het verschil met een belbureau?**
+
+Bij een belbureau koop je gesprekken in bij wisselende mensen. Bij ons werkt dezelfde setter voor jou, leert je aanbod kennen en stuur jij aan. Dat verschil merk je pas na een paar weken, want dan begint kennis mee te tellen.
+
+**Kan ik alleen de lijst uitbesteden?**
+
+Ja. Lijstwerk en e-mailcampagnes doet ons zusterbedrijf Link2Leads, capaciteit om op te volgen doen wij.
+
+**Hoe lang duurt het voor het loopt?**
+
+Reken op twee weken tot de setter actief is en daarna een paar weken waarin de definitie van een goede afspraak scherper wordt. Beoordelen op basis van de eerste twee weken is te vroeg.
+
+==============================================================================
+
+# Performance vs. seat-model
+Bron: https://www.link2talent.nl/kennis/performance-vs-seat-model
+
+
+Welk model past hangt af van een vraag: hoeveel invloed heeft de setter op het resultaat waarop je hem afrekent? Hoe kleiner die invloed, hoe minder logisch betalen per resultaat is.
+Bijgewerkt 8 september 2026 · Demi Stekelenburg · Leestijd 7 minuten. Kort antwoord: betaal per resultaat als de setter dat resultaat grotendeels zelf in de hand heeft en je het zuiver kunt meten. Kan hij dat niet, of is de meting discutabel, dan is per uur of per seat eerlijker voor beide kanten.
+
+## De vraag die het model bepaalt
+
+Elke discussie over prijsmodellen komt terug op dezelfde vraag: wie heeft invloed op de uitkomst waarop wordt afgerekend? Bij een geboekte afspraak is dat grotendeels de setter. Bij een gesloten deal zit daar jouw verkoopgesprek, je prijs en je concurrentie tussen. Bij omzet zit daar ook nog je levering en je facturatie tussen.
+
+Hoe verder de uitkomst van het werk af staat, hoe meer de vergoeding een gok wordt in plaats van een prijs. Dat is niet alleen oneerlijk voor de setter, het is ook slecht voor jou: iemand die op een uitkomst wordt afgerekend die hij niet kan sturen, gaat sturen op wat hij wel kan beïnvloeden, en dat is het aantal boekingen, niet de kwaliteit ervan.
+
+## De drie modellen naast elkaar
+
+| | Performance | Uurtarief | Seat | 
+| Je betaalt | Commissie per afspraak, plus een kleine bemiddelingsfee | Het uurtarief van de setter plus een bemiddelingsfee | Een vast bedrag per maand per seat | 
+| Risico ligt bij | Grotendeels bij de setter | Gedeeld | Grotendeels bij jou | 
+| Past bij | Een bewezen aanbod en een ruime doelgroep | De meeste B2B-bedrijven | Vast, voorspelbaar volume | 
+| Voorspelbaarheid kosten | Laag, schaalt met resultaat | Hoog | Hoogst | 
+| Let op | Definitie van een geldige afspraak moet waterdicht zijn | Je stuurt op uren, dus stuur ook op output | Loopt door in rustige maanden | 
+
+De actuele tarieven staan op de modellenpagina. Het uurtariefmodel wordt het vaakst gekozen, omdat het de kosten voorspelbaar houdt zonder dat je vastzit aan een vast bedrag in een maand waarin je minder nodig hebt.
+
+## Wanneer performance werkt
+
+Performance werkt als aan drie voorwaarden is voldaan. Je aanbod verkoopt al aantoonbaar, want anders loopt de setter tegen een muur die niet aan hem ligt. Je doelgroep is groot genoeg om volume te maken, want commissie per afspraak betekent dat de setter voldoende kansen nodig heeft. En je kunt objectief vaststellen wanneer een afspraak telt.
+
+Dat laatste is waar het meestal op stukloopt. Zonder een vooraf vastgelegde definitie krijg je discussies over elke afspraak die niet doorging. Leg vast: wie de gesprekspartner moet zijn, welk onderwerp op tafel moet liggen, en wat er gebeurt als iemand niet komt opdagen. Een no-show telt bijvoorbeeld wel als hij een keer wordt verzet en niet als hij daarna nog steeds niet komt.
+
+## Wanneer uurtarief werkt
+
+Het uurtarief is de standaard omdat het bij de meeste situaties past. Je betaalt voor tijd, je stuurt zelf op wat er in die tijd gebeurt, en je kunt het aantal uren per maand aanpassen. Het risico is gedeeld: jij draagt het risico dat een uur niets oplevert, de setter draagt het risico dat hij vervangen wordt als dat structureel zo is.
+
+De valkuil is dat je op uren gaat sturen in plaats van op output. Spreek daarom bij de start af welke getallen je wekelijks bekijkt: benaderde bedrijven, ontstane gesprekken, geboekte afspraken en opkomst. Dan is het uurtarief een betaalvorm en geen meeteenheid.
+
+## Wanneer een seat werkt
+
+Een seat is een vaste maandprijs voor een setter die direct inzetbaar is. Dat past als je volume voorspelbaar is en je liever een vast bedrag in je begroting hebt dan een variabele post. Het is ook het simpelste model om mee op te schalen: een tweede seat erbij en je hebt twee setters, met dezelfde afspraken.
+
+Het nadeel is dat het doorloopt in een maand waarin je minder nodig hebt. Dat is precies het spiegelbeeld van performance: meer zekerheid over de kosten, minder flexibiliteit.
+
+## Hoe je kiest
+
+- Kun je in een zin vastleggen wanneer een afspraak telt? Zo niet, dan valt performance af
+
+- Is je doelgroep groot genoeg voor volume, of is hij smal en high-ticket?
+
+- Wil je voorspelbare kosten of variabele kosten die meebewegen?
+
+- Weet je nu al hoeveel uren je de komende drie maanden nodig hebt?
+
+- Heb je iemand die wekelijks op de output kan sturen?
+
+Twijfel je, dan is het uurtarief bijna altijd de veiligste start. Je kunt na drie maanden nog steeds naar performance of naar een seat, en dan doe je dat met cijfers erbij.
+
+## Veelgestelde vragen
+
+**Kan ik van model wisselen?**
+
+Ja. De meeste klanten starten op uurtarief en stappen over zodra ze weten wat een maand oplevert.
+
+**Wat als een afspraak niet doorgaat?**
+
+Dat leggen we vooraf vast, en dat is bij performance het belangrijkste onderdeel van de afspraak. Meestal geldt: een keer verzetten telt nog mee, daarna niet.
+
+**Zit er een minimale looptijd op?**
+
+Dat verschilt per model en bespreken we in het matchgesprek. Het uitgangspunt is dat je op- en af kunt schalen zonder ontslagtraject, want dat is de reden om in te huren.
+
+==============================================================================
+
+# Wat er in een case hoort te staan.
+Bron: https://www.link2talent.nl/cases/
+
+
+Zodra resultaten per klant publiek en verifieerbaar gedeeld kunnen worden, staan ze hier met startsituatie, inzet, periode en definities erbij. Tot die tijd laten we zien welke situaties we in de praktijk tegenkomen en hoe de capaciteitsvraag er dan uitziet.
+
+Situatie 1
+### De leads komen binnen, niemand volgt ze op
+
+Marketing of e-mailcampagnes leveren reacties, maar er is niemand die dezelfde dag terugbelt. De vraag is dan niet of het aanbod klopt, maar wie de eerste vijf minuten na een reactie invult. Een setter met een vaste opvolgroutine is hier de kortste route.
+
+Situatie 2
+### De oprichter is zelf de salesafdeling
+
+Alles loopt via een persoon die ook levert, factureert en aanstuurt. Acquisitie is dan het eerste dat wegvalt zodra het druk wordt. Het werk splitsen in afspraken maken en afspraken voeren maakt zichtbaar welk deel je echt zelf wilt houden.
+
+Situatie 3
+### Er zijn closers, maar niemand vult de agenda
+
+Dure salesmensen besteden een deel van hun week aan prospecting waar ze niet voor zijn aangenomen. Een setter voor de agenda en de closer voor het gesprek scheelt uren per week en maakt per rol meetbaar wat er gebeurt.
+
+Situatie 4
+### Piek in het seizoen, daarna weer rustig
+
+Een vaste hire past niet bij een vraag die per kwartaal verschilt. Op- en afschalen zonder ontslagtraject is precies waar het seat- en performancemodel voor bedoeld zijn.
+
+### Onze case-standaard
+StartsituatieWelke bottleneck bestond er?InzetWelke capaciteit en activiteiten?PeriodeOver welke periode is gemeten?
+We publiceren geen verzonnen klantnamen of ongeverifieerde omzetclaims. Een case met context is meer waard dan een groot getal zonder uitleg.
+
+Bij ons zusterbedrijf Link2Leads staan wel al cijfermatige cases online, inclusief investering, looptijd en de definities die erbij horen. Beide bedrijven vallen onder Link2Group.
+
+## Wil je weten hoe een vergelijkbare situatie wordt beoordeeld?
+Plan een matchgesprek →
