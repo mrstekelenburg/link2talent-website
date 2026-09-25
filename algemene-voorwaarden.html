@@ -223,9 +223,50 @@ html body a.nav-logo span {
   color: #2F6FED !important;
 }
 </style>
+<link rel="stylesheet" href="/assets/l2t-shared.css?v=1">
 </head>
-<body>
+<body class="l2t-sub">
 <canvas id="bg-canvas"></canvas>
+<nav aria-label="Hoofdmenu" class="l2n">
+<div class="l2n-inner">
+<a aria-label="Link2Talent, naar de homepage" class="l2n-logo" href="/"><span class="l2b">Link<i>2</i>Talent</span></a>
+<ul class="l2n-links"><li><a href="/#zowerkthet">Zo werkt het</a></li><li><a href="/cases">Resultaten</a></li><li><a href="/#modellen">Modellen</a></li><li><a href="/#vergelijk">Vergelijk</a></li><li><a href="/kennis">Kennis</a></li><li><a href="/#reviews">Reviews</a></li><li><a href="/#contact">Contact</a></li></ul>
+<a class="l2n-cta" href="/book">Plan een gesprek</a>
+<button aria-controls="l2nMenu" aria-expanded="false" aria-label="Menu openen" class="l2n-burger" id="l2nBurger" type="button"><span></span><span></span><span></span></button>
+</div>
+</nav>
+<div class="l2n-menu" id="l2nMenu"><a href="/#zowerkthet" onclick="l2nClose()">Zo werkt het</a><a href="/cases" onclick="l2nClose()">Resultaten</a><a href="/#modellen" onclick="l2nClose()">Modellen</a><a href="/#vergelijk" onclick="l2nClose()">Vergelijk</a><a href="/kennis" onclick="l2nClose()">Kennis</a><a href="/#reviews" onclick="l2nClose()">Reviews</a><a href="/#faq" onclick="l2nClose()">Vragen</a><a href="/#contact" onclick="l2nClose()">Contact</a><a class="l2n-mcta" href="/book" onclick="l2nClose()">Plan een gesprek</a></div>
+<script>
+(function(){
+  var nav=document.querySelector('nav.l2n'), b=document.getElementById('l2nBurger'), m=document.getElementById('l2nMenu');
+  function set(o){ if(!b||!m) return; b.classList.toggle('open',o); m.classList.toggle('open',o); b.setAttribute('aria-expanded',o?'true':'false'); }
+  window.l2nClose=function(){ set(false); };
+  if(b) b.addEventListener('click',function(){ set(!m.classList.contains('open')); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') set(false); });
+  function sc(){ if(nav) nav.classList.toggle('scrolled', window.scrollY>60); }
+  window.addEventListener('scroll',sc,{passive:true}); sc();
+})();
+</script>
+<script>
+(function(){
+  const nav = document.querySelector('nav');
+  const inner = document.querySelector('.nav-inner');
+  if(!nav || !inner) return;
+  function checkNav(){
+    if(window.innerWidth <= 768) { nav.classList.remove('nav-collapsed'); return; } // mobiele media query regelt het daar al
+    nav.classList.remove('nav-collapsed');
+    var rect = inner.getBoundingClientRect();
+    if(inner.scrollWidth > inner.clientWidth + 1 || rect.right > window.innerWidth - 4){
+      nav.classList.add('nav-collapsed');
+    }
+  }
+  window.addEventListener('resize', checkNav, { passive:true });
+  window.addEventListener('load', checkNav);
+  if(document.fonts && document.fonts.ready){ document.fonts.ready.then(checkNav); }
+  checkNav();
+})();
+</script>
+
 <script>
 (function(){
   const canvas = document.getElementById('bg-canvas');
@@ -314,26 +355,6 @@ html body a.nav-logo span {
 </script>
 
 
-<nav>
-  <div class="nav-inner">
-    <a href="/" class="nav-logo" style="color:#F0EFED!important">Link<span class="dot" style="color:#2F6FED!important">2</span>Talent</a>
-    <ul class="nav-links">
-      <li><a href="/#aanpak">Aanpak</a></li>
-      <li><a href="/#modellen">Modellen</a></li>
-      <li><a href="/#reviews">Reviews</a></li>
-      <li><a href="/#team">Het Team</a></li>
-    </ul>
-    <a href="/book" class="nav-cta" target="_blank">Boek een strategiecall</a>
-    <button class="nav-hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
-  </div>
-</nav>
-<div class="nav-mobile-menu" id="mobileMenu">
-  <a href="/#aanpak" onclick="closeMenu()">Aanpak</a>
-  <a href="/#modellen" onclick="closeMenu()">Modellen</a>
-  <a href="/#reviews" onclick="closeMenu()">Reviews</a>
-  <a href="/#team" onclick="closeMenu()">Het Team</a>
-  <a href="/book" class="nav-mobile-cta" target="_blank">Boek een strategiecall</a>
-</div>
 
 <div class="page-wrap">
 
@@ -350,7 +371,7 @@ html body a.nav-logo span {
     <div class="def-grid">
       <div class="def-row">
         <span class="def-term">Link2Talent</span>
-        <span class="def-desc">Dienstverlener in B2B leadgeneratie via e-mailcampagnes, onderdeel van Link<span class="dot">2</span>Talent.</span>
+        <span class="def-desc">Bemiddelaar van remote setters en closers voor B2B-bedrijven, onderdeel van <span class="l2b">Link<i>2</i>Group</span>.</span>
       </div>
       <div class="def-row">
         <span class="def-term">Opdrachtgever</span>
@@ -479,18 +500,65 @@ html body a.nav-logo span {
 
 </div>
 
-<footer>
-  <div class="foot-inner">
-    <a href="/" class="foot-logo">Link<span class="dot">2</span>Talent</a>
-    <ul class="foot-links">
-      <li><a href="/">Home</a></li>
-      <li><a href="/#modellen">Modellen</a></li>
-      <li><a href="/#team">Over ons</a></li>
-      <li><a href="/privacy">Privacybeleid</a></li>
-      <li><a href="/algemene-voorwaarden">Algemene Voorwaarden</a></li>
-    </ul>
-    <span class="foot-copy">2026 Link<span class="dot">2</span>Talent, onderdeel van Link2Talent</span>
-  </div>
+<footer class="l2f">
+<div class="l2f-wrap">
+<div class="l2f-top">
+<div class="l2f-brand">
+<a aria-label="Link2Talent, naar de homepage" class="l2f-logo" href="/"><span class="l2b">Link<i>2</i>Talent</span></a>
+<p class="l2f-tag">Remote setters en closers voor B2B. Binnen 14 dagen actief, jij stuurt aan, wij regelen contract, betaling en rapportage. Geen recruitment en geen vaste hire.</p>
+<ul class="l2f-contact">
+<li><a href="mailto:info@link2talent.nl"><span class="l2f-ico"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewBox="0 0 24 24"><rect height="15" rx="2.5" width="19" x="2.5" y="4.5"></rect><path d="m3 7 8.13 5.42a1.6 1.6 0 0 0 1.74 0L21 7"></path></svg></span>info@link2talent.nl</a></li>
+<li><a href="tel:+31850805381"><span class="l2f-ico"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewBox="0 0 24 24"><path d="M21 16.9v2.6a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.4 19.4 0 0 1-6-6A19.8 19.8 0 0 1 1.1 3.7 2 2 0 0 1 3.1 1.5h2.6a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L6.87 9.23a16 16 0 0 0 6 6l1.13-1.13a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7a2 2 0 0 1 1.7 2.05Z"></path></svg></span>085 080 5381</a></li>
+</ul>
+</div>
+<div>
+<div class="l2f-title">Dienst</div>
+<ul class="l2f-links">
+<li><a href="/#zowerkthet">Zo werkt het</a></li>
+<li><a href="/cases">Cases en resultaten</a></li>
+<li><a href="/#reviews">Reviews van klanten</a></li>
+<li><a href="/#modellen">Modellen en prijzen</a></li>
+<li><a href="/#vergelijk">Vergelijk met een SDR of callbureau</a></li>
+<li><a href="/#capaciteitsscan">Gratis capaciteitsscan</a></li>
+<li><a href="/calculator-l2t">Omzetcalculator</a></li>
+<li><a href="/book">Plan een gesprek</a></li>
+<li><a href="/#faq">Veelgestelde vragen</a></li>
+</ul>
+</div>
+<div>
+<div class="l2f-title">Meer lezen</div>
+<ul class="l2f-links">
+<li><a href="/kennis">Kennisbank</a></li>
+<li><a href="/kennis/appointment-setter-inhuren-kosten">Wat kost een setter</a></li>
+<li><a href="/kennis/afspraken-per-week-setter">Afspraken per week</a></li>
+<li><a href="/kennis/interne-sdr-kosten">Kosten interne SDR</a></li>
+<li><a href="/kennis/remote-setter-vs-sdr">Setter of SDR in dienst</a></li>
+<li><a href="/kennis/setter-vs-closer">Setter of closer</a></li>
+<li><a href="/kennis/remote-setter-aansturen">Setter aansturen</a></li>
+<li><a href="/kennis/appointment-setting-uitbesteden">Appointment setting uitbesteden</a></li>
+<li><a href="/appointment-setting-bureaus-nederland">Bureaus vergeleken</a></li>
+</ul>
+</div>
+<div>
+<div class="l2f-title">Bedrijf</div>
+<ul class="l2f-links">
+<li><a href="/#contact">Over ons</a></li>
+<li><a href="/#contact">Contact</a></li>
+<li><a href="https://app.link2talent.nl" rel="noopener" target="_blank">Inloggen of account aanmaken</a></li>
+<li><a href="https://www.link2leads.nl" rel="noopener" target="_blank"><span class="l2b">Link<i>2</i>Leads</span>, koude e-mail</a></li>
+<li><a href="/algemene-voorwaarden">Algemene voorwaarden</a></li>
+<li><a href="/privacy">Privacyverklaring</a></li>
+</ul>
+</div>
+</div>
+<div class="l2f-bottom">
+<span>&copy; 2026 <span class="l2b">Link<i>2</i>Talent</span>. Alle rechten voorbehouden.</span>
+<address class="l2f-legal">
+<span><span class="l2b">Link<i>2</i>Talent</span> is een dienst van <a href="https://link2group.nl" rel="noopener" target="_blank"><span class="l2b">Link<i>2</i>Group</span></a></span>
+<span><span class="l2f-i">Frederik Hendrikstraat 59H, 1052 HL Amsterdam</span><span class="l2f-dot">&middot;</span><span class="l2f-i">KvK 42025671</span><span class="l2f-dot">&middot;</span><span class="l2f-i">BTW NL869359460B01</span></span>
+</address>
+</div>
+</div>
 </footer>
 
 <script>
@@ -518,5 +586,19 @@ html body a.nav-logo span {
 })();
 </script>
 <script src="/assets/tracking.js" defer></script>
-<script src="/assets/i18n/l2t-i18n.js?v=4"></script></body>
+<script src="/assets/i18n/l2t-i18n.js?v=5"></script><!-- Vaste WhatsApp-knop rechtsonder, op elke pagina. Pure HTML en CSS, geen script. -->
+<style>
+#l2l-fab{position:fixed !important;right:20px !important;bottom:20px !important;z-index:400;
+  width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  background:#25D366;box-shadow:0 8px 24px rgba(0,0,0,.34),0 0 0 1px rgba(255,255,255,.10);
+  -webkit-tap-highlight-color:transparent;transition:transform .18s ease,box-shadow .18s ease;}
+#l2l-fab svg{width:31px;height:31px;display:block;fill:#fff;}
+#l2l-fab:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(0,0,0,.42),0 0 0 1px rgba(255,255,255,.14);}
+#l2l-fab:focus-visible{outline:3px solid #BFD4FF;outline-offset:3px;}
+@media (max-width:640px){#l2l-fab{right:16px !important;bottom:calc(16px + env(safe-area-inset-bottom,0px)) !important;
+  width:52px;height:52px;}#l2l-fab svg{width:28px;height:28px;}}
+@media (prefers-reduced-motion:reduce){#l2l-fab{transition:none;}#l2l-fab:hover{transform:none;}}
+</style>
+<a id="l2l-fab" href="https://wa.me/31850805381?text=Hoi%20Link2Talent%2C%20ik%20heb%20een%20vraag." target="_blank" rel="noopener" title="WhatsApp: 085 080 5381" aria-label="Stuur ons een WhatsApp-bericht" onclick="if(window.l2tTrack)l2tTrack('whatsapp_click');"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.79-1.67-2.09-.18-.3-.02-.47.13-.62.13-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.68-1.61-.93-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.45 0 1.45 1.06 2.85 1.21 3.05.15.2 2.09 3.19 5.06 4.47.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.57-.35zM12.04 21.5h-.01c-1.75 0-3.47-.47-4.98-1.36l-.36-.21-3.7.97.99-3.62-.23-.37a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.24-9.43 9.45-9.43 2.52 0 4.89.98 6.67 2.76a9.37 9.37 0 0 1 2.77 6.68c0 5.2-4.24 9.42-9.43 9.42zM20.5 3.49A11.8 11.8 0 0 0 12.04 0C5.49 0 .16 5.33.16 11.88c0 2.09.55 4.13 1.59 5.93L0 24l6.34-1.66a11.83 11.83 0 0 0 5.69 1.45h.01c6.55 0 11.88-5.33 11.88-11.88 0-3.17-1.24-6.16-3.42-8.42z"/></svg></a>
+</body>
 </html>

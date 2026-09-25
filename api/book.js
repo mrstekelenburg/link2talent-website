@@ -1,7 +1,8 @@
 const nodemailer = require('nodemailer');
 const graph = require('./_graph');
 
-const ACCENT = '#2F6FED';
+const M = require('./_mail');
+const { esc, weekdayOf, KLANT_URL, SIGNER } = M;
 
 function transporter() {
   return nodemailer.createTransport({
@@ -10,40 +11,6 @@ function transporter() {
     secure: Number(process.env.MAIL_PORT || 465) === 465,
     auth: { user: process.env.MAIL_USER, pass: process.env.MAIL_PASS }
   });
-}
-
-function esc(s) {
-  return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '<br>');
-}
-
-function wrap(title, inner, ref) {
-  return `
-  <div style="font-family:Arial,Helvetica,sans-serif;background:#f4f5f7;padding:32px 16px;">
-    <div style="max-width:560px;margin:0 auto;background:#fff;border-radius:12px;overflow:hidden;border:1px solid #e5e7eb;">
-      <div style="padding:22px 28px;border-bottom:1px solid #e5e7eb;">
-        <span style="font-size:18px;font-weight:800;color:#111;">Link<span style="color:${ACCENT};">2</span>Talent</span>
-      </div>
-      <div style="padding:28px;">
-        <h2 style="margin:0 0 16px;font-size:19px;color:#111;">${title}</h2>
-        ${inner}
-        ${ref ? `<p style="margin:24px 0 0;font-size:12px;color:#9ca3af;">Referentienummer: ${ref}</p>` : ''}
-      </div>
-    </div>
-  </div>`;
-}
-
-function rows(obj) {
-  return Object.entries(obj)
-    .filter(([, v]) => v)
-    .map(([k, v]) => `
-      <tr>
-        <td style="padding:9px 12px;font-size:13px;color:#6b7280;border-bottom:1px solid #f3f4f6;vertical-align:top;white-space:nowrap;">${esc(k)}</td>
-        <td style="padding:9px 12px;font-size:13px;color:#111;border-bottom:1px solid #f3f4f6;vertical-align:top;">${esc(v)}</td>
-      </tr>`).join('');
-}
-
-function table(obj) {
-  return `<table style="width:100%;border-collapse:collapse;border:1px solid #f3f4f6;border-radius:8px;">${rows(obj)}</table>`;
 }
 
 function pad(n) { return String(n).padStart(2, '0'); }
@@ -97,8 +64,8 @@ function buildIcs(opts) {
     'DTSTAMP:' + stamp,
     'DTSTART;TZID=Europe/Amsterdam:' + startLocal,
     'DTEND;TZID=Europe/Amsterdam:' + endLocal,
-    'SUMMARY:' + esc('Kennismakingsgesprek Link2Talent' + (opts.companyName ? ' x ' + opts.companyName : '')),
-    'DESCRIPTION:' + esc('Kennismakingsgesprek van 30 minuten met Link2Talent.\nJe ontvangt de meeting-link uiterlijk een dag van tevoren.\n\nBoekingsnummer: ' + (opts.ref || '')),
+    'SUMMARY:' + esc(graph.EVENT_PREFIX + (opts.companyName ? ' x ' + opts.companyName : '')),
+    'DESCRIPTION:' + esc('Gratis kennismakingsgesprek van 30 minuten met Link2Talent.\nJe ontvangt de deelnamelink uiterlijk een dag van tevoren.\n\nBoekingsnummer: ' + (opts.ref || '')),
     'LOCATION:' + esc('Online (link volgt per mail)'),
     'ORGANIZER;CN=Link2Talent:mailto:' + (opts.organizer || 'demi@link2talent.nl'),
     'ATTENDEE;CN=' + esc(opts.name || '') + ';RSVP=TRUE:mailto:' + (opts.email || ''),
@@ -107,12 +74,12 @@ function buildIcs(opts) {
     'BEGIN:VALARM',
     'TRIGGER:-PT15M',
     'ACTION:DISPLAY',
-    'DESCRIPTION:Kennismakingsgesprek Link2Talent over 15 minuten',
+    'DESCRIPTION:Kennismaking Link2Talent over 15 minuten',
     'END:VALARM',
     'BEGIN:VALARM',
     'TRIGGER:-P1D',
     'ACTION:DISPLAY',
-    'DESCRIPTION:Morgen je kennismakingsgesprek met Link2Talent',
+    'DESCRIPTION:Morgen je kennismaking met Link2Talent',
     'END:VALARM',
     'END:VEVENT',
     'END:VCALENDAR'
@@ -123,37 +90,83 @@ module.exports = async (req, res) => {
   if (req.method !== 'POST') return res.status(405).json({ success: false });
 
   const b = req.body || {};
+
+  // Zonder geldig adres nergens aan beginnen: anders gaat de interne mail wel
+  // de deur uit en klapt pas de mail naar de klant, met een halve boeking tot gevolg.
+  if (!b.name || !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(String(b.email || ''))) {
+    return res.status(400).json({ success: false, error: 'Vul een geldig e-mailadres in, bijvoorbeeld naam@bedrijf.nl.' });
+  }
+
   const notify = process.env.NOTIFY_EMAIL || b.notifyEmail || 'demi@link2talent.nl';
   const from = `"Link2Talent" <${process.env.MAIL_FROM || 'info@link2talent.nl'}>`;
-  // Verzendadres en antwoordadres staan los van elkaar. Zolang link2talent.nl
-  // nog geen eigen verzenddienst heeft, vertrekt de mail vanaf link2leads.nl
-  // (MAIL_FROM) maar komen antwoorden gewoon op link2talent.nl binnen.
-  const replyTo = process.env.REPLY_TO || 'info@link2talent.nl';
   const t = transporter();
 
   try {
     if (b.type === 'answers' || b.stage === 'answers') {
       // ===== Mail 2: ingevulde vragenlijst =====
       const ref = b.ref || '';
-      const contact = { Naam: b.name, 'E-mail': b.email, Bedrijf: b.companyName, Telefoon: b.phone, Afspraak: `${b.date} om ${b.time}` };
+      const wd = weekdayOf(b.date);
 
       // Naar Demi
       await t.sendMail({
         from, to: notify, replyTo: b.email,
-        subject: `Vragenlijst ingevuld — ${b.name}${b.companyName ? ' (' + b.companyName + ')' : ''} ${ref}`,
-        html: wrap('Vragenlijst ingevuld',
-          `<p style="font-size:14px;color:#374151;margin:0 0 18px;">${esc(b.name)}${b.companyName ? ' van ' + esc(b.companyName) : ''} heeft de vragenlijst ingevuld.</p>
-           <h3 style="font-size:14px;color:#111;margin:0 0 8px;">Contactgegevens</h3>${table(contact)}
-           <h3 style="font-size:14px;color:#111;margin:20px 0 8px;">Ingevulde vragenlijst</h3>${table(b.answers || {})}`, ref)
+        subject: `Voorbereiding ingevuld — ${b.name}${b.companyName ? ' (' + b.companyName + ')' : ''} · ${ref}`,
+        html: M.shell({
+          title: 'Voorbereiding ingevuld',
+          badge: 'Intern',
+          preheader: `${b.name} vulde de korte voorbereiding in`,
+          ref,
+          body: [
+            M.h1(`${esc(b.name)} vulde de voorbereiding in`),
+            M.p(`Afspraak staat op <strong style="color:${M.C.text};">${esc(b.date)} om ${esc(b.time)}</strong>.`),
+            M.label('Contactgegevens'),
+            M.detailTable([
+              ['Naam', b.name],
+              ['E-mail', b.email],
+              ['Bedrijf', b.companyName],
+              ['Telefoon', b.phone]
+            ]),
+            `<div style="height:26px;line-height:26px;font-size:0;">&nbsp;</div>`,
+            M.label('Antwoorden'),
+            M.answerTable(b.answers || {})
+          ].join('')
+        })
       });
 
       // Naar de klant (kopie)
       await t.sendMail({
-        from, to: b.email, replyTo,
-        subject: `Kopie van je antwoorden — Link2Talent ${ref}`,
-        html: wrap(`Bedankt, ${esc(b.name)}!`,
-          `<p style="font-size:14px;color:#374151;margin:0 0 18px;">Je antwoorden zijn ontvangen. Hieronder een kopie voor je eigen administratie. We bereiden hiermee het gesprek van <strong>${esc(b.date)} om ${esc(b.time)}</strong> voor.</p>
-           ${table(b.answers || {})}`, ref)
+        from, to: b.email,
+        subject: `Je voorbereiding voor ${b.date} — Link2Talent ${ref}`,
+        text: [
+          `Hoi ${b.name},`,
+          ``,
+          `Je antwoorden zijn binnen. Hieronder een kopie voor je eigen administratie.`,
+          `We bereiden hiermee het gesprek van ${b.date} om ${b.time} voor.`,
+          ``,
+          Object.entries(b.answers || {}).filter(e => e[1]).map(e => `${e[0]}:\n${e[1]}`).join('\n\n'),
+          ``,
+          `Je antwoorden geven me al richting. Vul nu ook de volledige vragenlijst in op ${M.klantUrl({ name: b.name, email: b.email, company: b.companyName })} (15 vragen over je aanbod, je doelgroep, je salesproces en wat je van een setter verwacht, ongeveer 7 minuten). Zo kan ik ${wd || 'in het gesprek'} direct met een voorstel voor de match komen in plaats van eerst alles uit te vragen.`,
+          ``,
+          `Bedankt en tot ${wd || 'snel'}.`,
+          `${SIGNER} · Link2Talent`,
+          `${M.SITE}`
+        ].join('\n'),
+        html: M.shell({
+          title: 'Je voorbereiding is binnen',
+          badge: 'Voorbereiding',
+          footerNote: 'Je ontvangt deze mail omdat je een kennismakingsgesprek met Link2Talent hebt gepland.',
+          preheader: 'Je antwoorden zijn binnen. Hier een kopie voor je administratie.',
+          ref,
+          body: [
+            M.h1(`Bedankt, ${esc(b.name)}`),
+            M.p(`Je antwoorden zijn binnen. Hieronder een kopie voor je eigen administratie. We bereiden hiermee het gesprek van <strong style="color:${M.C.text};">${esc(b.date)} om ${esc(b.time)}</strong> voor.`, { gap: 24 }),
+            M.answerTable(b.answers || {}),
+            M.spacer(),
+            M.prepBlock(b.date, 'full', '', { name: b.name, email: b.email, company: b.companyName }),
+            M.spacer(),
+            M.signoff(b.date)
+          ].join('')
+        })
       });
 
       return res.status(200).json({ success: true });
@@ -161,9 +174,9 @@ module.exports = async (req, res) => {
 
     // ===== Mail 1: boekingsbevestiging =====
     const ref = 'L2T-' + Math.floor(100000 + Math.random() * 900000);
-    const details = { Naam: b.name, 'E-mail': b.email, Bedrijf: b.companyName, Telefoon: b.phone, Datum: b.date, Tijd: `${b.time} (CET) · 30 minuten` };
+    const hasAnswers = b.answers && Object.values(b.answers).some(function (v) { return v; });
+    const wd = weekdayOf(b.date);
 
-    // Naar Demi
     // Laatste controle: is het tijdslot ondertussen niet volgeboekt?
     try {
       if (graph.configured() && b.dateKey && b.time) {
@@ -197,30 +210,86 @@ module.exports = async (req, res) => {
     const icsAttach = ics ? [{ filename: 'kennismaking-link2talent.ics', content: ics, contentType: 'text/calendar; charset=utf-8; method=REQUEST' }] : [];
     const icsAlt = ics ? [{ contentType: 'text/calendar; charset=utf-8; method=REQUEST', content: ics }] : [];
 
+    // Naar Demi
     await t.sendMail({
       from, to: notify, replyTo: b.email,
       attachments: icsAttach,
-      subject: `Nieuwe boeking — ${b.name}${b.companyName ? ' (' + b.companyName + ')' : ''} · ${b.date} ${b.time}`,
-      html: wrap('Nieuw kennismakingsgesprek geboekt',
-        `<p style="font-size:14px;color:#374151;margin:0 0 18px;">${esc(b.name)} heeft een kennismakingsgesprek geboekt. De vragenlijst volgt in een aparte mail zodra die is ingevuld.</p>
-         ${table(details)}
-         ${calendar
-            ? `<p style="margin:18px 0 0;font-size:13px;color:#166534;">De afspraak staat in de agenda en de uitnodiging is vanuit Outlook verstuurd.${calendar.joinUrl ? ` <a href="${calendar.joinUrl}">Teams-link</a>` : ''}</p>`
-            : `<p style="margin:18px 0 0;font-size:13px;color:#b45309;">Let op: de afspraak kon niet in de agenda gezet worden${calendarError ? ' (' + esc(calendarError) + ')' : ''}. Zet hem handmatig in je agenda.</p>`}`, ref)
+      subject: `Nieuwe boeking — ${b.name}${b.companyName ? ' (' + b.companyName + ')' : ''} · ${b.date} ${b.time}${b.pakket ? ' · ' + String(b.pakket).split(' (')[0] : ''}`,
+      html: M.shell({
+        title: 'Nieuw kennismakingsgesprek geboekt',
+        badge: 'Intern',
+        preheader: `${b.name} · ${b.date} om ${b.time}`,
+        ref,
+        body: [
+          M.h1('Nieuw kennismakingsgesprek geboekt'),
+          M.p(`${esc(b.name)} heeft een kennismakingsgesprek geboekt.${hasAnswers ? ' De antwoorden op de korte vragen staan hieronder.' : ' De korte vragen volgen in een aparte mail zodra die zijn ingevuld.'}`, { gap: 24 }),
+          M.detailTable([
+            ['Naam', b.name],
+            ['E-mail', b.email],
+            ['Bedrijf', b.companyName],
+            ['Telefoon', b.phone],
+            ['Datum', b.date],
+            ['Tijd', `${b.time} (Nederlandse tijd) · 30 minuten`],
+            ['Pakket', b.pakket ? String(b.pakket).slice(0, 200) : '']
+          ]),
+          hasAnswers ? M.spacer(20) + M.label('Antwoorden') + M.answerTable(b.answers) : '',
+          M.spacer(20),
+          calendar
+            ? M.p(`De afspraak staat in de agenda en de uitnodiging is vanuit Outlook verstuurd. Jullie krijgen allebei een dag en een uur van tevoren een herinnering.${calendar.joinUrl ? ` <a href="${M.escAttr(calendar.joinUrl)}" style="color:${M.C.accent2};">Teams-link</a>` : ''}`, { color: M.C.green, gap: 0 })
+            : M.p(`Let op: de afspraak kon niet in de agenda gezet worden${calendarError ? ' (' + esc(calendarError) + ')' : ''}. Zet hem handmatig in je agenda en stuur zelf de Teams-link; de automatische herinneringen werken alleen voor afspraken die in de agenda staan.`, { color: M.C.amber, gap: 0 })
+        ].join('')
+      })
     });
 
     // Naar de klant
     await t.sendMail({
-      from, to: b.email, replyTo,
+      from, to: b.email,
       attachments: icsAttach,
       alternatives: icsAlt,
-      subject: `Je kennismakingsgesprek is bevestigd — ${b.date} om ${b.time}`,
-      html: wrap('Je afspraak is bevestigd!',
-        `<p style="font-size:14px;color:#374151;margin:0 0 18px;">Hoi ${esc(b.name)}, je kennismakingsgesprek met Link2Talent staat ingepland.${calendar ? ' Je krijgt zo een agenda-uitnodiging met de deelnamelink.' : ' Je ontvangt de meeting-link uiterlijk een dag van tevoren.'}</p>
-         ${table(Object.assign(
-            { Datum: b.date, Tijd: `${b.time} (CET) · 30 minuten` },
-            calendar && calendar.joinUrl ? { Deelnemen: calendar.joinUrl } : { Format: 'Web conferencing' }
-         ))}`, ref)
+      subject: `Je kennismakingsgesprek staat — ${b.date} om ${b.time}`,
+      text: [
+        `Hoi ${b.name},`,
+        ``,
+        `Je gratis kennismakingsgesprek met Link2Talent staat ingepland.`,
+        calendar ? `Je krijgt zo een agenda-uitnodiging met de deelnamelink. Een dag en een uur van tevoren sturen we je een herinnering.` : `Je ontvangt de deelnamelink uiterlijk een dag van tevoren.`,
+        ``,
+        `Datum: ${b.date}`,
+        `Tijd: ${b.time} (Nederlandse tijd) · 30 minuten`,
+        b.pakket ? `Samengesteld pakket: ${String(b.pakket).slice(0, 200)} (bespreken we in het gesprek)` : '',
+        calendar && calendar.joinUrl ? `Deelnemen via Microsoft Teams: ${calendar.joinUrl}` : `Format: online via Microsoft Teams, link volgt per mail`,
+        ``,
+        `Vul voor het beste gesprek de vragenlijst in op ${M.klantUrl({ name: b.name, email: b.email, company: b.companyName })}: 15 vragen over je aanbod, je doelgroep, je salesproces en wat je van een setter verwacht, ongeveer 7 minuten. Een deel is aanklikken. Dan weet ik vooraf waar je staat en kan ik ${wd || 'in het gesprek'} direct met een voorstel voor de match komen in plaats van eerst alles uit te vragen.`,
+        ``,
+        `Bedankt en tot ${wd || 'snel'}.`,
+        `${SIGNER} · Link2Talent`,
+        `${M.SITE}`,
+        ``,
+        `Ref ${ref}`
+      ].join('\n'),
+      html: M.shell({
+        title: 'Je kennismakingsgesprek staat',
+        badge: 'Gesprek bevestigd',
+        footerNote: 'Je ontvangt deze mail omdat je een kennismakingsgesprek met Link2Talent hebt gepland.',
+        preheader: `${b.date} om ${b.time} · 30 minuten via Microsoft Teams`,
+        ref,
+        body: [
+          M.h1(`Je kennismakingsgesprek staat, ${esc(b.name)}`),
+          M.p(`Je gratis kennismakingsgesprek met Link2Talent is ingepland.${calendar ? ' Je krijgt zo een agenda-uitnodiging met de deelnamelink. Een dag en een uur van tevoren sturen we je een herinnering.' : ' Je ontvangt de deelnamelink uiterlijk een dag van tevoren.'}`, { gap: 24 }),
+          M.detailTable([
+            ['Datum', b.date],
+            ['Tijd', `${b.time} (Nederlandse tijd)`],
+            ['Duur', '30 minuten'],
+            ['Pakket', b.pakket ? `${String(b.pakket).slice(0, 200)} · bespreken we in het gesprek` : ''],
+            calendar && calendar.joinUrl
+              ? ['Deelnemen', { raw: `<a href="${M.escAttr(calendar.joinUrl)}" style="color:${M.C.accent2};text-decoration:none;font-weight:700;">Deelnemen via Microsoft Teams</a>` }]
+              : ['Format', 'Online via Microsoft Teams · link volgt per mail']
+          ]),
+          M.spacer(),
+          M.prepBlock(b.date, '', '', { name: b.name, email: b.email, company: b.companyName }),
+          M.spacer(),
+          M.signoff(b.date)
+        ].join('')
+      })
     });
 
     return res.status(200).json({ success: true, ref });

@@ -5,6 +5,7 @@
 - Nieuwe pagina `appointment-setting-bureaus-nederland` (vijf soorten aanbieders op zes punten, zonder bedrijfsnamen, met de zes vragen die je elke aanbieder stelt, methodologie en FAQ) en `appointment-setter-amsterdam` (stadspagina, remote setter voor Amsterdamse bedrijven). Beide met Article, Breadcrumb en FAQPage-schema.
 - `404.html` toegevoegd (noindex) met links naar homepage, cases en kennisbank. `vercel.json` heeft nu `trailingSlash: false` en redirects voor /contact, /modellen, /vergelijking, /blog, /kennis/index en /cases/index.
 - API: `api/_mail.js` (mailtemplate in huisstijl, van Link2Leads overgenomen en op Link2Talent gezet, vragenlijst 15 vragen / 7 minuten), `api/contact.js` (contactformulier en capaciteitsscan, bevestiging naar afzender en notificatie naar demi@link2talent.nl, referentie L2T-xxxxxx), `api/remind.js` (herinnering een dag en een uur vooraf voor gesprekken in de Outlook-agenda met "Link2Talent" in het onderwerp, categorieen "L2T herinnering ..."). `api/_graph.js` is vervangen door de versie van Link2Leads met `listUpcoming` en `addCategory`; boekingen van /book heten nu "Kennismaking Link2Talent x Bedrijf" (was "Strategiecall Link2Leads x Bedrijf", een fout uit de kopie). Herinneringen: `api/remind` elk kwartier aanroepen met REMIND_SECRET, zie de toelichting bovenin dat bestand; dezelfde MAIL_* en MS_* variabelen als Link2Leads.
+- Alle mails nu in dezelfde huisstijl als Link2Leads: `api/book.js` en `api/klant.js` zijn overgenomen van Link2Leads (donker template via `_mail.js`, agenda-uitnodiging vanuit Outlook met Teams-link, .ics-fallback, blok dat om de vragenlijst op /klant vraagt, kopie van de antwoorden naar de klant, interne notificatie). Omdat /book op Link2Talent de korte vragen in dezelfde aanvraag meestuurt, staan die antwoorden direct in de interne boekingsmail. Teksten: kennismakingsgesprek in plaats van fitcheck, 15 vragen / 7 minuten, referentie L2T-xxxxxx.
 - SEO en llms: `sitemap.xml` met negen nieuwe URL's, `llms.txt` met cases, benchmark, capaciteitsscan en alle nieuwe pagina's, `llms-full.txt` opnieuw gegenereerd (homepage, vier casepagina's, tien kennisartikelen, vergelijking en Amsterdam, 73 KB).
 - Vertalingen: 411 Engelse sleutels toegevoegd aan `l2t-i18n-data.js` voor alle nieuwe pagina's en secties, cachebuster naar `?v=4`. Gecontroleerd per pagina: alleen namen en merknamen blijven onvertaald.
 - Foto's: tien foto's uit de fotoshoot van link2leads.nl gekopieerd naar `assets/img` en gebruikt als kaartfoto op de kennisbank- en casespagina (`.art-img`) en als kopfoto onder de meta-regel op alle tien kennisartikelen, de drie cases, de vergelijkingspagina en de Amsterdam-pagina (`.hero-img`, in `site.css`, cachebuster naar `?v=7`). Alt-teksten met Engelse vertaling.
@@ -22,3 +23,19 @@
 - Formuleringen over uitval, mismatch en vervanging zijn vermeden of positief gesteld ("wisselen van setter kan altijd").
 - Engelse vertalingen van alle nieuwe teksten (garantiebalk, accordeons, vergelijking, leads-band, FAQ, reviewkaarten, menu, aria-labels en alt-teksten) toegevoegd aan `l2t-i18n-data.js` (185 sleutels, blok onderaan), cachebuster naar `?v=3`. "SDR in dienst" vertaalt nu als "In-house SDR" (was "an SDR on payroll"). Mobiele labels "Bij ons / SDR in dienst / Callbureau" zijn CSS-content en krijgen hun Engelse tekst via `html[lang=en]`. Gecontroleerd met `?lang=en`.
 - Nog niet gedaan: cases met cijfers ontbreken nog; de casespagina zegt zelf dat die volgen zodra ze verifieerbaar gedeeld kunnen worden.
+
+## 25 september 2026, homepage en menu gelijk getrokken met Link2Leads
+
+**Homepage opnieuw opgebouwd op het skelet van link2leads.nl.** Zelfde opbouw, stijl en scripts, inhoud blijft Link2Talent.
+- Menubalk: dezelfde zwevende balk als L2L (`nav.l2n`). Klapt in tot hamburger zodra de links niet passen (onder 1080px), wordt donkerder bij scrollen.
+- Hero: widget standaard naast de tekst, net als op L2L. De matches wisselen live, zoals de inbox op L2L.
+- Volgorde van onderdelen, gelijk aan L2L: hero, branches-strip (loopt als de logoband), vier stappen (#zowerkthet), cases-carrousel (#resultaten), voor wie + capaciteitsscan (#capaciteitsscan), modellen (#modellen) met garantiebalk en uitklappers, vergelijking (#vergelijk), app/platform (#platform, op de plek van koopsignalen), leads via Link2Leads (#leads), reviews, FAQ, contact, footer.
+- Vervallen als losse blokken: het probleemblok en het teamblok. Het team staat in het contactblok (foto en LinkedIn), zoals op L2L. Het app-blok met laptop is samengevoegd in #platform.
+- Footer: dezelfde vierkoloms footer als L2L (`footer.l2f`) met Dienst, Meer lezen en Bedrijf, plus KvK, BTW en adres.
+- WhatsApp-knop rechtsonder, net als op L2L.
+- Oude ankers #aanpak, #cases en #team op alle pagina's omgezet naar #zowerkthet, /cases en #contact.
+
+**Alle subpagina's** (kennis, cases, vergelijking, Amsterdam, 404, privacy, voorwaarden, calculator, book, klant) hebben nu hetzelfde menu, dezelfde footer en de WhatsApp-knop. Gedeelde stijl staat in `/assets/l2t-shared.css`.
+
+**Vertalingen:** 170 nieuwe Engelse teksten toegevoegd, data-bestand naar v=5.
+

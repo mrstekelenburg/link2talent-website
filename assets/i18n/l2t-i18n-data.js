@@ -3939,5 +3939,516 @@ window.L2T_I18N_DATA = {
 },
 "Anne-Roos en Demi van Link2Talent in overleg": {
 "en": "Anne-Roos and Demi of Link2Talent in discussion"
+},
+/* ── Homepage op L2L-skelet (25 sept 2026) ── */
+"Zo werkt het": {
+"en": "How it works"
+},
+"Resultaten": {
+"en": "Results"
+},
+"Stel eerst je vraag": {
+"en": "Ask your question first"
+},
+"Binnen 14 dagen actief, anders betaal je niets totdat we dat wel leveren.": {
+"en": "Active within 14 days, or you pay nothing until we deliver."
+},
+"Vier jaar ervaring, Nederlandstalig.": {
+"en": "Four years of experience, Dutch-speaking."
+},
+"Kan binnen tien dagen starten.": {
+"en": "Can start within ten days."
+},
+"Beschikbaar vanaf week 3.": {
+"en": "Available from week 3."
+},
+"Jij keurt de match goed. Contract, betaling en communicatie lopen via dezelfde omgeving.": {
+"en": "You approve the match. Contract, payment and communication run through the same environment."
+},
+"Marketing en agencies": {
+"en": "Marketing and agencies"
+},
+", in vier stappen": {
+"en": ", in four steps"
+},
+"Week 1: intake en match": {
+"en": "Week 1: intake and match"
+},
+"We analyseren je aanbod, doelgroep en salesproces": {
+"en": "We analyse your offer, target audience and sales process"
+},
+"We dragen de setter voor die past op ervaring, branche en beschikbaarheid": {
+"en": "We propose the setter who fits on experience, industry and availability"
+},
+"Jij keurt de match goed": {
+"en": "You approve the match"
+},
+"Week 2: onboarding en start": {
+"en": "Week 2: onboarding and start"
+},
+"Contract, betaling en communicatie lopen via ons platform": {
+"en": "Contract, payment and communication run through our platform"
+},
+"Jij werkt de setter in op je product, doelgroep en toon": {
+"en": "You train the setter on your product, audience and tone"
+},
+"Wij regelen alles eromheen": {
+"en": "We handle everything around it"
+},
+"Doorlopend: dagelijkse opvolging": {
+"en": "Ongoing: daily follow-up"
+},
+"De setter belt, volgt op en kwalificeert": {
+"en": "The setter calls, follows up and qualifies"
+},
+"De afspraak staat direct in jouw agenda": {
+"en": "The meeting goes straight into your calendar"
+},
+"Activiteit, afspraken en uren zie je live in het platform": {
+"en": "You see activity, meetings and hours live in the platform"
+},
+"Jij voert de gesprekken": {
+"en": "You run the conversations"
+},
+"Jij stuurt aan op resultaat, zoals bij een eigen collega": {
+"en": "You manage on results, like with your own colleague"
+},
+"Extra setter erbij, van parttime naar fulltime of wisselen van model: per maand": {
+"en": "An extra setter, part-time to full-time or switching model: monthly"
+},
+"Liever ook het gesprek uit handen? Dan zetten we er een closer naast": {
+"en": "Rather hand off the sales call too? Then we add a closer"
+},
+"Standaard": {
+"en": "Standard"
+},
+"een setter die afspraken in je agenda zet.": {
+"en": "a setter who books meetings in your calendar."
+},
+"Met een closer erbij": {
+"en": "With a closer added"
+},
+"ook het verkoopgesprek.": {
+"en": "the sales call as well."
+},
+"10+ setters": {
+"en": "10+ setters"
+},
+"geplaatst bij een enkel belkantoor": {
+"en": "placed at a single call centre"
+},
+"Case": {
+"en": "Case"
+},
+"Marketingbureau": {
+"en": "Marketing agency"
+},
+"10 afspraken per week": {
+"en": "10 meetings per week"
+},
+"uit 10 uur setter": {
+"en": "from 10 setter hours"
+},
+"Een parttime setter volgt elke ochtend de reacties op de campagne op en belt de leads die de eigenaar zelf liet liggen. Een afspraak per gewerkt uur, en de eigenaar sluit drie op de tien.": {
+"en": "A part-time setter follows up the campaign replies every morning and calls the leads the owner left lying. One meeting per hour worked, and the owner closes three in ten."
+},
+"Afspraken per week, in 10 uur": {
+"en": "Meetings per week, in 10 hours"
+},
+"Wordt klant": {
+"en": "Become clients"
+},
+"Nieuwe klanten per week": {
+"en": "New clients per week"
+},
+"Lees de volledige case": {
+"en": "Read the full case"
+},
+"Belkantoor": {
+"en": "Call centre"
+},
+"10 setters geplaatst": {
+"en": "10 setters placed"
+},
+"bij een cold call agency": {
+"en": "at a cold call agency"
+},
+"Op toegankelijke campagnes zet elke setter gemiddeld een afspraak per uur, op moeilijkere een per twee uur. Het uurtarief is dezelfde dag terugverdiend, en het bureau schaalt per campagne op en af.": {
+"en": "On accessible campaigns each setter books one meeting per hour on average, on harder ones one per two hours. The hourly rate is earned back the same day, and the agency scales up and down per campaign."
+},
+"Setters actief": {
+"en": "Active setters"
+},
+"Afspraak op toegankelijke campagnes": {
+"en": "Meeting on accessible campaigns"
+},
+"Afspraak op moeilijkere campagnes": {
+"en": "Meeting on harder campaigns"
+},
+"Onze eigen setter bij": {
+"en": "Our own setter at"
+},
+"Doorlopende commissie:": {
+"en": "Recurring commission:"
+},
+"10% van het maandbedrag": {
+"en": "10% of the monthly fee"
+},
+", elke maand": {
+"en": ", every month"
+},
+"Onze eigen setter brengt afspraken aan voor Link2Leads en krijgt per gesloten klant tien procent van het maandbedrag, zolang die klant blijft. Geen vaste kosten voor ons, een doorlopend inkomen voor hem.": {
+"en": "Our own setter books meetings for Link2Leads and earns ten percent of the monthly fee per closed client, for as long as that client stays. No fixed costs for us, a recurring income for him."
+},
+"Van het maandbedrag, per aangebrachte klant": {
+"en": "Of the monthly fee, per client brought in"
+},
+"Vaste kosten": {
+"en": "Fixed costs"
+},
+"Uitbetaald zodra de klant betaalt": {
+"en": "Paid out as soon as the client pays"
+},
+"Swipe of gebruik de pijlen.": {
+"en": "Swipe or use the arrows."
+},
+"Bekijk alle cases": {
+"en": "See all cases"
+},
+"Reken je eigen situatie door": {
+"en": "Calculate your own situation"
+},
+"Je aanbod is bewezen bij betalende klanten": {
+"en": "Your offer is proven with paying clients"
+},
+"Je hebt leads, maar niemand die ze dezelfde dag opvolgt": {
+"en": "You have leads, but nobody who follows them up the same day"
+},
+"Je stuurt de setter aan op resultaat, zoals een eigen collega": {
+"en": "You manage the setter on results, like your own colleague"
+},
+"Je aanbod is nog niet verkocht aan een betalende klant": {
+"en": "Your offer has not yet been sold to a paying client"
+},
+"Je hebt geen duidelijke doelgroep of ideale klant": {
+"en": "You have no clear target audience or ideal client"
+},
+"Je hebt geen tijd om de gesprekken zelf te voeren": {
+"en": "You have no time to run the conversations yourself"
+},
+"Je verwacht een volledig ontzorgd salesteam zonder sturing": {
+"en": "You expect a fully managed sales team without direction"
+},
+"Te weinig gesprekken om op te volgen? Dan regelen we de instroom via": {
+"en": "Too few conversations to follow up? Then we arrange the inflow through"
+},
+"in jouw situatie": {
+"en": "in your situation"
+},
+"Op basis van je aanbod, je instroom en je doelgroep rekenen we uit wat een setter bij jou realistisch zet. Eerlijk, ook als het antwoord is dat een setter nu nog te vroeg is.": {
+"en": "Based on your offer, your inflow and your audience, we calculate what a setter realistically books for you. Honest, even if the answer is that a setter is still too early."
+},
+"bij jou past.": {
+"en": "fits you."
+},
+"Alle modellen werken hetzelfde: jij stuurt de setter aan, wij leveren de capaciteit en regelen contract, betaling en rapportage. Per maand op- en afschalen.": {
+"en": "All models work the same: you manage the setter, we supply the capacity and handle contract, payment and reporting. Scale up and down monthly."
+},
+"Vergelijk ons met een SDR in dienst of een callbureau →": {
+"en": "Compare us with an in-house SDR or a call centre →"
+},
+"Betalen bij resultaat": {
+"en": "Pay for results"
+},
+"commissie per afspraak": {
+"en": "commission per meeting"
+},
+"Alleen bij resultaat": {
+"en": "Only for results"
+},
+"Commissie per geboekte afspraak": {
+"en": "Commission per booked meeting"
+},
+"plus een kleine bemiddelingsfee": {
+"en": "plus a small placement fee"
+},
+"Geen vaste lasten, schaalbaar op volume": {
+"en": "No fixed costs, scalable on volume"
+},
+"Contract en uitbetaling via het platform": {
+"en": "Contract and payout through the platform"
+},
+"Voorspelbare maandkosten": {
+"en": "Predictable monthly costs"
+},
+"bemiddelingsfee op het setter-tarief": {
+"en": "placement fee on the setter rate"
+},
+"Jij bepaalt het uurtarief": {
+"en": "You set the hourly rate"
+},
+"Voorbeeld:": {
+"en": "Example:"
+},
+"setter verdient €30 per uur, jij betaalt €37,50": {
+"en": "setter earns €30 per hour, you pay €37.50"
+},
+"Binnen 14 dagen actief, anders betaal je niets": {
+"en": "Active within 14 days, or you pay nothing"
+},
+"Fulltime of parttime, per maand op- en afschalen": {
+"en": "Full-time or part-time, scale up and down monthly"
+},
+"Wisselen van setter kan altijd": {
+"en": "You can always switch setter"
+},
+"Vaste prijs per setter": {
+"en": "Fixed price per setter"
+},
+"per maand per seat": {
+"en": "per month per seat"
+},
+"Direct inzetbaar": {
+"en": "Ready to deploy"
+},
+"Vaste vergoeding per setter": {
+"en": "Fixed fee per setter"
+},
+", alles via het platform": {
+"en": ", all through the platform"
+},
+"Opschalen met extra seats": {
+"en": "Scale up with extra seats"
+},
+"Uit te breiden met closers": {
+"en": "Can be extended with closers"
+},
+"de setter werkt bij jou in en jij stuurt aan. Wij regelen de match, het contract en de betaling. Geen recruitmentfee en geen opstartkosten.": {
+"en": "the setter is trained by you and you manage. We handle the match, the contract and the payment. No recruitment fee and no start-up costs."
+},
+"Staat je setter niet binnen 14 dagen na akkoord aan het werk, dan betaal je niets totdat we dat wel leveren.": {
+"en": "If your setter is not working within 14 days of agreement, you pay nothing until we deliver."
+},
+"Hoe werkt de garantie?": {
+"en": "How does the guarantee work?"
+},
+"Alles geregeld": {
+"en": "Everything handled"
+},
+"Van matching tot facturering, van communicatie tot contracten. Geen losse tools en geen e-mailchaos.": {
+"en": "From matching to invoicing, from communication to contracts. No separate tools and no email chaos."
+},
+"Maak een gratis account aan op app.link2talent.nl. Binnen een paar minuten zie je beschikbare setters, start je een match en regel je contract, betaling en communicatie in dezelfde omgeving. Ook voor kandidaten: als setter of closer aanmelden doe je via dezelfde app.": {
+"en": "Create a free account at app.link2talent.nl. Within minutes you see available setters, start a match and handle contract, payment and communication in the same environment. Also for candidates: sign up as a setter or closer through the same app."
+},
+"Bekijk direct beschikbare setters, check profiel, ervaring en reviews. Jij kiest de match die past.": {
+"en": "See available setters right away, check profile, experience and reviews. You choose the match that fits."
+},
+"Digitale contracten, automatisch opgesteld op basis van het gekozen model. Ondertekenen in de app.": {
+"en": "Digital contracts, drawn up automatically based on the chosen model. Sign in the app."
+},
+"Automatisch op basis van uren of performance. Geen handmatig bijhouden en geen discussie achteraf.": {
+"en": "Automatic, based on hours or performance. No manual tracking and no discussion afterwards."
+},
+"Activiteit, geboekte afspraken en uren, altijd actueel. Zonder zelf iets bij te houden.": {
+"en": "Activity, booked meetings and hours, always up to date. Without tracking anything yourself."
+},
+"Extra setter of closer nodig? Je ziet direct wie beschikbaar is en start een nieuwe match.": {
+"en": "Need an extra setter or closer? You see right away who is available and start a new match."
+},
+"Liever eerst iemand spreken?": {
+"en": "Rather talk to someone first?"
+},
+", of ga direct naar": {
+"en": ", or go straight to"
+},
+"voor je setter": {
+"en": "for your setter"
+},
+"draaien we koude e-mailcampagnes naar jouw doelgroep: leadlijst, teksten, verzending en het filteren van de reacties. De positieve reacties komen binnen in je mailbox en jouw setter belt ze na. Dezelfde mensen aan tafel, dus geen afstemming tussen twee bureaus.": {
+"en": "we run cold email campaigns to your target audience: lead list, copy, sending and filtering the replies. Positive replies land in your inbox and your setter calls them back. The same people at the table, so no coordination between two agencies."
+},
+"Bekijk": {
+"en": "View"
+},
+"per maand, vanaf het startpakket": {
+"en": "per month, from the starter package"
+},
+"Campagne live binnen twee weken": {
+"en": "Campaign live within two weeks"
+},
+"Contractuele garantie op positieve reacties op de grotere pakketten": {
+"en": "Contractual guarantee on positive replies on the larger packages"
+},
+"onderscheidt zich door een persoonlijke aanpak en echte betrokkenheid. Ze koppelen de juiste mensen aan de juiste organisaties. Absolute aanrader voor commercieel talent.": {
+"en": "stands out through a personal approach and real commitment. They connect the right people to the right organisations. Highly recommended for commercial talent."
+},
+"Werk via": {
+"en": "I work through"
+},
+"voor twee opdrachtgevers. Er wordt goed meegedacht en de communicatie is vanaf dag een sterk. Snel schakelen, direct resultaat.": {
+"en": "for two clients. They think along well and communication has been strong from day one. Quick to act, direct results."
+},
+"Behoefte uitgelegd en binnen een paar dagen alles geregeld. Setter was binnen 2 weken actief en plant nu structureel afspraken in. Precies wat ik zocht.": {
+"en": "Explained what we needed and everything was arranged within a few days. The setter was active within 2 weeks and now books meetings consistently. Exactly what I was looking for."
+},
+"En nog veel meer": {
+"en": "And many more"
+},
+"4,8 gemiddeld op Google. Op naam, dus na te lopen.": {
+"en": "4.8 average on Google. With names, so you can check them."
+},
+"Naar Google Reviews →": {
+"en": "To Google Reviews →"
+},
+"en Demi": {
+"en": "and Demi"
+},
+". Je krijgt een van ons tweeen aan de lijn.": {
+"en": ". You get one of us two on the line."
+},
+"Remote setters en closers voor B2B. Binnen 14 dagen actief, jij stuurt aan, wij regelen contract, betaling en rapportage. Geen recruitment en geen vaste hire.": {
+"en": "Remote setters and closers for B2B. Active within 14 days, you manage, we handle contract, payment and reporting. No recruitment and no permanent hire."
+},
+"Dienst": {
+"en": "Service"
+},
+"Cases en resultaten": {
+"en": "Cases and results"
+},
+"Reviews van klanten": {
+"en": "Client reviews"
+},
+"Modellen en prijzen": {
+"en": "Models and pricing"
+},
+"Vergelijk met een SDR of callbureau": {
+"en": "Compare with an SDR or call centre"
+},
+"Gratis capaciteitsscan": {
+"en": "Free capacity scan"
+},
+"Meer lezen": {
+"en": "Read more"
+},
+"Wat kost een setter": {
+"en": "What a setter costs"
+},
+"Afspraken per week": {
+"en": "Meetings per week"
+},
+"Kosten interne SDR": {
+"en": "In-house SDR costs"
+},
+"Setter of SDR in dienst": {
+"en": "Setter or in-house SDR"
+},
+"Setter of closer": {
+"en": "Setter or closer"
+},
+"Setter aansturen": {
+"en": "Managing a setter"
+},
+"Bureaus vergeleken": {
+"en": "Agencies compared"
+},
+"Inloggen of account aanmaken": {
+"en": "Log in or create an account"
+},
+", koude e-mail": {
+"en": ", cold email"
+},
+"Privacyverklaring": {
+"en": "Privacy statement"
+},
+". Alle rechten voorbehouden.": {
+"en": ". All rights reserved."
+},
+"is een dienst van": {
+"en": "is a service of"
+},
+"Hoofdmenu": {
+"en": "Main menu"
+},
+"Link2Talent, naar de homepage": {
+"en": "Link2Talent, to the homepage"
+},
+"4,8 sterren op Google Reviews, bekijk de reviews": {
+"en": "4.8 stars on Google Reviews, see the reviews"
+},
+"Branches waarin onze setters actief zijn": {
+"en": "Industries where our setters are active"
+},
+"Klantcases": {
+"en": "Client cases"
+},
+"Case 1 van 3": {
+"en": "Case 1 of 3"
+},
+"Case 2 van 3": {
+"en": "Case 2 of 3"
+},
+"Case 3 van 3": {
+"en": "Case 3 of 3"
+},
+"Vorige case": {
+"en": "Previous case"
+},
+"Volgende case": {
+"en": "Next case"
+},
+"Anne-Roos en Demi, de twee oprichters van Link2Talent, aan het werk": {
+"en": "Anne-Roos and Demi, the two founders of Link2Talent, at work"
+},
+"Anne-Roos op LinkedIn": {
+"en": "Anne-Roos on LinkedIn"
+},
+"Demi op LinkedIn": {
+"en": "Demi on LinkedIn"
+},
+"Stuur ons een WhatsApp-bericht": {
+"en": "Send us a WhatsApp message"
+},
+"Belde eerder voor een transporteur.": {
+"en": "Previously called for a haulier."
+},
+"Zestien uur per week beschikbaar.": {
+"en": "Available sixteen hours a week."
+},
+"Sluit gemiddeld een op drie.": {
+"en": "Closes one in three on average."
+},
+"Ervaring met koude campagnes.": {
+"en": "Experience with cold campaigns."
+},
+"Start volgende maandag.": {
+"en": "Starts next Monday."
+},
+"Setter · Logistiek": {
+"en": "Setter · Logistics"
+},
+"Setter · Recruitment": {
+"en": "Setter · Recruitment"
+},
+"Closer · Marketingbureaus": {
+"en": "Closer · Marketing agencies"
+},
+"Setter · Finance": {
+"en": "Setter · Finance"
+},
+"Setter · Engineering": {
+"en": "Setter · Engineering"
+},
+"“Meerdere sterke kandidaten gevonden, stuk voor stuk direct inzetbaar.”": {
+"en": "“Found several strong candidates, each one ready to deploy right away.”"
+},
+"is onderdeel van": {
+"en": "is part of"
+},
+". Wij koppelen B2B-bedrijven aan remote setters en closers.": {
+"en": ". We connect B2B companies with remote setters and closers."
+},
+"Bemiddelaar van remote setters en closers voor B2B-bedrijven, onderdeel van": {
+"en": "Intermediary for remote setters and closers for B2B companies, part of"
 }
 };
