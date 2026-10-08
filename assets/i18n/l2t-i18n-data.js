@@ -4456,5 +4456,11 @@ window.L2T_I18N_DATA = {
 },
 "Vergelijking": {
 "en": "Comparison"
+},
+"Kennisbank over remote salescapaciteit": {
+"en": "Knowledge base on remote sales capacity"
+},
+"Link2Talent koppelt B2B bedrijven aan bewezen remote setters en closers. Binnen 14 dagen actief, anders betaal je niets. Per maand op- en afschalen.": {
+"en": "Link2Talent connects B2B companies to proven remote setters and closers. Active within 14 days or you pay nothing. Scale up and down per month."
 }
 };
