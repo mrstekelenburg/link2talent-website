@@ -11,7 +11,7 @@
   // De eigen WhatsApp-knop (#l2l-fab) schuift omhoog, zodat hij boven de Crisp-bubbel staat in plaats van eronder.
   var st = document.createElement('style');
   st.textContent = 'html body #l2l-fab{bottom:96px !important}' +
-    '@media (max-width:760px){html body #l2l-fab{bottom:calc(88px + env(safe-area-inset-bottom,0px)) !important}}';
+    '@media (max-width:760px){html body #l2l-fab{bottom:84px !important}}';
   document.head.appendChild(st);
   var s = document.createElement('script');
   s.src = 'https://client.crisp.chat/l.js';
