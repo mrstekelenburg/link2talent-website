@@ -1,5 +1,5 @@
 **16 oktober 2026: Crisp-chat vervangt de GHL-chatwidget**
-- Nieuw bestand `assets/chat.js` laadt Crisp (website-ID c4126310-...). Het staat op elke pagina vlak voor `</body>`. Dezelfde Crisp-inbox draait op link2leads.nl, link2leads.co, link2talent.nl en wieisdeware.nl; elk gesprek krijgt de site als segment mee, zodat in Crisp te zien is waar het vandaan komt.
+- Nieuw bestand `assets/chat.js` laadt Crisp (website-ID 6efa6396-...). Het staat op elke pagina vlak voor `</body>`. Dezelfde Crisp-inbox draait op link2leads.nl, link2leads.co, link2talent.nl en wieisdeware.nl; elk gesprek krijgt de site als segment mee, zodat in Crisp te zien is waar het vandaan komt.
 - Taal van de chat volgt het `lang`-attribuut van de pagina (nl of en).
 - Antwoorden gaat via de Crisp-app. De GHL-widget zelf staat uit in GHL.
 
