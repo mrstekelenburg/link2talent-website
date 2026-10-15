@@ -1,3 +1,8 @@
+**16 oktober 2026: Crisp-chat vervangt de GHL-chatwidget**
+- Nieuw bestand `assets/chat.js` laadt Crisp (website-ID c4126310-...). Het staat op elke pagina vlak voor `</body>`. Dezelfde Crisp-inbox draait op link2leads.nl, link2leads.co, link2talent.nl en wieisdeware.nl; elk gesprek krijgt de site als segment mee, zodat in Crisp te zien is waar het vandaan komt.
+- Taal van de chat volgt het `lang`-attribuut van de pagina (nl of en).
+- Antwoorden gaat via de Crisp-app. De GHL-widget zelf staat uit in GHL.
+
 **8 oktober 2026: deelgegevens kennisbank en kortere homepage-omschrijving**
 - Zeven kennispagina's hadden geen Open Graph-tags, waardoor een gedeelde link op LinkedIn of WhatsApp zonder titel en afbeelding verscheen: `kennis/index`, `interne-sdr-kosten`, `performance-vs-seat-model`, `remote-setter-inhuren`, `remote-setter-vs-sdr`, `salescapaciteit-uitbesteden` en `setter-vs-closer`. Ze hebben nu og:type, og:url, og:title, og:description, og:image, og:locale en og:site_name, gelijk aan de andere artikelen.
 - `twitter:card` (summary_large_image) toegevoegd op de 18 pagina's die wel Open Graph hadden maar geen kaarttype.
