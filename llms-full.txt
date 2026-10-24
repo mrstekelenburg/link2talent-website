@@ -1,429 +1,809 @@
 # Link2Talent, volledige tekst van de homepage, de cases en alle kennispagina's
 
-Laatst bijgewerkt: 25 september 2026. Samenvatting en bedrijfsgegevens: https://www.link2talent.nl/llms.txt
+Laatst bijgewerkt: 24 oktober 2026. Samenvatting en bedrijfsgegevens: https://www.link2talent.nl/llms.txt
+
 
 ==============================================================================
-
-# Homepage
+# Voeg binnen 14 dagen een remote setter toe aan je salesteam
 Bron: https://www.link2talent.nl/
-
-> Link2Talent koppelt Nederlandse B2B-bedrijven aan bewezen remote setters en closers. Geen recruitmenttraject, geen vaste hire en geen mis-hire: wij selecteren, trainen en sturen het salestalent aan, jij krijgt de afspraken in je agenda. Flexibel op- en afschalen per maand. Onderdeel van Link2Group (Amsterdam).
-
-## Wat wij doen
-
-Link2Talent levert remote salescapaciteit aan B2B-bedrijven die meer gesprekken willen voeren zonder zelf een salesteam op te bouwen.
-
-- Remote setters die dagelijks bellen en afspraken direct in de agenda van de klant zetten
-- Remote closers voor bedrijven die de verkoopgesprekken zelf niet meer willen of kunnen voeren
-- Selectie, matching, contract en betaling uit handen; wisselen van setter kan altijd
-- Setter actief binnen 14 dagen na akkoord, met garantie: anders betaalt de opdrachtgever niets totdat dat wel geleverd is
-- Drie samenwerkingsvormen: performance, uurtarief en seat-model
-- Maandelijks op- en afschalen, geen vast dienstverband en geen recruitmentfee
-
-## Voor wie
-
-B2B-bedrijven met een bewezen aanbod die vastlopen op salescapaciteit: de directeur doet de acquisitie er nog bij, of het verkoopteam heeft geen tijd om zelf te bellen. Werkt het beste bij een duidelijk afgebakende doelgroep en een aanbod dat telefonisch uit te leggen is.
-
-## Werkwijze
-
-1. Gratis kennismakingsgesprek van 30 minuten: doelgroep, salesproces en capaciteitsvraag in beeld
-2. Onboarding: vragenlijst over aanbod, doelgroep, salesproces en gewenste afspraken
-3. Matching: wij dragen een setter voor die bij het aanbod past; jij spreekt hem of haar en geeft akkoord
-4. Inwerken en training op jullie propositie, bezwaren en CRM
-5. Live: de setter belt dagelijks, afspraken komen in de agenda, wij sturen bij op kwaliteit en volume
-
-## Samenwerkingsvormen en prijzen (gepubliceerd, exclusief btw)
-
-| Model | Structuur | Toelichting |
-|---|---|---|
-| Uurtarief (meest gekozen) | Tarief van de setter plus 20 procent bemiddelingsfee | Voorbeeld: setter 30 per uur, opdrachtgever betaalt 37,50. Fulltime of parttime, per maand op- en afschalen |
-| Performance | Commissie per geboekte afspraak plus een kleine bemiddelingsfee | Alleen betalen bij resultaat, schaalbaar zonder vaste lasten |
-| Seat | 295 per maand per setter | Vaste maandelijkse vergoeding, alles via het platform, uit te breiden met closers |
-
-Geen recruitmentfee en geen opstartkosten. Contract, betaling, communicatie en rapportage lopen via app.link2talent.nl.
-
-## Garantie
-
-Binnen 14 dagen na akkoord staat de setter aan het werk. Zo niet, dan betaalt de opdrachtgever niets totdat Link2Talent dat wel levert. Geldt op elk model. Wisselen van setter kan altijd: Link2Talent draagt dan een andere setter voor, zonder ontslagtraject of opzegtermijn van maanden. Op- en afschalen en stoppen kan per maand.
-
-## Vergelijking met een SDR in dienst en een callbureau (homepage, sectie #vergelijk)
-
-| Punt | Link2Talent | SDR in dienst | Callbureau |
-|---|---|---|---|
-| Opstarttijd | Binnen 14 dagen actief (garantie) | Zes weken tot enkele maanden, inclusief opzegtermijn kandidaat | Twee tot zes weken |
-| Vaste lasten | Geen; per uur, per afspraak of per seat, per maand op en af | Salaris, werkgeverslasten en werkplek lopen door | Minimumafname en vaak een opstartfee |
-| Wisselen | Andere setter, zonder ontslagtraject | Proeftijd, ontslagprocedure of vaststellingsovereenkomst | Contract uitzitten of afkopen |
-| Wie stuurt aan | De opdrachtgever, als bij een eigen collega; Link2Talent regelt alles eromheen | De opdrachtgever, inclusief werkgeversrol | Het bureau, met een script |
-| Contract, betaling, rapportage | Via het platform op een plek | Zelf opzetten | Contract met het bureau, rapportage in hun format |
-| Wie er belt | Ervaren setter uit B2B-sales, door Link2Talent geselecteerd en door de opdrachtgever goedgekeurd | Wie je zelf vindt na een wervingstraject | Wie die dag beschikbaar is |
-| Leads erbij | Via zusterbedrijf Link2Leads (e-mailcampagnes), dezelfde mensen aan tafel | Apart regelen | Soms, tegen meerprijs |
-| Setters en closers | Los of samen, via hetzelfde platform | Twee vacatures | Alleen afspraken zetten |
-| Inzicht in resultaat | Activiteit, afspraken en uren live in het platform | Zelf bijhouden in het CRM | Wekelijks overzicht van het bureau |
-
-Een eigen SDR is de betere keuze zodra het volume voor twaalf maanden zeker is en er iemand is die dagelijks kan aansturen; Link2Talent zegt dat ook als het zo ligt. Volledige afweging: https://www.link2talent.nl/kennis/remote-setter-vs-sdr
-
-## Combinatie met Link2Leads
-
-Een setter zonder instroom zit stil. Via zusterbedrijf Link2Leads (https://www.link2leads.nl/) regelt Link2Group ook de instroom: koude e-mailcampagnes naar de doelgroep van de opdrachtgever, alleen positieve reacties komen door en de setter belt die na. Campagne live binnen twee weken, vanaf 995 per maand, zeven verzenddagen per week.
-
-## Veelgestelde vragen (homepage, sectie #faq)
-
-**Hoe snel kan een setter starten?** Binnen 14 dagen na akkoord. Week 1 is intake en match, week 2 is inwerken op je product en doelgroep. Daarna belt de setter dagelijks. Staat de setter niet binnen 14 dagen aan het werk, dan betaal je niets totdat we dat wel leveren.
-
-**Hoeveel uur per week werkt een setter?** Dat spreek je zelf af. De meeste opdrachtgevers starten met 16 tot 24 uur per week en schalen op als de agenda volloopt. Fulltime kan ook.
-
-**Wat doet een setter precies?** Bellen en opvolgen. De setter benadert je doelgroep of de reacties op je campagne, kwalificeert het gesprek en zet de afspraak direct in jouw agenda. Het verkoopgesprek zelf voer jij, tenzij je een closer erbij neemt.
-
-**Moet ik zelf leads aanleveren?** Je setter heeft instroom nodig: een lijst, inkomende reacties of een campagne. Heb je die niet, dan regelen we de instroom via ons zusterbedrijf Link2Leads, met dezelfde mensen aan tafel.
-
-**Wie stuurt de setter aan?** Jij, inhoudelijk. Je werkt de setter in op je product, doelgroep en toon en stuurt aan op resultaat, zoals bij een eigen collega. Wij regelen contract, betaling, rapportage en de samenwerking eromheen.
-
-**Kan ik wisselen van setter?** Ja. Wil je liever iemand anders, dan dragen wij een andere setter voor. Geen ontslagtraject en geen opzegtermijn van maanden. Zeg het en we schakelen.
-
-**Wat kost het?** Dat hangt af van het model. Uurtarief: je bepaalt het tarief van de setter en wij rekenen een bemiddelingsfee van 20 procent daarbovenop (setter 30 per uur wordt 37,50). Performance: commissie per afspraak plus een kleine fee. Seat: 295 per maand per setter. Geen recruitmentfee en geen opstartkosten. Reken het door op de omzetcalculator.
-
-**Is een setter goedkoper dan een SDR in dienst?** Per uur is een SDR in dienst goedkoper zodra hij goed draait, en duurder op alles daaromheen: werving, inwerktijd, werkgeverslasten, aansturing en het risico dat de eerste hire het niet wordt. De eerlijke som staat in wat kost een interne SDR echt.
-
-**Kan ik op- en afschalen of stoppen?** Ja, per maand. Extra setter erbij, van parttime naar fulltime, of wisselen van model regel je via het platform. Stoppen kan per maand, zonder verborgen voorwaarden.
-
-**Leveren jullie ook closers?** Ja. Een closer voert de verkoopgesprekken die de setter inplant. Los of samen met een setter, via hetzelfde platform. Wie wat doet staat in setter vs. closer.
-
-**Ik ben zelf setter of closer. Kan ik me aanmelden?** Ja, via app.link2talent.nl. We zoeken mensen met ervaring in echte B2B-sales die hun afspraken nakomen. Daar staat een serieuze opdrachtgever tegenover, met een uurtarief en de vrijheid om overal te werken.
-
-## Cases (lopende plaatsingen, klantnamen weggelaten)
-
-- Marketingbureau (uurtarief): setter werkt 10 uur per week en zet gemiddeld 10 afspraken per week, dus een afspraak per gewerkt uur. De eigenaar sluit 30 procent; dat is drie nieuwe klanten per week. Tegen 37,50 per uur kost een afspraak 37,50 en een nieuwe klant 125 euro aan setterkosten. https://www.link2talent.nl/cases/marketingbureau
-- Belkantoor (uurtarief): tien setters geplaatst bij een cold calling agency. Op toegankelijke campagnes gemiddeld een afspraak per uur, op moeilijkere campagnes een per twee uur. Het uurtarief is dezelfde dag terugverdiend omdat het kantoor per afspraak factureert. https://www.link2talent.nl/cases/belkantoor
-- Eigen setter op doorlopende commissie (performance): bij zusterbedrijf Link2Leads krijgt een setter 10 procent van het maandbedrag van elke klant die hij als afspraak aanbrengt, elke maand zolang die klant blijft, uitbetaald zodra de klant betaalt. Geen vaste kosten voor de opdrachtgever. https://www.link2talent.nl/cases/setter-op-commissie
-
-Benchmark uit deze plaatsingen: een afspraak per gewerkt uur als het aanbod helder is en de instroom er is; een afspraak per twee uur bij een smalle doelgroep of een aanbod dat uitleg vraagt.
-
-## Capaciteitsscan (gratis)
-
-Op https://www.link2talent.nl/#capaciteitsscan vraagt een bedrijf met alleen een e-mailadres en een korte beschrijving van aanbod, doelgroep en instroom een gratis capaciteitsscan aan: hoeveel afspraken per week realistisch is, hoeveel uur daarbij past, welk model aansluit en wat een afspraak en een nieuwe klant kost. Binnen een werkdag per mail, zonder gesprek vooraf. Contactformulier en telefoonnummer op https://www.link2talent.nl/#contact.
-
 ==============================================================================
 
-# Setters in de praktijk, met cijfers.
-Bron: https://www.link2talent.nl/cases/
+Wij koppelen je aan een bewezen setter die dagelijks afspraken voor je inplant. Geen recruitment en geen vaste hire. Jij kiest het model dat past.
 
+Plan een gesprek Stel eerst je vraag
 
-Drie plaatsingen zoals ze nu draaien: wat de startsituatie was, wat er is ingezet en wat het per week oplevert. Klantnamen laten we weg, de cijfers niet.
+Binnen 14 dagen actief, anders betaal je niets totdat we dat wel leveren.
 
-Case  ·  Uurtarief
-### Tien uur per week, tien afspraken per week
+4,8 Google Reviews Bel ons: 085 080 5381
 
-Een B2B-marketingbureau zet een parttime setter op de opvolging van reacties. Een afspraak per gewerkt uur, 30 procent wordt klant.
-Lees de case →
-Case  ·  Uurtarief
-### Tien setters, een afspraak per uur
+Matches in je eigen omgeving
 
-Een belkantoor schaalt met tien setters van Link2Talent. Een afspraak per uur op toegankelijke campagnes, een per twee uur op moeilijkere.
-Lees de case →
-Case  ·  Performance
-### Onze eigen setter op doorlopende commissie
+app.link2talent.nl/matches.
 
-Bij Link2Leads verdient een setter 10 procent van het maandbedrag van elke klant die hij aanbrengt, elke maand zolang die klant blijft.
-Lees de case →
+Voorgestelde matches Live
 
-### Onze case-standaard
+Setter · SaaS en IT
 
-- Startsituatie: Welke bottleneck bestond er?
-- Inzet: Welke capaciteit en welk model?
-ResultaatAfspraken per uur of per week, en wat dat kost
-Geen verzonnen klantnamen en geen omzetclaims die we niet kunnen onderbouwen. De cijfers hierboven komen uit lopende plaatsingen en worden bijgewerkt als ze veranderen.
+Vier jaar ervaring, Nederlandstalig.
 
-Bij ons zusterbedrijf Link2Leads staan de cases van e-mailcampagnes, inclusief investering en looptijd. Beide bedrijven vallen onder Link2Group.
+Voorgesteld
 
-## Wil je weten wat een setter in jouw situatie zet?
+Setter · Consultancy
 
-Vraag de gratis capaciteitsscan aan of plan direct een gesprek.
-Plan een gesprek →
+Kan binnen tien dagen starten.
+
+Jouw match
+
+Closer · B2B dienstverlening
+
+Beschikbaar vanaf week 3.
+
+Voorgesteld
+
+Jij keurt de match goed. Contract, betaling en communicatie lopen via dezelfde omgeving.
+
+Contract en facturatie inbegrepen
+
+Setters actief in deze branches
+
+SaaS
+
+IT Services
+
+Consultancy
+
+Recruitment
+
+Finance
+
+Logistiek
+
+Engineering
+
+Cybersecurity
+
+Marketing en agencies
+
+B2B dienstverlening
+
+SaaS
+
+IT Services
+
+Consultancy
+
+Recruitment
+
+Finance
+
+Logistiek
+
+Engineering
+
+Cybersecurity
+
+Marketing en agencies
+
+B2B dienstverlening
+
+## Van aanvraag naar actieve setter, in vier stappen
+
+### Week 1: intake en match
+
+- We analyseren je aanbod, doelgroep en salesproces
+- We dragen de setter voor die past op ervaring, branche en beschikbaarheid
+- Jij keurt de match goed
+
+### Week 2: onboarding en start
+
+- Contract, betaling en communicatie lopen via ons platform
+- Jij werkt de setter in op je product, doelgroep en toon
+- Wij regelen alles eromheen
+
+### Doorlopend: dagelijkse opvolging
+
+- De setter belt, volgt op en kwalificeert
+- De afspraak staat direct in jouw agenda
+- Activiteit, afspraken en uren zie je live in het platform
+
+### Jij voert de gesprekken
+
+- Jij stuurt aan op resultaat, zoals bij een eigen collega
+- Extra setter erbij, van parttime naar fulltime of wisselen van model: per maand
+- Liever ook het gesprek uit handen? Dan zetten we er een closer naast
+
+Standaard een setter die afspraken in je agenda zet. Met een closer erbij ook het verkoopgesprek.
+
+5,0 “Setter was binnen 2 weken actief en plant nu structureel afspraken in.” Jamie · Founder, SaaS
+
+## Wat een setter oplevert, met cijfers
+
+Drie plaatsingen zoals ze nu draaien. Klantnamen laten we weg, de cijfers niet.
+
+10+ settersgeplaatst bij een enkel belkantoor
+
+Case · Marketingbureau · Uurtarief
+
+### 10 afspraken per week uit 10 uur setter
+
+Een parttime setter volgt elke ochtend de reacties op de campagne op en belt de leads die de eigenaar zelf liet liggen. Een afspraak per gewerkt uur, en de eigenaar sluit drie op de tien.
+
+10 Afspraken per week, in 10 uur
+
+30% Wordt klant
+
+3 Nieuwe klanten per week
+
+Lees de volledige case →
+
+Case · Belkantoor · Uurtarief
+
+### 10 setters geplaatst bij een cold call agency
+
+Op toegankelijke campagnes zet elke setter gemiddeld een afspraak per uur, op moeilijkere een per twee uur. Het uurtarief is dezelfde dag terugverdiend, en het bureau schaalt per campagne op en af.
+
+10 Setters actief
+
+1 / uurAfspraak op toegankelijke campagnes
+
+1 / 2 uurAfspraak op moeilijkere campagnes
+
+Lees de volledige case →
+
+Case · Onze eigen setter bij Link2Leads · Performance
+
+### Doorlopende commissie: 10% van het maandbedrag, elke maand
+
+Onze eigen setter brengt afspraken aan voor Link2Leads en krijgt per gesloten klant tien procent van het maandbedrag, zolang die klant blijft. Geen vaste kosten voor ons, een doorlopend inkomen voor hem.
+
+10% Van het maandbedrag, per aangebrachte klant
+
+0 Vaste kosten
+
+DirectUitbetaald zodra de klant betaalt
+
+Lees de volledige case →
+
+Swipe of gebruik de pijlen.
+
+Bekijk alle cases Reken je eigen situatie door
+
+## Dit werkt, maar niet voor iedereen
+
+Dit is voor jou als...
+
+- ✓Je aanbod is bewezen bij betalende klanten
+- ✓Je hebt leads, maar niemand die ze dezelfde dag opvolgt
+- ✓Je wilt schalen zonder vaste personeelslasten
+- ✓Je stuurt de setter aan op resultaat, zoals een eigen collega
+
+Dit is te vroeg als...
+
+- ✗Je aanbod is nog niet verkocht aan een betalende klant
+- ✗Je hebt geen duidelijke doelgroep of ideale klant
+- ✗Je hebt geen tijd om de gesprekken zelf te voeren
+- ✗Je verwacht een volledig ontzorgd salesteam zonder sturing
+
+Te weinig gesprekken om op te volgen? Dan regelen we de instroom via Link2Leads.
+
+link2talent.nl/capaciteitsscan.
+
+## Hoeveel afspraken zet een setter in jouw situatie?
+
+Op basis van je aanbod, je instroom en je doelgroep rekenen we uit wat een setter bij jou realistisch zet. Eerlijk, ook als het antwoord is dat een setter nu nog te vroeg is.
+
+- Hoeveel afspraken per week realistisch is, met de benchmark uit onze plaatsingen
+- Hoeveel uur per week daarbij past
+- Welk model het beste aansluit: uurtarief, performance of seat
+- Wat een afspraak en een nieuwe klant je kost
+
+## Kies het model dat
+bij jou past.
+
+Alle modellen werken hetzelfde: jij stuurt de setter aan, wij leveren de capaciteit en regelen contract, betaling en rapportage. Per maand op- en afschalen. Vergelijk ons met een SDR in dienst of een callbureau →
+
+Performance
+
+Betalen bij resultaat
+
+Op maat
+
+commissie per afspraak
+
+Alleen bij resultaat
+
+Commissie per geboekte afspraak plus een kleine bemiddelingsfee
+
+- Setter ontvangt commissie per geboekte afspraak
+- Geen vaste lasten, schaalbaar op volume
+- Contract en uitbetaling via het platform
+
+Plan een gesprek
+
+Meest gekozen
+
+Uurtarief
+
+Voorspelbare maandkosten
+
++20%
+
+bemiddelingsfee op het setter-tarief
+
+Jij bepaalt het uurtarief
+
+Voorbeeld: setter verdient €30 per uur, jij betaalt €37,50
+
+- Binnen 14 dagen actief, anders betaal je niets
+- Fulltime of parttime, per maand op- en afschalen
+- Wisselen van setter kan altijd
+
+Plan een gesprek
+
+Seat
+
+Vaste prijs per setter
+
+€295
+
+per maand per seat
+
+Direct inzetbaar
+
+Vaste vergoeding per setter, alles via het platform
+
+- Contract, betaling en communicatie op een plek
+- Opschalen met extra seats
+- Uit te breiden met closers
+
+Plan een gesprek
+
+Hoe het altijd werkt: de setter werkt bij jou in en jij stuurt aan. Wij regelen de match, het contract en de betaling. Geen recruitmentfee en geen opstartkosten.
+
+5,0 “Setters sluiten goed aan op ons salesproces en plannen structureel afspraken in.” Dick · Managing Partner
+
+Op elk model
+
+### Binnen 14 dagen een actieve setter
+
+Staat je setter niet binnen 14 dagen na akkoord aan het werk, dan betaal je niets totdat we dat wel leveren. Hoe werkt de garantie?
+
+Wat zit er in de fee?
+
+#### Inbegrepen
+
+- Selectie en voordracht van een setter die bij je aanbod past
+- Contract, betaling en facturatie via het platform
+- Communicatie met setter en met ons op een plek
+- Rapportage van activiteit, afspraken en uren
+- Wisselen van setter als je dat wilt
+- Opschalen met extra setters of closers
+
+#### Niet inbegrepen
+
+- Het inhoudelijk aansturen van de setter, dat doe jij
+- Leadlijsten en e-mailcampagnes, daarvoor is er Link2Leads
+- Het voeren van de verkoopgesprekken, tenzij je een closer erbij neemt
+
+Geen recruitmentfee, geen opstartkosten. Welk model bij je past rekenen we door in het gesprek.
+
+Wie doet wat?
+
+Jij
+
+Werkt de setter in op je product, doelgroep en toon. Stuurt aan op resultaat, zoals je een eigen collega zou aansturen. Voert de gesprekken die de setter inplant.
+
+De setter
+
+Belt en volgt dagelijks op, kwalificeert en zet de afspraak direct in jouw agenda. Werkt fulltime of parttime, afhankelijk van wat je afspreekt.
+
+Wij
+
+Selecteren en dragen voor, regelen contract en betaling, houden de rapportage bij en zorgen dat de samenwerking loopt. Wil je wisselen, dan zetten wij een andere setter voor.
+
+Garantie en flexibiliteit
+
+14 dagen
+
+Binnen 14 dagen na akkoord staat je setter aan het werk. Zo niet, dan betaal je niets totdat we dat wel leveren.
+
+Op- en afschalen
+
+Extra setter erbij, van parttime naar fulltime, of overstappen van het ene model naar het andere: dat regel je via het platform, per maand.
+
+Wisselen van setter
+
+Liever iemand anders? Dan dragen wij een andere setter voor. Geen ontslagtraject, geen opzegtermijn van maanden.
+
+Later in dienst nemen
+
+Kan, en gebeurt. Bespreek het vooraf, dan leggen we de voorwaarden vast.
+
+## Vergelijkbaar met zelf iemand aannemen?
+
+Leg ons gerust naast een SDR in dienst of een callbureau. Dit is wat je bij ons standaard krijgt en wat je elders zelf regelt of mist.
+
+✓ Bij ons inbegrepen ± Elders deels, of zelf te regelen × Elders niet
+
+Waar je op let	Link2Talent	SDR in dienst	Callbureau
+OpstarttijdVan akkoord tot de eerste belweek.	✓Binnen 14 dagen actiefBinnen 14 dagen actief. Dat is onze garantie, op elk model.	×Zes weken tot maandenZes weken tot enkele maanden, inclusief opzegtermijn van de kandidaat.	±Twee tot zes wekenTwee tot zes weken, afhankelijk van de wachtrij.
+Vaste lastenWat er doorloopt in een rustige maand.	✓Geen, per maand op en afGeen. Je betaalt per uur, per afspraak of per seat, en schaalt per maand op en af.	×Salaris loopt altijd doorSalaris, werkgeverslasten en werkplek lopen door, ook zonder resultaat.	±Minimumafname en opstartfeeMinimumafname en vaak een opstartfee.
+Wisselen van setterAls je liever iemand anders wilt.	✓Andere setter, zonder gedoeWij dragen een andere setter voor. Geen ontslagtraject, geen maanden opzegtermijn.	×OntslagtrajectProeftijd, ontslagprocedure of vaststellingsovereenkomst.	±Contract uitzittenContract uitzitten of afkopen.
+Wie stuurt aanWie bepaalt wat de setter zegt en doet.	✓Jij, als een eigen collegaJij. De setter werkt op jouw product en toon, als een eigen collega. Wij regelen alles eromheen.	±Jij, plus werkgeversrolJij, inclusief de werkgeversrol en alles wat daarbij hoort.	×Het bureau, met een scriptHet bureau. Een script en een teamlead die je niet spreekt.
+Contract, betaling, rapportageWat je zelf moet regelen.	✓Alles via ons platformLoopt via ons platform: contract, facturatie, communicatie en rapportage op een plek.	×Zelf opzettenArbeidscontract, salarisadministratie, tooling en rapportage zelf opzetten.	±Rapportage in hun formatContract met het bureau, rapportage in hun format.
+Wie er beltWat voor iemand het gesprek voert.	✓Ervaren setter, door jou goedgekeurdEen ervaren setter uit echte B2B-sales, door ons geselecteerd en door jou goedgekeurd.	±Wie je zelf vindtWie je zelf vindt op de markt, na een wervingstraject.	×Wie beschikbaar isWie er die dag beschikbaar is op de belvloer.
+Leads erbijAls er te weinig gesprekken zijn om op te volgen.	✓Via Link2LeadsVia ons zusterbedrijf Link2Leads regelen we de instroom per e-mail, met dezelfde mensen aan tafel.	×Apart regelenAparte oplossing zoeken.	±Soms, tegen meerprijsSoms, als extra dienst tegen meerprijs.
+Setters en closersAls je meer wilt dan afspraken.	✓Setter en closer, los of samenSetter voor de afspraak, closer voor het gesprek. Los of samen, via hetzelfde platform.	×Twee vacaturesTwee vacatures, twee trajecten.	×Alleen afsprakenAlleen afspraken zetten.
+Inzicht in resultaatWat je ziet zonder er zelf om te vragen.	✓Activiteit, afspraken en uren, liveActiviteit, geboekte afspraken en uren in het platform. Altijd actueel.	±Zelf bijhoudenWat je zelf bijhoudt in je CRM.	±Wekelijks overzichtEen wekelijks overzicht van het bureau.
+
+Een eigen SDR is de betere keuze zodra je zeker weet dat het volume er over twaalf maanden nog is en er iemand is die dagelijks kan aansturen. Dat zeggen we ook als het zo ligt. Lees de volledige afweging.
+
+Plan een gesprek
+
+5,0 “Ze koppelen de juiste mensen aan de juiste organisaties. Absolute aanrader.” Arnold · CEO, B2B dienstverlening
+
+## Alles geregeld
+in dezelfde app
+
+Van matching tot facturering, van communicatie tot contracten. Geen losse tools en geen e-mailchaos.
+
+Maak een gratis account aan op app.link2talent.nl. Binnen een paar minuten zie je beschikbare setters, start je een match en regel je contract, betaling en communicatie in dezelfde omgeving. Ook voor kandidaten: als setter of closer aanmelden doe je via dezelfde app.
+
+MatchingBekijk direct beschikbare setters, check profiel, ervaring en reviews. Jij kiest de match die past.
+
+ContractenDigitale contracten, automatisch opgesteld op basis van het gekozen model. Ondertekenen in de app.
+
+FactureringAutomatisch op basis van uren of performance. Geen handmatig bijhouden en geen discussie achteraf.
+
+CommunicatieDirect contact met je setter en met ons team via de app. Niets dat verdwijnt in een mailbox.
+
+RapportageActiviteit, geboekte afspraken en uren, altijd actueel. Zonder zelf iets bij te houden.
+
+OpschalenExtra setter of closer nodig? Je ziet direct wie beschikbaar is en start een nieuwe match.
+
+Liever eerst iemand spreken? Plan een gesprek, of ga direct naar app.link2talent.nl.
+
+## Te weinig gesprekken voor je setter?
+
+Een setter zonder instroom zit stil. Daarom regelen we die instroom ook, onder hetzelfde dak.
+
+Via ons zusterbedrijf Link2Leads draaien we koude e-mailcampagnes naar jouw doelgroep: leadlijst, teksten, verzending en het filteren van de reacties. De positieve reacties komen binnen in je mailbox en jouw setter belt ze na. Dezelfde mensen aan tafel, dus geen afstemming tussen twee bureaus.
+
+Bekijk Link2Leads Bespreek de combinatie
+
+€995 per maand, vanaf het startpakket
+
+- Campagne live binnen twee weken
+- Alleen positieve reacties komen bij je setter terecht
+- Zeven dagen per week verzenden
+- Contractuele garantie op positieve reacties op de grotere pakketten
+
+## Wat klanten zeggen over de samenwerking
+
+Arnold 5.0
+
+★★★★★
+
+Link2Talent onderscheidt zich door een persoonlijke aanpak en echte betrokkenheid. Ze koppelen de juiste mensen aan de juiste organisaties. Absolute aanrader voor commercieel talent.
+
+CEO, B2B dienstverleningGoogle
+
+Wouter 5.0
+
+★★★★★
+
+Werk via Link2Talent voor twee opdrachtgevers. Er wordt goed meegedacht en de communicatie is vanaf dag een sterk. Snel schakelen, direct resultaat.
+
+Sales ProfessionalGoogle
+
+Jamie 5.0
+
+★★★★★
+
+Behoefte uitgelegd en binnen een paar dagen alles geregeld. Setter was binnen 2 weken actief en plant nu structureel afspraken in. Precies wat ik zocht.
+
+Founder, SaaSGoogle
+
+Rafael 5.0
+
+★★★★★
+
+Kandidaten sluiten perfect aan en zijn direct inzetbaar. Fijne communicatie en ze denken echt met je mee. We hebben meteen de juiste match gevonden.
+
+Co-founder, ConsultancyGoogle
+
+Dick 5.0
+
+★★★★★
+
+Niet alleen de samenwerking, maar ook het resultaat. Setters sluiten goed aan op ons salesproces en plannen structureel afspraken in. Dikke aanrader.
+
+Managing PartnerGoogle
+
+Micah 5.0
+
+★★★★★
+
+Komen afspraken na, reageren snel en luisteren goed. Meerdere sterke kandidaten gevonden, stuk voor stuk direct inzetbaar. 100% aanrader.
+
+Growth Lead, Scale-upGoogle
+
+En nog veel meer 4,8 gemiddeld op Google. Op naam, dus na te lopen. Naar Google Reviews →
+
+## Vragen die we vaak krijgen
+
+Hoe snel kan een setter starten?
+
+Binnen 14 dagen na akkoord. Week 1 is intake en match, week 2 is inwerken op je product en doelgroep. Daarna belt de setter dagelijks. Staat de setter niet binnen 14 dagen aan het werk, dan betaal je niets totdat we dat wel leveren.
+
+Hoeveel uur per week werkt een setter?
+
+Dat spreek je zelf af. De meeste opdrachtgevers starten met 16 tot 24 uur per week en schalen op als de agenda volloopt. Fulltime kan ook.
+
+Wat doet een setter precies?
+
+Bellen en opvolgen. De setter benadert je doelgroep of de reacties op je campagne, kwalificeert het gesprek en zet de afspraak direct in jouw agenda. Het verkoopgesprek zelf voer jij, tenzij je een closer erbij neemt.
+
+Moet ik zelf leads aanleveren?
+
+Je setter heeft instroom nodig: een lijst, inkomende reacties of een campagne. Heb je die niet, dan regelen we de instroom via ons zusterbedrijf Link2Leads, met dezelfde mensen aan tafel.
+
+Wie stuurt de setter aan?
+
+Jij, inhoudelijk. Je werkt de setter in op je product, doelgroep en toon en stuurt aan op resultaat, zoals bij een eigen collega. Wij regelen contract, betaling, rapportage en de samenwerking eromheen.
+
+Kan ik wisselen van setter?
+
+Ja. Wil je liever iemand anders, dan dragen wij een andere setter voor. Geen ontslagtraject en geen opzegtermijn van maanden. Zeg het en we schakelen.
+
+Wat kost het?
+
+Dat hangt af van het model. Uurtarief: je bepaalt het tarief van de setter en wij rekenen een bemiddelingsfee van 20 procent daarbovenop (setter 30 per uur wordt 37,50). Performance: commissie per afspraak plus een kleine fee. Seat: 295 per maand per setter. Geen recruitmentfee en geen opstartkosten. Reken het door op de omzetcalculator.
+
+Is een setter goedkoper dan een SDR in dienst?
+
+Per uur is een SDR in dienst goedkoper zodra hij goed draait, en duurder op alles daaromheen: werving, inwerktijd, werkgeverslasten, aansturing en het risico dat de eerste hire het niet wordt. De eerlijke som staat in wat kost een interne SDR echt.
+
+Kan ik op- en afschalen of stoppen?
+
+Ja, per maand. Extra setter erbij, van parttime naar fulltime, of wisselen van model regel je via het platform. Stoppen kan per maand, zonder verborgen voorwaarden.
+
+Leveren jullie ook closers?
+
+Ja. Een closer voert de verkoopgesprekken die de setter inplant. Los of samen met een setter, via hetzelfde platform. Wie wat doet staat in setter vs. closer.
+
+Ik ben zelf setter of closer. Kan ik me aanmelden?
+
+Ja, via app.link2talent.nl. We zoeken mensen met ervaring in echte B2B-sales die hun afspraken nakomen. Daar staat een serieuze opdrachtgever tegenover, met een uurtarief en de vrijheid om overal te werken.
+
+5,0 “Meerdere sterke kandidaten gevonden, stuk voor stuk direct inzetbaar.” Micah · Growth Lead, Scale-up
+
+Plan een gesprek Maak een account aan
+
+Meer uitzoeken? In de kennisbank staan de afwegingen over rollen, modellen en kosten.
+
+Binnen 14 dagen actiefanders betaal je niets totdat we dat wel leveren
+
+## Zelf blijven bellen, of een setter erop zetten?
+
+In het gratis kennismakingsgesprek van 30 minuten kijken we naar je aanbod, je instroom en welk model past. Je krijgt een eerlijk advies, ook als we niet samenwerken.
+
+Plan een gesprek
+
+Anne-Roos en Demi. Je krijgt een van ons tweeen aan de lijn.
+
+### Liever eerst een vraag stellen?
+
+Demi of Anne-Roos antwoordt binnen een werkdag.
+
+info@link2talent.nlDirect mailen kan ook, zelfde antwoordtijd 085 080 5381Op werkdagen tussen 9 en 18 uur Maak een account aanBekijk beschikbare setters zonder gesprek
+
 
 ==============================================================================
+# Appointment setting bureaus in Nederland vergeleken
+Bron: https://www.link2talent.nl/appointment-setting-bureaus-nederland
+==============================================================================
 
-# Tien uur per week, tien afspraken per week
-Bron: https://www.link2talent.nl/cases/marketingbureau
+Wie in Nederland afspraken wil laten zetten, kiest uit vijf soorten aanbieders. Ze verschillen op zes punten die je vooraf wilt weten. Hier staan ze naast elkaar, inclusief de plek waar wij zelf staan.
 
+Bijgewerkt 25 september 2026·Demi Stekelenburg·Leestijd 9 minuten
 
-Een B2B-marketingbureau had leads genoeg en niemand die structureel belde. Een parttime setter via Link2Talent vult nu elke week de agenda van de eigenaar.
-Bijgewerkt 25 september 2026 · Demi Stekelenburg · Leestijd 5 minuten
-- 10 uur: per week ingezet
-- 10 afspraken: per week gemiddeld
-30%van de afspraken wordt klant
-## Startsituatie
+Kort antwoord: callbureaus zijn het snelst geregeld en het minst van jou. Een SDR-as-a-service-bureau levert een compleet team, tegen een maandbedrag dat daarbij hoort. Freelanceplatforms zijn het goedkoopst en het meest werk. Recruitmentbureaus leveren een hire. Link2Talent zit tussen freelance en bureau in: jij kiest en stuurt aan, wij regelen selectie, contract en betaling, binnen 14 dagen.
 
-Het bureau levert marketingdiensten aan MKB-bedrijven en had een volle pijplijn aan reacties uit campagnes en netwerk. De eigenaar deed de opvolging zelf, tussen klantwerk door. Dat betekende dat een deel van de reacties dagen bleef liggen en dat de agenda per week wisselde van vol naar leeg.
+## De vijf soorten aanbieders
 
-## Inzet
+Callbureaus. Een belvloer met teamleads, een script en een minimumafname. Je koopt uren of afspraken. Snel geregeld, weinig invloed op wie er belt en wat hij zegt.
 
-Via Link2Talent is een setter gestart op het uurtarief-model, tien uur per week verdeeld over de ochtenden. Week 1 was intake en match, week 2 inwerken op het aanbod, de doelgroep en de toon van het bureau. Vanaf week 3 belt de setter dagelijks de nieuwe reacties en de openstaande opvolging, en zet de afspraak direct in de agenda van de eigenaar.
+SDR-as-a-service. Bureaus die een SDR of een klein team leveren inclusief tooling, data en aansturing. Compleet, tegen een maandbedrag dat vaak begint waar een fulltime salaris ophoudt.
 
-## Resultaat
+Freelanceplatforms. Marktplaatsen waar je zelf zoekt, selecteert en contracteert. Goedkoop per uur, duur in je eigen tijd, en bij een mismatch begin je opnieuw.
 
-Gemiddeld tien afspraken per week, dus een afspraak per gewerkt uur. De eigenaar sluit ongeveer drie op de tien, wat neerkomt op drie nieuwe klanten per week. Tegen het uurtarief van 37,50 kost een afspraak 37,50 en een nieuwe klant 125 euro aan setterkosten. Bij een gemiddelde ordergrootte van een marketingbureau is dat in de eerste maand terugverdiend.
+Recruitmentbureaus. Werving en selectie voor een SDR in dienst. Een fee als percentage van het jaarsalaris, daarna een arbeidscontract. Past als je zeker weet dat de rol voor een jaar of langer gevuld moet zijn.
 
-Wat het verschil maakte: de instroom was er al. De setter hoefde geen koude lijst te bellen, maar reacties op te volgen die anders bleven liggen. Dat is de situatie waarin een setter het snelst rendeert.
+Link2Talent. Wij dragen een ervaren setter voor, jij keurt hem goed en stuurt hem aan als een eigen collega. Contract, betaling, rapportage en wisselen lopen via ons platform. Binnen 14 dagen actief, per maand op- en afschalen.
 
-## Wat je hieruit kunt halen
+## De zes punten naast elkaar
 
-Heb je reacties die je niet dezelfde dag terugbelt, dan is tien uur per week meestal genoeg om dat gat te dichten. Reken het voor je eigen situatie door met de omzetcalculator: vul je ordergrootte en je close rate in en je ziet wat een afspraak je waard is.
+Callbureau	SDR-as-a-service	Freelanceplatform	Recruitmentbureau	Link2Talent
+Opstarttijd	2 tot 6 weken	4 tot 8 weken	Zolang je zoektocht duurt	6 weken tot maanden	Binnen 14 dagen, met garantie
+Wie belt	Wie beschikbaar is	Het team van het bureau	Wie je zelf vindt	De kandidaat die je aanneemt	Een geselecteerde setter, door jou goedgekeurd
+Wie stuurt aan	Het bureau	Het bureau	Jij	Jij, als werkgever	Jij, als bij een eigen collega
+Kosten	Opstartfee plus minimumafname	Vast maandbedrag	Uurtarief, zelf onderhandeld	Fee plus salaris en werkgeverslasten	Uurtarief plus 20 procent, commissie of 295 per seat
+Als het niet klikt	Contract uitzitten	Opzegtermijn	Opnieuw zoeken	Proeftijd of ontslagtraject	Wisselen van setter
+Leads erbij	Soms, tegen meerprijs	Vaak inbegrepen	Zelf regelen	Zelf regelen	Via zusterbedrijf Link2Leads
+
+## Hoe je hieruit kiest
+
+Begin bij de vraag of je zelf wilt bepalen wie er belt en wat hij zegt. Zo nee, dan is een callbureau of SDR-as-a-service de kortste route en betaal je voor het gemak. Zo ja, dan kies je tussen zelf werven (freelance of recruitment) en een platform dat de selectie en het contract voor je doet.
+
+De tweede vraag is hoe zeker je bent van het volume. Weet je dat de rol over een jaar nog bestaat, dan is een hire op termijn goedkoper. Weet je dat niet, dan betaal je met een hoger uurtarief voor de mogelijkheid om binnen twee weken te starten en per maand te stoppen. Die afweging staat uitgewerkt in remote setter vs. SDR in dienst.
+
+## De zes vragen die je elke aanbieder stelt
+
+- Wie belt er precies, en mag ik die persoon vooraf spreken?
+- Wie stuurt aan, en hoe vaak spreek ik die persoon?
+- Wat betaal ik als er een maand geen afspraken uitkomen?
+- Wat gebeurt er als de beller niet bevalt, en hoe snel?
+- Waar komt de instroom vandaan: mijn lijst, hun data of een campagne?
+- Wat zie ik per week aan cijfers zonder erom te vragen?
+
+## Waar wij staan
+
+Link2Talent is geen callbureau en geen recruitmentbureau. Wij plaatsen ervaren setters bij bedrijven die zelf willen aansturen, en nemen het werven, contracteren en factureren weg. De cijfers uit lopende plaatsingen staan in de cases: een afspraak per uur op toegankelijke campagnes, een per twee uur op moeilijkere. Past een andere route beter bij jou, dan zeggen we dat in het eerste gesprek.
+
+## Methodologie
+
+De tabel beschrijft soorten aanbieders, geen individuele bedrijven, omdat voorwaarden per aanbieder en per jaar verschillen. De kenmerken zijn wat we in gesprekken met opdrachtgevers terugkrijgen en wat aanbieders zelf publiceren. Wijkt een aanbieder af, dan is dat de vraag om te stellen. Bijgewerkt 25 september 2026.
 
 ## Veelgestelde vragen
 
-**Hoeveel uur per week is een setter nodig?**
+Welk bureau is het beste voor appointment setting?
 
-Bij dit bureau was tien uur per week genoeg om alle reacties dezelfde dag op te volgen. Hoeveel uur jij nodig hebt hangt af van de instroom: meer reacties, meer uren.
+Dat hangt af van of je zelf wilt kiezen wie er belt en of je tijd hebt om aan te sturen. Wil je dat niet, dan een callbureau. Wil je dat wel, dan een platform of een eigen hire.
 
-**Wat kost een afspraak in dit voorbeeld?**
+Wat kost appointment setting uitbesteden gemiddeld?
 
-Tien uur tegen 37,50 is 375 euro per week, gedeeld door tien afspraken is 37,50 per afspraak. Met 30 procent close kost een nieuwe klant 125 euro aan setterkosten.
+Bij een callbureau betaal je meestal een opstartfee plus een minimumafname per maand. Bij Link2Talent betaal je het uurtarief van de setter plus 20 procent, bijvoorbeeld 37,50 per uur, of een commissie per afspraak. Geen opstartkosten.
 
-**Werkt dit ook zonder bestaande instroom?**
+Hoe snel kan een setter starten?
 
-Dan belt de setter een lijst in plaats van reacties, en zet hij minder afspraken per uur. Zie de case van het belkantoor voor die cijfers, of combineer een setter met een campagne van Link2Leads.
+Bij Link2Talent binnen 14 dagen na akkoord, met garantie. Bij een callbureau twee tot zes weken, bij een eigen hire zes weken tot maanden.
+
+Waarom staan er geen bedrijfsnamen in deze vergelijking?
+
+Omdat aanbieders hun voorwaarden regelmatig veranderen en een verouderde tabel je verkeerd informeert. De soorten aanbieders veranderen niet. Vraag bij elke aanbieder de zes punten hierboven na.
+
+## Ook interessant
+
+- Appointment setting uitbestedenBureau, freelancer of platform
+- Wat kost een appointment setter inhuren?De drie modellen met rekenvoorbeelden
+- Cases met cijfersDrie plaatsingen zoals ze nu draaien
+
+## Wil je dit op je eigen situatie toepassen?
+
+In een gratis kennismakingsgesprek van 30 minuten leggen we je bottleneck en de benodigde capaciteit naast elkaar.
+
+Plan een gesprek →Stel eerst je vraag
+
+Liever eerst even mailen? Dat kan ook: info@link2talent.nl
+
 
 ==============================================================================
+# Hoeveel afspraken zet een setter per week?
+Bron: https://www.link2talent.nl/kennis/afspraken-per-week-setter
+==============================================================================
 
-# Tien setters, een afspraak per uur
-Bron: https://www.link2talent.nl/cases/belkantoor
+De vraag die iedereen stelt voordat hij een setter inhuurt. Hier staan de cijfers uit onze eigen plaatsingen, wat ze bepaalt en hoe je ze omrekent naar jouw situatie.
 
+Bijgewerkt 25 september 2026·Demi Stekelenburg·Leestijd 7 minuten
 
-Een belkantoor dat voor opdrachtgevers afspraken zet, wilde sneller opschalen dan werving toeliet. Link2Talent plaatst er nu tien setters die elk hun uurtarief per dag terugverdienen.
-Bijgewerkt 25 september 2026 · Demi Stekelenburg · Leestijd 5 minuten
-- 10 setters: geplaatst via Link2Talent
-- 1 per uur: afspraak op toegankelijke campagnes
-1 per 2 uurafspraak op moeilijkere campagnes
-## Startsituatie
+Kort antwoord: een afspraak per gewerkt uur als het aanbod helder is en de instroom er al is, een afspraak per twee uur als de doelgroep smal is of het aanbod uitleg vraagt. Bij tien uur per week is dat vijf tot tien afspraken per week.
 
-Het belkantoor draait campagnes voor meerdere opdrachtgevers en groeide harder dan de eigen werving kon bijhouden. Elke nieuwe campagne vroeg om extra bellers, en elke vacature kostte weken. De vraag was niet of ze konden verkopen, maar hoe ze binnen twee weken capaciteit erbij konden zetten zonder tien arbeidscontracten.
+## De cijfers uit onze eigen plaatsingen
 
-## Inzet
+Situatie	Afspraken	Bron
+Reacties opvolgen bij een marketingbureau	10 per week bij 10 uur, dus 1 per uur	Case marketingbureau
+Toegankelijke campagne bij een belkantoor	1 per uur	Case belkantoor
+Moeilijkere campagne bij een belkantoor	1 per 2 uur	Case belkantoor
 
-Via Link2Talent zijn in stappen tien setters geplaatst op het uurtarief-model. Elke setter is door ons geselecteerd op ervaring in echte B2B-sales en door het kantoor goedgekeurd voordat hij startte. De setters werken remote, worden door het kantoor ingewerkt op de campagne en aangestuurd door de eigen teamleads. Contract, uren en betaling lopen via ons platform.
+Drie situaties, twee uitersten. Een afspraak per uur is wat een ervaren setter haalt als de instroom er is en het aanbod in een zin uit te leggen is. Een afspraak per twee uur is de ondergrens die we zien als de doelgroep smal is of als de setter eerst moet uitleggen wat het product doet.
 
-## Resultaat
+## Wat het aantal bepaalt
 
-Op de toegankelijke campagnes, met een helder aanbod en een brede doelgroep, zet een setter gemiddeld een afspraak per gewerkt uur. Op de moeilijkere campagnes, met een smallere doelgroep of een aanbod dat meer uitleg vraagt, is dat een afspraak per twee uur. In beide gevallen is het uurtarief van de setter binnen dezelfde dag terugverdiend, omdat het kantoor per afspraak aan zijn opdrachtgever factureert.
+De setter zelf is maar een van de vier variabelen. De andere drie liggen bij jou.
 
-Wat het verschil maakte: het kantoor had al een werkende campagnestructuur en teamleads die dagelijks sturen. Onze setters stapten in een lopend proces. Dat is de situatie waarin opschalen met tien mensen tegelijk zonder gedoe lukt.
+Instroom. Een setter die reacties opvolgt zet meer afspraken dan een setter die een koude lijst belt. Reacties zijn warm, een lijst is dat niet. Heb je geen instroom, dan combineer je de setter met een campagne, bijvoorbeeld via Link2Leads.
 
-## Wat je hieruit kunt halen
+Aanbod. Een dienst die in een zin uit te leggen is, met een duidelijke prijs, converteert sneller aan de telefoon dan een product dat een demo nodig heeft om begrepen te worden.
 
-De twee cijfers hierboven zijn een bruikbare benchmark voor je eigen rekensom. Weet je hoeveel je een afspraak waard is, dan weet je bij een afspraak per uur of per twee uur direct of een setter uitkan. Meer over die benchmark in hoeveel afspraken zet een setter per week.
+Doelgroep. Hoe breder de doelgroep, hoe meer bereikbare beslissers per uur. Een smalle niche betekent meer zoeken per gesprek.
+
+Aansturing. Een setter die dagelijks feedback krijgt op gesprekken en bezwaren zit binnen twee weken op niveau. Zonder feedback duurt dat langer. Wat je daarvoor doet staat in remote setter aansturen: de eerste 30 dagen.
+
+## Omrekenen naar jouw situatie
+
+Neem het aantal uren dat je een setter wilt inzetten en vermenigvuldig met een afspraak per uur voor het gunstige scenario en een per twee uur voor het voorzichtige. Bij 16 uur per week is dat 8 tot 16 afspraken per week. Vermenigvuldig met je close rate en je hebt het aantal nieuwe klanten per week. Zet daar je ordergrootte naast en je ziet wat de setter oplevert tegenover wat hij kost.
+
+De omzetcalculator doet die som voor je. Vul je uurtarief, je close rate en je ordergrootte in.
+
+## Wat een realistische verwachting is in de eerste weken
+
+Week 1 en 2 zijn intake, match en inwerken. De eerste afspraken komen in week 3. Reken de eerste maand op de ondergrens en beoordeel pas na zes weken of het aantal klopt met de benchmark. Wie na twee weken oordeelt, beoordeelt het inwerken en niet de setter.
 
 ## Veelgestelde vragen
 
-**Waarom verschilt het per campagne?**
+Zet een fulltime setter twee keer zoveel als een parttime setter?
 
-Een breed aanbod met een grote doelgroep levert meer gesprekken per uur op dan een smal aanbod dat uitleg vraagt. Een afspraak per uur en een per twee uur zijn de twee uitersten die we bij dit kantoor zien.
+Meestal wel, zolang de instroom het toelaat. Bij reacties opvolgen is de instroom de grens: als er twintig reacties per week zijn, heeft een setter aan tien uur genoeg.
 
-**Kan ik ook meerdere setters tegelijk starten?**
+Wat als mijn setter onder de benchmark zit?
 
-Ja. Bij dit kantoor zijn de tien setters in stappen geplaatst, telkens binnen twee weken na akkoord. Via het platform zie je wie beschikbaar is.
+Kijk eerst naar de instroom en het aanbod, daar zit het meestal. Zit het bij de setter, dan wisselen we. Dat kan altijd, zonder ontslagtraject.
 
-**Wie stuurt de setters aan?**
+Tellen alleen gekwalificeerde afspraken mee?
 
-Het kantoor zelf, met eigen teamleads. Wij regelen selectie, contract, uren en betaling. Dat is bij elke plaatsing zo.
+Ja. Een afspraak is pas een afspraak als de prospect past bij de definitie die je vooraf hebt gegeven. Die definitie leggen we in de intake vast.
+
+## Ook interessant
+
+- Case: tien setters bij een belkantoorEen afspraak per uur op toegankelijke campagnes
+- Wat kost een appointment setter inhuren?De drie modellen met rekenvoorbeelden
+- Wanneer is een remote setter inhuren logisch?Capaciteitsprobleem of strategieprobleem
+
+## Wil je dit op je eigen situatie toepassen?
+
+In een gratis kennismakingsgesprek van 30 minuten leggen we je bottleneck en de benodigde capaciteit naast elkaar.
+
+Plan een gesprek →Stel eerst je vraag
+
+Liever eerst even mailen? Dat kan ook: info@link2talent.nl
+
 
 ==============================================================================
+# Wat kost een appointment setter inhuren?
+Bron: https://www.link2talent.nl/kennis/appointment-setter-inhuren-kosten
+==============================================================================
 
-# Onze eigen setter op doorlopende commissie
-Bron: https://www.link2talent.nl/cases/setter-op-commissie
+De prijs van een setter is geen geheim. Hier staan de drie modellen, wat een afspraak per model kost en hoe je dat naast een SDR in dienst legt.
 
+Bijgewerkt 25 september 2026·Demi Stekelenburg·Leestijd 6 minuten
 
-Bij ons zusterbedrijf Link2Leads brengt een setter afspraken aan en wordt betaald per gesloten klant. Niet eenmalig, maar elke maand zolang die klant blijft. Zo ziet het performance-model er in de praktijk uit.
-Bijgewerkt 25 september 2026 · Demi Stekelenburg · Leestijd 5 minuten
-- 10%: van het maandbedrag, per aangebrachte klant
-- Elke maand: zolang de klant blijft
-0vaste kosten voor de opdrachtgever
-## Startsituatie
+Kort antwoord: op het uurtarief-model betaal je het tarief van de setter plus 20 procent, bijvoorbeeld 37,50 per uur bij een setter van 30. Bij een afspraak per uur is dat 37,50 per afspraak. Geen recruitmentfee, geen opstartkosten, per maand op- en afschalen.
 
-Link2Leads, ons zusterbedrijf voor e-mailcampagnes, kreeg meer inkomende interesse via LinkedIn dan de oprichters zelf konden opvolgen. De gesprekken zelf wilden ze blijven voeren, het aanbrengen en kwalificeren niet. Een vaste hire paste niet bij een instroom die per week wisselt.
+## De drie modellen
 
-## Inzet
+Model	Wat je betaalt	Wanneer het past
+Uurtarief	Tarief van de setter plus 20 procent bemiddelingsfee. Setter 30 per uur wordt 37,50.	Als je voorspelbare kosten wilt en zelf aanstuurt. Het meest gekozen model.
+Performance	Commissie per geboekte afspraak of per gesloten klant, plus een kleine bemiddelingsfee.	Als het resultaat eenduidig meetbaar is en je alleen bij resultaat wilt betalen.
+Seat	295 per maand per setter.	Als je structurele capaciteit wilt met alles via het platform geregeld.
 
-Een setter uit het netwerk van Link2Talent benadert prospects via LinkedIn, kwalificeert ze en zet ze door naar een gesprek met Link2Leads. Hij krijgt daarvoor geen uurtarief, maar 10 procent van het maandbedrag van elke klant die uit zijn afspraak voortkomt. Dat percentage loopt elke maand door zolang die klant klant blijft, en wordt uitbetaald zodra de klant betaalt.
+## Wat een afspraak kost
 
-## Resultaat
+Op het uurtarief-model hangt de prijs per afspraak af van hoeveel afspraken de setter per uur zet. Uit onze plaatsingen: een per uur op toegankelijke campagnes, een per twee uur op moeilijkere. Bij 37,50 per uur is een afspraak dus 37,50 tot 75 euro.
 
-Voor de setter stapelt het inkomen: elke gesloten klant is een terugkerend bedrag erbij. Een klant op het meest gekozen pakket van 1.695 per maand levert hem 169,50 per maand op, en tien van die klanten 1.695 per maand, zonder dat hij daar nog een uur voor hoeft te werken. Voor Link2Leads is er geen vaste last: de setter kost pas iets als er omzet tegenover staat.
+Reken door naar een nieuwe klant. Bij een close rate van 30 procent, zoals bij het marketingbureau in onze case, kost een nieuwe klant 125 tot 250 euro aan setterkosten. Zet daar je ordergrootte naast en de beslissing is een rekensom.
 
-Wat het verschil maakte: een aanbod met een terugkerend maandbedrag. Doorlopende commissie werkt als de klant maandelijks betaalt, want dan is de commissie ook maandelijks. Bij eenmalige orders past een commissie per deal of het uurtarief beter.
+## Wat er in de fee zit
 
-## Wat je hieruit kunt halen
+Selectie en voordracht van een setter die bij je aanbod past, het contract, de betaling en de facturatie via het platform, communicatie met de setter en met ons op een plek, rapportage van activiteit, afspraken en uren, wisselen van setter als je dat wilt en opschalen met extra setters of closers. Wat er niet in zit: het inhoudelijk aansturen van de setter, dat doe jij, en de instroom van leads, daar is Link2Leads voor.
 
-Verkoop je een abonnement of een maandfee, dan is dit model het overwegen waard. De setter denkt mee over kwaliteit in plaats van aantallen, omdat hij pas verdient als de klant blijft. Welk model bij jouw aanbod past staat in performance vs. seat-model.
+## Naast een SDR in dienst
+
+Per uur is een SDR in dienst goedkoper zodra hij goed draait. Alles eromheen is duurder: werving, inwerktijd, werkgeverslasten, tooling en de uren van degene die aanstuurt. De volledige rekensom staat in wat kost een interne SDR echt, de afweging in remote setter vs. SDR in dienst.
+
+## Naast een callbureau
+
+Een callbureau rekent meestal een opstartfee en een minimumafname, en de beller is wie er die dag beschikbaar is. Bij ons kies je de setter zelf, stuur je hem aan als een eigen collega en betaal je per uur, per afspraak of per seat. De vergelijking op negen punten staat op de homepage.
 
 ## Veelgestelde vragen
 
-**Is dit het performance-model?**
+Zijn er opstartkosten?
 
-Ja, in de vorm van doorlopende commissie. Bij een eenmalige order is het meestal een vast bedrag per afspraak of per deal.
+Nee. Geen recruitmentfee en geen setupfee. Je betaalt vanaf het moment dat de setter werkt.
 
-**Wanneer wordt de setter betaald?**
+Kan ik van model wisselen?
 
-Zodra de klant zijn factuur betaalt. Geen wachttijd tot het einde van het kwartaal.
+Ja, per maand via het platform. Veel opdrachtgevers starten op uurtarief en stappen over zodra ze weten wat een afspraak oplevert.
 
-**Werkt dit voor elk aanbod?**
+Wat bepaalt het uurtarief van de setter?
 
-Het werkt het beste bij een terugkerend maandbedrag. Verkoop je eenmalige projecten, dan bespreken we in het kennismakingsgesprek welke variant past.
+Ervaring en beschikbaarheid. De meeste setters zitten rond de 30 per uur; daar komt onze fee van 20 procent bovenop.
+
+## Ook interessant
+
+- Hoeveel afspraken zet een setter per week?De benchmark uit onze eigen plaatsingen
+- Wat kost een interne SDR echt?Alle posten naast het salaris
+- Performance vs. seat-modelWelk prijsmodel bij je resultaat past
+
+## Wil je dit op je eigen situatie toepassen?
+
+In een gratis kennismakingsgesprek van 30 minuten leggen we je bottleneck en de benodigde capaciteit naast elkaar.
+
+Plan een gesprek →Stel eerst je vraag
+
+Liever eerst even mailen? Dat kan ook: info@link2talent.nl
+
 
 ==============================================================================
+# Appointment setting uitbesteden: bureau, freelancer of platform
+Bron: https://www.link2talent.nl/kennis/appointment-setting-uitbesteden
+==============================================================================
 
-# Wanneer is een remote setter inhuren logisch?
-Bron: https://www.link2talent.nl/kennis/remote-setter-inhuren
+Wie afspraken wil laten zetten heeft vier routes. Ze verschillen vooral in wie de beller kiest, wie aanstuurt en wat je betaalt als het niet loopt.
 
+Bijgewerkt 25 september 2026·Demi Stekelenburg·Leestijd 8 minuten
 
-Een setter inhuren lost een capaciteitsprobleem op, geen strategieprobleem. Deze pagina helpt je vaststellen welk van de twee je hebt, voordat je iemand aanneemt of inhuurt.
-Bijgewerkt 8 september 2026 · Demi Stekelenburg · Leestijd 7 minuten. Kort antwoord: het is logisch zodra er meer gesprekken te voeren zijn dan er tijd is om ze te voeren, en je aanbod al bewezen verkoopt. Zolang een van die twee niet klopt, lost extra capaciteit niets op.
+Kort antwoord: een callbureau is het snelst als je geen tijd hebt om aan te sturen en het script niet uitmaakt. Een freelancer is het goedkoopst als je zelf kunt zoeken en selecteren. Een recruitmentbureau past als je iemand in dienst wilt. Een platform zit ertussenin: jij kiest en stuurt aan, het platform regelt de rest.
 
-## Het verschil tussen een capaciteitsprobleem en een strategieprobleem
+## De vier routes naast elkaar
 
-Bijna elke ondernemer die belt zegt hetzelfde: er komen te weinig nieuwe klanten binnen. Dat kan twee heel verschillende oorzaken hebben en de oplossing verschilt volledig.
+Callbureau	Freelancer	Recruitmentbureau	Platform (Link2Talent)
+Opstarttijd	Twee tot zes weken	Afhankelijk van je zoektocht	Zes weken tot maanden	Binnen 14 dagen
+Wie belt	Wie beschikbaar is op de belvloer	De persoon die je zelf vindt	De kandidaat die je aanneemt	Een geselecteerde setter die jij goedkeurt
+Wie stuurt aan	Het bureau, met een script	Jij	Jij, als werkgever	Jij, als bij een eigen collega
+Kosten	Opstartfee plus minimumafname	Uurtarief, zelf onderhandeld	Fee als percentage van het jaarsalaris, plus salaris	Uurtarief plus 20 procent, commissie of seat
+Als het niet klikt	Contract uitzitten of afkopen	Opnieuw zoeken	Proeftijd of ontslagtraject	Wisselen van setter
+Contract en betaling	Via het bureau	Zelf regelen	Arbeidscontract en salarisadministratie	Via het platform
 
-Bij een capaciteitsprobleem werkt je aanbod. Je hebt klanten die betalen en tevreden zijn, je weet hoe een goed gesprek loopt en je sluit een redelijk deel van je offertes. Alleen: er is niemand die de agenda vult. De oprichter doet het erbij, of een accountmanager doet het als er tijd over is, en dat is er zelden. Dan is een setter het antwoord.
+## Wanneer een callbureau past
 
-Bij een strategieprobleem is de bottleneck een stap eerder. Je weet niet scherp wie je ideale klant is, je propositie verandert per gesprek, of je hebt nog geen klant die uit zichzelf zou terugkomen. Zet je daar een setter op, dan gaat die improviseren op een verhaal dat nog niet staat. Het resultaat is een lage boekingsgraad en een setter die je binnen twee maanden wilt vervangen, terwijl de setter niet het probleem was.
+Als je een groot volume hebt, een eenvoudig aanbod en geen tijd of zin om zelf aan te sturen. Je koopt uren of afspraken, het bureau regelt de rest. De prijs daarvoor is dat je niet kiest wie er belt en dat het script van het bureau is.
 
-## Vier vragen die het onderscheid maken
+## Wanneer een freelancer past
 
-- Heb je minstens drie klanten die je opnieuw zou willen hebben? Niet drie klanten, maar drie waar je blij mee bent. Daaruit haal je het profiel waar een setter op gaat werken. Zonder dat profiel is elke lijst een gok.
+Als je zelf goed kunt selecteren, tijd hebt om te zoeken en het niet erg vindt om contract, uren en betaling zelf te regelen. Het is de goedkoopste route per uur en de duurste in je eigen tijd. Zit je ernaast, dan begin je opnieuw.
 
-- Weet je wat een goede afspraak is? Kun je in een zin zeggen wanneer een gesprek de moeite waard was? Bijvoorbeeld: een beslisser bij een bedrijf van 20 tot 100 medewerkers die dit kwartaal iets aan het onderwerp gaat doen. Kun je dat niet, dan kan niemand op resultaat sturen.
+## Wanneer een recruitmentbureau past
 
-- Blijft er nu werk liggen? Als je vandaag tien extra afspraken zou krijgen, kun je die dan voeren en opvolgen? Zo niet, dan heb je eerder een closer of een offerteproces nodig dan een setter.
+Als je zeker weet dat je voor minstens een jaar een fulltime rol te vullen hebt en iemand in dienst wilt. Dan bouw je iets op wat blijft. De rekensom daarvoor staat in wat kost een interne SDR echt.
 
-- Heb je een uur per week om aan te sturen? Een setter is geen dienst die op de achtergrond draait. Hij heeft context nodig, feedback op de gesprekken die niet doorgingen en antwoord op vragen uit de markt. Een uur per week is het minimum.
+## Wanneer een platform past
 
-Vier keer ja betekent dat capaciteit je bottleneck is. Twee of meer keer nee betekent dat je eerst iets anders moet oplossen, en dat zeggen we in een matchgesprek ook gewoon.
+Als je wel zelf wilt kiezen en aansturen, maar niet wilt werven, contracteren en factureren. Bij Link2Talent dragen wij een setter voor, jij keurt hem goed en werkt hem in, en contract, betaling en rapportage lopen via het platform. Klikt het niet, dan wisselen we. Dat is de route voor wie de voordelen van een eigen setter wil zonder de werkgeversrol.
 
-## Wat een setter wel en niet doet
+## Hoe je kiest
 
-| Wel | Niet | 
-| Lijsten doorwerken en beslissers benaderen | Je propositie bedenken | 
-| Bellen, mailen en via LinkedIn opvolgen | Het verkoopgesprek voeren en afsluiten | 
-| Kwalificeren op de criteria die jij geeft | Bepalen wat een goede klant is | 
-| Afspraken in je agenda zetten en bevestigen | Offertes maken en onderhandelen | 
-| Terugkoppelen wat de markt zegt | Zelfstandig de commerciële koers bepalen | 
-
-Wil je de stap na de afspraak ook uitbesteden, dan heb je het over een closer. Het verschil tussen beide rollen staat in setter vs. closer.
-
-## Remote of op kantoor
-
-De vraag die daarna komt is of iemand fysiek aanwezig moet zijn. Voor setwerk is dat zelden nodig. Het werk bestaat uit bellen, mailen en vastleggen, en dat gebeurt in dezelfde systemen of de setter nu naast je zit of niet. Wat wel verandert is hoe je aanstuurt. Op kantoor pik je vanzelf op hoe gesprekken lopen. Remote moet je dat organiseren: een vast wekelijks moment, meeluisteren of meelezen met een paar gesprekken, en een plek waar vragen binnenkomen zonder dat ze in een mailbox verdwijnen.
-
-Bij ons loopt dat via de app, zodat het contract, de betaling en de communicatie op dezelfde plek staan en er niets in losse mailtjes blijft hangen.
-
-## Wat je zelf geregeld moet hebben voor de start
-
-- Een profiel van je beste klanten: type bedrijf, omvang, en wie daar tekent
-
-- Een definitie van een goede afspraak waar je zelf achter staat
-
-- Een agenda waarin de setter direct kan boeken
-
-- Een plek waar gesprekken en uitkomsten worden vastgelegd, ook al is dat een simpele lijst
-
-- Een vast moment per week waarop jij bereikbaar bent voor vragen en feedback
-
-Dit is bewust kort. Wie eerst een compleet salesapparaat wil inrichten voordat de eerste belafspraak staat, is over een half jaar nog bezig.
-
-## Wanneer je beter kunt wachten
-
-Er zijn situaties waarin we zelf adviseren om nog niet te starten. Als je aanbod nog nooit aan een vreemde is verkocht, is elk gesprek een test van je propositie en niet van je capaciteit. Als je doelgroep kleiner is dan een paar honderd bedrijven, ben je die binnen enkele weken door en heb je een probleem van een andere orde. En als je zelf geen tijd hebt om de gesprekken te voeren die de setter boekt, verplaats je de bottleneck alleen maar.
+Drie vragen. Wil je zelf bepalen wie er belt en wat hij zegt? Dan valt het callbureau af. Heb je tijd om zelf te werven en te contracteren? Zo niet, dan valt de freelancer af. Weet je zeker dat het volume er over twaalf maanden nog is? Zo niet, dan valt het dienstverband af. Wat overblijft is het platform, of een combinatie: starten via het platform en na een half jaar beslissen of het een vaste rol wordt.
 
 ## Veelgestelde vragen
 
-**Hoe snel kan een setter beginnen?**
+Kan ik via Link2Talent ook een closer inhuren?
 
-Bij ons is dat binnen veertien dagen na het matchgesprek. Die tijd zit vooral in de match zelf en in de inwerkperiode: de setter moet je aanbod kunnen uitleggen voordat hij namens jou belt.
+Ja. Een closer voert de verkoopgesprekken die de setter inplant. Los of samen, via hetzelfde platform.
 
-**Wat als de match niet werkt?**
+Wat als ik geen leads heb om te laten bellen?
 
-Dan wisselen we. Je zit niet vast aan een contract met een medewerker die niet past, en er is geen ontslagtraject. Dat is het belangrijkste verschil met iemand in dienst nemen, uitgewerkt in remote setter vs. SDR in dienst.
+Dan regelen we de instroom via ons zusterbedrijf Link2Leads: e-mailcampagnes naar jouw doelgroep, waarvan alleen de positieve reacties bij je setter komen.
 
-**Kan een setter ook mailcampagnes draaien?**
+Is een platform duurder dan een freelancer?
 
-Een setter volgt op wat er binnenkomt en benadert zelf ook. Het bouwen en beheren van e-mailcampagnes op volume is ander werk, met eigen domeinen en techniek erachter. Dat doet ons zusterbedrijf Link2Leads.
+Per uur ja, met de fee van 20 procent. Daar staat tegenover dat selectie, contract, betaling en wisselen geregeld zijn. Wie dat zelf doet, betaalt het in tijd.
 
-==============================================================================
+## Ook interessant
 
-# Remote setter vs. SDR in dienst
-Bron: https://www.link2talent.nl/kennis/remote-setter-vs-sdr
+- Appointment setting bureaus in Nederland vergelekenDe soorten aanbieders op zes punten
+- Remote setter vs. SDR in dienstInhuren of aannemen
+- Salescapaciteit uitbestedenWelk deel van het commerciele werk zich leent voor uitbesteden
 
+## Wil je dit op je eigen situatie toepassen?
 
-Dezelfde taak, twee heel verschillende afspraken. Het verschil zit in wie het risico draagt, hoe snel je kunt bijsturen en wat er gebeurt als het niet werkt.
-Bijgewerkt 8 september 2026 · Demi Stekelenburg · Leestijd 7 minuten. Kort antwoord: een SDR in dienst is goedkoper per uur zodra hij goed draait, en duurder op alles daaromheen. Een ingehuurde setter kost meer per uur en veel minder als het misgaat. De keuze hangt af van hoe zeker je bent van het volume voor de komende twaalf maanden.
+In een gratis kennismakingsgesprek van 30 minuten leggen we je bottleneck en de benodigde capaciteit naast elkaar.
 
-## Waar de vergelijking meestal misgaat
+Plan een gesprek →Stel eerst je vraag
 
-De meeste vergelijkingen zetten een uurtarief naast een maandsalaris en concluderen dat inhuren duur is. Dat klopt alleen als je ervan uitgaat dat de eerste hire raak is, dat hij blijft, en dat werving en inwerken niets kosten. In de praktijk gaat een op de zoveel hires mis, en dan betaal je twee keer.
+Liever eerst even mailen? Dat kan ook: info@link2talent.nl
 
-De eerlijke vergelijking loopt over een periode van twaalf maanden en telt alles mee: werving, inwerktijd, aansturing, tooling en het risico dat je halverwege opnieuw begint. Die rekensom staat uitgewerkt in wat kost een interne SDR echt.
-
-## Zes punten waarop ze verschillen
-
-| | Remote setter inhuren | SDR in dienst | 
-| Opstarttijd | Twee weken tot actief | Zes weken tot enkele maanden, inclusief opzegtermijn van de kandidaat | 
-| Vaste lasten | Geen, je schaalt op en af | Salaris loopt door in rustige maanden | 
-| Risico bij mismatch | Wisselen, geen ontslagtraject | Proeftijd, ontslagprocedure of vaststellingsovereenkomst | 
-| Aansturing | Jij stuurt aan, wij regelen contract en betaling | Volledig bij jou, inclusief werkgeversrol | 
-| Kennis blijft | Bij vertrek gaat de opgebouwde marktkennis mee | Blijft in huis zolang de medewerker blijft | 
-| Kosten per uur | Hoger, alles inbegrepen | Lager op papier, hoger als je alles meetelt | 
-
-## Wanneer een eigen SDR de betere keuze is
-
-Er zijn goede redenen om iemand in dienst te nemen. Als je jaarlijks genoeg volume hebt om een fulltime rol structureel te vullen, als je verkoop veel productkennis vraagt die maanden kost om op te bouwen, en als je een salesmanager hebt die dagelijks kan sturen, dan is een eigen SDR op termijn goedkoper en beter ingebed. Je bouwt dan iets op wat blijft.
-
-Wij zeggen dat ook wanneer het zo ligt. Een setter inhuren om een structurele fulltime rol te dekken is duurder dan nodig.
-
-## Wanneer inhuren de betere keuze is
-
-Inhuren wint zodra er onzekerheid in het spel is. Je weet niet of het volume er over zes maanden nog is. Je wilt een nieuwe markt of een nieuw segment testen zonder er meteen een dienstverband aan te hangen. Je hebt een piek in het seizoen en daarna een rustige periode. Of je hebt eerder een hire gehad die niet werkte en je wilt niet nog eens drie maanden kwijt zijn aan werving.
-
-In al die gevallen betaal je met een hoger uurtarief voor het recht om binnen twee weken te starten en binnen een maand te stoppen. Dat is geen inefficiëntie, dat is waar je voor betaalt.
-
-## De tussenvorm die vaak over het hoofd wordt gezien
-
-Je hoeft niet te kiezen tussen alles of niets. Een veelgebruikte route is starten met een ingehuurde setter, drie tot zes maanden meten wat het oplevert, en pas daarna beslissen of het volume een vaste rol rechtvaardigt. Je hebt dan cijfers in plaats van een aanname, en de kosten van die maanden zijn lager dan de kosten van een mislukte hire.
-
-Wat je in die periode wilt vastleggen: hoeveel bedrijven zijn benaderd, hoeveel gesprekken zijn er ontstaan, hoeveel daarvan waren de moeite waard volgens jouw eigen definitie, en wat is er uiteindelijk uit gekomen. Zonder die vier getallen is de beslissing daarna weer een gevoelskwestie.
-
-## Checklist voor de keuze
-
-- Weet je zeker dat het volume er over twaalf maanden nog is?
-
-- Heb je iemand die dagelijks kan aansturen, of alleen wekelijks?
-
-- Hoeveel maanden kun je overbruggen tussen tekenen en de eerste afspraak?
-
-- Wat kost het je als de eerste kandidaat het niet wordt?
-
-- Wil je eerst meten of dit werkt, of ben je daar al zeker van?
-
-## Veelgestelde vragen
-
-**Kan ik een ingehuurde setter later in dienst nemen?**
-
-Dat kan, en het gebeurt. Bespreek het van tevoren, dan leggen we de voorwaarden vast in plaats van dat het achteraf een discussie wordt.
-
-**Wie is de werkgever van de setter?**
-
-Niet jij. Wij regelen het contract en de betaling, jij stuurt inhoudelijk aan. Dat is precies het verschil met een dienstverband.
-
-**Werkt een remote setter fulltime voor mij?**
-
-Dat kan fulltime of parttime. Welk model daarbij past staat in performance vs. seat-model.
 
 ==============================================================================
-
 # Wat kost een interne SDR echt?
 Bron: https://www.link2talent.nl/kennis/interne-sdr-kosten
-
+==============================================================================
 
 Het salaris is de post die iedereen noemt en zelden de grootste. Deze pagina zet de complete rekensom op een rij, zodat je hem met je eigen bedragen kunt invullen.
-Bijgewerkt 8 september 2026 · Demi Stekelenburg · Leestijd 8 minuten. Kort antwoord: tel naast het brutosalaris ook werkgeverslasten, werving, inwerktijd, aansturing en tooling mee, plus de kans dat de eerste hire het niet wordt. De post die het vaakst ontbreekt is de tijd van degene die aanstuurt.
+
+Bijgewerkt 8 september 2026·Demi Stekelenburg·Leestijd 8 minuten
+
+Kort antwoord: tel naast het brutosalaris ook werkgeverslasten, werving, inwerktijd, aansturing en tooling mee, plus de kans dat de eerste hire het niet wordt. De post die het vaakst ontbreekt is de tijd van degene die aanstuurt.
 
 ## Waarom de rekensom meestal te laag uitvalt
 
@@ -433,16 +813,16 @@ Onderstaand schema loopt alle posten langs. De bedragen zijn bewust leeg gelaten
 
 ## Het rekenschema
 
-| Post | Wat je invult | Waarom hij meetelt | 
-| Brutosalaris | Maandbedrag maal twaalf | De basis | 
-| Vakantiegeld | Doorgaans 8 procent van het jaarsalaris | Wettelijk verplicht, wordt vaak vergeten | 
-| Werkgeverslasten | Sociale premies, pensioenbijdrage en verzekeringen | Komt bovenop het brutoloon, vraag je boekhouder om jouw percentage | 
-| Werving | Advertenties of bureaufee, plus jouw uren aan selectie | Een bureaufee is doorgaans een percentage van het jaarsalaris | 
-| Inwerktijd | Aantal weken tot volledige productiviteit maal het weekbedrag | Je betaalt volledig salaris voor gedeeltelijke output | 
-| Aansturing | Uren per week van de leidinggevende maal diens uurkosten | De post die het vaakst ontbreekt en zelden klein is | 
-| Tooling en data | CRM, belsoftware, databronnen, mailboxen | Per gebruiker per maand, loopt op | 
-| Werkplek | Laptop, telefoon, bureau of thuiswerkvergoeding | Eenmalig en maandelijks | 
-| Risico op mismatch | Kans dat je opnieuw begint maal de kosten tot dat moment | Werving, inwerktijd en verloren maanden tellen dan dubbel | 
+Post	Wat je invult	Waarom hij meetelt
+Brutosalaris	Maandbedrag maal twaalf	De basis
+Vakantiegeld	Doorgaans 8 procent van het jaarsalaris	Wettelijk verplicht, wordt vaak vergeten
+Werkgeverslasten	Sociale premies, pensioenbijdrage en verzekeringen	Komt bovenop het brutoloon, vraag je boekhouder om jouw percentage
+Werving	Advertenties of bureaufee, plus jouw uren aan selectie	Een bureaufee is doorgaans een percentage van het jaarsalaris
+Inwerktijd	Aantal weken tot volledige productiviteit maal het weekbedrag	Je betaalt volledig salaris voor gedeeltelijke output
+Aansturing	Uren per week van de leidinggevende maal diens uurkosten	De post die het vaakst ontbreekt en zelden klein is
+Tooling en data	CRM, belsoftware, databronnen, mailboxen	Per gebruiker per maand, loopt op
+Werkplek	Laptop, telefoon, bureau of thuiswerkvergoeding	Eenmalig en maandelijks
+Risico op mismatch	Kans dat je opnieuw begint maal de kosten tot dat moment	Werving, inwerktijd en verloren maanden tellen dan dubbel
 
 Reken de som uit over twaalf maanden en deel door het aantal productieve uren dat je verwacht. Dat is je werkelijke uurprijs, en dat is het getal om naast een extern tarief te leggen.
 
@@ -467,37 +847,453 @@ Op de omzetcalculator vul je je ordergrootte en je conversie in en zie je wat ee
 ## Checklist
 
 - Heb je de werkgeverslasten opgevraagd bij je boekhouder in plaats van geschat?
-
 - Heb je de uren van degene die aanstuurt meegeteld?
-
 - Heb je de maanden tussen tekenen en productief zijn meegerekend?
-
 - Weet je wat het kost als je na vier maanden opnieuw moet beginnen?
-
 - Heb je een productief urenaantal per jaar aangehouden dat je kunt verdedigen?
 
 ## Veelgestelde vragen
 
-**Waarom staan er geen bedragen in dit artikel?**
+Waarom staan er geen bedragen in dit artikel?
 
 Omdat een gemiddeld salaris niets zegt over jouw functieniveau, regio en cao. Een schema dat je zelf invult geeft een getal waar je op kunt beslissen, een gemiddelde niet.
 
-**Wat is een realistische inwerktijd?**
+Wat is een realistische inwerktijd?
 
 Dat hangt af van hoe complex je aanbod is. Bij een dienst die in een gesprek uit te leggen is gaat het sneller dan bij techniek die maanden kost om te doorgronden. Zet je eigen inschatting in het schema.
 
-**Tellen commissies ook mee?**
+Tellen commissies ook mee?
 
 Ja, als je die uitkeert. Neem ze op in de post salaris en reken met een realistisch scenario, niet met het minimum.
 
+## Ook interessant
+
+- Wanneer is een remote setter inhuren logisch?Wanneer prospecting, opvolging of kwalificatie de bottleneck is
+- Remote setter vs. SDR in dienstContractvorm, aansturing, flexibiliteit en risicoverdeling
+- Cases met cijfers bij Link2LeadsInvestering, looptijd en afspraken van campagnes die we zelf draaiden
+
+## Wil je dit op je eigen situatie toepassen?
+
+Gebruik een matchgesprek om de bottleneck en benodigde capaciteit naast elkaar te leggen.
+
+Plan een gesprek →Stel eerst je vraag
+
+Liever eerst even mailen? Dat kan ook: info@link2talent.nl
+
+
+==============================================================================
+# Performance vs. seat-model
+Bron: https://www.link2talent.nl/kennis/performance-vs-seat-model
 ==============================================================================
 
+Welk model past hangt af van een vraag: hoeveel invloed heeft de setter op het resultaat waarop je hem afrekent? Hoe kleiner die invloed, hoe minder logisch betalen per resultaat is.
+
+Bijgewerkt 8 september 2026·Demi Stekelenburg·Leestijd 7 minuten
+
+Kort antwoord: betaal per resultaat als de setter dat resultaat grotendeels zelf in de hand heeft en je het zuiver kunt meten. Kan hij dat niet, of is de meting discutabel, dan is per uur of per seat eerlijker voor beide kanten.
+
+## De vraag die het model bepaalt
+
+Elke discussie over prijsmodellen komt terug op dezelfde vraag: wie heeft invloed op de uitkomst waarop wordt afgerekend? Bij een geboekte afspraak is dat grotendeels de setter. Bij een gesloten deal zit daar jouw verkoopgesprek, je prijs en je concurrentie tussen. Bij omzet zit daar ook nog je levering en je facturatie tussen.
+
+Hoe verder de uitkomst van het werk af staat, hoe meer de vergoeding een gok wordt in plaats van een prijs. Dat is niet alleen oneerlijk voor de setter, het is ook slecht voor jou: iemand die op een uitkomst wordt afgerekend die hij niet kan sturen, gaat sturen op wat hij wel kan beïnvloeden, en dat is het aantal boekingen, niet de kwaliteit ervan.
+
+## De drie modellen naast elkaar
+
+Performance	Uurtarief	Seat
+Je betaalt	Commissie per afspraak, plus een kleine bemiddelingsfee	Het uurtarief van de setter plus een bemiddelingsfee	Een vast bedrag per maand per seat
+Risico ligt bij	Grotendeels bij de setter	Gedeeld	Grotendeels bij jou
+Past bij	Een bewezen aanbod en een ruime doelgroep	De meeste B2B-bedrijven	Vast, voorspelbaar volume
+Voorspelbaarheid kosten	Laag, schaalt met resultaat	Hoog	Hoogst
+Let op	Definitie van een geldige afspraak moet waterdicht zijn	Je stuurt op uren, dus stuur ook op output	Loopt door in rustige maanden
+
+De actuele tarieven staan op de modellenpagina. Het uurtariefmodel wordt het vaakst gekozen, omdat het de kosten voorspelbaar houdt zonder dat je vastzit aan een vast bedrag in een maand waarin je minder nodig hebt.
+
+## Wanneer performance werkt
+
+Performance werkt als aan drie voorwaarden is voldaan. Je aanbod verkoopt al aantoonbaar, want anders loopt de setter tegen een muur die niet aan hem ligt. Je doelgroep is groot genoeg om volume te maken, want commissie per afspraak betekent dat de setter voldoende kansen nodig heeft. En je kunt objectief vaststellen wanneer een afspraak telt.
+
+Dat laatste is waar het meestal op stukloopt. Zonder een vooraf vastgelegde definitie krijg je discussies over elke afspraak die niet doorging. Leg vast: wie de gesprekspartner moet zijn, welk onderwerp op tafel moet liggen, en wat er gebeurt als iemand niet komt opdagen. Een no-show telt bijvoorbeeld wel als hij een keer wordt verzet en niet als hij daarna nog steeds niet komt.
+
+## Wanneer uurtarief werkt
+
+Het uurtarief is de standaard omdat het bij de meeste situaties past. Je betaalt voor tijd, je stuurt zelf op wat er in die tijd gebeurt, en je kunt het aantal uren per maand aanpassen. Het risico is gedeeld: jij draagt het risico dat een uur niets oplevert, de setter draagt het risico dat hij vervangen wordt als dat structureel zo is.
+
+De valkuil is dat je op uren gaat sturen in plaats van op output. Spreek daarom bij de start af welke getallen je wekelijks bekijkt: benaderde bedrijven, ontstane gesprekken, geboekte afspraken en opkomst. Dan is het uurtarief een betaalvorm en geen meeteenheid.
+
+## Wanneer een seat werkt
+
+Een seat is een vaste maandprijs voor een setter die direct inzetbaar is. Dat past als je volume voorspelbaar is en je liever een vast bedrag in je begroting hebt dan een variabele post. Het is ook het simpelste model om mee op te schalen: een tweede seat erbij en je hebt twee setters, met dezelfde afspraken.
+
+Het nadeel is dat het doorloopt in een maand waarin je minder nodig hebt. Dat is precies het spiegelbeeld van performance: meer zekerheid over de kosten, minder flexibiliteit.
+
+## Hoe je kiest
+
+- Kun je in een zin vastleggen wanneer een afspraak telt? Zo niet, dan valt performance af
+- Is je doelgroep groot genoeg voor volume, of is hij smal en high-ticket?
+- Wil je voorspelbare kosten of variabele kosten die meebewegen?
+- Weet je nu al hoeveel uren je de komende drie maanden nodig hebt?
+- Heb je iemand die wekelijks op de output kan sturen?
+
+Twijfel je, dan is het uurtarief bijna altijd de veiligste start. Je kunt na drie maanden nog steeds naar performance of naar een seat, en dan doe je dat met cijfers erbij.
+
+## Veelgestelde vragen
+
+Kan ik van model wisselen?
+
+Ja. De meeste klanten starten op uurtarief en stappen over zodra ze weten wat een maand oplevert.
+
+Wat als een afspraak niet doorgaat?
+
+Dat leggen we vooraf vast, en dat is bij performance het belangrijkste onderdeel van de afspraak. Meestal geldt: een keer verzetten telt nog mee, daarna niet.
+
+Zit er een minimale looptijd op?
+
+Dat verschilt per model en bespreken we in het matchgesprek. Het uitgangspunt is dat je op- en af kunt schalen zonder ontslagtraject, want dat is de reden om in te huren.
+
+## Ook interessant
+
+- Wat kost een interne SDR echt?Salaris, werving, management, tooling en het risico van een mismatch
+- Wanneer is een remote setter inhuren logisch?Wanneer prospecting, opvolging of kwalificatie de bottleneck is
+- Cases met cijfers bij Link2LeadsInvestering, looptijd en afspraken van campagnes die we zelf draaiden
+
+## Wil je dit op je eigen situatie toepassen?
+
+Gebruik een matchgesprek om de bottleneck en benodigde capaciteit naast elkaar te leggen.
+
+Plan een gesprek →Stel eerst je vraag
+
+Liever eerst even mailen? Dat kan ook: info@link2talent.nl
+
+
+==============================================================================
+# Remote setter aansturen: de eerste 30 dagen
+Bron: https://www.link2talent.nl/kennis/remote-setter-aansturen
+==============================================================================
+
+Wij regelen de match, het contract en de betaling. Het aansturen doe jij. Dit is wat de opdrachtgevers doen bij wie een setter binnen drie weken op de benchmark zit.
+
+Bijgewerkt 25 september 2026·Demi Stekelenburg·Leestijd 7 minuten
+
+Kort antwoord: werk de setter in op je aanbod en je toon, geef de eerste twee weken dagelijks feedback op gesprekken, leg vast wat een goede afspraak is en houd een vast weekmoment aan. Meer is het niet, minder werkt niet.
+
+## Week 1: inwerken op aanbod, doelgroep en toon
+
+De setter belt namens jou, dus hij moet klinken als jij. Plan in de eerste week drie sessies van een uur: een over het aanbod en de prijs, een over de doelgroep en de bezwaren die je vaak hoort, en een waarin je zelf twee gesprekken voert terwijl de setter meeluistert. Geef hem daarna je drie beste klantverhalen, kort en concreet. Dat is zijn materiaal aan de telefoon.
+
+## Week 2: dagelijks tien minuten feedback
+
+De eerste belweek is de belangrijkste. Luister elke dag een of twee gesprekken terug, of bel tien minuten aan het einde van de dag. Zeg wat goed ging en wat je anders zou zeggen. Setters die in week 2 dagelijks feedback krijgen zitten in week 3 op niveau; setters die het zelf moeten uitzoeken doen daar een maand langer over.
+
+## Een definitie van een goede afspraak
+
+Zonder definitie stuur je op aantallen, en dan krijg je aantallen. Leg vast wie de prospect moet zijn, wat er in het gesprek bevestigd moet zijn en wat de prospect verwacht in het vervolggesprek. Zet die definitie in de agenda-uitnodiging die de setter verstuurt. Zo weet iedereen wat er telt.
+
+## Instroom regelen
+
+Een setter zonder lijst of reacties zit stil. Zorg dat er op dag een iets te bellen is: openstaande reacties, oude offertes, een lijst uit je CRM of een campagne. Heb je dat niet, dan regelen we de instroom via Link2Leads, met dezelfde mensen aan tafel.
+
+## Vanaf week 3: een vast weekmoment
+
+Een half uur per week, vaste dag, vaste tijd. Drie vragen: hoeveel gesprekken, hoeveel afspraken, wat hoorde je aan bezwaren. De rapportage in het platform geeft de cijfers, het gesprek geeft de context. Meer overleg is zelden nodig als de eerste twee weken goed zijn gedaan.
+
+## Wat je niet hoeft te doen
+
+Contracten, uren bijhouden, facturatie en het gesprek als een match niet klikt. Dat loopt via ons. Wil je wisselen van setter, dan zeg je het en dragen wij een ander voor.
+
+## Veelgestelde vragen
+
+Hoeveel tijd kost aansturen per week?
+
+In week 1 en 2 een tot twee uur per dag, daarna een half uur per week. Dat is de investering die het verschil maakt tussen een setter op de benchmark en een setter eronder.
+
+Moet ik gesprekken opnemen?
+
+Het helpt bij feedback, zeker in de eerste twee weken. Regel het volgens de regels die voor jouw sector gelden en zeg het tegen de setter.
+
+Wat als ik zelf geen tijd heb om aan te sturen?
+
+Dan is een setter te vroeg. Dat staat ook in "dit werkt, maar niet voor iedereen" op de homepage. Een closer die het hele traject overneemt is dan een optie om te bespreken.
+
+## Ook interessant
+
+- Hoeveel afspraken zet een setter per week?De benchmark om op te sturen
+- Setter vs. closerWie de afspraak maakt en wie het gesprek voert
+- Case: setter bij een marketingbureauWat een opdrachtgever deed die in drie weken op niveau zat
+
+## Wil je dit op je eigen situatie toepassen?
+
+In een gratis kennismakingsgesprek van 30 minuten leggen we je bottleneck en de benodigde capaciteit naast elkaar.
+
+Plan een gesprek →Stel eerst je vraag
+
+Liever eerst even mailen? Dat kan ook: info@link2talent.nl
+
+
+==============================================================================
+# Wanneer is een remote setter inhuren logisch?
+Bron: https://www.link2talent.nl/kennis/remote-setter-inhuren
+==============================================================================
+
+Een setter inhuren lost een capaciteitsprobleem op, geen strategieprobleem. Deze pagina helpt je vaststellen welk van de twee je hebt, voordat je iemand aanneemt of inhuurt.
+
+Bijgewerkt 8 september 2026·Demi Stekelenburg·Leestijd 7 minuten
+
+Kort antwoord: het is logisch zodra er meer gesprekken te voeren zijn dan er tijd is om ze te voeren, en je aanbod al bewezen verkoopt. Zolang een van die twee niet klopt, lost extra capaciteit niets op.
+
+## Het verschil tussen een capaciteitsprobleem en een strategieprobleem
+
+Bijna elke ondernemer die belt zegt hetzelfde: er komen te weinig nieuwe klanten binnen. Dat kan twee heel verschillende oorzaken hebben en de oplossing verschilt volledig.
+
+Bij een capaciteitsprobleem werkt je aanbod. Je hebt klanten die betalen en tevreden zijn, je weet hoe een goed gesprek loopt en je sluit een redelijk deel van je offertes. Alleen: er is niemand die de agenda vult. De oprichter doet het erbij, of een accountmanager doet het als er tijd over is, en dat is er zelden. Dan is een setter het antwoord.
+
+Bij een strategieprobleem is de bottleneck een stap eerder. Je weet niet scherp wie je ideale klant is, je propositie verandert per gesprek, of je hebt nog geen klant die uit zichzelf zou terugkomen. Zet je daar een setter op, dan gaat die improviseren op een verhaal dat nog niet staat. Het resultaat is een lage boekingsgraad en een setter die je binnen twee maanden wilt vervangen, terwijl de setter niet het probleem was.
+
+## Vier vragen die het onderscheid maken
+
+- Heb je minstens drie klanten die je opnieuw zou willen hebben? Niet drie klanten, maar drie waar je blij mee bent. Daaruit haal je het profiel waar een setter op gaat werken. Zonder dat profiel is elke lijst een gok.
+- Weet je wat een goede afspraak is? Kun je in een zin zeggen wanneer een gesprek de moeite waard was? Bijvoorbeeld: een beslisser bij een bedrijf van 20 tot 100 medewerkers die dit kwartaal iets aan het onderwerp gaat doen. Kun je dat niet, dan kan niemand op resultaat sturen.
+- Blijft er nu werk liggen? Als je vandaag tien extra afspraken zou krijgen, kun je die dan voeren en opvolgen? Zo niet, dan heb je eerder een closer of een offerteproces nodig dan een setter.
+- Heb je een uur per week om aan te sturen? Een setter is geen dienst die op de achtergrond draait. Hij heeft context nodig, feedback op de gesprekken die niet doorgingen en antwoord op vragen uit de markt. Een uur per week is het minimum.
+
+Vier keer ja betekent dat capaciteit je bottleneck is. Twee of meer keer nee betekent dat je eerst iets anders moet oplossen, en dat zeggen we in een matchgesprek ook gewoon.
+
+## Wat een setter wel en niet doet
+
+Wel	Niet
+Lijsten doorwerken en beslissers benaderen	Je propositie bedenken
+Bellen, mailen en via LinkedIn opvolgen	Het verkoopgesprek voeren en afsluiten
+Kwalificeren op de criteria die jij geeft	Bepalen wat een goede klant is
+Afspraken in je agenda zetten en bevestigen	Offertes maken en onderhandelen
+Terugkoppelen wat de markt zegt	Zelfstandig de commerciële koers bepalen
+
+Wil je de stap na de afspraak ook uitbesteden, dan heb je het over een closer. Het verschil tussen beide rollen staat in setter vs. closer.
+
+## Remote of op kantoor
+
+De vraag die daarna komt is of iemand fysiek aanwezig moet zijn. Voor setwerk is dat zelden nodig. Het werk bestaat uit bellen, mailen en vastleggen, en dat gebeurt in dezelfde systemen of de setter nu naast je zit of niet. Wat wel verandert is hoe je aanstuurt. Op kantoor pik je vanzelf op hoe gesprekken lopen. Remote moet je dat organiseren: een vast wekelijks moment, meeluisteren of meelezen met een paar gesprekken, en een plek waar vragen binnenkomen zonder dat ze in een mailbox verdwijnen.
+
+Bij ons loopt dat via de app, zodat het contract, de betaling en de communicatie op dezelfde plek staan en er niets in losse mailtjes blijft hangen.
+
+## Wat je zelf geregeld moet hebben voor de start
+
+- Een profiel van je beste klanten: type bedrijf, omvang, en wie daar tekent
+- Een definitie van een goede afspraak waar je zelf achter staat
+- Een agenda waarin de setter direct kan boeken
+- Een plek waar gesprekken en uitkomsten worden vastgelegd, ook al is dat een simpele lijst
+- Een vast moment per week waarop jij bereikbaar bent voor vragen en feedback
+
+Dit is bewust kort. Wie eerst een compleet salesapparaat wil inrichten voordat de eerste belafspraak staat, is over een half jaar nog bezig.
+
+## Wanneer je beter kunt wachten
+
+Er zijn situaties waarin we zelf adviseren om nog niet te starten. Als je aanbod nog nooit aan een vreemde is verkocht, is elk gesprek een test van je propositie en niet van je capaciteit. Als je doelgroep kleiner is dan een paar honderd bedrijven, ben je die binnen enkele weken door en heb je een probleem van een andere orde. En als je zelf geen tijd hebt om de gesprekken te voeren die de setter boekt, verplaats je de bottleneck alleen maar.
+
+## Veelgestelde vragen
+
+Hoe snel kan een setter beginnen?
+
+Bij ons is dat binnen veertien dagen na het matchgesprek. Die tijd zit vooral in de match zelf en in de inwerkperiode: de setter moet je aanbod kunnen uitleggen voordat hij namens jou belt.
+
+Wat als de match niet werkt?
+
+Dan wisselen we. Je zit niet vast aan een contract met een medewerker die niet past, en er is geen ontslagtraject. Dat is het belangrijkste verschil met iemand in dienst nemen, uitgewerkt in remote setter vs. SDR in dienst.
+
+Kan een setter ook mailcampagnes draaien?
+
+Een setter volgt op wat er binnenkomt en benadert zelf ook. Het bouwen en beheren van e-mailcampagnes op volume is ander werk, met eigen domeinen en techniek erachter. Dat doet ons zusterbedrijf Link2Leads.
+
+## Ook interessant
+
+- Remote setter vs. SDR in dienstContractvorm, aansturing, flexibiliteit en risicoverdeling
+- Salescapaciteit uitbestedenWelk deel van het commerciele werk zich leent voor uitbesteden
+- Cases met cijfers bij Link2LeadsInvestering, looptijd en afspraken van campagnes die we zelf draaiden
+
+## Wil je dit op je eigen situatie toepassen?
+
+Gebruik een matchgesprek om de bottleneck en benodigde capaciteit naast elkaar te leggen.
+
+Plan een gesprek →Stel eerst je vraag
+
+Liever eerst even mailen? Dat kan ook: info@link2talent.nl
+
+
+==============================================================================
+# Remote setter vs. SDR in dienst
+Bron: https://www.link2talent.nl/kennis/remote-setter-vs-sdr
+==============================================================================
+
+Dezelfde taak, twee heel verschillende afspraken. Het verschil zit in wie het risico draagt, hoe snel je kunt bijsturen en wat er gebeurt als het niet werkt.
+
+Bijgewerkt 8 september 2026·Demi Stekelenburg·Leestijd 7 minuten
+
+Kort antwoord: een SDR in dienst is goedkoper per uur zodra hij goed draait, en duurder op alles daaromheen. Een ingehuurde setter kost meer per uur en veel minder als het misgaat. De keuze hangt af van hoe zeker je bent van het volume voor de komende twaalf maanden.
+
+## Waar de vergelijking meestal misgaat
+
+De meeste vergelijkingen zetten een uurtarief naast een maandsalaris en concluderen dat inhuren duur is. Dat klopt alleen als je ervan uitgaat dat de eerste hire raak is, dat hij blijft, en dat werving en inwerken niets kosten. In de praktijk gaat een op de zoveel hires mis, en dan betaal je twee keer.
+
+De eerlijke vergelijking loopt over een periode van twaalf maanden en telt alles mee: werving, inwerktijd, aansturing, tooling en het risico dat je halverwege opnieuw begint. Die rekensom staat uitgewerkt in wat kost een interne SDR echt.
+
+## Zes punten waarop ze verschillen
+
+Remote setter inhuren	SDR in dienst
+Opstarttijd	Twee weken tot actief	Zes weken tot enkele maanden, inclusief opzegtermijn van de kandidaat
+Vaste lasten	Geen, je schaalt op en af	Salaris loopt door in rustige maanden
+Risico bij mismatch	Wisselen, geen ontslagtraject	Proeftijd, ontslagprocedure of vaststellingsovereenkomst
+Aansturing	Jij stuurt aan, wij regelen contract en betaling	Volledig bij jou, inclusief werkgeversrol
+Kennis blijft	Bij vertrek gaat de opgebouwde marktkennis mee	Blijft in huis zolang de medewerker blijft
+Kosten per uur	Hoger, alles inbegrepen	Lager op papier, hoger als je alles meetelt
+
+## Wanneer een eigen SDR de betere keuze is
+
+Er zijn goede redenen om iemand in dienst te nemen. Als je jaarlijks genoeg volume hebt om een fulltime rol structureel te vullen, als je verkoop veel productkennis vraagt die maanden kost om op te bouwen, en als je een salesmanager hebt die dagelijks kan sturen, dan is een eigen SDR op termijn goedkoper en beter ingebed. Je bouwt dan iets op wat blijft.
+
+Wij zeggen dat ook wanneer het zo ligt. Een setter inhuren om een structurele fulltime rol te dekken is duurder dan nodig.
+
+## Wanneer inhuren de betere keuze is
+
+Inhuren wint zodra er onzekerheid in het spel is. Je weet niet of het volume er over zes maanden nog is. Je wilt een nieuwe markt of een nieuw segment testen zonder er meteen een dienstverband aan te hangen. Je hebt een piek in het seizoen en daarna een rustige periode. Of je hebt eerder een hire gehad die niet werkte en je wilt niet nog eens drie maanden kwijt zijn aan werving.
+
+In al die gevallen betaal je met een hoger uurtarief voor het recht om binnen twee weken te starten en binnen een maand te stoppen. Dat is geen inefficiëntie, dat is waar je voor betaalt.
+
+## De tussenvorm die vaak over het hoofd wordt gezien
+
+Je hoeft niet te kiezen tussen alles of niets. Een veelgebruikte route is starten met een ingehuurde setter, drie tot zes maanden meten wat het oplevert, en pas daarna beslissen of het volume een vaste rol rechtvaardigt. Je hebt dan cijfers in plaats van een aanname, en de kosten van die maanden zijn lager dan de kosten van een mislukte hire.
+
+Wat je in die periode wilt vastleggen: hoeveel bedrijven zijn benaderd, hoeveel gesprekken zijn er ontstaan, hoeveel daarvan waren de moeite waard volgens jouw eigen definitie, en wat is er uiteindelijk uit gekomen. Zonder die vier getallen is de beslissing daarna weer een gevoelskwestie.
+
+## Checklist voor de keuze
+
+- Weet je zeker dat het volume er over twaalf maanden nog is?
+- Heb je iemand die dagelijks kan aansturen, of alleen wekelijks?
+- Hoeveel maanden kun je overbruggen tussen tekenen en de eerste afspraak?
+- Wat kost het je als de eerste kandidaat het niet wordt?
+- Wil je eerst meten of dit werkt, of ben je daar al zeker van?
+
+## Veelgestelde vragen
+
+Kan ik een ingehuurde setter later in dienst nemen?
+
+Dat kan, en het gebeurt. Bespreek het van tevoren, dan leggen we de voorwaarden vast in plaats van dat het achteraf een discussie wordt.
+
+Wie is de werkgever van de setter?
+
+Niet jij. Wij regelen het contract en de betaling, jij stuurt inhoudelijk aan. Dat is precies het verschil met een dienstverband.
+
+Werkt een remote setter fulltime voor mij?
+
+Dat kan fulltime of parttime. Welk model daarbij past staat in performance vs. seat-model.
+
+## Ook interessant
+
+- Salescapaciteit uitbestedenWelk deel van het commerciele werk zich leent voor uitbesteden
+- Setter vs. closerWie de afspraak maakt en wie het gesprek voert
+- Cases met cijfers bij Link2LeadsInvestering, looptijd en afspraken van campagnes die we zelf draaiden
+
+## Wil je dit op je eigen situatie toepassen?
+
+Gebruik een matchgesprek om de bottleneck en benodigde capaciteit naast elkaar te leggen.
+
+Plan een gesprek →Stel eerst je vraag
+
+Liever eerst even mailen? Dat kan ook: info@link2talent.nl
+
+
+==============================================================================
+# Salescapaciteit uitbesteden: wat besteed je wel uit?
+Bron: https://www.link2talent.nl/kennis/salescapaciteit-uitbesteden
+==============================================================================
+
+Niet elk commercieel werk leent zich om extern neer te leggen. De vuistregel: hoe herhaalbaarder het werk en hoe duidelijker de uitkomst, hoe beter het uitbesteden werkt.
+
+Bijgewerkt 8 september 2026·Demi Stekelenburg·Leestijd 7 minuten
+
+Kort antwoord: besteed uit wat herhaalbaar is en een duidelijke uitkomst heeft. Houd zelf wat oordeel vraagt over je aanbod, je prijs of je klantrelatie.
+
+## Vier lagen commercieel werk
+
+Het helpt om je verkoopproces niet als een geheel te zien maar als vier lagen, van buiten naar binnen. Hoe verder naar buiten, hoe beter uitbesteden werkt.
+
+Laag 1, de lijst. Bepalen welke bedrijven passen, gegevens verzamelen, controleren of adressen kloppen. Volledig herhaalbaar, meetbaar op kwaliteit, en het kost intern veel tijd zonder dat er iemand beter van wordt. Dit is de makkelijkste laag om weg te zetten.
+
+Laag 2, het eerste contact. Bellen, mailen en opvolgen tot er een gesprek staat. Herhaalbaar werk met een heldere uitkomst: er staat een afspraak of niet. Dit is waar een setter zit en waar de meeste winst te halen valt, omdat het intern altijd als eerste sneuvelt.
+
+Laag 3, het verkoopgesprek. Uitbesteedbaar, maar met meer voorwaarden. De persoon moet je aanbod echt begrijpen, en jij moet accepteren dat hij namens jou prijsafspraken bespreekt. Dit werkt als je propositie staat en je een duidelijk kader voor korting en voorwaarden hebt.
+
+Laag 4, de klantrelatie en de koers. Wat je aanbiedt, wat het kost, welke markt je kiest, en wie je vaste klanten blijft bedienen. Dit hoort thuis bij jou. Wie deze laag uitbesteedt, besteedt niet capaciteit uit maar richting.
+
+## De test per taak
+
+Twijfel je over een specifieke taak, loop dan deze drie vragen langs.
+
+- Kan ik in een zin zeggen wanneer dit goed is gedaan? Zo niet, dan kun je er ook niet op sturen en gaat uitbesteden mis.
+- Gebeurt dit vaker dan een paar keer per week? Werk dat zelden voorkomt is zelden de moeite van het overdragen waard, omdat de inwerktijd nooit wordt terugverdiend.
+- Wat gebeurt er als het een keer verkeerd gaat? Een verkeerd gekwalificeerde afspraak kost een uur. Een verkeerde prijsafspraak bij je grootste klant kost meer. Hoe hoger die kosten, hoe meer reden om het zelf te houden.
+
+## Wat je zelf moet blijven doen, ook bij uitbesteden
+
+Uitbesteden betekent niet dat het van je bordje is. Er zijn drie dingen die je zelf houdt, hoe je het ook inricht.
+
+Het eerste is de definitie van een goede lead. Die verandert in de loop van de maanden en alleen jij weet waarom, omdat jij de gesprekken voert die eruit komen.
+
+Het tweede is feedback. De afspraken die niet goed waren, zijn de meest waardevolle informatie die je terug kunt geven. Zonder dat is een externe kracht aan het gokken.
+
+Het derde is de opvolging aan jouw kant. Als er een gesprek staat en jij belt drie dagen later terug, is de waarde van dat gesprek grotendeels weg. Dat is geen verwijt aan de leverancier.
+
+## Waar het meestal misgaat
+
+Twee patronen zien we vaak. Het eerste is uitbesteden om een strategisch gat te dempen: er komen te weinig klanten, dus er moet iemand bellen, terwijl niemand precies weet naar wie of waarom. Dat levert activiteit op en geen resultaat.
+
+Het tweede is uitbesteden zonder aan te sturen. De verwachting is dat er een dienst draait op de achtergrond en dat er afspraken uit rollen. Externe capaciteit heeft dezelfde context nodig als een eigen medewerker, alleen in minder tijd en beter gedoseerd. Reken op een uur per week.
+
+## Checklist voordat je iets uitbesteedt
+
+- De taak is herhaalbaar en de uitkomst is in een zin te beschrijven
+- Je hebt een profiel van je beste klanten, niet alleen een branche
+- Er is iemand bij jou die wekelijks context en feedback geeft
+- Je hebt afgesproken hoe en wanneer er wordt gerapporteerd
+- Je kunt binnen een werkdag opvolgen wat er binnenkomt
+
+## Veelgestelde vragen
+
+Wat is het verschil met een belbureau?
+
+Bij een belbureau koop je gesprekken in bij wisselende mensen. Bij ons werkt dezelfde setter voor jou, leert je aanbod kennen en stuur jij aan. Dat verschil merk je pas na een paar weken, want dan begint kennis mee te tellen.
+
+Kan ik alleen de lijst uitbesteden?
+
+Ja. Lijstwerk en e-mailcampagnes doet ons zusterbedrijf Link2Leads, capaciteit om op te volgen doen wij.
+
+Hoe lang duurt het voor het loopt?
+
+Reken op twee weken tot de setter actief is en daarna een paar weken waarin de definitie van een goede afspraak scherper wordt. Beoordelen op basis van de eerste twee weken is te vroeg.
+
+## Ook interessant
+
+- Setter vs. closerWie de afspraak maakt en wie het gesprek voert
+- Performance vs. seat-modelWelke prijsstructuur past bij de meetbaarheid van je resultaat
+- Cases met cijfers bij Link2LeadsInvestering, looptijd en afspraken van campagnes die we zelf draaiden
+
+## Wil je dit op je eigen situatie toepassen?
+
+Gebruik een matchgesprek om de bottleneck en benodigde capaciteit naast elkaar te leggen.
+
+Plan een gesprek →Stel eerst je vraag
+
+Liever eerst even mailen? Dat kan ook: info@link2talent.nl
+
+
+==============================================================================
 # Setter vs. closer: wie doet wat?
 Bron: https://www.link2talent.nl/kennis/setter-vs-closer
-
+==============================================================================
 
 Een setter maakt de afspraak, een closer voert het gesprek. Het klinkt simpel, en toch loopt het bij de meeste bedrijven precies op de overdracht tussen die twee vast.
-Bijgewerkt 8 september 2026 · Demi Stekelenburg · Leestijd 6 minuten. Kort antwoord: splits de rollen zodra het maken van afspraken en het voeren van gesprekken om elkaars tijd beginnen te vechten. Onder dat punt is splitsen alleen maar meer overdracht.
+
+Bijgewerkt 8 september 2026·Demi Stekelenburg·Leestijd 6 minuten
+
+Kort antwoord: splits de rollen zodra het maken van afspraken en het voeren van gesprekken om elkaars tijd beginnen te vechten. Onder dat punt is splitsen alleen maar meer overdracht.
 
 ## Wat een setter doet
 
@@ -530,13 +1326,9 @@ Het omslagpunt ligt ruwweg daar waar het maken van afspraken structureel wegvalt
 ## Hoe je het praktisch inricht
 
 - Schrijf in een zin op wat een geldige afspraak is en laat beide rollen daarmee akkoord gaan
-
 - Spreek af dat de setter drie regels aanleiding vastlegt bij elke boeking
-
 - Meet per rol: de setter op gesprekken en opkomst, de closer op voorstellen en sluitingen
-
 - Laat de setter de afspraak de dag ervoor bevestigen
-
 - Bespreek wekelijks de afspraken die niet doorgingen, dat is waar de definitie scherper wordt
 
 ## Wat wij leveren
@@ -545,447 +1337,228 @@ De meeste vraag die bij ons binnenkomt is een setter, omdat het maken van afspra
 
 ## Veelgestelde vragen
 
-**Kan dezelfde setter later ook closen?**
+Kan dezelfde setter later ook closen?
 
 Soms, maar het is een ander vak. Iemand die goed is in vijftig korte contacten per dag is niet vanzelf goed in een gesprek van een uur met een directeur. Beoordeel het per persoon en niet als vanzelfsprekende doorgroei.
 
-**Wie doet de opvolging na het gesprek?**
+Wie doet de opvolging na het gesprek?
 
 De closer, want die kent de inhoud. De setter pakt het pas weer op als een prospect afhaakt en later opnieuw benaderd moet worden.
 
-**Hoeveel afspraken maakt een setter per week?**
+Hoeveel afspraken maakt een setter per week?
 
 Dat hangt te veel af van markt, lijstkwaliteit en aanbod om er een getal aan te hangen dat voor jou klopt. In het matchgesprek rekenen we het door op jouw doelgroep in plaats van op een gemiddelde.
 
+## Ook interessant
+
+- Performance vs. seat-modelWelke prijsstructuur past bij de meetbaarheid van je resultaat
+- Wat kost een interne SDR echt?Salaris, werving, management, tooling en het risico van een mismatch
+- Cases met cijfers bij Link2LeadsInvestering, looptijd en afspraken van campagnes die we zelf draaiden
+
+## Wil je dit op je eigen situatie toepassen?
+
+Gebruik een matchgesprek om de bottleneck en benodigde capaciteit naast elkaar te leggen.
+
+Plan een gesprek →Stel eerst je vraag
+
+Liever eerst even mailen? Dat kan ook: info@link2talent.nl
+
+
+==============================================================================
+# Tien setters, een afspraak per uur
+Bron: https://www.link2talent.nl/cases/belkantoor
 ==============================================================================
 
-# Salescapaciteit uitbesteden: wat besteed je wel uit?
-Bron: https://www.link2talent.nl/kennis/salescapaciteit-uitbesteden
+Een belkantoor dat voor opdrachtgevers afspraken zet, wilde sneller opschalen dan werving toeliet. Link2Talent plaatst er nu tien setters die elk hun uurtarief per dag terugverdienen.
 
+Bijgewerkt 25 september 2026·Demi Stekelenburg·Leestijd 5 minuten
 
-Niet elk commercieel werk leent zich om extern neer te leggen. De vuistregel: hoe herhaalbaarder het werk en hoe duidelijker de uitkomst, hoe beter het uitbesteden werkt.
-Bijgewerkt 8 september 2026 · Demi Stekelenburg · Leestijd 7 minuten. Kort antwoord: besteed uit wat herhaalbaar is en een duidelijke uitkomst heeft. Houd zelf wat oordeel vraagt over je aanbod, je prijs of je klantrelatie.
+10 settersgeplaatst via Link2Talent
 
-## Vier lagen commercieel werk
+1 per uurafspraak op toegankelijke campagnes
 
-Het helpt om je verkoopproces niet als een geheel te zien maar als vier lagen, van buiten naar binnen. Hoe verder naar buiten, hoe beter uitbesteden werkt.
+1 per 2 uurafspraak op moeilijkere campagnes
 
-Laag 1, de lijst. Bepalen welke bedrijven passen, gegevens verzamelen, controleren of adressen kloppen. Volledig herhaalbaar, meetbaar op kwaliteit, en het kost intern veel tijd zonder dat er iemand beter van wordt. Dit is de makkelijkste laag om weg te zetten.
+## Startsituatie
 
-Laag 2, het eerste contact. Bellen, mailen en opvolgen tot er een gesprek staat. Herhaalbaar werk met een heldere uitkomst: er staat een afspraak of niet. Dit is waar een setter zit en waar de meeste winst te halen valt, omdat het intern altijd als eerste sneuvelt.
+Het belkantoor draait campagnes voor meerdere opdrachtgevers en groeide harder dan de eigen werving kon bijhouden. Elke nieuwe campagne vroeg om extra bellers, en elke vacature kostte weken. De vraag was niet of ze konden verkopen, maar hoe ze binnen twee weken capaciteit erbij konden zetten zonder tien arbeidscontracten.
 
-Laag 3, het verkoopgesprek. Uitbesteedbaar, maar met meer voorwaarden. De persoon moet je aanbod echt begrijpen, en jij moet accepteren dat hij namens jou prijsafspraken bespreekt. Dit werkt als je propositie staat en je een duidelijk kader voor korting en voorwaarden hebt.
+## Inzet
 
-Laag 4, de klantrelatie en de koers. Wat je aanbiedt, wat het kost, welke markt je kiest, en wie je vaste klanten blijft bedienen. Dit hoort thuis bij jou. Wie deze laag uitbesteedt, besteedt niet capaciteit uit maar richting.
+Via Link2Talent zijn in stappen tien setters geplaatst op het uurtarief-model. Elke setter is door ons geselecteerd op ervaring in echte B2B-sales en door het kantoor goedgekeurd voordat hij startte. De setters werken remote, worden door het kantoor ingewerkt op de campagne en aangestuurd door de eigen teamleads. Contract, uren en betaling lopen via ons platform.
 
-## De test per taak
+## Resultaat
 
-Twijfel je over een specifieke taak, loop dan deze drie vragen langs.
+Op de toegankelijke campagnes, met een helder aanbod en een brede doelgroep, zet een setter gemiddeld een afspraak per gewerkt uur. Op de moeilijkere campagnes, met een smallere doelgroep of een aanbod dat meer uitleg vraagt, is dat een afspraak per twee uur. In beide gevallen is het uurtarief van de setter binnen dezelfde dag terugverdiend, omdat het kantoor per afspraak aan zijn opdrachtgever factureert.
 
-- Kan ik in een zin zeggen wanneer dit goed is gedaan? Zo niet, dan kun je er ook niet op sturen en gaat uitbesteden mis.
+Wat het verschil maakte: het kantoor had al een werkende campagnestructuur en teamleads die dagelijks sturen. Onze setters stapten in een lopend proces. Dat is de situatie waarin opschalen met tien mensen tegelijk zonder gedoe lukt.
 
-- Gebeurt dit vaker dan een paar keer per week? Werk dat zelden voorkomt is zelden de moeite van het overdragen waard, omdat de inwerktijd nooit wordt terugverdiend.
+## Wat je hieruit kunt halen
 
-- Wat gebeurt er als het een keer verkeerd gaat? Een verkeerd gekwalificeerde afspraak kost een uur. Een verkeerde prijsafspraak bij je grootste klant kost meer. Hoe hoger die kosten, hoe meer reden om het zelf te houden.
-
-## Wat je zelf moet blijven doen, ook bij uitbesteden
-
-Uitbesteden betekent niet dat het van je bordje is. Er zijn drie dingen die je zelf houdt, hoe je het ook inricht.
-
-Het eerste is de definitie van een goede lead. Die verandert in de loop van de maanden en alleen jij weet waarom, omdat jij de gesprekken voert die eruit komen.
-
-Het tweede is feedback. De afspraken die niet goed waren, zijn de meest waardevolle informatie die je terug kunt geven. Zonder dat is een externe kracht aan het gokken.
-
-Het derde is de opvolging aan jouw kant. Als er een gesprek staat en jij belt drie dagen later terug, is de waarde van dat gesprek grotendeels weg. Dat is geen verwijt aan de leverancier.
-
-## Waar het meestal misgaat
-
-Twee patronen zien we vaak. Het eerste is uitbesteden om een strategisch gat te dempen: er komen te weinig klanten, dus er moet iemand bellen, terwijl niemand precies weet naar wie of waarom. Dat levert activiteit op en geen resultaat.
-
-Het tweede is uitbesteden zonder aan te sturen. De verwachting is dat er een dienst draait op de achtergrond en dat er afspraken uit rollen. Externe capaciteit heeft dezelfde context nodig als een eigen medewerker, alleen in minder tijd en beter gedoseerd. Reken op een uur per week.
-
-## Checklist voordat je iets uitbesteedt
-
-- De taak is herhaalbaar en de uitkomst is in een zin te beschrijven
-
-- Je hebt een profiel van je beste klanten, niet alleen een branche
-
-- Er is iemand bij jou die wekelijks context en feedback geeft
-
-- Je hebt afgesproken hoe en wanneer er wordt gerapporteerd
-
-- Je kunt binnen een werkdag opvolgen wat er binnenkomt
+De twee cijfers hierboven zijn een bruikbare benchmark voor je eigen rekensom. Weet je hoeveel je een afspraak waard is, dan weet je bij een afspraak per uur of per twee uur direct of een setter uitkan. Meer over die benchmark in hoeveel afspraken zet een setter per week.
 
 ## Veelgestelde vragen
 
-**Wat is het verschil met een belbureau?**
+Waarom verschilt het per campagne?
 
-Bij een belbureau koop je gesprekken in bij wisselende mensen. Bij ons werkt dezelfde setter voor jou, leert je aanbod kennen en stuur jij aan. Dat verschil merk je pas na een paar weken, want dan begint kennis mee te tellen.
+Een breed aanbod met een grote doelgroep levert meer gesprekken per uur op dan een smal aanbod dat uitleg vraagt. Een afspraak per uur en een per twee uur zijn de twee uitersten die we bij dit kantoor zien.
 
-**Kan ik alleen de lijst uitbesteden?**
+Kan ik ook meerdere setters tegelijk starten?
 
-Ja. Lijstwerk en e-mailcampagnes doet ons zusterbedrijf Link2Leads, capaciteit om op te volgen doen wij.
+Ja. Bij dit kantoor zijn de tien setters in stappen geplaatst, telkens binnen twee weken na akkoord. Via het platform zie je wie beschikbaar is.
 
-**Hoe lang duurt het voor het loopt?**
+Wie stuurt de setters aan?
 
-Reken op twee weken tot de setter actief is en daarna een paar weken waarin de definitie van een goede afspraak scherper wordt. Beoordelen op basis van de eerste twee weken is te vroeg.
+Het kantoor zelf, met eigen teamleads. Wij regelen selectie, contract, uren en betaling. Dat is bij elke plaatsing zo.
+
+## Ook interessant
+
+- Case: setter bij een marketingbureauTien afspraken per week in tien uur, 30 procent close
+- Wat kost een appointment setter inhuren?Uurtarief, performance en seat naast elkaar met rekenvoorbeelden
+- Remote setter aansturen: de eerste 30 dagenWat je zelf doet zodat een setter snel rendeert
+
+## Wil je dit op je eigen situatie toepassen?
+
+In een gratis kennismakingsgesprek van 30 minuten leggen we je bottleneck en de benodigde capaciteit naast elkaar.
+
+Plan een gesprek →Stel eerst je vraag
+
+Liever eerst even mailen? Dat kan ook: info@link2talent.nl
+
 
 ==============================================================================
+# Tien uur per week, tien afspraken per week
+Bron: https://www.link2talent.nl/cases/marketingbureau
+==============================================================================
 
-# Performance vs. seat-model
-Bron: https://www.link2talent.nl/kennis/performance-vs-seat-model
+Een B2B-marketingbureau had leads genoeg en niemand die structureel belde. Een parttime setter via Link2Talent vult nu elke week de agenda van de eigenaar.
 
+Bijgewerkt 25 september 2026·Demi Stekelenburg·Leestijd 5 minuten
 
-Welk model past hangt af van een vraag: hoeveel invloed heeft de setter op het resultaat waarop je hem afrekent? Hoe kleiner die invloed, hoe minder logisch betalen per resultaat is.
-Bijgewerkt 8 september 2026 · Demi Stekelenburg · Leestijd 7 minuten. Kort antwoord: betaal per resultaat als de setter dat resultaat grotendeels zelf in de hand heeft en je het zuiver kunt meten. Kan hij dat niet, of is de meting discutabel, dan is per uur of per seat eerlijker voor beide kanten.
+10 uurper week ingezet
 
-## De vraag die het model bepaalt
+10 afsprakenper week gemiddeld
 
-Elke discussie over prijsmodellen komt terug op dezelfde vraag: wie heeft invloed op de uitkomst waarop wordt afgerekend? Bij een geboekte afspraak is dat grotendeels de setter. Bij een gesloten deal zit daar jouw verkoopgesprek, je prijs en je concurrentie tussen. Bij omzet zit daar ook nog je levering en je facturatie tussen.
+30% van de afspraken wordt klant
 
-Hoe verder de uitkomst van het werk af staat, hoe meer de vergoeding een gok wordt in plaats van een prijs. Dat is niet alleen oneerlijk voor de setter, het is ook slecht voor jou: iemand die op een uitkomst wordt afgerekend die hij niet kan sturen, gaat sturen op wat hij wel kan beïnvloeden, en dat is het aantal boekingen, niet de kwaliteit ervan.
+## Startsituatie
 
-## De drie modellen naast elkaar
+Het bureau levert marketingdiensten aan MKB-bedrijven en had een volle pijplijn aan reacties uit campagnes en netwerk. De eigenaar deed de opvolging zelf, tussen klantwerk door. Dat betekende dat een deel van de reacties dagen bleef liggen en dat de agenda per week wisselde van vol naar leeg.
 
-| | Performance | Uurtarief | Seat | 
-| Je betaalt | Commissie per afspraak, plus een kleine bemiddelingsfee | Het uurtarief van de setter plus een bemiddelingsfee | Een vast bedrag per maand per seat | 
-| Risico ligt bij | Grotendeels bij de setter | Gedeeld | Grotendeels bij jou | 
-| Past bij | Een bewezen aanbod en een ruime doelgroep | De meeste B2B-bedrijven | Vast, voorspelbaar volume | 
-| Voorspelbaarheid kosten | Laag, schaalt met resultaat | Hoog | Hoogst | 
-| Let op | Definitie van een geldige afspraak moet waterdicht zijn | Je stuurt op uren, dus stuur ook op output | Loopt door in rustige maanden | 
+## Inzet
 
-De actuele tarieven staan op de modellenpagina. Het uurtariefmodel wordt het vaakst gekozen, omdat het de kosten voorspelbaar houdt zonder dat je vastzit aan een vast bedrag in een maand waarin je minder nodig hebt.
+Via Link2Talent is een setter gestart op het uurtarief-model, tien uur per week verdeeld over de ochtenden. Week 1 was intake en match, week 2 inwerken op het aanbod, de doelgroep en de toon van het bureau. Vanaf week 3 belt de setter dagelijks de nieuwe reacties en de openstaande opvolging, en zet de afspraak direct in de agenda van de eigenaar.
 
-## Wanneer performance werkt
+## Resultaat
 
-Performance werkt als aan drie voorwaarden is voldaan. Je aanbod verkoopt al aantoonbaar, want anders loopt de setter tegen een muur die niet aan hem ligt. Je doelgroep is groot genoeg om volume te maken, want commissie per afspraak betekent dat de setter voldoende kansen nodig heeft. En je kunt objectief vaststellen wanneer een afspraak telt.
+Gemiddeld tien afspraken per week, dus een afspraak per gewerkt uur. De eigenaar sluit ongeveer drie op de tien, wat neerkomt op drie nieuwe klanten per week. Tegen het uurtarief van 37,50 kost een afspraak 37,50 en een nieuwe klant 125 euro aan setterkosten. Bij een gemiddelde ordergrootte van een marketingbureau is dat in de eerste maand terugverdiend.
 
-Dat laatste is waar het meestal op stukloopt. Zonder een vooraf vastgelegde definitie krijg je discussies over elke afspraak die niet doorging. Leg vast: wie de gesprekspartner moet zijn, welk onderwerp op tafel moet liggen, en wat er gebeurt als iemand niet komt opdagen. Een no-show telt bijvoorbeeld wel als hij een keer wordt verzet en niet als hij daarna nog steeds niet komt.
+Wat het verschil maakte: de instroom was er al. De setter hoefde geen koude lijst te bellen, maar reacties op te volgen die anders bleven liggen. Dat is de situatie waarin een setter het snelst rendeert.
 
-## Wanneer uurtarief werkt
+## Wat je hieruit kunt halen
 
-Het uurtarief is de standaard omdat het bij de meeste situaties past. Je betaalt voor tijd, je stuurt zelf op wat er in die tijd gebeurt, en je kunt het aantal uren per maand aanpassen. Het risico is gedeeld: jij draagt het risico dat een uur niets oplevert, de setter draagt het risico dat hij vervangen wordt als dat structureel zo is.
-
-De valkuil is dat je op uren gaat sturen in plaats van op output. Spreek daarom bij de start af welke getallen je wekelijks bekijkt: benaderde bedrijven, ontstane gesprekken, geboekte afspraken en opkomst. Dan is het uurtarief een betaalvorm en geen meeteenheid.
-
-## Wanneer een seat werkt
-
-Een seat is een vaste maandprijs voor een setter die direct inzetbaar is. Dat past als je volume voorspelbaar is en je liever een vast bedrag in je begroting hebt dan een variabele post. Het is ook het simpelste model om mee op te schalen: een tweede seat erbij en je hebt twee setters, met dezelfde afspraken.
-
-Het nadeel is dat het doorloopt in een maand waarin je minder nodig hebt. Dat is precies het spiegelbeeld van performance: meer zekerheid over de kosten, minder flexibiliteit.
-
-## Hoe je kiest
-
-- Kun je in een zin vastleggen wanneer een afspraak telt? Zo niet, dan valt performance af
-
-- Is je doelgroep groot genoeg voor volume, of is hij smal en high-ticket?
-
-- Wil je voorspelbare kosten of variabele kosten die meebewegen?
-
-- Weet je nu al hoeveel uren je de komende drie maanden nodig hebt?
-
-- Heb je iemand die wekelijks op de output kan sturen?
-
-Twijfel je, dan is het uurtarief bijna altijd de veiligste start. Je kunt na drie maanden nog steeds naar performance of naar een seat, en dan doe je dat met cijfers erbij.
+Heb je reacties die je niet dezelfde dag terugbelt, dan is tien uur per week meestal genoeg om dat gat te dichten. Reken het voor je eigen situatie door met de omzetcalculator: vul je ordergrootte en je close rate in en je ziet wat een afspraak je waard is.
 
 ## Veelgestelde vragen
 
-**Kan ik van model wisselen?**
+Hoeveel uur per week is een setter nodig?
 
-Ja. De meeste klanten starten op uurtarief en stappen over zodra ze weten wat een maand oplevert.
+Bij dit bureau was tien uur per week genoeg om alle reacties dezelfde dag op te volgen. Hoeveel uur jij nodig hebt hangt af van de instroom: meer reacties, meer uren.
 
-**Wat als een afspraak niet doorgaat?**
+Wat kost een afspraak in dit voorbeeld?
 
-Dat leggen we vooraf vast, en dat is bij performance het belangrijkste onderdeel van de afspraak. Meestal geldt: een keer verzetten telt nog mee, daarna niet.
+Tien uur tegen 37,50 is 375 euro per week, gedeeld door tien afspraken is 37,50 per afspraak. Met 30 procent close kost een nieuwe klant 125 euro aan setterkosten.
 
-**Zit er een minimale looptijd op?**
+Werkt dit ook zonder bestaande instroom?
 
-Dat verschilt per model en bespreken we in het matchgesprek. Het uitgangspunt is dat je op- en af kunt schalen zonder ontslagtraject, want dat is de reden om in te huren.
+Dan belt de setter een lijst in plaats van reacties, en zet hij minder afspraken per uur. Zie de case van het belkantoor voor die cijfers, of combineer een setter met een campagne van Link2Leads.
+
+## Ook interessant
+
+- Case: tien setters bij een belkantoorEen afspraak per uur op toegankelijke campagnes, een per twee uur op moeilijke
+- Hoeveel afspraken zet een setter per week?De cijfers uit onze eigen plaatsingen en wat ze bepaalt
+- OmzetcalculatorWat een afspraak je waard is bij jouw ordergrootte
+
+## Wil je dit op je eigen situatie toepassen?
+
+In een gratis kennismakingsgesprek van 30 minuten leggen we je bottleneck en de benodigde capaciteit naast elkaar.
+
+Plan een gesprek →Stel eerst je vraag
+
+Liever eerst even mailen? Dat kan ook: info@link2talent.nl
+
 
 ==============================================================================
+# Onze eigen setter op doorlopende commissie
+Bron: https://www.link2talent.nl/cases/setter-op-commissie
+==============================================================================
 
-# Hoeveel afspraken zet een setter per week?
-Bron: https://www.link2talent.nl/kennis/afspraken-per-week-setter
+Bij ons zusterbedrijf Link2Leads brengt een setter afspraken aan en wordt betaald per gesloten klant. Niet eenmalig, maar elke maand zolang die klant blijft. Zo ziet het performance-model er in de praktijk uit.
 
+Bijgewerkt 25 september 2026·Demi Stekelenburg·Leestijd 5 minuten
 
-De vraag die iedereen stelt voordat hij een setter inhuurt. Hier staan de cijfers uit onze eigen plaatsingen, wat ze bepaalt en hoe je ze omrekent naar jouw situatie.
-Bijgewerkt 25 september 2026 · Demi Stekelenburg · Leestijd 7 minuten. Kort antwoord: een afspraak per gewerkt uur als het aanbod helder is en de instroom er al is, een afspraak per twee uur als de doelgroep smal is of het aanbod uitleg vraagt. Bij tien uur per week is dat vijf tot tien afspraken per week.
-## De cijfers uit onze eigen plaatsingen
+10% van het maandbedrag, per aangebrachte klant
 
-| Situatie | Afspraken | Bron | 
-| Reacties opvolgen bij een marketingbureau | 10 per week bij 10 uur, dus 1 per uur | Case marketingbureau | 
-| Toegankelijke campagne bij een belkantoor | 1 per uur | Case belkantoor | 
-| Moeilijkere campagne bij een belkantoor | 1 per 2 uur | Case belkantoor | 
+Elke maandzolang de klant blijft
 
-Drie situaties, twee uitersten. Een afspraak per uur is wat een ervaren setter haalt als de instroom er is en het aanbod in een zin uit te leggen is. Een afspraak per twee uur is de ondergrens die we zien als de doelgroep smal is of als de setter eerst moet uitleggen wat het product doet.
+0 vaste kosten voor de opdrachtgever
 
-## Wat het aantal bepaalt
+## Startsituatie
 
-De setter zelf is maar een van de vier variabelen. De andere drie liggen bij jou.
+Link2Leads, ons zusterbedrijf voor e-mailcampagnes, kreeg meer inkomende interesse via LinkedIn dan de oprichters zelf konden opvolgen. De gesprekken zelf wilden ze blijven voeren, het aanbrengen en kwalificeren niet. Een vaste hire paste niet bij een instroom die per week wisselt.
 
-Instroom. Een setter die reacties opvolgt zet meer afspraken dan een setter die een koude lijst belt. Reacties zijn warm, een lijst is dat niet. Heb je geen instroom, dan combineer je de setter met een campagne, bijvoorbeeld via Link2Leads.
+## Inzet
 
-Aanbod. Een dienst die in een zin uit te leggen is, met een duidelijke prijs, converteert sneller aan de telefoon dan een product dat een demo nodig heeft om begrepen te worden.
+Een setter uit het netwerk van Link2Talent benadert prospects via LinkedIn, kwalificeert ze en zet ze door naar een gesprek met Link2Leads. Hij krijgt daarvoor geen uurtarief, maar 10 procent van het maandbedrag van elke klant die uit zijn afspraak voortkomt. Dat percentage loopt elke maand door zolang die klant klant blijft, en wordt uitbetaald zodra de klant betaalt.
 
-Doelgroep. Hoe breder de doelgroep, hoe meer bereikbare beslissers per uur. Een smalle niche betekent meer zoeken per gesprek.
+## Resultaat
 
-Aansturing. Een setter die dagelijks feedback krijgt op gesprekken en bezwaren zit binnen twee weken op niveau. Zonder feedback duurt dat langer. Wat je daarvoor doet staat in remote setter aansturen: de eerste 30 dagen.
+Voor de setter stapelt het inkomen: elke gesloten klant is een terugkerend bedrag erbij. Een klant op het meest gekozen pakket van 1.695 per maand levert hem 169,50 per maand op, en tien van die klanten 1.695 per maand, zonder dat hij daar nog een uur voor hoeft te werken. Voor Link2Leads is er geen vaste last: de setter kost pas iets als er omzet tegenover staat.
 
-## Omrekenen naar jouw situatie
+Wat het verschil maakte: een aanbod met een terugkerend maandbedrag. Doorlopende commissie werkt als de klant maandelijks betaalt, want dan is de commissie ook maandelijks. Bij eenmalige orders past een commissie per deal of het uurtarief beter.
 
-Neem het aantal uren dat je een setter wilt inzetten en vermenigvuldig met een afspraak per uur voor het gunstige scenario en een per twee uur voor het voorzichtige. Bij 16 uur per week is dat 8 tot 16 afspraken per week. Vermenigvuldig met je close rate en je hebt het aantal nieuwe klanten per week. Zet daar je ordergrootte naast en je ziet wat de setter oplevert tegenover wat hij kost.
+## Wat je hieruit kunt halen
 
-De omzetcalculator doet die som voor je. Vul je uurtarief, je close rate en je ordergrootte in.
-
-## Wat een realistische verwachting is in de eerste weken
-
-Week 1 en 2 zijn intake, match en inwerken. De eerste afspraken komen in week 3. Reken de eerste maand op de ondergrens en beoordeel pas na zes weken of het aantal klopt met de benchmark. Wie na twee weken oordeelt, beoordeelt het inwerken en niet de setter.
+Verkoop je een abonnement of een maandfee, dan is dit model het overwegen waard. De setter denkt mee over kwaliteit in plaats van aantallen, omdat hij pas verdient als de klant blijft. Welk model bij jouw aanbod past staat in performance vs. seat-model.
 
 ## Veelgestelde vragen
 
-**Zet een fulltime setter twee keer zoveel als een parttime setter?**
+Is dit het performance-model?
 
-Meestal wel, zolang de instroom het toelaat. Bij reacties opvolgen is de instroom de grens: als er twintig reacties per week zijn, heeft een setter aan tien uur genoeg.
+Ja, in de vorm van doorlopende commissie. Bij een eenmalige order is het meestal een vast bedrag per afspraak of per deal.
 
-**Wat als mijn setter onder de benchmark zit?**
+Wanneer wordt de setter betaald?
 
-Kijk eerst naar de instroom en het aanbod, daar zit het meestal. Zit het bij de setter, dan wisselen we. Dat kan altijd, zonder ontslagtraject.
+Zodra de klant zijn factuur betaalt. Geen wachttijd tot het einde van het kwartaal.
 
-**Tellen alleen gekwalificeerde afspraken mee?**
+Werkt dit voor elk aanbod?
 
-Ja. Een afspraak is pas een afspraak als de prospect past bij de definitie die je vooraf hebt gegeven. Die definitie leggen we in de intake vast.
+Het werkt het beste bij een terugkerend maandbedrag. Verkoop je eenmalige projecten, dan bespreken we in het kennismakingsgesprek welke variant past.
+
+## Ook interessant
+
+- Performance vs. seat-modelWelk prijsmodel past bij de meetbaarheid van je resultaat
+- Case: setter bij een marketingbureauTien afspraken per week in tien uur
+- Link2LeadsE-mailcampagnes voor de instroom die je setter nodig heeft
+
+## Wil je dit op je eigen situatie toepassen?
+
+In een gratis kennismakingsgesprek van 30 minuten leggen we je bottleneck en de benodigde capaciteit naast elkaar.
+
+Plan een gesprek →Stel eerst je vraag
+
+Liever eerst even mailen? Dat kan ook: info@link2talent.nl
+
 
 ==============================================================================
-
-# Wat kost een appointment setter inhuren?
-Bron: https://www.link2talent.nl/kennis/appointment-setter-inhuren-kosten
-
-
-De prijs van een setter is geen geheim. Hier staan de drie modellen, wat een afspraak per model kost en hoe je dat naast een SDR in dienst legt.
-Bijgewerkt 25 september 2026 · Demi Stekelenburg · Leestijd 6 minuten. Kort antwoord: op het uurtarief-model betaal je het tarief van de setter plus 20 procent, bijvoorbeeld 37,50 per uur bij een setter van 30. Bij een afspraak per uur is dat 37,50 per afspraak. Geen recruitmentfee, geen opstartkosten, per maand op- en afschalen.
-## De drie modellen
-
-| Model | Wat je betaalt | Wanneer het past | 
-| Uurtarief | Tarief van de setter plus 20 procent bemiddelingsfee. Setter 30 per uur wordt 37,50. | Als je voorspelbare kosten wilt en zelf aanstuurt. Het meest gekozen model. | 
-| Performance | Commissie per geboekte afspraak of per gesloten klant, plus een kleine bemiddelingsfee. | Als het resultaat eenduidig meetbaar is en je alleen bij resultaat wilt betalen. | 
-| Seat | 295 per maand per setter. | Als je structurele capaciteit wilt met alles via het platform geregeld. | 
-
-## Wat een afspraak kost
-
-Op het uurtarief-model hangt de prijs per afspraak af van hoeveel afspraken de setter per uur zet. Uit onze plaatsingen: een per uur op toegankelijke campagnes, een per twee uur op moeilijkere. Bij 37,50 per uur is een afspraak dus 37,50 tot 75 euro.
-
-Reken door naar een nieuwe klant. Bij een close rate van 30 procent, zoals bij het marketingbureau in onze case, kost een nieuwe klant 125 tot 250 euro aan setterkosten. Zet daar je ordergrootte naast en de beslissing is een rekensom.
-
-## Wat er in de fee zit
-
-Selectie en voordracht van een setter die bij je aanbod past, het contract, de betaling en de facturatie via het platform, communicatie met de setter en met ons op een plek, rapportage van activiteit, afspraken en uren, wisselen van setter als je dat wilt en opschalen met extra setters of closers. Wat er niet in zit: het inhoudelijk aansturen van de setter, dat doe jij, en de instroom van leads, daar is Link2Leads voor.
-
-## Naast een SDR in dienst
-
-Per uur is een SDR in dienst goedkoper zodra hij goed draait. Alles eromheen is duurder: werving, inwerktijd, werkgeverslasten, tooling en de uren van degene die aanstuurt. De volledige rekensom staat in wat kost een interne SDR echt, de afweging in remote setter vs. SDR in dienst.
-
-## Naast een callbureau
-
-Een callbureau rekent meestal een opstartfee en een minimumafname, en de beller is wie er die dag beschikbaar is. Bij ons kies je de setter zelf, stuur je hem aan als een eigen collega en betaal je per uur, per afspraak of per seat. De vergelijking op negen punten staat op de homepage.
-
-## Veelgestelde vragen
-
-**Zijn er opstartkosten?**
-
-Nee. Geen recruitmentfee en geen setupfee. Je betaalt vanaf het moment dat de setter werkt.
-
-**Kan ik van model wisselen?**
-
-Ja, per maand via het platform. Veel opdrachtgevers starten op uurtarief en stappen over zodra ze weten wat een afspraak oplevert.
-
-**Wat bepaalt het uurtarief van de setter?**
-
-Ervaring en beschikbaarheid. De meeste setters zitten rond de 30 per uur; daar komt onze fee van 20 procent bovenop.
-
-==============================================================================
-
-# Remote setter aansturen: de eerste 30 dagen
-Bron: https://www.link2talent.nl/kennis/remote-setter-aansturen
-
-
-Wij regelen de match, het contract en de betaling. Het aansturen doe jij. Dit is wat de opdrachtgevers doen bij wie een setter binnen drie weken op de benchmark zit.
-Bijgewerkt 25 september 2026 · Demi Stekelenburg · Leestijd 7 minuten. Kort antwoord: werk de setter in op je aanbod en je toon, geef de eerste twee weken dagelijks feedback op gesprekken, leg vast wat een goede afspraak is en houd een vast weekmoment aan. Meer is het niet, minder werkt niet.
-## Week 1: inwerken op aanbod, doelgroep en toon
-
-De setter belt namens jou, dus hij moet klinken als jij. Plan in de eerste week drie sessies van een uur: een over het aanbod en de prijs, een over de doelgroep en de bezwaren die je vaak hoort, en een waarin je zelf twee gesprekken voert terwijl de setter meeluistert. Geef hem daarna je drie beste klantverhalen, kort en concreet. Dat is zijn materiaal aan de telefoon.
-
-## Week 2: dagelijks tien minuten feedback
-
-De eerste belweek is de belangrijkste. Luister elke dag een of twee gesprekken terug, of bel tien minuten aan het einde van de dag. Zeg wat goed ging en wat je anders zou zeggen. Setters die in week 2 dagelijks feedback krijgen zitten in week 3 op niveau; setters die het zelf moeten uitzoeken doen daar een maand langer over.
-
-## Een definitie van een goede afspraak
-
-Zonder definitie stuur je op aantallen, en dan krijg je aantallen. Leg vast wie de prospect moet zijn, wat er in het gesprek bevestigd moet zijn en wat de prospect verwacht in het vervolggesprek. Zet die definitie in de agenda-uitnodiging die de setter verstuurt. Zo weet iedereen wat er telt.
-
-## Instroom regelen
-
-Een setter zonder lijst of reacties zit stil. Zorg dat er op dag een iets te bellen is: openstaande reacties, oude offertes, een lijst uit je CRM of een campagne. Heb je dat niet, dan regelen we de instroom via Link2Leads, met dezelfde mensen aan tafel.
-
-## Vanaf week 3: een vast weekmoment
-
-Een half uur per week, vaste dag, vaste tijd. Drie vragen: hoeveel gesprekken, hoeveel afspraken, wat hoorde je aan bezwaren. De rapportage in het platform geeft de cijfers, het gesprek geeft de context. Meer overleg is zelden nodig als de eerste twee weken goed zijn gedaan.
-
-## Wat je niet hoeft te doen
-
-Contracten, uren bijhouden, facturatie en het gesprek als een match niet klikt. Dat loopt via ons. Wil je wisselen van setter, dan zeg je het en dragen wij een ander voor.
-
-## Veelgestelde vragen
-
-**Hoeveel tijd kost aansturen per week?**
-
-In week 1 en 2 een tot twee uur per dag, daarna een half uur per week. Dat is de investering die het verschil maakt tussen een setter op de benchmark en een setter eronder.
-
-**Moet ik gesprekken opnemen?**
-
-Het helpt bij feedback, zeker in de eerste twee weken. Regel het volgens de regels die voor jouw sector gelden en zeg het tegen de setter.
-
-**Wat als ik zelf geen tijd heb om aan te sturen?**
-
-Dan is een setter te vroeg. Dat staat ook in "dit werkt, maar niet voor iedereen" op de homepage. Een closer die het hele traject overneemt is dan een optie om te bespreken.
-
-==============================================================================
-
-# Appointment setting uitbesteden: bureau, freelancer of platform
-Bron: https://www.link2talent.nl/kennis/appointment-setting-uitbesteden
-
-
-Wie afspraken wil laten zetten heeft vier routes. Ze verschillen vooral in wie de beller kiest, wie aanstuurt en wat je betaalt als het niet loopt.
-Bijgewerkt 25 september 2026 · Demi Stekelenburg · Leestijd 8 minuten. Kort antwoord: een callbureau is het snelst als je geen tijd hebt om aan te sturen en het script niet uitmaakt. Een freelancer is het goedkoopst als je zelf kunt zoeken en selecteren. Een recruitmentbureau past als je iemand in dienst wilt. Een platform zit ertussenin: jij kiest en stuurt aan, het platform regelt de rest.
-## De vier routes naast elkaar
-
-| | Callbureau | Freelancer | Recruitmentbureau | Platform (Link2Talent) | 
-| Opstarttijd | Twee tot zes weken | Afhankelijk van je zoektocht | Zes weken tot maanden | Binnen 14 dagen | 
-| Wie belt | Wie beschikbaar is op de belvloer | De persoon die je zelf vindt | De kandidaat die je aanneemt | Een geselecteerde setter die jij goedkeurt | 
-| Wie stuurt aan | Het bureau, met een script | Jij | Jij, als werkgever | Jij, als bij een eigen collega | 
-| Kosten | Opstartfee plus minimumafname | Uurtarief, zelf onderhandeld | Fee als percentage van het jaarsalaris, plus salaris | Uurtarief plus 20 procent, commissie of seat | 
-| Als het niet klikt | Contract uitzitten of afkopen | Opnieuw zoeken | Proeftijd of ontslagtraject | Wisselen van setter | 
-| Contract en betaling | Via het bureau | Zelf regelen | Arbeidscontract en salarisadministratie | Via het platform | 
-
-## Wanneer een callbureau past
-
-Als je een groot volume hebt, een eenvoudig aanbod en geen tijd of zin om zelf aan te sturen. Je koopt uren of afspraken, het bureau regelt de rest. De prijs daarvoor is dat je niet kiest wie er belt en dat het script van het bureau is.
-
-## Wanneer een freelancer past
-
-Als je zelf goed kunt selecteren, tijd hebt om te zoeken en het niet erg vindt om contract, uren en betaling zelf te regelen. Het is de goedkoopste route per uur en de duurste in je eigen tijd. Zit je ernaast, dan begin je opnieuw.
-
-## Wanneer een recruitmentbureau past
-
-Als je zeker weet dat je voor minstens een jaar een fulltime rol te vullen hebt en iemand in dienst wilt. Dan bouw je iets op wat blijft. De rekensom daarvoor staat in wat kost een interne SDR echt.
-
-## Wanneer een platform past
-
-Als je wel zelf wilt kiezen en aansturen, maar niet wilt werven, contracteren en factureren. Bij Link2Talent dragen wij een setter voor, jij keurt hem goed en werkt hem in, en contract, betaling en rapportage lopen via het platform. Klikt het niet, dan wisselen we. Dat is de route voor wie de voordelen van een eigen setter wil zonder de werkgeversrol.
-
-## Hoe je kiest
-
-Drie vragen. Wil je zelf bepalen wie er belt en wat hij zegt? Dan valt het callbureau af. Heb je tijd om zelf te werven en te contracteren? Zo niet, dan valt de freelancer af. Weet je zeker dat het volume er over twaalf maanden nog is? Zo niet, dan valt het dienstverband af. Wat overblijft is het platform, of een combinatie: starten via het platform en na een half jaar beslissen of het een vaste rol wordt.
-
-## Veelgestelde vragen
-
-**Kan ik via Link2Talent ook een closer inhuren?**
-
-Ja. Een closer voert de verkoopgesprekken die de setter inplant. Los of samen, via hetzelfde platform.
-
-**Wat als ik geen leads heb om te laten bellen?**
-
-Dan regelen we de instroom via ons zusterbedrijf Link2Leads: e-mailcampagnes naar jouw doelgroep, waarvan alleen de positieve reacties bij je setter komen.
-
-**Is een platform duurder dan een freelancer?**
-
-Per uur ja, met de fee van 20 procent. Daar staat tegenover dat selectie, contract, betaling en wisselen geregeld zijn. Wie dat zelf doet, betaalt het in tijd.
-
-==============================================================================
-
-# Appointment setting bureaus in Nederland vergeleken
-Bron: https://www.link2talent.nl/appointment-setting-bureaus-nederland
-
-
-Wie in Nederland afspraken wil laten zetten, kiest uit vijf soorten aanbieders. Ze verschillen op zes punten die je vooraf wilt weten. Hier staan ze naast elkaar, inclusief de plek waar wij zelf staan.
-Bijgewerkt 25 september 2026 · Demi Stekelenburg · Leestijd 9 minuten
-Kort antwoord: callbureaus zijn het snelst geregeld en het minst van jou. Een SDR-as-a-service-bureau levert een compleet team, tegen een maandbedrag dat daarbij hoort. Freelanceplatforms zijn het goedkoopst en het meest werk. Recruitmentbureaus leveren een hire. Link2Talent zit tussen freelance en bureau in: jij kiest en stuurt aan, wij regelen selectie, contract en betaling, binnen 14 dagen.
-
-## De vijf soorten aanbieders
-
-Callbureaus. Een belvloer met teamleads, een script en een minimumafname. Je koopt uren of afspraken. Snel geregeld, weinig invloed op wie er belt en wat hij zegt.
-
-SDR-as-a-service. Bureaus die een SDR of een klein team leveren inclusief tooling, data en aansturing. Compleet, tegen een maandbedrag dat vaak begint waar een fulltime salaris ophoudt.
-
-Freelanceplatforms. Marktplaatsen waar je zelf zoekt, selecteert en contracteert. Goedkoop per uur, duur in je eigen tijd, en bij een mismatch begin je opnieuw.
-
-Recruitmentbureaus. Werving en selectie voor een SDR in dienst. Een fee als percentage van het jaarsalaris, daarna een arbeidscontract. Past als je zeker weet dat de rol voor een jaar of langer gevuld moet zijn.
-
-Link2Talent. Wij dragen een ervaren setter voor, jij keurt hem goed en stuurt hem aan als een eigen collega. Contract, betaling, rapportage en wisselen lopen via ons platform. Binnen 14 dagen actief, per maand op- en afschalen.
-
-## De zes punten naast elkaar
-
-| | Callbureau | SDR-as-a-service | Freelanceplatform | Recruitmentbureau | Link2Talent | 
-| Opstarttijd | 2 tot 6 weken | 4 tot 8 weken | Zolang je zoektocht duurt | 6 weken tot maanden | Binnen 14 dagen, met garantie | 
-| Wie belt | Wie beschikbaar is | Het team van het bureau | Wie je zelf vindt | De kandidaat die je aanneemt | Een geselecteerde setter, door jou goedgekeurd | 
-| Wie stuurt aan | Het bureau | Het bureau | Jij | Jij, als werkgever | Jij, als bij een eigen collega | 
-| Kosten | Opstartfee plus minimumafname | Vast maandbedrag | Uurtarief, zelf onderhandeld | Fee plus salaris en werkgeverslasten | Uurtarief plus 20 procent, commissie of 295 per seat | 
-| Als het niet klikt | Contract uitzitten | Opzegtermijn | Opnieuw zoeken | Proeftijd of ontslagtraject | Wisselen van setter | 
-| Leads erbij | Soms, tegen meerprijs | Vaak inbegrepen | Zelf regelen | Zelf regelen | Via zusterbedrijf Link2Leads | 
-
-## Hoe je hieruit kiest
-
-Begin bij de vraag of je zelf wilt bepalen wie er belt en wat hij zegt. Zo nee, dan is een callbureau of SDR-as-a-service de kortste route en betaal je voor het gemak. Zo ja, dan kies je tussen zelf werven (freelance of recruitment) en een platform dat de selectie en het contract voor je doet.
-
-De tweede vraag is hoe zeker je bent van het volume. Weet je dat de rol over een jaar nog bestaat, dan is een hire op termijn goedkoper. Weet je dat niet, dan betaal je met een hoger uurtarief voor de mogelijkheid om binnen twee weken te starten en per maand te stoppen. Die afweging staat uitgewerkt in remote setter vs. SDR in dienst.
-
-## De zes vragen die je elke aanbieder stelt
-
-- Wie belt er precies, en mag ik die persoon vooraf spreken?
-
-- Wie stuurt aan, en hoe vaak spreek ik die persoon?
-
-- Wat betaal ik als er een maand geen afspraken uitkomen?
-
-- Wat gebeurt er als de beller niet bevalt, en hoe snel?
-
-- Waar komt de instroom vandaan: mijn lijst, hun data of een campagne?
-
-- Wat zie ik per week aan cijfers zonder erom te vragen?
-
-## Waar wij staan
-
-Link2Talent is geen callbureau en geen recruitmentbureau. Wij plaatsen ervaren setters bij bedrijven die zelf willen aansturen, en nemen het werven, contracteren en factureren weg. De cijfers uit lopende plaatsingen staan in de cases: een afspraak per uur op toegankelijke campagnes, een per twee uur op moeilijkere. Past een andere route beter bij jou, dan zeggen we dat in het eerste gesprek.
-
-## Methodologie
-
-De tabel beschrijft soorten aanbieders, geen individuele bedrijven, omdat voorwaarden per aanbieder en per jaar verschillen. De kenmerken zijn wat we in gesprekken met opdrachtgevers terugkrijgen en wat aanbieders zelf publiceren. Wijkt een aanbieder af, dan is dat de vraag om te stellen. Bijgewerkt 25 september 2026.
-
-## Veelgestelde vragen
-
-**Welk bureau is het beste voor appointment setting?**
-
-Dat hangt af van of je zelf wilt kiezen wie er belt en of je tijd hebt om aan te sturen. Wil je dat niet, dan een callbureau. Wil je dat wel, dan een platform of een eigen hire.
-
-**Wat kost appointment setting uitbesteden gemiddeld?**
-
-Bij een callbureau betaal je meestal een opstartfee plus een minimumafname per maand. Bij Link2Talent betaal je het uurtarief van de setter plus 20 procent, bijvoorbeeld 37,50 per uur, of een commissie per afspraak. Geen opstartkosten.
-
-**Hoe snel kan een setter starten?**
-
-Bij Link2Talent binnen 14 dagen na akkoord, met garantie. Bij een callbureau twee tot zes weken, bij een eigen hire zes weken tot maanden.
-
-**Waarom staan er geen bedrijfsnamen in deze vergelijking?**
-
-Omdat aanbieders hun voorwaarden regelmatig veranderen en een verouderde tabel je verkeerd informeert. De soorten aanbieders veranderen niet. Vraag bij elke aanbieder de zes punten hierboven na.
-
-==============================================================================
-
 # Appointment setter inhuren in Amsterdam
 Bron: https://www.link2talent.nl/appointment-setter-amsterdam
-
+==============================================================================
 
 Voor B2B-bedrijven in Amsterdam die meer gesprekken willen voeren zonder een extra bureau in de Zuidas of een vacature die maanden openstaat. Een remote setter, binnen 14 dagen actief, aangestuurd door jou.
-Bijgewerkt 25 september 2026 · Demi Stekelenburg · Leestijd 5 minuten
+
+Bijgewerkt 25 september 2026·Demi Stekelenburg·Leestijd 5 minuten
+
 Kort antwoord: een setter via Link2Talent werkt remote, dus je hebt geen werkplek nodig en geen woon-werkverkeer over de A10. Wij zijn zelf gevestigd in Amsterdam, dus kennismaken kan op locatie. De setter zelf zet vanaf week 3 afspraken in je agenda.
 
 ## Waarom Amsterdamse bedrijven een remote setter kiezen
@@ -1014,14 +1587,28 @@ Link2Talent en Link2Leads vallen onder Link2Group, gevestigd in Amsterdam. Een k
 
 ## Veelgestelde vragen
 
-**Werkt de setter op locatie in Amsterdam?**
+Werkt de setter op locatie in Amsterdam?
 
 Onze setters werken remote. Voor bedrijven in Amsterdam scheelt dat een werkplek en reistijd; de setter belt vanuit zijn eigen omgeving en zet de afspraak in jouw agenda.
 
-**Kunnen we elkaar wel ontmoeten?**
+Kunnen we elkaar wel ontmoeten?
 
 Ja. Link2Group zit in Amsterdam, dus een kennismaking op locatie is te regelen. De samenwerking zelf loopt daarna online.
 
-**Hoe snel kan een setter starten voor een Amsterdams bedrijf?**
+Hoe snel kan een setter starten voor een Amsterdams bedrijf?
 
 Binnen 14 dagen na akkoord, net als overal. Week 1 intake en match, week 2 inwerken, week 3 de eerste afspraken.
+
+## Ook interessant
+
+- Wanneer is een remote setter inhuren logisch?Capaciteitsprobleem of strategieprobleem
+- Cases met cijfersDrie plaatsingen zoals ze nu draaien
+- Appointment setting bureaus vergelekenDe soorten aanbieders op zes punten
+
+## Wil je dit op je eigen situatie toepassen?
+
+In een gratis kennismakingsgesprek van 30 minuten leggen we je bottleneck en de benodigde capaciteit naast elkaar.
+
+Plan een gesprek →Stel eerst je vraag
+
+Liever eerst even mailen? Dat kan ook: info@link2talent.nl
