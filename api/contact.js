@@ -155,6 +155,7 @@ module.exports = async (req, res) => {
         isScan ? `Situatie:` : `Vraag:`,
         question || '(geen vraag ingevuld)',
         ``,
+        `Bron: ${M.bron(body._src)}`,
         `Ref ${ref}`
       ].filter(Boolean).join('\n'),
       html: M.shell({
@@ -170,6 +171,7 @@ module.exports = async (req, res) => {
             ['Naam', isScan ? '' : name],
             ['E-mail', { raw: `<a href="mailto:${M.escAttr(email)}" style="color:${M.C.accent2};">${esc(email)}</a>` }],
             ['Bedrijf', company || ''],
+            ['Bron', M.bron(body._src)],
           ]),
           M.spacer(18),
           M.answerTable({ [isScan ? 'Situatie' : 'Vraag']: question || '(geen vraag ingevuld)' })

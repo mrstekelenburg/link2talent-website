@@ -1,0 +1,47 @@
+# Werkt na elke push naar main de datums in sitemap.xml bij en meldt daarna
+# alle pagina's uit de sitemap bij IndexNow.
+# IndexNow wordt gebruikt door Bing (en daarmee ChatGPT-zoeken), Yandex,
+# Seznam en Naver. Nieuwe en gewijzigde pagina's worden zo binnen uren
+# opgepakt in plaats van na dagen of weken.
+name: IndexNow
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Sitemapdatums bijwerken uit de laatste wijziging per pagina
+        run: |
+          node scripts/sitemap-lastmod.js
+          if ! git diff --quiet -- sitemap.xml; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add sitemap.xml
+            git commit -m "Sitemap: datums bijgewerkt"
+            git push
+          fi
+      - name: Wachten tot Vercel klaar is met deployen
+        run: sleep 150
+      - name: Pagina's melden bij IndexNow
+        run: |
+          KEY="ce8fd3b5a57deaac6dc33ce4abb444ca"
+          HOST="www.link2talent.nl"
+          URLS=$(grep -oE '<loc>[^<]+' sitemap.xml | sed 's/<loc>//' | jq -R . | jq -s .)
+          jq -n --arg host "$HOST" --arg key "$KEY" --argjson urls "$URLS" \
+            '{host: $host, key: $key, keyLocation: ("https://" + $host + "/" + $key + ".txt"), urlList: $urls}' > body.json
+          echo "Aantal pagina's: $(jq '.urlList | length' body.json)"
+          CODE=$(curl -sS -o resp.txt -w '%{http_code}' -X POST https://api.indexnow.org/indexnow \
+            -H 'Content-Type: application/json; charset=utf-8' --data @body.json)
+          echo "IndexNow antwoord: $CODE"; cat resp.txt || true
+          # 200 en 202 betekenen geaccepteerd
+          [ "$CODE" = "200" ] || [ "$CODE" = "202" ]

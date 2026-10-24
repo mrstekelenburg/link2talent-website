@@ -246,8 +246,21 @@ function shell(o) {
 </html>`;
 }
 
+// Waar een aanvraag vandaan kwam, uit het _src-veld dat assets/tracking.js
+// meestuurt. Voorbeeld: "chatgpt.com · binnen op /kennis/remote-setter-inhuren".
+function bron(src) {
+  if (!src || typeof src !== 'object') return 'Onbekend (pagina zonder bronmeting)';
+  const cut = (v, n) => String(v || '').slice(0, n);
+  let wie = cut(src.utm || src.ref, 80) || 'Direct of onbekend';
+  if (src.utm && src.medium) wie += ' / ' + cut(src.medium, 40);
+  const delen = [wie];
+  if (src.campaign) delen.push('campagne ' + cut(src.campaign, 60));
+  if (src.landing) delen.push('binnen op ' + cut(src.landing, 120));
+  return delen.join(' · ');
+}
+
 module.exports = {
   C, FONT, MONO, SITE, KLANT_URL, SIGNER,
   esc, escAttr, weekdayOf,
-  h1, p, label, detailTable, answerTable, button, klantUrl, prepBlock, signoff, spacer, shell
+  h1, p, label, detailTable, answerTable, button, klantUrl, prepBlock, signoff, spacer, shell, bron
 };

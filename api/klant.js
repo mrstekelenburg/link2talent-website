@@ -37,7 +37,7 @@ module.exports = async (req, res) => {
   if (req.method === 'OPTIONS') return res.status(200).end();
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
-  const { name, email, company, site, answers, meta } = req.body || {};
+  const { name, email, company, site, answers, meta, _src } = req.body || {};
   if (!name || !email) return res.status(400).json({ error: 'Naam en e-mail zijn verplicht' });
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(String(email))) {
     return res.status(400).json({ error: 'Vul een geldig e-mailadres in, bijvoorbeeld naam@bedrijf.nl.' });
@@ -111,7 +111,8 @@ module.exports = async (req, res) => {
             ['Naam', name],
             ['E-mail', email],
             ['Bedrijf', company],
-            ['Website', site]
+            ['Website', site],
+            ['Bron', M.bron(_src)]
           ]),
           `<div style="height:26px;line-height:26px;font-size:0;">&nbsp;</div>`,
           M.label('Waar je op kunt sturen'),

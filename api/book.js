@@ -124,7 +124,8 @@ module.exports = async (req, res) => {
               ['Naam', b.name],
               ['E-mail', b.email],
               ['Bedrijf', b.companyName],
-              ['Telefoon', b.phone]
+              ['Telefoon', b.phone],
+              ['Bron', M.bron(b._src)]
             ]),
             `<div style="height:26px;line-height:26px;font-size:0;">&nbsp;</div>`,
             M.label('Antwoorden'),
@@ -230,7 +231,8 @@ module.exports = async (req, res) => {
             ['Telefoon', b.phone],
             ['Datum', b.date],
             ['Tijd', `${b.time} (Nederlandse tijd) · 30 minuten`],
-            ['Pakket', b.pakket ? String(b.pakket).slice(0, 200) : '']
+            ['Pakket', b.pakket ? String(b.pakket).slice(0, 200) : ''],
+            ['Bron', M.bron(b._src)]
           ]),
           hasAnswers ? M.spacer(20) + M.label('Antwoorden') + M.answerTable(b.answers) : '',
           M.spacer(20),
