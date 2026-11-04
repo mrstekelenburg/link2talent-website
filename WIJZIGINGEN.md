@@ -54,3 +54,8 @@
 
 **Vertalingen:** 170 nieuwe Engelse teksten toegevoegd, data-bestand naar v=5.
 
+
+**4 november 2026: homepage op het niveau van link2leads.nl**
+- Hero in dezelfde opbouw als link2leads.nl: gecentreerde kop "Een remote setter die afspraken in je agenda zet", daaronder de matchkaart, een knop "Plan een gesprek", een korte regel en drie cijfers (Google 4,8, garantie binnen 14 dagen, per maand op- en afschalen). Tweede knop, kleine lettertjes en belknop uit de hero. De knop staat op elk scherm zonder scrollen in beeld.
+- Vier stappen als korte alinea's in plaats van opsommingen. Teksten ingekort bij cases, capaciteitsscan, modellen, "Wie doet wat", vergelijking (9 naar 6 regels), app-sectie (kaarten twee naast elkaar op mobiel) en het Link2Leads-blok. FAQ-kop heet nu "Veelgestelde vragen".
+- Engelse vertalingen van alle nieuwe teksten in `assets/i18n/l2t-i18n-data.js`, versie naar v=9.

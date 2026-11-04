@@ -4462,5 +4462,203 @@ window.L2T_I18N_DATA = {
 },
 "Link2Talent koppelt B2B bedrijven aan bewezen remote setters en closers. Binnen 14 dagen actief, anders betaal je niets. Per maand op- en afschalen.": {
 "en": "Link2Talent connects B2B companies to proven remote setters and closers. Active within 14 days or you pay nothing. Scale up and down per month."
+},
+"Een remote setter": {
+"en": "A remote setter"
+},
+"die afspraken in je agenda zet": {
+"en": "who books meetings in your calendar"
+},
+"Een": {
+"en": "A"
+},
+"bewezen setter": {
+"en": "proven setter"
+},
+"die jouw leads belt en opvolgt,": {
+"en": "who calls and follows up your leads,"
+},
+"binnen 14 dagen actief": {
+"en": "live within 14 days"
+},
+"binnen 14 dagen": {
+"en": "within 14 days"
+},
+"Per maand": {
+"en": "Monthly"
+},
+"op- en afschalen": {
+"en": "scale up or down"
+},
+"afspraak": {
+"en": "meeting"
+},
+"We kiezen jouw setter": {
+"en": "We pick your setter"
+},
+"We bekijken je aanbod en doelgroep en dragen een setter voor die bij je past. Jij keurt de match goed.": {
+"en": "We look at your offer and audience and propose a setter who fits. You approve the match."
+},
+"We regelen de start": {
+"en": "We handle the start"
+},
+"Contract, betaling en communicatie lopen via ons platform. Jij werkt de setter in op je product en toon.": {
+"en": "Contract, payment and communication run through our platform. You brief the setter on your product and tone."
+},
+"De setter plant afspraken in": {
+"en": "The setter books meetings"
+},
+"De setter belt je leads, volgt op en zet de afspraak direct in jouw agenda. Alles zie je live in het platform.": {
+"en": "The setter calls your leads, follows up and puts the meeting straight into your calendar. You see it all live in the platform."
+},
+"Je stuurt aan zoals bij een eigen collega. Per maand op- of afschalen, en een closer erbij kan ook.": {
+"en": "You manage them like your own colleague. Scale up or down monthly, and adding a closer is possible too."
+},
+"\"Setter was binnen 2 weken actief en plant nu structureel afspraken in.\"": {
+"en": "\"Setter was live within 2 weeks and now books meetings consistently.\""
+},
+"Case · Marketingbureau · Uurtarief": {
+"en": "Case · Marketing agency · Hourly rate"
+},
+"Een parttime setter belt elke ochtend de leads die de eigenaar liet liggen. Een afspraak per gewerkt uur, en drie op de tien wordt klant.": {
+"en": "A part-time setter calls the leads the owner left untouched every morning. One meeting per hour worked, and three in ten become clients."
+},
+"Lees de volledige case →": {
+"en": "Read the full case →"
+},
+"Case · Belkantoor · Uurtarief": {
+"en": "Case · Call agency · Hourly rate"
+},
+"Elke setter zet een afspraak per uur op makkelijke campagnes en een per twee uur op moeilijke. Het bureau schaalt per campagne op en af.": {
+"en": "Each setter books one meeting per hour on easy campaigns and one per two hours on hard ones. The agency scales up and down per campaign."
+},
+"Op makkelijke campagnes": {
+"en": "On easy campaigns"
+},
+"Op moeilijke campagnes": {
+"en": "On hard campaigns"
+},
+"Case · Onze eigen setter bij": {
+"en": "Case · Our own setter at"
+},
+"· Performance": {
+"en": "· Performance"
+},
+"Onze eigen setter krijgt tien procent van het maandbedrag per klant die hij aanbrengt, zolang die klant blijft. Geen vaste kosten voor ons.": {
+"en": "Our own setter earns ten percent of the monthly fee for each client he brings in, for as long as that client stays. No fixed costs for us."
+},
+"Per aangebrachte klant": {
+"en": "Per client brought in"
+},
+"Reken het door": {
+"en": "Run the numbers"
+},
+"Je wilt een setter zonder hem aan te sturen": {
+"en": "You want a setter without managing them"
+},
+"We rekenen uit wat een setter bij jou realistisch inplant. Is het nog te vroeg, dan zeggen we dat ook.": {
+"en": "We work out how many meetings a setter can realistically book for you. If it is too early, we will tell you."
+},
+"Hoeveel afspraken per week realistisch is": {
+"en": "How many meetings per week is realistic"
+},
+"Welk model het beste past": {
+"en": "Which model fits best"
+},
+"Wat een afspraak je kost": {
+"en": "What a meeting costs you"
+},
+"Wat verkoop je, en aan wie? *": {
+"en": "What do you sell, and to whom? *"
+},
+"Bijvoorbeeld: IT-beheer voor MKB in de Randstad, leads uit onze website": {
+"en": "For example: managed IT for SMBs in the Randstad, leads from our website"
+},
+"Jij stuurt de setter aan, wij regelen contract, betaling en rapportage. Geen recruitmentfee en geen opstartkosten.": {
+"en": "You manage the setter, we handle contract, payment and reporting. No recruitment fee and no setup costs."
+},
+"Vergelijk ons met andere opties →": {
+"en": "Compare us with other options →"
+},
+"\"Setters sluiten goed aan op ons salesproces en plannen structureel afspraken in.\"": {
+"en": "\"Setters fit our sales process well and book meetings consistently.\""
+},
+"· Managing Partner": {
+"en": "· Managing Partner"
+},
+"Werkt de setter in, stuurt aan op resultaat en voert de gesprekken.": {
+"en": "Briefs the setter, manages on results and takes the calls."
+},
+"Belt en volgt dagelijks op en zet de afspraak direct in jouw agenda. Fulltime of parttime.": {
+"en": "Calls and follows up daily and puts the meeting straight into your calendar. Full-time or part-time."
+},
+"Kiezen de setter, regelen contract, betaling en rapportage. Wil je wisselen, dan dragen we een ander voor.": {
+"en": "Pick the setter and handle contract, payment and reporting. Want to switch? We propose someone else."
+},
+"Extra setter erbij, meer uren of een ander model regel je per maand via het platform.": {
+"en": "An extra setter, more hours or another model: you arrange it monthly in the platform."
+},
+"Leg ons gerust naast een SDR in dienst of een callbureau. Dit is wat je bij ons krijgt.": {
+"en": "Feel free to compare us with an in-house SDR or a call agency. This is what you get with us."
+},
+"Weet je zeker dat het volume er over een jaar nog is? Dan is een eigen SDR soms beter. Dat zeggen we je ook.": {
+"en": "Sure the volume will still be there in a year? Then an in-house SDR is sometimes better. We will tell you that too."
+},
+"\"Ze koppelen de juiste mensen aan de juiste organisaties. Absolute aanrader.\"": {
+"en": "\"They match the right people with the right organisations. Highly recommended.\""
+},
+"· CEO, B2B dienstverlening": {
+"en": "· CEO, B2B services"
+},
+"Matching, contracten, betaling en contact met je setter op een plek.": {
+"en": "Matching, contracts, payment and contact with your setter in one place."
+},
+"Maak gratis een account aan op app.link2talent.nl en zie binnen een paar minuten wie er beschikbaar is.": {
+"en": "Create a free account at app.link2talent.nl and see who is available within minutes."
+},
+"Bekijk profiel, ervaring en reviews en kies zelf.": {
+"en": "View profile, experience and reviews and choose yourself."
+},
+"Automatisch opgesteld en digitaal ondertekend.": {
+"en": "Drafted automatically and signed digitally."
+},
+"Automatisch op basis van uren of resultaat.": {
+"en": "Automatic, based on hours or results."
+},
+"Direct contact met je setter en met ons.": {
+"en": "Direct contact with your setter and with us."
+},
+"Afspraken, activiteit en uren, altijd actueel.": {
+"en": "Meetings, activity and hours, always up to date."
+},
+"Extra setter of closer? Je ziet direct wie kan.": {
+"en": "Extra setter or closer? You see right away who is available."
+},
+"Een setter zonder instroom zit stil. Die regelen we ook.": {
+"en": "A setter without leads sits idle. We handle that too."
+},
+"mailen we bedrijven in jouw doelgroep. De positieve reacties komen in je mailbox en jouw setter belt ze na. Dezelfde mensen aan tafel.": {
+"en": "we email companies in your target audience. Positive replies land in your inbox and your setter calls them. The same people at the table."
+},
+"Garantie op positieve reacties bij de grotere pakketten": {
+"en": "Guarantee on positive replies with the larger packages"
+},
+"· Growth Lead, Scale-up": {
+"en": "· Growth Lead, Scale-up"
+},
+"4,8 van 5 sterren op Google Reviews": {
+"en": "4.8 out of 5 stars on Google Reviews"
+},
+"Jij voert alleen nog het gesprek.": {
+"en": "You just take the call."
+},
+"· Founder, SaaS": {
+"en": "· Founder, SaaS"
+},
+"Veelgestelde": {
+"en": "Frequently asked"
+},
+"vragen": {
+"en": "questions"
 }
 };

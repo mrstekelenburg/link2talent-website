@@ -2373,34 +2373,56 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
   checkNav();
 })();
 </script>
-<!-- HERO -->
+<!-- HERO (zelfde opbouw als link2leads.nl: kop, beeld, een knop, korte regel, drie cijfers) -->
+<style>
+.hero-c{display:block!important;text-align:center;max-width:860px;margin:0 auto;padding-top:116px;padding-bottom:56px}
+.hero-c .hero-h{max-width:760px;margin:0 auto}
+.hero-c .hero-right{display:block;max-width:540px;margin:14px auto 0;text-align:left}
+.hero-c .inbox-foot{display:none}
+.hero-c .inbox-wrap{padding:22px 0 18px}
+@media(min-width:761px){.hero-c .inbox-row{padding-top:11px!important;padding-bottom:11px!important}}
+.hcta{display:flex;justify-content:center;margin:26px 0 0}
+.hcta-main{display:inline-flex;align-items:center;gap:10px;padding:17px 30px;border-radius:999px;color:#fff;font-weight:800;font-size:16.5px;text-decoration:none;
+  background:linear-gradient(135deg,#2F6FED,#4E86F5);box-shadow:0 14px 36px rgba(47,111,237,.42),inset 0 1px 0 rgba(255,255,255,.2);transition:transform .2s ease,box-shadow .2s ease}
+.hcta-main svg{transition:transform .2s ease}
+.hcta-main:hover{transform:translateY(-2px);box-shadow:0 18px 42px rgba(47,111,237,.5),inset 0 1px 0 rgba(255,255,255,.2)}
+.hcta-main:hover svg{transform:translateX(3px)}
+.hs-v{font-size:18.5px;line-height:1.6;margin:22px auto 30px;color:rgba(240,239,237,.68);max-width:640px;letter-spacing:-.1px;text-wrap:pretty}
+.hs-v b{color:#F0EFED;font-weight:600}
+.hs-v .hs-end{display:block;margin-top:10px;font-size:20px;font-weight:700;letter-spacing:-.3px;background:linear-gradient(135deg,#2F6FED,#7EB3FF);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hstats{display:grid;grid-template-columns:repeat(3,auto);justify-content:center;max-width:620px;margin:0 auto;border-top:1px solid rgba(255,255,255,.08);padding-top:20px}
+.hstat{display:flex;flex-direction:row;align-items:center;gap:10px;padding:0 26px;border-left:1px solid rgba(255,255,255,.08);text-decoration:none;text-align:left}
+.hstat:first-child{padding-left:0;border-left:0}
+.hs-body{display:flex;flex-direction:column;gap:3px;min-width:0}
+.hstat b{font-size:17px;font-weight:800;color:#fff;letter-spacing:-.3px;line-height:1.15;white-space:nowrap}
+.hstat .hs-stars{color:#F5B301;font-size:12px;letter-spacing:1px;margin-left:4px;vertical-align:2px}
+.hstat .hs-lab{font-size:12.5px;color:rgba(255,255,255,.5);line-height:1.3}
+a.hstat:hover .hs-lab{color:rgba(255,255,255,.8)}
+.hs-ic,.hs-g{flex-shrink:0;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.hs-g{background:#fff;padding:6px;box-sizing:border-box}
+.hs-ic-blue{background:rgba(47,111,237,.16);color:#7EB3FF;box-shadow:inset 0 0 0 1px rgba(126,179,255,.25)}
+.hs-ic-green{background:rgba(34,197,94,.14);color:#4ADE80;box-shadow:inset 0 0 0 1px rgba(74,222,128,.25)}
+@media(max-height:820px){.hero-c .inbox-list .inbox-row:nth-child(n+3){display:none}.hero-c .inbox-pill-row,.hero-c .inbox-pill.top{display:none}.hero-c .inbox-wrap{padding:6px 0 4px}}
+@media(max-width:760px){
+  .hero-c{padding-top:100px;padding-bottom:44px}
+  .hero-c .hero-right{margin-top:14px}
+  .hcta-main{width:100%;justify-content:center;padding:17px 20px;box-sizing:border-box}
+  .hs-v{font-size:17px}.hs-v .hs-end{font-size:19px}
+  .hstats{grid-template-columns:repeat(3,minmax(0,1fr));max-width:none}
+  .hstat{flex-direction:column;align-items:center;text-align:center;gap:7px;padding:0 6px}
+  .hstat:first-child{padding-left:0}
+  .hs-body{align-items:center}
+  .hstat b{font-size:15px}.hstat .hs-stars{display:none}.hstat .hs-lab{font-size:11.5px}
+  .hs-ic,.hs-g{width:26px;height:26px}.hs-ic svg{width:13px;height:13px}
+}
+@media(max-height:820px){.hero-c{padding-top:92px!important}.hero-c .hero-right{margin-top:8px}.hcta{margin-top:16px}.hero-c .hero-h{font-size:clamp(30px,4.2vw,50px)}}
+@media(max-height:820px) and (max-width:760px){.hero-c .hero-h{font-size:30px}}
+</style>
 <div class="hero-wrap">
-<div class="hero">
-<div>
+<div class="hero hero-c">
 <h1 class="hero-h">
-Voeg binnen 14 dagen <span class="blue">een remote setter</span> toe aan je salesteam
+<span class="blue">Een remote setter</span> die afspraken in je agenda zet
       </h1>
-<p class="hero-sub">
-        Wij koppelen je aan een bewezen setter die dagelijks afspraken voor je inplant. Geen recruitment en geen vaste hire. Jij kiest het model dat past.
-      </p>
-<div class="hero-btns">
-<a class="btn-solid" href="/book" target="_blank">Plan een gesprek</a>
-<a class="btn-ghost-l2l" href="#contact">Stel eerst je vraag</a>
-</div>
-<p class="hero-note">Binnen 14 dagen actief, anders betaal je niets totdat we dat wel leveren.</p>
-<div class="hero-proof">
-<a aria-label="4,8 sterren op Google Reviews, bekijk de reviews" class="hero-google-badge" href="#reviews">
-<svg fill="none" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"></path><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path></svg>
-<span class="hgb-rating">4,8</span>
-<span aria-hidden="true" class="hgb-stars"><span class="hgb-stars-fill" style="width:94%">★★★★★</span>★★★★★</span>
-<span class="hgb-label">Google Reviews</span>
-</a>
-<a class="hero-call" href="tel:+31850805381">
-<svg aria-hidden="true" fill="none" height="17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="17"><path d="M21 16.9v2.6a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 1.1 3.8 2 2 0 0 1 3.1 1.6h2.6a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L6.8 9.3a16 16 0 0 0 6 6l1.1-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"></path></svg>
-Bel ons: 085 080 5381
-</a>
-</div>
-</div>
 <div class="hero-right reveal">
 <div class="inbox-wrap">
 <div class="inbox-pill top">
@@ -2446,6 +2468,15 @@ Bel ons: 085 080 5381
           Contract en facturatie inbegrepen
         </div></div>
 </div>
+</div>
+<div class="hcta">
+<a class="hcta-main" href="/book" target="_blank"><span>Plan een gesprek</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</div>
+<p class="hero-sub hs-v">Een <b>bewezen setter</b> die jouw leads belt en opvolgt, <b>binnen 14 dagen actief</b>.<span class="hs-end">Jij voert alleen nog het gesprek.</span></p>
+<div class="hstats">
+<a class="hstat" href="#reviews" aria-label="4,8 van 5 sterren op Google Reviews"><svg class="hs-g" aria-hidden="true" fill="none" height="18" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"></path><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path></svg><span class="hs-body"><b>4,8 <span class="hs-stars" aria-hidden="true">★★★★★</span></b><span class="hs-lab">Google Reviews</span></span></a>
+<a class="hstat" href="#garantie"><span class="hs-ic hs-ic-green" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></span><span class="hs-body"><b>Garantie</b><span class="hs-lab">binnen 14 dagen</span></span></a>
+<a class="hstat" href="#modellen"><span class="hs-ic hs-ic-blue" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg></span><span class="hs-body"><b>Per maand</b><span class="hs-lab">op- en afschalen</span></span></a>
 </div>
 </div>
 </div>
@@ -2568,39 +2599,24 @@ Bel ons: 085 080 5381
     @media(max-width:900px){.s4-grid{grid-template-columns:1fr;}}
   </style>
 <div class="steps4-inner">
-<h2 class="steps4-h">Van aanvraag naar <span class="blue">actieve setter</span>, in vier stappen</h2>
+<h2 class="steps4-h">Van aanvraag naar <span class="blue">afspraak</span>, in vier stappen</h2>
+<style>.s4-grid .blk-card .blk-p{margin:0;font-size:15px;line-height:1.65;color:rgba(255,255,255,.72);}</style>
 <div class="blk-grid s4-grid reveal">
 <div class="blk-card">
-<div class="blk-head"><span class="blk-num">1</span><h3>Week 1: intake en match</h3></div>
-<ul class="blk-list">
-<li>We analyseren je aanbod, doelgroep en salesproces</li>
-<li>We dragen de setter voor die past op ervaring, branche en beschikbaarheid</li>
-<li>Jij keurt de match goed</li>
-</ul>
+<div class="blk-head"><span class="blk-num">1</span><h3>We kiezen jouw setter</h3></div>
+<p class="blk-p">We bekijken je aanbod en doelgroep en dragen een setter voor die bij je past. Jij keurt de match goed.</p>
 </div>
 <div class="blk-card">
-<div class="blk-head"><span class="blk-num">2</span><h3>Week 2: onboarding en start</h3></div>
-<ul class="blk-list">
-<li>Contract, betaling en communicatie lopen via ons platform</li>
-<li>Jij werkt de setter in op je product, doelgroep en toon</li>
-<li>Wij regelen alles eromheen</li>
-</ul>
+<div class="blk-head"><span class="blk-num">2</span><h3>We regelen de start</h3></div>
+<p class="blk-p">Contract, betaling en communicatie lopen via ons platform. Jij werkt de setter in op je product en toon.</p>
 </div>
 <div class="blk-card">
-<div class="blk-head"><span class="blk-num">3</span><h3>Doorlopend: dagelijkse opvolging</h3></div>
-<ul class="blk-list">
-<li>De setter belt, volgt op en kwalificeert</li>
-<li>De afspraak staat direct in jouw agenda</li>
-<li>Activiteit, afspraken en uren zie je live in het platform</li>
-</ul>
+<div class="blk-head"><span class="blk-num">3</span><h3>De setter plant afspraken in</h3></div>
+<p class="blk-p">De setter belt je leads, volgt op en zet de afspraak direct in jouw agenda. Alles zie je live in het platform.</p>
 </div>
 <div class="blk-card you">
 <div class="blk-head"><span class="blk-num">4</span><h3>Jij voert de gesprekken</h3></div>
-<ul class="blk-list">
-<li>Jij stuurt aan op resultaat, zoals bij een eigen collega</li>
-<li>Extra setter erbij, van parttime naar fulltime of wisselen van model: per maand</li>
-<li>Liever ook het gesprek uit handen? Dan zetten we er een closer naast</li>
-</ul>
+<p class="blk-p">Je stuurt aan zoals bij een eigen collega. Per maand op- of afschalen, en een closer erbij kan ook.</p>
 </div>
 </div>
 <p class="steps4-note reveal"><strong>Standaard</strong> een setter die afspraken in je agenda zet. <strong>Met een closer erbij</strong> ook het verkoopgesprek.</p>
@@ -2688,7 +2704,7 @@ Bel ons: 085 080 5381
 <div class="cs-body">
 <div class="cs-kicker"><span class="cs-logo-np" aria-hidden="true">MB</span><span>Case &middot; Marketingbureau &middot; Uurtarief</span></div>
 <h3><span class="blue">10 afspraken per week</span> uit 10 uur setter</h3>
-<p class="cs-sum">Een parttime setter volgt elke ochtend de reacties op de campagne op en belt de leads die de eigenaar zelf liet liggen. Een afspraak per gewerkt uur, en de eigenaar sluit drie op de tien.</p>
+<p class="cs-sum">Een parttime setter belt elke ochtend de leads die de eigenaar liet liggen. Een afspraak per gewerkt uur, en drie op de tien wordt klant.</p>
 <div class="cs-stats">
 <div><b>10</b><span>Afspraken per week, in 10 uur</span></div>
 <div><b>30%</b><span>Wordt klant</span></div>
@@ -2701,11 +2717,11 @@ Bel ons: 085 080 5381
 <div class="cs-body">
 <div class="cs-kicker"><span class="cs-logo-np" aria-hidden="true">BK</span><span>Case &middot; Belkantoor &middot; Uurtarief</span></div>
 <h3><span class="blue">10 setters geplaatst</span> bij een cold call agency</h3>
-<p class="cs-sum">Op toegankelijke campagnes zet elke setter gemiddeld een afspraak per uur, op moeilijkere een per twee uur. Het uurtarief is dezelfde dag terugverdiend, en het bureau schaalt per campagne op en af.</p>
+<p class="cs-sum">Elke setter zet een afspraak per uur op makkelijke campagnes en een per twee uur op moeilijke. Het bureau schaalt per campagne op en af.</p>
 <div class="cs-stats">
 <div><b>10</b><span>Setters actief</span></div>
-<div><b>1 / uur</b><span>Afspraak op toegankelijke campagnes</span></div>
-<div><b>1 / 2 uur</b><span>Afspraak op moeilijkere campagnes</span></div>
+<div><b>1 / uur</b><span>Op makkelijke campagnes</span></div>
+<div><b>1 / 2 uur</b><span>Op moeilijke campagnes</span></div>
 </div>
 <a class="cs-more" href="/cases/belkantoor">Lees de volledige case &rarr;</a>
 </div>
@@ -2714,9 +2730,9 @@ Bel ons: 085 080 5381
 <div class="cs-body">
 <div class="cs-kicker"><span class="cs-logo-np" aria-hidden="true">L2L</span><span>Case &middot; Onze eigen setter bij <span class="l2b">Link<i>2</i>Leads</span> &middot; Performance</span></div>
 <h3>Doorlopende commissie: <span class="blue">10% van het maandbedrag</span>, elke maand</h3>
-<p class="cs-sum">Onze eigen setter brengt afspraken aan voor Link2Leads en krijgt per gesloten klant tien procent van het maandbedrag, zolang die klant blijft. Geen vaste kosten voor ons, een doorlopend inkomen voor hem.</p>
+<p class="cs-sum">Onze eigen setter krijgt tien procent van het maandbedrag per klant die hij aanbrengt, zolang die klant blijft. Geen vaste kosten voor ons.</p>
 <div class="cs-stats">
-<div><b>10%</b><span>Van het maandbedrag, per aangebrachte klant</span></div>
+<div><b>10%</b><span>Per aangebrachte klant</span></div>
 <div><b>0</b><span>Vaste kosten</span></div>
 <div><b>Direct</b><span>Uitbetaald zodra de klant betaalt</span></div>
 </div>
@@ -2731,7 +2747,7 @@ Bel ons: 085 080 5381
 </div>
 <p class="cs-swipe">Swipe of gebruik de pijlen.</p>
 <div class="cs-allcases"><a class="cs-allcases-btn" href="/cases">Bekijk alle cases <span aria-hidden="true">→</span></a>
-<a class="cs-allcases-btn" href="/calculator-l2t" style="margin-left:10px;">Reken je eigen situatie door <span aria-hidden="true">→</span></a></div>
+<a class="cs-allcases-btn" href="/calculator-l2t" style="margin-left:10px;">Reken het door <span aria-hidden="true">→</span></a></div>
 </div>
 </div>
 <script>
@@ -2790,7 +2806,7 @@ Bel ons: 085 080 5381
 <li><span>✗</span>Je aanbod is nog niet verkocht aan een betalende klant</li>
 <li><span>✗</span>Je hebt geen duidelijke doelgroep of ideale klant</li>
 <li><span>✗</span>Je hebt geen tijd om de gesprekken zelf te voeren</li>
-<li><span>✗</span>Je verwacht een volledig ontzorgd salesteam zonder sturing</li>
+<li><span>✗</span>Je wilt een setter zonder hem aan te sturen</li>
 </ul>
 </div>
 </div>
@@ -2803,12 +2819,12 @@ Bel ons: 085 080 5381
 <div class="scan-card">
 <div>
 <h2 style="font-size:clamp(24px,3.4vw,32px);line-height:1.18;letter-spacing:-1px;font-weight:800;margin:14px 0 12px;">Hoeveel afspraken zet een setter <span class="blue">in jouw situatie</span>?</h2>
-<p style="font-size:15.5px;line-height:1.7;color:rgba(255,255,255,.66);margin:0;">Op basis van je aanbod, je instroom en je doelgroep rekenen we uit wat een setter bij jou realistisch zet. Eerlijk, ook als het antwoord is dat een setter nu nog te vroeg is.</p>
+<p style="font-size:15.5px;line-height:1.7;color:rgba(255,255,255,.66);margin:0;">We rekenen uit wat een setter bij jou realistisch inplant. Is het nog te vroeg, dan zeggen we dat ook.</p>
 <ul class="scan-list">
-<li>Hoeveel afspraken per week realistisch is, met de benchmark uit onze plaatsingen</li>
+<li>Hoeveel afspraken per week realistisch is</li>
 <li>Hoeveel uur per week daarbij past</li>
-<li>Welk model het beste aansluit: uurtarief, performance of seat</li>
-<li>Wat een afspraak en een nieuwe klant je kost</li>
+<li>Welk model het beste past</li>
+<li>Wat een afspraak je kost</li>
 </ul>
 </div>
 <div class="scan-form">
@@ -2818,8 +2834,8 @@ Bel ons: 085 080 5381
 <input autocomplete="email" id="sc-email" name="email" placeholder="naam@bedrijf.nl" required="" type="email"/>
 </div>
 <div class="cf-field">
-<label for="sc-doel">Wat verkoop je, aan wie, en waar komen je leads nu vandaan? *</label>
-<textarea id="sc-doel" name="situatie" placeholder="Bijvoorbeeld: wij verkopen IT-beheer aan MKB-bedrijven in de Randstad, leads komen uit onze website en e-mailcampagnes, niemand belt ze dezelfde dag terug" required="" style="min-height:92px;"></textarea>
+<label for="sc-doel">Wat verkoop je, en aan wie? *</label>
+<textarea id="sc-doel" name="situatie" placeholder="Bijvoorbeeld: IT-beheer voor MKB in de Randstad, leads uit onze website" required="" style="min-height:92px;"></textarea>
 </div>
 <div class="cf-hp"><label for="sc-website">Website</label><input autocomplete="off" id="sc-website" name="website" tabindex="-1" type="text"/></div>
 <button class="btn-solid cf-submit" id="scSubmit" type="submit">Stuur mij de capaciteitsscan →</button>
@@ -2871,7 +2887,7 @@ Bel ons: 085 080 5381
 <div class="pricing-inner">
 <div class="pricing-header reveal">
 <h2 class="big-h">Kies het model dat<br/><span class="blue">bij jou past.</span></h2>
-<p class="big-sub">Alle modellen werken hetzelfde: jij stuurt de setter aan, wij leveren de capaciteit en regelen contract, betaling en rapportage. Per maand op- en afschalen. <a href="#vergelijk" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">Vergelijk ons met een SDR in dienst of een callbureau →</a></p>
+<p class="big-sub">Jij stuurt de setter aan, wij regelen contract, betaling en rapportage. Geen recruitmentfee en geen opstartkosten. <a href="#vergelijk" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">Vergelijk ons met andere opties →</a></p>
 </div>
 <div class="pricing-grid">
 <div class="p-card reveal">
@@ -2921,7 +2937,6 @@ Bel ons: 085 080 5381
 <a class="p-btn solid" href="/book" target="_blank">Plan een gesprek</a>
 </div>
 </div>
-<p class="p-note reveal"><strong>Hoe het altijd werkt:</strong> de setter werkt bij jou in en jij stuurt aan. Wij regelen de match, het contract en de betaling. Geen recruitmentfee en geen opstartkosten.</p>
 <a class="rv-mini reveal rv-in-price" href="#reviews" aria-label="Review van Dick, 5 sterren, lees alle reviews">
 <span class="rv-av rv-av-ini" aria-hidden="true">D</span>
 <span class="rv-body">
@@ -3014,16 +3029,16 @@ Bel ons: 085 080 5381
 <details class="pa-item">
 <summary><span class="pa-sl"><span class="pa-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>Wie doet wat?</span></summary>
 <div class="pa-body"><div class="pa-stack">
-<div><div class="gt">Jij</div><p>Werkt de setter in op je product, doelgroep en toon. Stuurt aan op resultaat, zoals je een eigen collega zou aansturen. Voert de gesprekken die de setter inplant.</p></div>
-<div><div class="gt">De setter</div><p>Belt en volgt dagelijks op, kwalificeert en zet de afspraak direct in jouw agenda. Werkt fulltime of parttime, afhankelijk van wat je afspreekt.</p></div>
-<div><div class="gt">Wij</div><p>Selecteren en dragen voor, regelen contract en betaling, houden de rapportage bij en zorgen dat de samenwerking loopt. Wil je wisselen, dan zetten wij een andere setter voor.</p></div>
+<div><div class="gt">Jij</div><p>Werkt de setter in, stuurt aan op resultaat en voert de gesprekken.</p></div>
+<div><div class="gt">De setter</div><p>Belt en volgt dagelijks op en zet de afspraak direct in jouw agenda. Fulltime of parttime.</p></div>
+<div><div class="gt">Wij</div><p>Kiezen de setter, regelen contract, betaling en rapportage. Wil je wisselen, dan dragen we een ander voor.</p></div>
 </div></div>
 </details>
 <details class="pa-item" id="garantie-uitleg">
 <summary><span class="pa-sl"><span class="pa-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></span>Garantie en flexibiliteit</span></summary>
 <div class="pa-body"><div class="pa-stack">
 <div><div class="gt">14 dagen</div><p>Binnen 14 dagen na akkoord staat je setter aan het werk. Zo niet, dan betaal je niets totdat we dat wel leveren.</p></div>
-<div><div class="gt">Op- en afschalen</div><p>Extra setter erbij, van parttime naar fulltime, of overstappen van het ene model naar het andere: dat regel je via het platform, per maand.</p></div>
+<div><div class="gt">Op- en afschalen</div><p>Extra setter erbij, meer uren of een ander model regel je per maand via het platform.</p></div>
 <div><div class="gt">Wisselen van setter</div><p>Liever iemand anders? Dan dragen wij een andere setter voor. Geen ontslagtraject, geen opzegtermijn van maanden.</p></div>
 <div><div class="gt">Later in dienst nemen</div><p>Kan, en gebeurt. Bespreek het vooraf, dan leggen we de voorwaarden vast.</p></div>
 </div></div>
@@ -3042,7 +3057,7 @@ Bel ons: 085 080 5381
 <section class="cmp-section cmp" id="vergelijk">
   <div class="cmp-head reveal">
     <h2 class="big-h">Vergelijkbaar met <span class="blue">zelf iemand aannemen?</span></h2>
-    <p class="big-sub">Leg ons gerust naast een SDR in dienst of een callbureau. Dit is wat je bij ons standaard krijgt en wat je elders zelf regelt of mist.</p>
+    <p class="big-sub">Leg ons gerust naast een SDR in dienst of een callbureau. Dit is wat je bij ons krijgt.</p>
   </div>
   <div class="cmp-legend reveal">
     <span><span class="ck">&#10003;</span> Bij ons inbegrepen</span>
@@ -3059,15 +3074,12 @@ Bel ons: 085 080 5381
 <tr><td class="cmp-lab"><span class="cmp-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg></span><b>Wisselen van setter</b><small>Als je liever iemand anders wilt.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Andere setter, zonder gedoe</span><span class="t">Wij dragen een andere setter voor. Geen ontslagtraject, geen maanden opzegtermijn.</span></span></td><td class="cmp-th th-sdr"><span class="cmp-c"><span class="no" aria-label="Niet">&times;</span><span class="t-m">Ontslagtraject</span><span class="t">Proeftijd, ontslagprocedure of vaststellingsovereenkomst.</span></span></td><td class="cmp-th th-bur"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t-m">Contract uitzitten</span><span class="t">Contract uitzitten of afkopen.</span></span></td></tr>
 <tr><td class="cmp-lab"><span class="cmp-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span><b>Wie stuurt aan</b><small>Wie bepaalt wat de setter zegt en doet.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Jij, als een eigen collega</span><span class="t">Jij. De setter werkt op jouw product en toon, als een eigen collega. Wij regelen alles eromheen.</span></span></td><td class="cmp-th th-sdr"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t-m">Jij, plus werkgeversrol</span><span class="t">Jij, inclusief de werkgeversrol en alles wat daarbij hoort.</span></span></td><td class="cmp-th th-bur"><span class="cmp-c"><span class="no" aria-label="Niet">&times;</span><span class="t-m">Het bureau, met een script</span><span class="t">Het bureau. Een script en een teamlead die je niet spreekt.</span></span></td></tr>
 <tr><td class="cmp-lab"><span class="cmp-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span><b>Contract, betaling, rapportage</b><small>Wat je zelf moet regelen.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Alles via ons platform</span><span class="t">Loopt via ons platform: contract, facturatie, communicatie en rapportage op een plek.</span></span></td><td class="cmp-th th-sdr"><span class="cmp-c"><span class="no" aria-label="Niet">&times;</span><span class="t-m">Zelf opzetten</span><span class="t">Arbeidscontract, salarisadministratie, tooling en rapportage zelf opzetten.</span></span></td><td class="cmp-th th-bur"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t-m">Rapportage in hun format</span><span class="t">Contract met het bureau, rapportage in hun format.</span></span></td></tr>
-<tr><td class="cmp-lab"><span class="cmp-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><b>Wie er belt</b><small>Wat voor iemand het gesprek voert.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Ervaren setter, door jou goedgekeurd</span><span class="t">Een ervaren setter uit echte B2B-sales, door ons geselecteerd en door jou goedgekeurd.</span></span></td><td class="cmp-th th-sdr"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t-m">Wie je zelf vindt</span><span class="t">Wie je zelf vindt op de markt, na een wervingstraject.</span></span></td><td class="cmp-th th-bur"><span class="cmp-c"><span class="no" aria-label="Niet">&times;</span><span class="t-m">Wie beschikbaar is</span><span class="t">Wie er die dag beschikbaar is op de belvloer.</span></span></td></tr>
 <tr><td class="cmp-lab"><span class="cmp-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg></span><b>Leads erbij</b><small>Als er te weinig gesprekken zijn om op te volgen.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Via <span class="brand">Link<i>2</i>Leads</span></span><span class="t">Via ons zusterbedrijf <span class="brand">Link<i>2</i>Leads</span> regelen we de instroom per e-mail, met dezelfde mensen aan tafel.</span></span></td><td class="cmp-th th-sdr"><span class="cmp-c"><span class="no" aria-label="Niet">&times;</span><span class="t-m">Apart regelen</span><span class="t">Aparte oplossing zoeken.</span></span></td><td class="cmp-th th-bur"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t-m">Soms, tegen meerprijs</span><span class="t">Soms, als extra dienst tegen meerprijs.</span></span></td></tr>
-<tr><td class="cmp-lab"><span class="cmp-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg></span><b>Setters en closers</b><small>Als je meer wilt dan afspraken.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Setter en closer, los of samen</span><span class="t">Setter voor de afspraak, closer voor het gesprek. Los of samen, via hetzelfde platform.</span></span></td><td class="cmp-th th-sdr"><span class="cmp-c"><span class="no" aria-label="Niet">&times;</span><span class="t-m">Twee vacatures</span><span class="t">Twee vacatures, twee trajecten.</span></span></td><td class="cmp-th th-bur"><span class="cmp-c"><span class="no" aria-label="Niet">&times;</span><span class="t-m">Alleen afspraken</span><span class="t">Alleen afspraken zetten.</span></span></td></tr>
-<tr><td class="cmp-lab"><span class="cmp-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span><b>Inzicht in resultaat</b><small>Wat je ziet zonder er zelf om te vragen.</small></td><td class="cmp-us"><span class="cmp-c"><span class="ck" aria-label="Ja">&#10003;</span><span class="t-m">Activiteit, afspraken en uren, live</span><span class="t">Activiteit, geboekte afspraken en uren in het platform. Altijd actueel.</span></span></td><td class="cmp-th th-sdr"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t-m">Zelf bijhouden</span><span class="t">Wat je zelf bijhoudt in je CRM.</span></span></td><td class="cmp-th th-bur"><span class="cmp-c"><span class="so" aria-label="Soms">&plusmn;</span><span class="t-m">Wekelijks overzicht</span><span class="t">Een wekelijks overzicht van het bureau.</span></span></td></tr>
   </tbody>
   </table>
   </div>
   <div class="cmp-foot">
-    <p>Een eigen SDR is de betere keuze zodra je zeker weet dat het volume er over twaalf maanden nog is en er iemand is die dagelijks kan aansturen. Dat zeggen we ook als het zo ligt. <a href="/kennis/remote-setter-vs-sdr">Lees de volledige afweging</a>.</p>
+    <p>Weet je zeker dat het volume er over een jaar nog is? Dan is een eigen SDR soms beter. Dat zeggen we je ook. <a href="/kennis/remote-setter-vs-sdr">Lees de volledige afweging</a>.</p>
     <a class="btn-solid" href="/book" target="_blank" style="white-space:nowrap;">Plan een gesprek</a>
   </div>
   </div>
@@ -3098,22 +3110,23 @@ Bel ons: 085 080 5381
   .ksig-c b{display:block;font-size:15.5px;font-weight:700;color:var(--accent2);margin-bottom:0;}
   .ksig-c span{display:block;font-size:14.5px;line-height:1.55;color:rgba(255,255,255,.68);}
   .ksig-foot{margin:20px 0 0;font-size:14px;line-height:1.6;color:var(--muted);}
-  @media(max-width:900px){.ksig-wrap{padding:30px 28px;}.ksig-grid{grid-template-columns:1fr;}}
+  @media(max-width:900px){.ksig-wrap{padding:30px 28px;}.ksig-grid{grid-template-columns:1fr 1fr;gap:10px;}}
+  @media(max-width:560px){.ksig-wrap{padding:24px 18px;}.ksig-c{padding:14px 14px;}.ksig-c span:not(.ksig-h):not(.ksig-i){font-size:13.5px;line-height:1.5;}}
   @media(max-width:620px){.ksig-wrap{padding:26px 22px;}}
 </style>
 <div class="ksig-head reveal">
   <h2 class="big-h">Alles geregeld<br/>in <span class="blue">dezelfde app</span></h2>
-  <p class="big-sub">Van matching tot facturering, van communicatie tot contracten. Geen losse tools en geen e-mailchaos.</p>
+  <p class="big-sub">Matching, contracten, betaling en contact met je setter op een plek.</p>
 </div>
 <div class="ksig-wrap reveal">
-  <p class="ksig-p">Maak een gratis account aan op app.link2talent.nl. Binnen een paar minuten zie je beschikbare setters, start je een match en regel je contract, betaling en communicatie in dezelfde omgeving. Ook voor kandidaten: als setter of closer aanmelden doe je via dezelfde app.</p>
+  <p class="ksig-p">Maak gratis een account aan op app.link2talent.nl en zie binnen een paar minuten wie er beschikbaar is.</p>
   <div class="ksig-grid">
-    <div class="ksig-c"><span class="ksig-h"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.35-4.35"/></svg></span><b>Matching</b></span><span>Bekijk direct beschikbare setters, check profiel, ervaring en reviews. Jij kiest de match die past.</span></div>
-    <div class="ksig-c"><span class="ksig-h"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span><b>Contracten</b></span><span>Digitale contracten, automatisch opgesteld op basis van het gekozen model. Ondertekenen in de app.</span></div>
-    <div class="ksig-c"><span class="ksig-h"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/><line x1="6" y1="15" x2="10" y2="15"/></svg></span><b>Facturering</b></span><span>Automatisch op basis van uren of performance. Geen handmatig bijhouden en geen discussie achteraf.</span></div>
-    <div class="ksig-c"><span class="ksig-h"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span><b>Communicatie</b></span><span>Direct contact met je setter en met ons team via de app. Niets dat verdwijnt in een mailbox.</span></div>
-    <div class="ksig-c"><span class="ksig-h"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span><b>Rapportage</b></span><span>Activiteit, geboekte afspraken en uren, altijd actueel. Zonder zelf iets bij te houden.</span></div>
-    <div class="ksig-c"><span class="ksig-h"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></span><b>Opschalen</b></span><span>Extra setter of closer nodig? Je ziet direct wie beschikbaar is en start een nieuwe match.</span></div>
+    <div class="ksig-c"><span class="ksig-h"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.35-4.35"/></svg></span><b>Matching</b></span><span>Bekijk profiel, ervaring en reviews en kies zelf.</span></div>
+    <div class="ksig-c"><span class="ksig-h"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span><b>Contracten</b></span><span>Automatisch opgesteld en digitaal ondertekend.</span></div>
+    <div class="ksig-c"><span class="ksig-h"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/><line x1="6" y1="15" x2="10" y2="15"/></svg></span><b>Facturering</b></span><span>Automatisch op basis van uren of resultaat.</span></div>
+    <div class="ksig-c"><span class="ksig-h"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span><b>Communicatie</b></span><span>Direct contact met je setter en met ons.</span></div>
+    <div class="ksig-c"><span class="ksig-h"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span><b>Rapportage</b></span><span>Afspraken, activiteit en uren, altijd actueel.</span></div>
+    <div class="ksig-c"><span class="ksig-h"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></span><b>Opschalen</b></span><span>Extra setter of closer? Je ziet direct wie kan.</span></div>
   </div>
   <p class="ksig-foot">Liever eerst iemand spreken? <a href="/book" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">Plan een gesprek</a>, of ga direct naar <a href="https://app.link2talent.nl" rel="noopener" target="_blank" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">app.link2talent.nl</a>.</p>
 </div>
@@ -3154,11 +3167,11 @@ Bel ons: 085 080 5381
 </style>
 <div class="l2lb-head reveal">
   <h2 class="big-h">Te weinig gesprekken <span class="blue">voor je setter</span>?</h2>
-  <p class="big-sub">Een setter zonder instroom zit stil. Daarom regelen we die instroom ook, onder hetzelfde dak.</p>
+  <p class="big-sub">Een setter zonder instroom zit stil. Die regelen we ook.</p>
 </div>
 <div class="l2lb-wrap reveal">
   <div>
-    <p>Via ons zusterbedrijf <span class="l2b">Link<i>2</i>Leads</span> draaien we koude e-mailcampagnes naar jouw doelgroep: leadlijst, teksten, verzending en het filteren van de reacties. De positieve reacties komen binnen in je mailbox en jouw setter belt ze na. Dezelfde mensen aan tafel, dus geen afstemming tussen twee bureaus.</p>
+    <p>Via ons zusterbedrijf <span class="l2b">Link<i>2</i>Leads</span> mailen we bedrijven in jouw doelgroep. De positieve reacties komen in je mailbox en jouw setter belt ze na. Dezelfde mensen aan tafel.</p>
     <div class="l2lb-btns">
       <a href="https://www.link2leads.nl" rel="noopener" target="_blank" class="btn-solid">Bekijk <span class="l2b">Link<i>2</i>Leads</span></a>
       <a href="/book" target="_blank" class="btn-ghost-l2l">Bespreek de combinatie</a>
@@ -3170,7 +3183,7 @@ Bel ons: 085 080 5381
       <li>Campagne live binnen twee weken</li>
       <li>Alleen positieve reacties komen bij je setter terecht</li>
       <li>Zeven dagen per week verzenden</li>
-      <li>Contractuele garantie op positieve reacties op de grotere pakketten</li>
+      <li>Garantie op positieve reacties bij de grotere pakketten</li>
     </ul>
   </div>
 </div>
@@ -3246,7 +3259,7 @@ Bel ons: 085 080 5381
     .faq-item p{padding:0 22px 20px;margin:0;font-size:15px;line-height:1.65;color:rgba(255,255,255,0.65);}
   </style>
 <div class="reveal" style="text-align:center;">
-<h2 class="big-h"><span class="blue">Vragen</span> die we vaak krijgen</h2>
+<h2 class="big-h">Veelgestelde <span class="blue">vragen</span></h2>
 </div>
 <div class="faq-list reveal">
     <details class="faq-item"><summary>Hoe snel kan een setter starten?</summary><p>Binnen 14 dagen na akkoord. Week 1 is intake en match, week 2 is inwerken op je product en doelgroep. Daarna belt de setter dagelijks. Staat de setter niet binnen 14 dagen aan het werk, dan betaal je niets totdat we dat wel leveren.</p></details>
@@ -3549,7 +3562,7 @@ if (starsEl) for (let i = 0; i < 60; i++) {
   starsEl.appendChild(s);
 }
 </script>
-<script src="/assets/i18n/l2t-i18n.js?v=8"></script>
+<script src="/assets/i18n/l2t-i18n.js?v=9"></script>
 <script src="/assets/tracking.js?v=2" defer></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.
