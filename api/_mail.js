@@ -123,9 +123,9 @@ function klantUrl(who) {
 }
 
 // Het blok dat in elke boekingsmail vraagt om /klant in te vullen.
-// Zelfde boodschap overal: vul de vragenlijst in voor de beste kennismaking.
+// Zelfde boodschap overal: vul de vragenlijst in voor het beste matchgesprek.
 function prepBlock(dateStr, variant, soort, who) {
-  const g = soort || 'kennismaking';
+  const g = soort || 'matchgesprek';
   const wd = weekdayOf(dateStr);
   const wanneer = wd ? wd : 'in de ' + g;
   const isFull = variant === 'full';

@@ -48,7 +48,6 @@ window.L2T_I18N_DATA = {
 "Contract en facturatie inbegrepen": {
 "en": "Contract and invoicing included"
 },
-
 "Link": {
 "en": "Link"
 },
@@ -72,6 +71,9 @@ window.L2T_I18N_DATA = {
 },
 "Plan een gesprek": {
 "en": "Book a call"
+},
+"Plan je gratis matchgesprek": {
+"en": "Book your free match call"
 },
 "Team": {
 "en": "Team"
@@ -190,6 +192,9 @@ window.L2T_I18N_DATA = {
 "Plan een gesprek →": {
 "en": "Book a call →"
 },
+"Plan je gratis matchgesprek →": {
+"en": "Book your free match call →"
+},
 "Van aanvraag naar": {
 "en": "From request to"
 },
@@ -253,9 +258,6 @@ window.L2T_I18N_DATA = {
 "Bekijk direct beschikbare setters, check hun profiel, ervaring en reviews. Jij kiest de match die past.": {
 "en": "See which setters are available, check their profile, experience and reviews. You pick the match that fits."
 },
-"Contracten": {
-"en": "Contracts"
-},
 "Digitale contracten, automatisch gegenereerd op basis van het gekozen model. Onderteken in de app.": {
 "en": "Digital contracts, generated automatically from the model you chose. Sign them in the app."
 },
@@ -270,9 +272,6 @@ window.L2T_I18N_DATA = {
 },
 "Direct contact met je setter en met ons team via de app. Niets dat verdwijnt in een mailbox.": {
 "en": "Talk to your setter and to our team straight from the app. Nothing disappears into a mailbox."
-},
-"Rapportage": {
-"en": "Reporting"
 },
 "Inzicht in activiteit, geboekte afspraken en uren. Altijd een actueel overzicht zonder zelf bij te houden.": {
 "en": "Activity, booked meetings and hours in one place. Always current, without you keeping score."
@@ -594,6 +593,9 @@ window.L2T_I18N_DATA = {
 },
 "Plan een gesprek en we laten je zien hoe snel je live kunt gaan. Geen verplichtingen, gewoon een eerlijk gesprek over wat bij jou past.": {
 "en": "Book a call and we will show you how quickly you can go live. No obligations, just an honest conversation about what fits you."
+},
+"Plan je gratis matchgesprek en we laten je zien hoe snel je live kunt gaan. Geen verplichtingen, gewoon een eerlijk gesprek over wat bij jou past.": {
+"en": "Book your free match call and we will show you how quickly you can go live. No obligations, just an honest conversation about what fits you."
 },
 "Gratis account zonder verplichtingen": {
 "en": "A free account, no strings attached"
@@ -1969,6 +1971,9 @@ window.L2T_I18N_DATA = {
 "Plan een gesprek met Link": {
 "en": "Book a call with Link"
 },
+"Plan je gratis matchgesprek met Link": {
+"en": "Book your free match call with Link"
+},
 "We bespreken jullie salesinrichting, doelen en welk commercieel profiel daar het meeste impact maakt. Geen verplichtingen, wel een eerlijk gesprek.": {
 "en": "We go through how your sales is set up, your goals, and which commercial profile would make the most difference. No obligations, just an honest conversation."
 },
@@ -2131,10 +2136,15 @@ window.L2T_I18N_DATA = {
 "Plan een gesprek | Link2Talent": {
 "en": "Book a call | Link2Talent"
 },
+"Plan je gratis matchgesprek | Link2Talent": {
+"en": "Book your free match call | Link2Talent"
+},
 "Plan een gratis kennismakingsgesprek met Link2Talent. In 30 minuten bespreken we jouw salesinrichting en welk commercieel profiel het meeste impact maakt.": {
 "en": "Book a free intro call with Link2Talent. In 30 minutes we go through how your sales is set up and which commercial profile would make the most difference."
 },
-/* ── Vergelijking, garantie, accordeons, leads-band, FAQ, mini-reviews (25 sept 2026) ── */
+"Plan je gratis matchgesprek met Link2Talent. In 30 minuten bespreken we jouw salesinrichting en welk commercieel profiel het meeste impact maakt.": {
+"en": "Book your free match call with Link2Talent. In 30 minutes we go through how your sales is set up and which commercial profile would make the most difference."
+},
 "Vergelijk": {
 "en": "Compare"
 },
@@ -2690,7 +2700,6 @@ window.L2T_I18N_DATA = {
 "Anne-Roos, co-founder van Link2Talent": {
 "en": "Anne-Roos, co-founder of Link2Talent"
 },
-/* ── Cases, nieuwe kennisartikelen, vergelijkingspagina, Amsterdam, 404, homepage cases/scan/contact (25 sept 2026) ── */
 "Deze pagina": {
 "en": "This page"
 },
@@ -2834,6 +2843,9 @@ window.L2T_I18N_DATA = {
 },
 "In een gratis kennismakingsgesprek van 30 minuten leggen we je bottleneck en de benodigde capaciteit naast elkaar.": {
 "en": "In a free 30-minute intro call we put your bottleneck and the capacity you need side by side."
+},
+"In een gratis matchgesprek van 30 minuten leggen we je bottleneck en de benodigde capaciteit naast elkaar.": {
+"en": "In a free 30-minute match call we put your bottleneck and the capacity you need side by side."
 },
 "/ Vergelijking": {
 "en": "/ Comparison"
@@ -3321,6 +3333,9 @@ window.L2T_I18N_DATA = {
 "Het werkt het beste bij een terugkerend maandbedrag. Verkoop je eenmalige projecten, dan bespreken we in het kennismakingsgesprek welke variant past.": {
 "en": "It works best with a recurring monthly fee. If you sell one-off projects, we discuss in the intro call which variant fits."
 },
+"Het werkt het beste bij een terugkerend maandbedrag. Verkoop je eenmalige projecten, dan bespreken we in het matchgesprek welke variant past.": {
+"en": "It works best with a recurring monthly fee. If you sell one-off projects, we discuss in the match call which variant fits."
+},
 "Welk prijsmodel past bij de meetbaarheid van je resultaat": {
 "en": "Which pricing model fits the measurability of your result"
 },
@@ -3458,6 +3473,9 @@ window.L2T_I18N_DATA = {
 },
 "In het gratis kennismakingsgesprek van 30 minuten kijken we naar je aanbod, je instroom en welk model past. Je krijgt een eerlijk advies, ook als we niet samenwerken.": {
 "en": "In the free 30-minute intro call we look at your offer, your inflow and which model fits. You get honest advice, even if we don't work together."
+},
+"In het gratis matchgesprek van 30 minuten kijken we naar je aanbod, je instroom en welk model past. Je krijgt een eerlijk advies, ook als we niet samenwerken.": {
+"en": "In the free 30-minute match call we look at your offer, your inflow and which model fits. You get honest advice, even if we don't work together."
 },
 "Anne-Roos en Demi, de oprichters. Zij doen zelf de kennismaking en de match.": {
 "en": "Anne-Roos and Demi, the founders. They do the intro and the match themselves."
@@ -3924,7 +3942,6 @@ window.L2T_I18N_DATA = {
 "Wat een opdrachtgever deed die in drie weken op niveau zat": {
 "en": "What a client did who was up to speed in three weeks"
 },
-/* ── Alt-teksten foto's (25 sept 2026) ── */
 "Anne-Roos en Demi van Link2Talent": {
 "en": "Anne-Roos and Demi of Link2Talent"
 },
@@ -3940,7 +3957,6 @@ window.L2T_I18N_DATA = {
 "Anne-Roos en Demi van Link2Talent in overleg": {
 "en": "Anne-Roos and Demi of Link2Talent in discussion"
 },
-/* ── Homepage op L2L-skelet (25 sept 2026) ── */
 "Zo werkt het": {
 "en": "How it works"
 },
@@ -4660,5 +4676,41 @@ window.L2T_I18N_DATA = {
 },
 "vragen": {
 "en": "questions"
+},
+"100+": {
+"en": "100+"
+},
+"We plaatsten al 100+ setters. Drie daarvan zoals ze nu draaien, zonder klantnamen en met cijfers.": {
+"en": "We have placed 100+ setters. Here are three as they run today, without client names and with numbers."
+},
+"In het gratis matchgesprek van 30 minuten kijken we naar je aanbod, je instroom en welk model past. Na 100+ plaatsingen weten we snel welk profiel bij je werkt. Je krijgt een eerlijk advies, ook als we niet samenwerken.": {
+"en": "In the free 30-minute match call we look at your offer, your inflow and which model fits. After 100+ placements we quickly know which profile works for you. You get honest advice, even if we don't work together."
+},
+"We bekijken je aanbod en doelgroep en dragen een setter voor die bij je past. Dat doen we op basis van 100+ plaatsingen. Jij keurt de match goed.": {
+"en": "We look at your offer and audience and propose a setter who fits, based on 100+ placements. You approve the match."
+},
+"Remote setters en closers voor B2B. Al 100+ setters geplaatst. Binnen 14 dagen actief, jij stuurt aan en wij regelen contract, betaling en rapportage.": {
+"en": "Remote setters and closers for B2B. 100+ setters placed. Live within 14 days, you manage and we handle contract, payment and reporting."
+},
+"We plaatsten al 100+ setters. Hier drie zoals ze nu draaien: wat de startsituatie was, wat er is ingezet en wat het per week oplevert. Klantnamen laten we weg, de cijfers niet.": {
+"en": "We have placed 100+ setters. Here are three as they run today: the starting point, what was deployed and what it delivers per week. We leave out client names, not the numbers."
+},
+"We bespreken jullie salesinrichting, doelen en welk commercieel profiel daar het meeste impact maakt. We plaatsten al 100+ setters, dus je krijgt een eerlijk advies op basis van wat werkt.": {
+"en": "We discuss your sales setup, goals and which commercial profile would make the most difference. We have placed 100+ setters, so you get honest advice based on what works."
+},
+"Link2Talent koppelt B2B-bedrijven aan bewezen remote setters en closers. Al 100+ setters geplaatst. Binnen 14 dagen actief, anders betaal je niets.": {
+"en": "Link2Talent matches B2B companies with proven remote setters and closers. 100+ setters placed. Live within 14 days, or you pay nothing."
+},
+"Al 100+ setters geplaatst. Wij koppelen je aan een bewezen setter die dagelijks afspraken voor je inplant. Per maand op- en afschalen.": {
+"en": "100+ setters placed. We match you with a proven setter who books meetings for you every day. Scale up or down monthly."
+},
+"Geluid aan": {
+"en": "Sound on"
+},
+"Opnieuw afspelen": {
+"en": "Replay"
+},
+"Gratis matchgesprek": {
+"en": "Free match call"
 }
 };

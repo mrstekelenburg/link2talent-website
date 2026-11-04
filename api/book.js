@@ -65,7 +65,7 @@ function buildIcs(opts) {
     'DTSTART;TZID=Europe/Amsterdam:' + startLocal,
     'DTEND;TZID=Europe/Amsterdam:' + endLocal,
     'SUMMARY:' + esc(graph.EVENT_PREFIX + (opts.companyName ? ' x ' + opts.companyName : '')),
-    'DESCRIPTION:' + esc('Gratis kennismakingsgesprek van 30 minuten met Link2Talent.\nJe ontvangt de deelnamelink uiterlijk een dag van tevoren.\n\nBoekingsnummer: ' + (opts.ref || '')),
+    'DESCRIPTION:' + esc('Gratis matchgesprek van 30 minuten met Link2Talent.\nJe ontvangt de deelnamelink uiterlijk een dag van tevoren.\n\nBoekingsnummer: ' + (opts.ref || '')),
     'LOCATION:' + esc('Online (link volgt per mail)'),
     'ORGANIZER;CN=Link2Talent:mailto:' + (opts.organizer || 'demi@link2talent.nl'),
     'ATTENDEE;CN=' + esc(opts.name || '') + ';RSVP=TRUE:mailto:' + (opts.email || ''),
@@ -74,12 +74,12 @@ function buildIcs(opts) {
     'BEGIN:VALARM',
     'TRIGGER:-PT15M',
     'ACTION:DISPLAY',
-    'DESCRIPTION:Kennismaking Link2Talent over 15 minuten',
+    'DESCRIPTION:Matchgesprek Link2Talent over 15 minuten',
     'END:VALARM',
     'BEGIN:VALARM',
     'TRIGGER:-P1D',
     'ACTION:DISPLAY',
-    'DESCRIPTION:Morgen je kennismaking met Link2Talent',
+    'DESCRIPTION:Morgen je matchgesprek met Link2Talent',
     'END:VALARM',
     'END:VEVENT',
     'END:VCALENDAR'
@@ -155,7 +155,7 @@ module.exports = async (req, res) => {
         html: M.shell({
           title: 'Je voorbereiding is binnen',
           badge: 'Voorbereiding',
-          footerNote: 'Je ontvangt deze mail omdat je een kennismakingsgesprek met Link2Talent hebt gepland.',
+          footerNote: 'Je ontvangt deze mail omdat je een matchgesprek met Link2Talent hebt gepland.',
           preheader: 'Je antwoorden zijn binnen. Hier een kopie voor je administratie.',
           ref,
           body: [
@@ -208,7 +208,7 @@ module.exports = async (req, res) => {
       dateKey: b.dateKey, time: b.time, minutes: 30, ref,
       name: b.name, email: b.email, companyName: b.companyName, organizer: notify
     });
-    const icsAttach = ics ? [{ filename: 'kennismaking-link2talent.ics', content: ics, contentType: 'text/calendar; charset=utf-8; method=REQUEST' }] : [];
+    const icsAttach = ics ? [{ filename: 'matchgesprek-link2talent.ics', content: ics, contentType: 'text/calendar; charset=utf-8; method=REQUEST' }] : [];
     const icsAlt = ics ? [{ contentType: 'text/calendar; charset=utf-8; method=REQUEST', content: ics }] : [];
 
     // Naar Demi
@@ -217,13 +217,13 @@ module.exports = async (req, res) => {
       attachments: icsAttach,
       subject: `Nieuwe boeking — ${b.name}${b.companyName ? ' (' + b.companyName + ')' : ''} · ${b.date} ${b.time}${b.pakket ? ' · ' + String(b.pakket).split(' (')[0] : ''}`,
       html: M.shell({
-        title: 'Nieuw kennismakingsgesprek geboekt',
+        title: 'Nieuw matchgesprek geboekt',
         badge: 'Intern',
         preheader: `${b.name} · ${b.date} om ${b.time}`,
         ref,
         body: [
-          M.h1('Nieuw kennismakingsgesprek geboekt'),
-          M.p(`${esc(b.name)} heeft een kennismakingsgesprek geboekt.${hasAnswers ? ' De antwoorden op de korte vragen staan hieronder.' : ' De korte vragen volgen in een aparte mail zodra die zijn ingevuld.'}`, { gap: 24 }),
+          M.h1('Nieuw matchgesprek geboekt'),
+          M.p(`${esc(b.name)} heeft een matchgesprek geboekt.${hasAnswers ? ' De antwoorden op de korte vragen staan hieronder.' : ' De korte vragen volgen in een aparte mail zodra die zijn ingevuld.'}`, { gap: 24 }),
           M.detailTable([
             ['Naam', b.name],
             ['E-mail', b.email],
@@ -248,11 +248,11 @@ module.exports = async (req, res) => {
       from, to: b.email,
       attachments: icsAttach,
       alternatives: icsAlt,
-      subject: `Je kennismakingsgesprek staat — ${b.date} om ${b.time}`,
+      subject: `Je matchgesprek staat — ${b.date} om ${b.time}`,
       text: [
         `Hoi ${b.name},`,
         ``,
-        `Je gratis kennismakingsgesprek met Link2Talent staat ingepland.`,
+        `Je gratis matchgesprek met Link2Talent staat ingepland.`,
         calendar ? `Je krijgt zo een agenda-uitnodiging met de deelnamelink. Een dag en een uur van tevoren sturen we je een herinnering.` : `Je ontvangt de deelnamelink uiterlijk een dag van tevoren.`,
         ``,
         `Datum: ${b.date}`,
@@ -269,14 +269,14 @@ module.exports = async (req, res) => {
         `Ref ${ref}`
       ].join('\n'),
       html: M.shell({
-        title: 'Je kennismakingsgesprek staat',
+        title: 'Je matchgesprek staat',
         badge: 'Gesprek bevestigd',
-        footerNote: 'Je ontvangt deze mail omdat je een kennismakingsgesprek met Link2Talent hebt gepland.',
+        footerNote: 'Je ontvangt deze mail omdat je een matchgesprek met Link2Talent hebt gepland.',
         preheader: `${b.date} om ${b.time} · 30 minuten via Microsoft Teams`,
         ref,
         body: [
-          M.h1(`Je kennismakingsgesprek staat, ${esc(b.name)}`),
-          M.p(`Je gratis kennismakingsgesprek met Link2Talent is ingepland.${calendar ? ' Je krijgt zo een agenda-uitnodiging met de deelnamelink. Een dag en een uur van tevoren sturen we je een herinnering.' : ' Je ontvangt de deelnamelink uiterlijk een dag van tevoren.'}`, { gap: 24 }),
+          M.h1(`Je matchgesprek staat, ${esc(b.name)}`),
+          M.p(`Je gratis matchgesprek met Link2Talent is ingepland.${calendar ? ' Je krijgt zo een agenda-uitnodiging met de deelnamelink. Een dag en een uur van tevoren sturen we je een herinnering.' : ' Je ontvangt de deelnamelink uiterlijk een dag van tevoren.'}`, { gap: 24 }),
           M.detailTable([
             ['Datum', b.date],
             ['Tijd', `${b.time} (Nederlandse tijd)`],

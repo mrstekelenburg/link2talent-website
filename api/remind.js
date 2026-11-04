@@ -1,4 +1,4 @@
-/* Herinneringen voor geboekte kennismakingsgesprekken.
+/* Herinneringen voor geboekte matchgesprekken.
 
    Wordt elk kwartier aangeroepen (zie WIJZIGINGEN.md voor de twee manieren) en
    kijkt in de Outlook-agenda naar gesprekken die binnenkort beginnen:
@@ -83,7 +83,7 @@ function prospectOf(ev) {
 
 /* 'intake' als het onderwerp dat woord bevat, anders 'kennismaking' (boekingen van /book en handmatige uitnodigingen). */
 function soortOf(ev) {
-  return /intake/i.test(ev.subject) ? 'intake' : 'kennismaking';
+  return /intake/i.test(ev.subject) ? 'intake' : 'matchgesprek';
 }
 function duurOf(ev) {
   const m = Math.round((ev.endUtc - ev.startUtc) / 60000);
