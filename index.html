@@ -29,7 +29,7 @@
 <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Link2Talent koppelt B2B bedrijven aan bewezen remote setters en closers. Binnen 14 dagen actief, anders betaal je niets. Per maand op- en afschalen.">
+<meta name="description" content="Link2Talent koppelt B2B-bedrijven aan bewezen remote setters en closers. Al 100+ setters geplaatst. Binnen 14 dagen actief, anders betaal je niets.">
 <meta name="keywords" content="remote setter, salescapaciteit b2b, remote sales nederland, setter inhuren, b2b afspraken, salescapaciteit uitbesteden">
 <meta name="robots" content="index, follow">
 <meta name="author" content="Link2Talent">
@@ -42,7 +42,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.link2talent.nl/">
 <meta property="og:title" content="Link2Talent → Remote Setter binnen 14 Dagen">
-<meta property="og:description" content="Geen recruitment, vaste hires of mis-hires. Wij koppelen je aan een bewezen setter die dagelijks afspraken voor je inplant. Flexibel op- en afschalen.">
+<meta property="og:description" content="Al 100+ setters geplaatst. Wij koppelen je aan een bewezen setter die dagelijks afspraken voor je inplant. Per maand op- en afschalen.">
 <meta property="og:image" content="https://www.link2talent.nl/og-image.png">
 <meta property="og:locale" content="nl_NL">
 <meta property="og:site_name" content="Link2Talent">
@@ -772,7 +772,7 @@ a.btn-solid:focus-visible, a.btn-ghost-l2l:focus-visible, .p-btn:focus-visible {
 .logo-marquee-outer { overflow:hidden; }
 .logo-marquee-track {
   display:flex; align-items:center;
-  animation:logo-scroll 85s linear infinite;
+  animation:logo-scroll 35s linear infinite;
   width:max-content; gap:0;
 }
 @keyframes logo-scroll {
@@ -1790,8 +1790,8 @@ body > section[class] {
 /* de logobalk sluit direct op de hero aan en krijgt geen lijn */
 body > section[class].logo-marquee-section {
   background-image: none !important;
-  padding-top: 56px !important;
-  padding-bottom: 64px !important;
+  padding-top: 18px !important;
+  padding-bottom: 22px !important;
 }
 /* om en om een fluistering van achtergrond, zodat de blokken ook
    zonder de lijn uit elkaar te houden zijn */
@@ -1823,7 +1823,9 @@ footer { border-top: none !important; }
     padding-bottom: 68px !important;
     background-size: min(1160px, 88vw) 1px !important;
   }
-  body > section.logo-marquee-section { padding-top: 40px !important; padding-bottom: 44px !important; }
+  body > section.logo-marquee-section { padding-top: 12px !important; padding-bottom: 16px !important; }
+  .logo-item{padding:0 28px;height:52px;}
+  .logo-marquee-track{animation-duration:28s;}
 }
 
 /* ── Blauwe accenten in koppen: verloop van blauw naar lichtblauw, overal gelijk ── */
@@ -2338,11 +2340,11 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
 <div class="l2n-inner">
 <a aria-label="Link2Talent, naar de homepage" class="l2n-logo" href="/"><span class="l2b">Link<i>2</i>Talent</span></a>
 <ul class="l2n-links"><li><a href="#zowerkthet">Zo werkt het</a></li><li><a href="#resultaten">Resultaten</a></li><li><a href="#modellen">Modellen</a></li><li><a href="#vergelijk">Vergelijk</a></li><li><a href="/kennis">Kennis</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#contact">Contact</a></li></ul>
-<a class="l2n-cta" href="/book">Plan een gesprek</a>
+<a class="l2n-cta" href="/book">Gratis matchgesprek</a>
 <button aria-controls="l2nMenu" aria-expanded="false" aria-label="Menu openen" class="l2n-burger" id="l2nBurger" type="button"><span></span><span></span><span></span></button>
 </div>
 </nav>
-<div class="l2n-menu" id="l2nMenu"><a href="#zowerkthet" onclick="l2nClose()">Zo werkt het</a><a href="#resultaten" onclick="l2nClose()">Resultaten</a><a href="#modellen" onclick="l2nClose()">Modellen</a><a href="#vergelijk" onclick="l2nClose()">Vergelijk</a><a href="/kennis" onclick="l2nClose()">Kennis</a><a href="#reviews" onclick="l2nClose()">Reviews</a><a href="#faq" onclick="l2nClose()">Vragen</a><a href="#contact" onclick="l2nClose()">Contact</a><a class="l2n-mcta" href="/book" onclick="l2nClose()">Plan een gesprek</a></div>
+<div class="l2n-menu" id="l2nMenu"><a href="#zowerkthet" onclick="l2nClose()">Zo werkt het</a><a href="#resultaten" onclick="l2nClose()">Resultaten</a><a href="#modellen" onclick="l2nClose()">Modellen</a><a href="#vergelijk" onclick="l2nClose()">Vergelijk</a><a href="/kennis" onclick="l2nClose()">Kennis</a><a href="#reviews" onclick="l2nClose()">Reviews</a><a href="#faq" onclick="l2nClose()">Vragen</a><a href="#contact" onclick="l2nClose()">Contact</a><a class="l2n-mcta" href="/book" onclick="l2nClose()">Plan je gratis matchgesprek</a></div>
 <script>
 (function(){
   var nav=document.querySelector('nav.l2n'), b=document.getElementById('l2nBurger'), m=document.getElementById('l2nMenu');
@@ -2417,66 +2419,101 @@ a.hstat:hover .hs-lab{color:rgba(255,255,255,.8)}
 }
 @media(max-height:820px){.hero-c{padding-top:92px!important}.hero-c .hero-right{margin-top:8px}.hcta{margin-top:16px}.hero-c .hero-h{font-size:clamp(30px,4.2vw,50px)}}
 @media(max-height:820px) and (max-width:760px){.hero-c .hero-h{font-size:30px}}
+.hv-video{position:relative;width:min(1080px,100%,max(480px,calc((100svh - 372px) * 16 / 9)));margin:24px auto 0;border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,.06);box-shadow:0 18px 50px rgba(0,0,0,.35)}
+.hv-video video{display:block;width:100%;aspect-ratio:16/9;background:#08090C}
+.hv-video video{cursor:pointer}
+.hv-unmute{position:absolute;right:14px;top:14px;display:inline-flex;align-items:center;gap:8px;font:inherit;font-size:13.5px;font-weight:600;color:#fff;background:rgba(8,9,12,.72);border:1px solid rgba(255,255,255,.2);border-radius:99px;padding:8px 15px;cursor:pointer;backdrop-filter:blur(6px)}
+.hv-replay{position:absolute;left:50%;top:76%;transform:translate(-50%,-50%);display:none;align-items:center;gap:10px;font:inherit;font-size:15px;font-weight:700;color:#fff;padding:11px 20px;border-radius:999px;border:1px solid rgba(255,255,255,.28);cursor:pointer;background:rgba(255,255,255,.1);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);z-index:3}
+.hv-replay:hover{background:rgba(255,255,255,.18)}
+.hv-video.is-ended .hv-replay{display:inline-flex}
+.hv-unmute:hover{background:rgba(47,111,237,.85);border-color:transparent}
+.hv-bar{position:absolute;left:0;right:0;bottom:0;display:flex;align-items:center;gap:12px;padding:28px 14px 12px;background:linear-gradient(transparent,rgba(5,6,10,.85));opacity:0;transition:opacity .25s ease}
+.hv-video:hover .hv-bar,.hv-video:focus-within .hv-bar,.hv-video.is-paused .hv-bar{opacity:1}
+@media(hover:none){.hv-bar{opacity:1}}
+.hv-btn{flex:none;display:grid;place-items:center;width:36px;height:36px;border:0;border-radius:50%;background:transparent;color:#fff;cursor:pointer}
+.hv-btn:hover{background:rgba(255,255,255,.12)}
+.hv-btn:focus-visible,.hv-unmute:focus-visible,.hv-seek:focus-visible{outline:2px solid #7EB3FF;outline-offset:2px}
+.hv-play .i-play,.is-paused .hv-play .i-pause{display:none}.is-paused .hv-play .i-play{display:block}
+.hv-mute .i-off,.is-muted .hv-mute .i-on{display:none}.is-muted .hv-mute .i-off{display:block}
+.hv-time{flex:none;font-size:13px;font-weight:600;color:rgba(255,255,255,.85);font-variant-numeric:tabular-nums;min-width:78px;text-align:left}
+.hv-seek{flex:1;min-width:0;-webkit-appearance:none;appearance:none;height:5px;border-radius:99px;cursor:pointer;
+  background:linear-gradient(to right,#2F6FED 0,#2F6FED var(--p,0%),rgba(255,255,255,.25) var(--p,0%));}
+.hv-seek::-webkit-slider-thumb{-webkit-appearance:none;width:15px;height:15px;border-radius:50%;background:#fff;box-shadow:0 0 0 4px rgba(47,111,237,.35);border:0}
+.hv-seek::-moz-range-thumb{width:15px;height:15px;border-radius:50%;background:#fff;border:0}
+.hv-video:fullscreen{border-radius:0;max-width:none;width:100%;display:flex;align-items:center;background:#000}
+@media(max-width:560px){.hv-bar{gap:6px;padding:22px 8px 8px}.hv-time{display:none}.hv-btn{width:32px;height:32px}.hv-unmute{font-size:12.5px;padding:6px 12px;right:10px;top:10px}}
+/* cijfers altijd naast elkaar in de hero */
+@media(max-width:560px){.hv-replay{top:80%;font-size:13.5px;padding:8px 14px}.hv-unmute span{display:none}.hv-unmute{padding:8px!important}}
+@media(max-width:760px){.hero-film{padding-top:96px}.hv-video{margin-top:20px;border-radius:0;border-left:0;border-right:0;width:100vw!important;max-width:100vw!important;margin-left:calc(50% - 50vw)!important;margin-right:calc(50% - 50vw)!important}.hs-v{font-size:17px}.hs-v .hs-end{font-size:19px}.hero-film .hcta{width:100%}.hero-film .hstats{grid-template-columns:repeat(3,1fr)!important;gap:0}}
+
+.hero-c{max-width:1100px}
+.hero-c .hv-video{margin-top:20px}
+@media(max-width:760px){.hero-c .hv-video{margin-top:16px}}
 </style>
 <div class="hero-wrap">
 <div class="hero hero-c">
 <h1 class="hero-h">
 <span class="blue">Een remote setter</span> die afspraken in je agenda zet
       </h1>
-<div class="hero-right reveal">
-<div class="inbox-wrap">
-<div class="inbox-pill top">
-<svg fill="none" height="16" stroke="#2F6FED" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="16"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="m17 11 2 2 4-4"></path></svg>
-          Matches in je eigen omgeving
-        </div>
-<div class="hero-visual-card" style="padding:0;">
-<div class="brw-bar"><span class="brw-dots"><i></i><i></i><i></i></span><span class="brw-url"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewBox="0 0 24 24" width="11"><rect height="10" rx="2" width="16" x="4" y="11"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg> app.link2talent.nl/matches</span><span class="brw-tag" style="visibility:hidden">.</span></div>
-<div class="inbox-bar">
-<span class="inbox-bar-l"><span class="inbox-live"></span> Voorgestelde matches</span>
-<span class="inbox-badge">Live</span>
-</div>
-<div class="inbox-list">
-<div class="inbox-row">
-<div class="inbox-av">ST</div>
-<div class="inbox-txt">
-<div class="inbox-who">Setter &middot; SaaS en IT</div>
-<div class="inbox-msg">Vier jaar ervaring, Nederlandstalig.</div>
-</div>
-<span class="inbox-tag tag-int">Voorgesteld</span>
-</div>
-<div class="inbox-row">
-<div class="inbox-av blue">ST</div>
-<div class="inbox-txt">
-<div class="inbox-who">Setter &middot; Consultancy</div>
-<div class="inbox-msg">Kan binnen tien dagen starten.</div>
-</div>
-<span class="inbox-tag tag-warm">Jouw match</span>
-</div>
-<div class="inbox-row">
-<div class="inbox-av">CL</div>
-<div class="inbox-txt">
-<div class="inbox-who">Closer &middot; B2B dienstverlening</div>
-<div class="inbox-msg">Beschikbaar vanaf week 3.</div>
-</div>
-<span class="inbox-tag tag-int">Voorgesteld</span>
+<div class="hv-video" id="hvVideo">
+<video data-src="/assets/video/herofilm-l2t-v1.mp4" poster="/assets/video/herofilm-l2t-v1-poster.jpg" data-src-en="/assets/video/herofilm-l2t-v1-en.mp4" data-poster-en="/assets/video/herofilm-l2t-v1-en-poster.jpg" playsinline preload="none"></video>
+<button class="hv-unmute" type="button">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg><span>Geluid aan</span></button>
+<button class="hv-replay" type="button"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg><span>Opnieuw afspelen</span></button>
+<div class="hv-bar">
+<button class="hv-btn hv-play" type="button" aria-label="Pauzeren"><svg class="i-pause" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></svg><svg class="i-play" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"/></svg></button>
+<input class="hv-seek" type="range" min="0" max="1000" value="0" step="1" aria-label="Positie in de video">
+<span class="hv-time">0:00 / 0:42</span>
+<button class="hv-btn hv-mute" type="button" aria-label="Geluid aan"><svg class="i-off" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="m22 9-6 6M16 9l6 6"/></svg><svg class="i-on" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg></button>
+<button class="hv-btn hv-fs" type="button" aria-label="Volledig scherm"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3H5a2 2 0 0 0-2 2v3M21 8V5a2 2 0 0 0-2-2h-3M3 16v3a2 2 0 0 0 2 2h3M16 21h3a2 2 0 0 0 2-2v-3"/></svg></button>
 </div>
 </div>
-<div class="inbox-foot">Jij keurt de match goed. Contract, betaling en communicatie lopen via dezelfde omgeving.</div>
-</div>
-<div class="inbox-pill-row"><div class="inbox-pill bottom">
-<svg fill="none" height="15" stroke="#4ADE80" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" width="15"><path d="M20 6 9 17l-5-5"></path></svg>
-          Contract en facturatie inbegrepen
-        </div></div>
-</div>
-</div>
+<script>
+(function(){
+var w=document.getElementById('hvVideo');if(!w)return;
+var v=w.querySelector('video'),play=w.querySelector('.hv-play'),seek=w.querySelector('.hv-seek'),time=w.querySelector('.hv-time'),
+    mute=w.querySelector('.hv-mute'),un=w.querySelector('.hv-unmute'),fs=w.querySelector('.hv-fs'),rp=w.querySelector('.hv-replay'),drag=false,autoMuted=false,userMuted=false;
+function f(t){t=Math.max(0,Math.floor(t||0));return Math.floor(t/60)+':'+String(t%60).padStart(2,'0');}
+var L={nl:{play:'Afspelen',pause:'Pauzeren',on:'Geluid aan',off:'Geluid uit',replay:'Opnieuw afspelen'},en:{play:'Play',pause:'Pause',on:'Sound on',off:'Sound off',replay:'Replay'}};
+function lang(){return (document.documentElement.getAttribute('lang')||'nl').slice(0,2)==='en'?'en':'nl';}
+function ui(){var t=L[lang()];w.classList.toggle('is-paused',v.paused);w.classList.toggle('is-muted',v.muted);
+  play.setAttribute('aria-label',v.paused?t.play:t.pause);mute.setAttribute('aria-label',v.muted?t.on:t.off);if(rp)rp.querySelector('span').textContent=t.replay;}
+var srcNl=v.getAttribute('data-src'),posterNl=v.getAttribute('poster');
+function swap(){var en=lang()==='en',want=en?v.getAttribute('data-src-en'):srcNl;if(v.getAttribute('src')!==want){var wasPaused=v.paused&&v.hasAttribute('src');v.setAttribute('poster',en?v.getAttribute('data-poster-en'):posterNl);v.setAttribute('src',want);v.load();if(!wasPaused){var pr=v.play();if(pr&&pr.catch)pr.catch(function(){});}}ui();}
+document.addEventListener('l2t:langchange',swap);
+function prog(){if(!v.duration)return;if(!drag)seek.value=Math.round(v.currentTime/v.duration*1000);
+  seek.style.setProperty('--p',(seek.value/10)+'%');time.textContent=f(v.currentTime)+' / '+f(v.duration);}
+function replay(){w.classList.remove('is-ended');v.currentTime=0;var pr=v.play();if(pr&&pr.catch)pr.catch(function(){});}
+function toggle(){if(v.ended||w.classList.contains('is-ended')){replay();return;}if(autoMuted&&!v.paused){unmute();return;}if(v.paused)v.play();else v.pause();}
+play.addEventListener('click',toggle);
+v.addEventListener('click',toggle);
+v.addEventListener('play',ui);v.addEventListener('pause',ui);v.addEventListener('volumechange',ui);
+v.addEventListener('timeupdate',prog);v.addEventListener('loadedmetadata',prog);
+seek.addEventListener('input',function(){drag=true;if(v.duration){v.currentTime=seek.value/1000*v.duration;}seek.style.setProperty('--p',(seek.value/10)+'%');time.textContent=f(v.currentTime)+' / '+f(v.duration);});
+seek.addEventListener('change',function(){drag=false;});
+function unmute(){autoMuted=false;userMuted=false;v.muted=false;if(un){un.remove();un=null;}if(v.paused&&!w.classList.contains('is-ended'))v.play();ui();}
+mute.addEventListener('click',function(){if(v.muted){unmute();}else{v.muted=true;userMuted=true;}});
+un.addEventListener('click',unmute);
+fs.addEventListener('click',function(){var el=w;try{if(document.fullscreenElement){document.exitFullscreen();}else if(el.requestFullscreen){el.requestFullscreen();}else if(v.webkitEnterFullscreen){v.webkitEnterFullscreen();}}catch(e){}});
+w.addEventListener('keydown',function(e){if(e.target===seek)return;if(e.code==='Space'||e.key==='k'){e.preventDefault();toggle();}});
+/* film pas laden als de rest van de pagina er staat */
+rp.addEventListener('click',replay);
+v.addEventListener('ended',function(){w.classList.add('is-ended');ui();});
+/* direct afspelen met geluid; blokkeert de browser dat, dan gedempt starten en het geluid aanzetten bij de eerste klik of toets */
+function arm(){var ev=['pointerdown','keydown','touchend'];function go(e){if(w.contains(e.target))return;ev.forEach(function(n){document.removeEventListener(n,go,true);});if(autoMuted&&!userMuted){autoMuted=false;v.muted=false;if(un){un.remove();un=null;}ui();}}ev.forEach(function(n){document.addEventListener(n,go,true);});}
+function begin(){swap();v.muted=false;var pr=v.play();if(pr&&pr.then){pr.then(function(){if(un){un.remove();un=null;}ui();},function(){autoMuted=true;v.muted=true;var p2=v.play();if(p2&&p2.catch)p2.catch(function(){});arm();ui();});}}
+if(document.readyState==='complete')begin();else window.addEventListener('load',begin);
+})();
+</script>
+
 <div class="hcta">
-<a class="hcta-main" href="/book" target="_blank"><span>Plan een gesprek</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+<a class="hcta-main" href="/book" target="_blank"><span>Plan je gratis matchgesprek</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
 </div>
 <p class="hero-sub hs-v">Een <b>bewezen setter</b> die jouw leads belt en opvolgt, <b>binnen 14 dagen actief</b>.<span class="hs-end">Jij voert alleen nog het gesprek.</span></p>
 <div class="hstats">
 <a class="hstat" href="#reviews" aria-label="4,8 van 5 sterren op Google Reviews"><svg class="hs-g" aria-hidden="true" fill="none" height="18" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"></path><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path></svg><span class="hs-body"><b>4,8 <span class="hs-stars" aria-hidden="true">★★★★★</span></b><span class="hs-lab">Google Reviews</span></span></a>
 <a class="hstat" href="#garantie"><span class="hs-ic hs-ic-green" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></span><span class="hs-body"><b>Garantie</b><span class="hs-lab">binnen 14 dagen</span></span></a>
-<a class="hstat" href="#modellen"><span class="hs-ic hs-ic-blue" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg></span><span class="hs-body"><b>Per maand</b><span class="hs-lab">op- en afschalen</span></span></a>
+<a class="hstat" href="#resultaten"><span class="hs-ic hs-ic-blue" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><span class="hs-body"><b>100+</b><span class="hs-lab">setters geplaatst</span></span></a>
 </div>
 </div>
 </div>
@@ -2604,7 +2641,7 @@ a.hstat:hover .hs-lab{color:rgba(255,255,255,.8)}
 <div class="blk-grid s4-grid reveal">
 <div class="blk-card">
 <div class="blk-head"><span class="blk-num">1</span><h3>We kiezen jouw setter</h3></div>
-<p class="blk-p">We bekijken je aanbod en doelgroep en dragen een setter voor die bij je past. Jij keurt de match goed.</p>
+<p class="blk-p">We bekijken je aanbod en doelgroep en dragen een setter voor die bij je past. Dat doen we op basis van 100+ plaatsingen. Jij keurt de match goed.</p>
 </div>
 <div class="blk-card">
 <div class="blk-head"><span class="blk-num">2</span><h3>We regelen de start</h3></div>
@@ -2695,7 +2732,7 @@ a.hstat:hover .hs-lab{color:rgba(255,255,255,.8)}
 <div class="case-inner">
 <div class="case-header reveal">
 <h2 class="big-h">Wat een setter oplevert, <span class="blue">met cijfers</span></h2>
-<p class="big-sub">Drie plaatsingen zoals ze nu draaien. Klantnamen laten we weg, de cijfers niet.</p>
+<p class="big-sub">We plaatsten al 100+ setters. Drie daarvan zoals ze nu draaien, zonder klantnamen en met cijfers.</p>
 </div>
 <div class="cs-carousel reveal">
 <div class="cs-sticker"><b>10+ setters</b><span>geplaatst bij een enkel belkantoor</span></div>
@@ -2903,7 +2940,7 @@ a.hstat:hover .hs-lab{color:rgba(255,255,255,.8)}
 <li>Geen vaste lasten, schaalbaar op volume</li>
 <li>Contract en uitbetaling via het platform</li>
 </ul>
-<a class="p-btn solid" href="/book" target="_blank">Plan een gesprek</a>
+<a class="p-btn solid" href="/book" target="_blank">Plan je gratis matchgesprek</a>
 </div>
 <div class="p-card featured reveal">
 <span class="p-badge">Meest gekozen</span>
@@ -2919,7 +2956,7 @@ a.hstat:hover .hs-lab{color:rgba(255,255,255,.8)}
 <li>Fulltime of parttime, per maand op- en afschalen</li>
 <li>Wisselen van setter kan altijd</li>
 </ul>
-<a class="p-btn solid" href="/book" target="_blank">Plan een gesprek</a>
+<a class="p-btn solid" href="/book" target="_blank">Plan je gratis matchgesprek</a>
 </div>
 <div class="p-card reveal">
 <div class="p-name">Seat</div>
@@ -2934,7 +2971,7 @@ a.hstat:hover .hs-lab{color:rgba(255,255,255,.8)}
 <li>Opschalen met extra seats</li>
 <li>Uit te breiden met closers</li>
 </ul>
-<a class="p-btn solid" href="/book" target="_blank">Plan een gesprek</a>
+<a class="p-btn solid" href="/book" target="_blank">Plan je gratis matchgesprek</a>
 </div>
 </div>
 <a class="rv-mini reveal rv-in-price" href="#reviews" aria-label="Review van Dick, 5 sterren, lees alle reviews">
@@ -3080,7 +3117,7 @@ a.hstat:hover .hs-lab{color:rgba(255,255,255,.8)}
   </div>
   <div class="cmp-foot">
     <p>Weet je zeker dat het volume er over een jaar nog is? Dan is een eigen SDR soms beter. Dat zeggen we je ook. <a href="/kennis/remote-setter-vs-sdr">Lees de volledige afweging</a>.</p>
-    <a class="btn-solid" href="/book" target="_blank" style="white-space:nowrap;">Plan een gesprek</a>
+    <a class="btn-solid" href="/book" target="_blank" style="white-space:nowrap;">Plan je gratis matchgesprek</a>
   </div>
   </div>
   <a class="rv-mini reveal rv-wide" href="#reviews" aria-label="Review van Arnold, 5 sterren, lees alle reviews">
@@ -3133,7 +3170,7 @@ a.hstat:hover .hs-lab{color:rgba(255,255,255,.8)}
     <div class="ksig-c"><span class="ksig-h"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span><b>Rapportage</b></span><span>Afspraken, activiteit en uren, altijd actueel.</span></div>
     <div class="ksig-c"><span class="ksig-h"><span class="ksig-i" aria-hidden="true"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></span><b>Opschalen</b></span><span>Extra setter of closer? Je ziet direct wie kan.</span></div>
   </div>
-  <p class="ksig-foot">Liever eerst iemand spreken? <a href="/book" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">Plan een gesprek</a>, of ga direct naar <a href="https://app.link2talent.nl" rel="noopener" target="_blank" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">app.link2talent.nl</a>.</p>
+  <p class="ksig-foot">Liever eerst iemand spreken? <a href="/book" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">Plan je gratis matchgesprek</a>, of ga direct naar <a href="https://app.link2talent.nl" rel="noopener" target="_blank" style="color:var(--accent2);text-decoration:underline;text-underline-offset:3px;">app.link2talent.nl</a>.</p>
 </div>
 </section>
 <!-- LEADS ERBIJ (Link2Leads) -->
@@ -3242,12 +3279,11 @@ a.hstat:hover .hs-lab{color:rgba(255,255,255,.8)}
 </div>
 </div>
 <div class="reviews-col">
-<a class="review-more" href="https://www.google.com/search?q=Link2Group+Reviews" rel="noopener noreferrer" target="_blank">
+<div class="review-more">
 <svg fill="none" height="26" viewBox="0 0 24 24" width="26" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"></path><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path></svg>
 <span class="rm-plus">En nog veel meer</span>
 <span class="rm-sub">4,8 gemiddeld op Google. Op naam, dus na te lopen.</span>
-<span class="rm-go">Naar Google Reviews →</span>
-</a>
+</div>
 </div>
 </div>
 </section>
@@ -3289,7 +3325,7 @@ a.hstat:hover .hs-lab{color:rgba(255,255,255,.8)}
 <span class="rv-go" aria-hidden="true">Alle reviews →</span>
 </a>
 <div class="reveal" style="text-align:center;margin-top:36px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
-<a class="btn-solid" href="/book" style="display:inline-flex;" target="_blank">Plan een gesprek</a>
+<a class="btn-solid" href="/book" style="display:inline-flex;" target="_blank">Plan je gratis matchgesprek</a>
 <a class="btn-ghost-l2l" href="https://app.link2talent.nl" rel="noopener" target="_blank">Maak een account aan</a>
 </div>
 <p class="reveal" style="text-align:center;margin-top:18px;font-size:14px;color:var(--muted);">
@@ -3364,8 +3400,8 @@ a.hstat:hover .hs-lab{color:rgba(255,255,255,.8)}
 <div class="contact-left">
 <div class="ct-sticker"><b>Binnen 14 dagen actief</b><span>anders betaal je niets totdat we dat wel leveren</span></div>
 <h2>Zelf blijven bellen, of <span class="blue">een setter erop zetten?</span></h2>
-<p>In het gratis kennismakingsgesprek van 30 minuten kijken we naar je aanbod, je instroom en welk model past. Je krijgt een eerlijk advies, ook als we niet samenwerken.</p>
-<a class="btn-solid ct-btn" href="/book" target="_blank">Plan een gesprek</a>
+<p>In het gratis matchgesprek van 30 minuten kijken we naar je aanbod, je instroom en welk model past. Na 100+ plaatsingen weten we snel welk profiel bij je werkt. Je krijgt een eerlijk advies, ook als we niet samenwerken.</p>
+<a class="btn-solid ct-btn" href="/book" target="_blank">Plan je gratis matchgesprek</a>
 <figure class="contact-photo">
 <img alt="Anne-Roos en Demi, de twee oprichters van Link2Talent, aan het werk" height="700" loading="lazy" src="/assets/img/demi-anne-roos.jpg" width="900"/>
 <figcaption>Anne-Roos<a aria-label="Anne-Roos op LinkedIn" class="ct-in" href="https://nl.linkedin.com/in/anne-roos-mol-32a876206" rel="noopener" target="_blank" title="Anne-Roos op LinkedIn"><svg aria-hidden="true" fill="currentColor" viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"></path></svg></a> en Demi<a aria-label="Demi op LinkedIn" class="ct-in" href="https://nl.linkedin.com/in/demi-stekelenburg-18407a168" rel="noopener" target="_blank" title="Demi op LinkedIn"><svg aria-hidden="true" fill="currentColor" viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"></path></svg></a>. Je krijgt een van ons tweeen aan de lijn.</figcaption>
@@ -3456,7 +3492,7 @@ a.hstat:hover .hs-lab{color:rgba(255,255,255,.8)}
 <div class="l2f-top">
 <div class="l2f-brand">
 <a aria-label="Link2Talent, naar de homepage" class="l2f-logo" href="/"><span class="l2b">Link<i>2</i>Talent</span></a>
-<p class="l2f-tag">Remote setters en closers voor B2B. Binnen 14 dagen actief, jij stuurt aan, wij regelen contract, betaling en rapportage. Geen recruitment en geen vaste hire.</p>
+<p class="l2f-tag">Remote setters en closers voor B2B. Al 100+ setters geplaatst. Binnen 14 dagen actief, jij stuurt aan en wij regelen contract, betaling en rapportage.</p>
 <ul class="l2f-contact">
 <li><a href="mailto:info@link2talent.nl"><span class="l2f-ico"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewBox="0 0 24 24"><rect height="15" rx="2.5" width="19" x="2.5" y="4.5"></rect><path d="m3 7 8.13 5.42a1.6 1.6 0 0 0 1.74 0L21 7"></path></svg></span>info@link2talent.nl</a></li>
 <li><a href="tel:+31850805381"><span class="l2f-ico"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewBox="0 0 24 24"><path d="M21 16.9v2.6a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.4 19.4 0 0 1-6-6A19.8 19.8 0 0 1 1.1 3.7 2 2 0 0 1 3.1 1.5h2.6a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L6.87 9.23a16 16 0 0 0 6 6l1.13-1.13a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7a2 2 0 0 1 1.7 2.05Z"></path></svg></span>085 080 5381</a></li>
@@ -3472,7 +3508,7 @@ a.hstat:hover .hs-lab{color:rgba(255,255,255,.8)}
 <li><a href="#vergelijk">Vergelijking</a></li>
 <li><a href="#capaciteitsscan">Gratis capaciteitsscan</a></li>
 <li><a href="/calculator-l2t">Omzetcalculator</a></li>
-<li><a href="/book">Plan een gesprek</a></li>
+<li><a href="/book">Plan je gratis matchgesprek</a></li>
 <li><a href="#faq">Veelgestelde vragen</a></li>
 </ul>
 </div>
@@ -3567,7 +3603,7 @@ if (starsEl) for (let i = 0; i < 60; i++) {
   starsEl.appendChild(s);
 }
 </script>
-<script src="/assets/i18n/l2t-i18n.js?v=9"></script>
+<script src="/assets/i18n/l2t-i18n.js?v=10"></script>
 <script src="/assets/tracking.js?v=2" defer></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.

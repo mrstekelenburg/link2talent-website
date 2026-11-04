@@ -38,7 +38,7 @@ const KIND = {
     h1: (name) => `Hoi ${esc(name)}, je vraag is binnen`,
     intro: 'Ik lees hem zelf en je hoort binnen een werkdag van me. Geen automatische reeks en geen verkoopmail, gewoon antwoord op wat je vraagt.',
     label: 'Je vraag',
-    next: 'Ik lees je vraag zelf en antwoord binnen een werkdag, met een concreet antwoord in plaats van een uitnodiging voor een gesprek. Wil je liever meteen doorpraten, plan dan hieronder het gratis kennismakingsgesprek. Dat hoeft niet.',
+    next: 'Ik lees je vraag zelf en antwoord binnen een werkdag, met een concreet antwoord in plaats van een uitnodiging voor een gesprek. Wil je liever meteen doorpraten, plan dan hieronder het gratis matchgesprek. Dat hoeft niet.',
     footer: 'Je ontvangt deze mail omdat je het contactformulier op link2talent.nl hebt ingevuld.'
   },
   scan: {
@@ -46,7 +46,7 @@ const KIND = {
     h1: () => 'Je capaciteitsscan is aangevraagd',
     intro: 'We rekenen uit hoeveel afspraken een setter in jouw situatie per week realistisch zet, hoeveel uur daarbij past en welk model daar het beste bij aansluit. Je krijgt het binnen een werkdag, met een eerlijk oordeel of een setter nu al logisch is.',
     label: 'Je situatie',
-    next: 'De capaciteitsscan komt binnen een werkdag in je mailbox. Wil je de uitkomst direct doorpraten, plan dan hieronder het gratis kennismakingsgesprek. Dat hoeft niet.',
+    next: 'De capaciteitsscan komt binnen een werkdag in je mailbox. Wil je de uitkomst direct doorpraten, plan dan hieronder het gratis matchgesprek. Dat hoeft niet.',
     footer: 'Je ontvangt deze mail omdat je de gratis capaciteitsscan op link2talent.nl hebt aangevraagd.'
   }
 };
@@ -114,7 +114,7 @@ module.exports = async (req, res) => {
         ``,
         question ? `${k.label}:\n${question}` : '',
         ``,
-        k.next.replace('hieronder het gratis kennismakingsgesprek', `het gratis kennismakingsgesprek via ${BOOK_URL}`),
+        k.next.replace('hieronder het gratis matchgesprek', `het gratis matchgesprek via ${BOOK_URL}`),
         `Het meeste staat trouwens al op papier: ${KENNIS_URL}`,
         ``,
         `Groet,`,

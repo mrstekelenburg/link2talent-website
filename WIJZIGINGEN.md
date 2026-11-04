@@ -1,3 +1,12 @@
+**5 november 2026: herofilm, matchgesprek, 100+ setters**
+- Herofilm bovenaan de homepage in plaats van de matchkaart, in dezelfde stijl en speler als link2leads.nl (`assets/video/herofilm-l2t-v1*.mp4`, 42 sec, muziek van de L2L-film). Zes scenes: wij zoeken jouw setter, jij kiest de match, elke dag bellen namens jou, leads zeggen ja, jij focust op het sluiten van deals, eindbeeld. Engelse versie wisselt mee (event `l2t:langchange`).
+- Speler: start direct met geluid. Blokkeert de browser geluid, dan start hij gedempt en gaat het geluid aan bij de eerste klik of toets op de pagina. Klik op de film pauzeert, dempen via de knop. Geen loop meer: aan het eind staat een knop "Opnieuw afspelen".
+- Knoptekst overal "Plan je gratis matchgesprek" (menubalk: "Gratis matchgesprek"). Het gesprek heet nu matchgesprek, ook in de boekingspagina, bevestigingsmails, herinneringen en agenda-uitnodiging (`Matchgesprek Link2Talent x Bedrijf`). Herinneringen herkennen oude uitnodigingen nog steeds.
+- "100+ setters geplaatst" in de hero (derde cijfer), stappen, cases op homepage en /cases, boekingspagina, contactblok, footer op alle pagina's, metabeschrijving en llms-bestanden.
+- Branchecarrousel lager (ongeveer halve hoogte) en sneller (35 sec per rondje, 28 op mobiel).
+- Link naar Google Reviews weggehaald; reviewverwijzingen alleen naar de eigen reviewsectie.
+- Engelse vertalingen bijgewerkt, homepage op `l2t-i18n.js?v=10`.
+
 **16 oktober 2026: Crisp-chat vervangt de GHL-chatwidget**
 - Nieuw bestand `assets/chat.js` laadt Crisp (website-ID 6efa6396-...). Het staat op elke pagina vlak voor `</body>`. Dezelfde Crisp-inbox draait op link2leads.nl, link2leads.co, link2talent.nl en wieisdeware.nl; elk gesprek krijgt de site als segment mee, zodat in Crisp te zien is waar het vandaan komt.
 - Taal van de chat volgt het `lang`-attribuut van de pagina (nl of en).

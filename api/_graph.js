@@ -16,8 +16,8 @@
 const GRAPH = 'https://graph.microsoft.com/v1.0';
 
 /* Onderwerp van elke afspraak die via /book wordt gemaakt. api/remind.js
-   herkent de kennismakingsgesprekken in de agenda aan dit begin van het onderwerp. */
-const EVENT_PREFIX = 'Kennismaking Link2Talent';
+   herkent de matchgesprekken in de agenda aan dit begin van het onderwerp. */
+const EVENT_PREFIX = 'Matchgesprek Link2Talent';
 
 function configured() {
   return !!(process.env.MS_TENANT_ID && process.env.MS_CLIENT_ID &&
@@ -96,7 +96,7 @@ async function createEvent(opts) {
     body: {
       contentType: 'HTML',
       content:
-        `<p>Gratis kennismakingsgesprek van ${opts.minutes || 30} minuten met Link2Talent.</p>` +
+        `<p>Gratis matchgesprek van ${opts.minutes || 30} minuten met Link2Talent.</p>` +
         (opts.companyName ? `<p>Bedrijf: ${opts.companyName}</p>` : '') +
         (opts.phone ? `<p>Telefoon: ${opts.phone}</p>` : '') +
         `<p>Boekingsnummer: ${opts.ref || '-'}</p>`
