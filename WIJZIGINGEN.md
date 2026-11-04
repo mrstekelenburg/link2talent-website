@@ -1,3 +1,6 @@
+**5 november 2026 (later): film start weer vanzelf op iPhone**
+- De film start altijd gedempt (dat is wat iPhone en andere browsers toestaan) en het geluid gaat direct aan als de browser dat toelaat. Anders gaat het geluid aan bij de eerste klik of tik op de pagina.
+
 **5 november 2026: herofilm, matchgesprek, 100+ setters**
 - Herofilm bovenaan de homepage in plaats van de matchkaart, in dezelfde stijl en speler als link2leads.nl (`assets/video/herofilm-l2t-v1*.mp4`, 42 sec, muziek van de L2L-film). Zes scenes: wij zoeken jouw setter, jij kiest de match, elke dag bellen namens jou, leads zeggen ja, jij focust op het sluiten van deals, eindbeeld. Engelse versie wisselt mee (event `l2t:langchange`).
 - Speler: start direct met geluid. Blokkeert de browser geluid, dan start hij gedempt en gaat het geluid aan bij de eerste klik of toets op de pagina. Klik op de film pauzeert, dempen via de knop. Geen loop meer: aan het eind staat een knop "Opnieuw afspelen".
