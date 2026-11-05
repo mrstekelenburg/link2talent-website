@@ -4712,5 +4712,59 @@ window.L2T_I18N_DATA = {
 },
 "Gratis matchgesprek": {
 "en": "Free match call"
+},
+"Remote appointment setter voor B2B-bedrijven in Amsterdam, binnen 14 dagen actief. Geen werkplek en geen recruitment nodig. Onderdeel van Link2Group.": {
+"en": "Remote appointment setter for B2B companies in Amsterdam, active within 14 days. No desk and no recruitment needed. Part of Link2Group."
+},
+"Appointment setting bureaus vergeleken (2026) | Link2Talent": {
+"en": "Appointment setting agencies compared (2026) | Link2Talent"
+},
+"Callbureaus, SDR-as-a-service, freelanceplatforms, recruitmentbureaus en Link2Talent op zes punten vergeleken. Met de vragen die je elke aanbieder stelt.": {
+"en": "Call agencies, SDR as a service, freelance platforms, recruiters and Link2Talent compared on six points. With the questions to ask every provider."
+},
+"Performance, uurtarief of seat: welk model past bij hoe meetbaar je resultaat is en hoeveel invloed de setter heeft. De drie modellen naast elkaar.": {
+"en": "Performance, hourly rate or seat: which model fits how measurable your result is and how much the setter controls. The three models side by side."
+},
+"Salescapaciteit uitbesteden: wat wel? | Link2Talent": {
+"en": "Outsourcing sales capacity: what to hand over | Link2Talent"
+},
+"Wat je zelf doet in de eerste maand zodat een remote setter snel op niveau zit: inwerken, dagelijkse feedback, een vaste definitie van een afspraak.": {
+"en": "What you do yourself in the first month so a remote setter gets up to speed fast: onboarding, daily feedback and a fixed definition of a meeting."
+},
+"Uit onze plaatsingen: een afspraak per uur op makkelijke campagnes, een per twee uur op moeilijke. Wat het bepaalt en hoe je het doorrekent.": {
+"en": "From our placements: one meeting per hour on easy campaigns, one per two hours on hard ones. What drives it and how to run the numbers."
+},
+"Setter inhuren of SDR aannemen: het verschil zit in opstarttijd, risico, aansturing en de kosten als de match niet werkt. Op zes punten vergeleken.": {
+"en": "Hiring a setter or an SDR: the difference is start time, risk, management and the cost when the match fails. Compared on six points."
+},
+"Wat een SDR in dienst echt kost: salaris, werkgeverslasten, werving, inwerktijd, aansturing en het risico van een mismatch. Met rekenschema.": {
+"en": "What an in-house SDR really costs: salary, employer costs, recruiting, ramp time, management and the risk of a mismatch. With a worksheet."
+},
+"Appointment setting uitbesteden: de opties | Link2Talent": {
+"en": "Outsourcing appointment setting: the options | Link2Talent"
+},
+"Callbureau, freelancer, recruitmentbureau of een platform als Link2Talent: vergeleken op opstarttijd, kosten, aansturing en wat als het niet klikt.": {
+"en": "Call agency, freelancer, recruiter or a platform like Link2Talent: compared on start time, cost, management and what happens if it does not click."
+},
+"Een remote setter is logisch als prospecting en opvolging je bottleneck zijn. Vier vragen die dat duidelijk maken, plus wat je zelf geregeld moet hebben.": {
+"en": "A remote setter makes sense when prospecting and follow-up are your bottleneck. Four questions that make it clear, plus what you need in place."
+},
+"Uurtarief plus 20 procent, commissie per afspraak of 295 per maand per seat. De drie modellen van Link2Talent met rekenvoorbeelden.": {
+"en": "Hourly rate plus 20 percent, commission per meeting or 295 a month per seat. The three Link2Talent models with worked examples."
+},
+"Case: tien setters bij een belkantoor | Link2Talent": {
+"en": "Case: ten setters at a call agency | Link2Talent"
+},
+"Link2Talent plaatst tien setters bij een cold calling agency. Op makkelijke campagnes een afspraak per uur, op moeilijkere een per twee uur.": {
+"en": "Link2Talent placed ten setters at a cold calling agency. One meeting per hour on easy campaigns, one per two hours on harder ones."
+},
+"Case: 10 afspraken per week in 10 uur setter | Link2Talent": {
+"en": "Case: 10 meetings a week from 10 setter hours | Link2Talent"
+},
+"Een setter van Link2Talent werkt 10 uur per week voor een B2B-marketingbureau en zet 10 afspraken per week. Bij 30 procent close drie klanten per week.": {
+"en": "A Link2Talent setter works 10 hours a week for a B2B marketing agency and books 10 meetings a week. At a 30 percent close rate, three clients a week."
+},
+"Bij Link2Leads werkt een setter via Link2Talent op commissie: 10 procent van het maandbedrag van elke aangebrachte klant, zolang die klant blijft.": {
+"en": "At Link2Leads a setter works through Link2Talent on commission: 10 percent of the monthly fee of every client he brings in, for as long as they stay."
 }
 };
