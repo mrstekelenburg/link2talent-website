@@ -1,3 +1,6 @@
+**5 november 2026 (later): schuine 2 in de herofilm**
+- In de film staat de 2 nu schuin, net als in het logo (in het rondje en in het eindbeeld, NL en EN). Nieuwe bestandsnamen zodat browsers de oude film niet blijven tonen.
+
 **5 november 2026 (later): film start weer vanzelf op iPhone**
 - De film start altijd gedempt (dat is wat iPhone en andere browsers toestaan) en het geluid gaat direct aan als de browser dat toelaat. Anders gaat het geluid aan bij de eerste klik of tik op de pagina.
 
