@@ -1,3 +1,9 @@
+**6 november 2026: SEO- en LLM-fixes**
+- Homepage-titel met het zoekwoord vooraan, net als link2leads.nl: "Remote setters en closers voor B2B | Link2Talent". Social titels zonder pijl: "Remote setter binnen 14 dagen | Link2Talent".
+- Privacy, algemene voorwaarden en omzetcalculator hadden "Link2Talent ->" of een lang streepje in de titel; nu "Privacybeleid | Link2Talent", "Algemene voorwaarden | Link2Talent" en "Omzetcalculator voor remote setters | Link2Talent", ook in het schema.
+- Kennisbank-overzicht heeft een volledige beschrijving met de onderwerpen die mensen zoeken. Lang streepje uit de uitkomsttekst van de calculator.
+- Gecontroleerd en in orde: schema op alle pagina's geldig, één H1 per pagina, alle afbeeldingen met alt-tekst, geen dubbele titels of beschrijvingen, sitemap en llms.txt bevatten alle pagina's, AI-crawlers toegestaan. Engels mee aangepast in `assets/i18n/l2t-i18n-data.js`.
+
 **6 november 2026: /book op mobiel agenda eerder in beeld**
 - Op mobiel staan de praktische kaartjes (duur, format, beschikbaar, tijdzone, bevestiging) nu onder de agenda en de review, zodat de agenda direct na de intro komt. Desktop ongewijzigd.
 

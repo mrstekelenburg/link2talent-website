@@ -681,8 +681,8 @@ window.L2T_I18N_DATA = {
 "Menu openen": {
 "en": "Open menu"
 },
-"Link2Talent | Remote Salescapaciteit voor B2B": {
-"en": "Link2Talent | Remote sales capacity for B2B"
+"Remote setters en closers voor B2B | Link2Talent": {
+"en": "Remote setters and closers for B2B | Link2Talent"
 },
 "Link2Talent koppelt B2B bedrijven aan bewezen remote setters. Binnen 14 dagen actief. Performance, uurtarief of seat model. Flexibel op- en afschalen. Geen recruitment.": {
 "en": "Link2Talent connects B2B companies to proven remote setters. Active within 14 days. Performance, hourly or seat model. Scale up and down freely. No recruitment."
@@ -792,8 +792,8 @@ window.L2T_I18N_DATA = {
 "Kennisbank over remote salescapaciteit | Link2Talent": {
 "en": "Knowledge base on remote sales capacity | Link2Talent"
 },
-"Besliskaders over remote setters, SDRs, closers, outsourcing en salescapaciteit.": {
-"en": "Decision frameworks on remote setters, SDRs, closers, outsourcing and sales capacity."
+"Kennisbank over remote setters en closers: wat een appointment setter kost, setter of SDR, hoeveel afspraken per week en hoe je een setter aanstuurt.": {
+"en": "Knowledge base on remote setters and closers: what an appointment setter costs, setter or SDR, how many meetings per week and how to manage a setter."
 },
 "/ Cases": {
 "en": "/ Cases"
@@ -1914,7 +1914,7 @@ window.L2T_I18N_DATA = {
 "Potentiële omzet per maand": {
 "en": "Potential revenue per month"
 },
-"Met een setter via Link2Talent genereer je gemiddeld €6K–€13K extra omzet per maand — bij een investering van €1.500. ROI: 4.2×–8.3×.": {
+"Met een setter via Link2Talent genereer je gemiddeld €6K–€13K extra omzet per maand, bij een investering van €1.500. ROI: 4.2×–8.3×.": {
 "en": "With a setter through Link2Talent you generate on average €6K to €13K in extra revenue per month, on an investment of €1,500. ROI: 4.2× to 8.3×."
 },
 "Gekwalificeerde gesprekken per maand": {
@@ -1980,8 +1980,8 @@ window.L2T_I18N_DATA = {
 "© 2026 Link2Talent": {
 "en": "© 2026 Link2Talent"
 },
-"Omzetcalculator — Link2Talent": {
-"en": "Revenue calculator | Link2Talent"
+"Omzetcalculator voor remote setters | Link2Talent": {
+"en": "Revenue calculator for remote setters | Link2Talent"
 },
 "Bereken hoeveel omzet je kunt genereren met een remote setter. Voer jouw deal-grootte en closing ratio in en zie je potentiële pipeline.": {
 "en": "Work out how much revenue you could generate with a remote setter. Enter your deal size and closing ratio and see your potential pipeline."
