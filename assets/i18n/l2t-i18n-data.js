@@ -4320,7 +4320,7 @@ window.L2T_I18N_DATA = {
 "en Demi": {
 "en": "and Demi"
 },
-". Je krijgt een van ons tweeen aan de lijn.": {
+". Je krijgt één van ons tweeën aan de lijn.": {
 "en": ". You get one of us two on the line."
 },
 "Remote setters en closers voor B2B. Binnen 14 dagen actief, jij stuurt aan, wij regelen contract, betaling en rapportage. Geen recruitment en geen vaste hire.": {

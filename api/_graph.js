@@ -236,7 +236,7 @@ async function getBusy(dateKey) {
    uitnodigingen heten bijv. "Intake Link2Talent x Bedrijf") of de
    categorie CAT_AAN. Categorie CAT_UIT sluit een afspraak uit.
    Tijden komen in wereldtijd terug (ISO met Z), inclusief deelnemers,
-   categorieen en de Teams-link. Voor api/remind.js. */
+   categorieën en de Teams-link. Voor api/remind.js. */
 const CAT_AAN = 'L2T herinnering aan';
 const CAT_UIT = 'L2T geen herinnering';
 
@@ -280,7 +280,7 @@ async function listUpcoming(hoursAhead) {
     }));
 }
 
-/* Zet een categorie op de afspraak. Categorieen zijn alleen zichtbaar voor de
+/* Zet een categorie op de afspraak. Categorieën zijn alleen zichtbaar voor de
    eigenaar van de agenda, dus de deelnemers krijgen hier geen update-mail van.
    Zo weet api/remind.js welke herinnering al verstuurd is. */
 async function addCategory(eventId, category) {

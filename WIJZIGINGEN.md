@@ -1,3 +1,6 @@
+**6 november 2026: accenten en trema's waar de spelling ze vraagt**
+- "Je krijgt één van ons tweeën aan de lijn" en categorieën rechtgezet. Sleutel in `assets/i18n/l2t-i18n-data.js` mee aangepast, homepage op `l2t-i18n.js?v=11`.
+
 **5 november 2026 (later): schuine 2 in de herofilm**
 - In de film staat de 2 nu schuin, net als in het logo (in het rondje en in het eindbeeld, NL en EN). Nieuwe bestandsnamen zodat browsers de oude film niet blijven tonen.
 
