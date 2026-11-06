@@ -1,3 +1,6 @@
+**6 november 2026: cijfers in de hero tellen op**
+- 4,8 en 100+ tellen vanaf 0 op zodra ze in beeld komen, net als op link2leads.nl.
+
 **6 november 2026: herofilm standaard zonder geluid**
 - De film start altijd gedempt. Geluid alleen aan via "Geluid aan" of een klik op de film.
 
