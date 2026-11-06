@@ -1,3 +1,6 @@
+**6 november 2026: /book op mobiel agenda eerder in beeld**
+- Op mobiel staan de praktische kaartjes (duur, format, beschikbaar, tijdzone, bevestiging) nu onder de agenda en de review, zodat de agenda direct na de intro komt. Desktop ongewijzigd.
+
 **6 november 2026: persoonlijker met gezichtjes**
 - Homepage: op alle drie de modellen bovenaan "Anne-Roos of Demi als vast aanspreekpunt" met gezichtjes; onder de matchgesprek-knop bij de vergelijking en onder de reviews "Je spreekt Anne-Roos of Demi".
 - /book: onder de intro "Je spreekt Anne-Roos of Demi, geen accountmanager".
