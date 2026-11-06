@@ -1,3 +1,7 @@
+**6 november 2026: chat eruit en voortgangsbalk**
+- De chatknop rechtsonder (Crisp) is van alle pagina's gehaald, WhatsApp blijft.
+- Bovenin de homepage loopt een dunne blauwe balk mee met het scrollen, net als op link2leads.nl.
+
 **6 november 2026: cijfers in de hero tellen op**
 - 4,8 en 100+ tellen vanaf 0 op zodra ze in beeld komen, net als op link2leads.nl.
 
