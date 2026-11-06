@@ -2425,10 +2425,8 @@ v.addEventListener('ended',function(){w.classList.add('is-ended');try{if(v.durat
 /* direct afspelen met geluid; blokkeert de browser dat, dan gedempt starten en het geluid aanzetten bij de eerste klik of toets */
 function arm(){var ev=['pointerdown','keydown','touchend'];function go(e){if(w.contains(e.target))return;ev.forEach(function(n){document.removeEventListener(n,go,true);});if(autoMuted&&!userMuted){autoMuted=false;v.muted=false;if(un){un.remove();un=null;}if(v.paused&&!w.classList.contains('is-ended')){var p4=v.play();if(p4&&p4.catch)p4.catch(function(){});}ui();}}ev.forEach(function(n){document.addEventListener(n,go,true);});}
 function soundOk(){try{var C=window.AudioContext||window.webkitAudioContext;if(!C)return false;var ac=new C();var ok=ac.state==='running';if(ac.close)ac.close();return ok;}catch(e){return false;}}
-function begin(){swap();v.muted=true;var pr=v.play();if(pr&&pr.catch)pr.catch(function(){});
-  /* geluid direct aan als de browser dat toestaat; anders gedempt laten lopen en aanzetten bij de eerste klik of tik */
-  if(soundOk()){v.muted=false;if(un){un.remove();un=null;}setTimeout(function(){if(v.paused&&!w.classList.contains('is-ended')){v.muted=true;autoMuted=true;var p3=v.play();if(p3&&p3.catch)p3.catch(function(){});arm();ui();}},400);}
-  else{autoMuted=true;arm();}ui();}
+function begin(){swap();v.muted=true;autoMuted=true;var pr=v.play();if(pr&&pr.catch)pr.catch(function(){});ui();}
+/* geluid staat standaard uit; aan via de knop Geluid aan of een klik op de film */
 if(document.readyState==='complete')begin();else window.addEventListener('load',begin);
 })();
 </script></div>

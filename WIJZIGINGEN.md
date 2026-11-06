@@ -1,3 +1,6 @@
+**6 november 2026: herofilm standaard zonder geluid**
+- De film start altijd gedempt. Geluid alleen aan via "Geluid aan" of een klik op de film.
+
 **6 november 2026: foto van Anne-Roos en Demi in de hero**
 - Desktop: kop links met knop, tekst en cijfers, rechts een uitgeknipte foto van Anne-Roos en Demi met label en handgeschreven "In 40 seconden zie je hoe het werkt" met pijltje naar de film. Film daaronder.
 - Mobiel: zelfde volgorde als eerst, met tussen kop en film twee gezichtjes en "Check even de korte video hieronder". Film blijft direct in beeld.
