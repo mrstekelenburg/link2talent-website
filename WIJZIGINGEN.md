@@ -1,3 +1,9 @@
+**6 november 2026: persoonlijker met gezichtjes**
+- Homepage: op alle drie de modellen bovenaan "Anne-Roos of Demi als vast aanspreekpunt" met gezichtjes; onder de matchgesprek-knop bij de vergelijking en onder de reviews "Je spreekt Anne-Roos of Demi".
+- /book: onder de intro "Je spreekt Anne-Roos of Demi, geen accountmanager".
+- /klant: onder de intro "Anne-Roos en Demi lezen je antwoorden zelf", onder de startknop en onder Versturen "Je antwoorden komen direct bij Anne-Roos en Demi binnen".
+- Engels in `assets/i18n/l2t-i18n-data.js`, pagina's op `l2t-i18n.js?v=13`. Previews weg. Zelfde opzet als link2leads.nl.
+
 **6 november 2026: chat eruit en voortgangsbalk**
 - De chatknop rechtsonder (Crisp) is van alle pagina's gehaald, WhatsApp blijft.
 - Bovenin de homepage loopt een dunne blauwe balk mee met het scrollen, net als op link2leads.nl.

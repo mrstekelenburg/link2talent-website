@@ -117,6 +117,7 @@ textarea.q-input{min-height:100px;}
 @media(max-width:600px){.welcome-title{font-size:30px;}.info-cards{grid-template-columns:1fr;}.btn-row{flex-direction:column-reverse;}.btn-ghost{width:100%;justify-content:center;}}
 </style>
 <link rel="stylesheet" href="/assets/l2t-shared.css?v=3">
+<style>.p-features li.cm-li{color:#fff;font-weight:600;align-items:center}.p-features li.cm-li::before{content:none}.cm-faces{display:inline-flex;flex-shrink:0}.cm-faces img{width:24px;height:24px;border-radius:50%;object-fit:cover;border:1.5px solid #5B8DEF;background:#fff}.cm-faces img+img{margin-left:-7px}.who-l{display:flex;align-items:center;gap:9px;margin:12px 0 0;font-size:13.5px;font-weight:600;color:rgba(255,255,255,.85)!important;font-size:13.5px!important;line-height:1.4!important}.who-l.who-c{justify-content:center}.who-wrap{display:flex;flex-direction:column;align-items:center}</style>
 </head>
 <body class="l2t-sub">
 <canvas id="bg-canvas"></canvas>
@@ -170,6 +171,7 @@ textarea.q-input{min-height:100px;}
     <div class="welcome-chip">Onboarding</div>
     <h1 class="welcome-title">Welkom bij Link<span>2</span>Talent</h1>
     <p class="welcome-sub">Vul hieronder de 15 vragen in. Hoe concreter je antwoordt, hoe beter we de juiste setter aan je koppelen en hoe sneller die productief is. Duurt ongeveer 10 minuten.</p>
+    <p class="who-l" style="margin:-22px 0 30px"><span class="cm-faces"><img src="/assets/img/face-anne-roos.png" width="44" height="44" alt="Anne-Roos"><img src="/assets/img/face-demi.png" width="44" height="44" alt="Demi"></span><span>Anne-Roos en Demi lezen je antwoorden zelf</span></p>
 
     <div class="timeline">
       <div class="tl-item">
@@ -207,6 +209,7 @@ textarea.q-input{min-height:100px;}
       Werving, selectie, training, aansturing en vervanging bij uitval. Alles. Jij hoeft alleen deze vragenlijst in te vullen en de setter akkoord te geven.
     </div>
     <button class="btn-start" onclick="goTo(1)">Vragenlijst invullen →</button>
+    <p class="who-l who-c"><span class="cm-faces"><img src="/assets/img/face-anne-roos.png" width="44" height="44" alt="Anne-Roos"><img src="/assets/img/face-demi.png" width="44" height="44" alt="Demi"></span><span>Je antwoorden komen direct bij Anne-Roos en Demi binnen</span></p>
   </div>
 
   <!-- PANELS 1–15: VRAGEN -->
@@ -411,6 +414,7 @@ textarea.q-input{min-height:100px;}
       <button class="btn btn-ghost" onclick="goTo(15)">← Terug</button>
       <button class="btn btn-primary" id="submit-btn" onclick="submit()">Versturen ✓</button>
     </div>
+    <p class="who-l who-c"><span class="cm-faces"><img src="/assets/img/face-anne-roos.png" width="44" height="44" alt="Anne-Roos"><img src="/assets/img/face-demi.png" width="44" height="44" alt="Demi"></span><span>Je antwoorden komen direct bij Anne-Roos en Demi binnen</span></p>
   </div>
 
   <!-- PANEL 17: SUCCESS -->
@@ -571,7 +575,7 @@ async function submit() {
 </script>
 <script src="/assets/i18n/l2l-i18n-data.js"></script><script src="/assets/i18n/l2l-i18n.js"></script>
 <script src="/assets/tracking.js?v=2"></script>
-<script src="/assets/i18n/l2t-i18n.js?v=10"></script><!-- Vaste WhatsApp-knop rechtsonder, op elke pagina. Pure HTML en CSS, geen script. -->
+<script src="/assets/i18n/l2t-i18n.js?v=13"></script><!-- Vaste WhatsApp-knop rechtsonder, op elke pagina. Pure HTML en CSS, geen script. -->
 <style>
 #l2l-fab{position:fixed !important;right:20px !important;bottom:20px !important;z-index:400;
   width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;
