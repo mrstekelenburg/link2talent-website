@@ -1,5 +1,20 @@
 /* Link2Talent i18n data — NL is de brontaal. Sleutels = exacte Nederlandse tekst. */
 window.L2T_I18N_DATA = {
+"Anne-Roos of Demi als vast aanspreekpunt": {
+"en": "Anne-Roos or Demi as your dedicated point of contact"
+},
+"Je spreekt Anne-Roos of Demi": {
+"en": "You'll speak to Anne-Roos or Demi"
+},
+"Je spreekt Anne-Roos of Demi, geen accountmanager": {
+"en": "You'll speak to Anne-Roos or Demi, not an account manager"
+},
+"Anne-Roos en Demi lezen je antwoorden zelf": {
+"en": "Anne-Roos and Demi read your answers themselves"
+},
+"Je antwoorden komen direct bij Anne-Roos en Demi binnen": {
+"en": "Your answers go straight to Anne-Roos and Demi"
+},
 "oprichters Link2Talent": {
 "en": "founders of Link2Talent"
 },
