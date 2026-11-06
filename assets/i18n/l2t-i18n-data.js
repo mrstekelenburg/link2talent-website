@@ -1,5 +1,14 @@
 /* Link2Talent i18n data — NL is de brontaal. Sleutels = exacte Nederlandse tekst. */
 window.L2T_I18N_DATA = {
+"oprichters Link2Talent": {
+"en": "founders of Link2Talent"
+},
+"In 40 seconden zie je hoe het werkt": {
+"en": "See how it works in 40 seconds"
+},
+"Check even de korte video hieronder": {
+"en": "Take a look at the short video below"
+},
 "Wij koppelen je aan een bewezen setter die dagelijks afspraken voor je inplant. Geen recruitment en geen vaste hire. Jij kiest het model dat past.": {
 "en": "We match you with a proven setter who books meetings for you every day. No recruitment and no permanent hire. You pick the model that fits."
 },

@@ -2118,6 +2118,45 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
 }
 </style>
 <link rel="alternate" type="text/plain" href="/llms.txt" title="Samenvatting voor taalmodellen">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&amp;display=swap" rel="stylesheet"/>
+<style id="hero-oprichters">
+@media(min-width:901px){
+.hb-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:24px;max-width:1180px;margin:0 auto;text-align:left}
+.hero-c .hb-left .hero-h{text-align:left!important;white-space:normal!important;font-size:clamp(40px,4.6vw,62px)!important;line-height:1.02!important;letter-spacing:-.035em!important;margin:0 0 6px!important;max-width:none}
+.hero-c .hb-left .hs-v{margin:14px 0 0!important;text-align:left;max-width:560px}
+.hero-c .hb-left .hcta{justify-content:flex-start!important;margin:26px 0 0!important;width:fit-content}
+.hero-c .hb-left .hstats{justify-content:flex-start!important;margin:34px 0 0!important}
+.hb-right{position:relative;align-self:start;display:flex;flex-direction:column;align-items:center;margin-top:-10px}
+.hb-right::before{content:"";position:absolute;left:8%;right:8%;bottom:0;top:12%;background:radial-gradient(60% 60% at 50% 55%,rgba(47,111,237,.55),rgba(47,111,237,0) 70%);filter:blur(10px);z-index:0}
+.hb-right img{position:relative;z-index:1;display:block;width:100%;max-width:390px;height:auto;-webkit-mask-image:linear-gradient(to bottom,#000 82%,transparent);mask-image:linear-gradient(to bottom,#000 82%,transparent)}
+.hb-name{position:absolute;z-index:2;right:4%;bottom:22%;background:rgba(8,9,12,.82);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:9px 14px;font-size:14px;font-weight:700;color:#F0EFED;line-height:1.25;text-align:left}
+.hb-name small{display:block;font-size:12px;font-weight:600;color:#8A919E}
+.hb-note{position:relative;z-index:2;display:flex;align-items:flex-end;gap:4px;margin:-4px 0 0 -60px;color:#7EB3FF;text-decoration:none;font-family:'Caveat',cursive;font-size:27px;line-height:1.05;transform:rotate(-4deg);text-align:left}
+.hb-note span{max-width:210px}
+.hb-note svg{flex-shrink:0;margin-bottom:-34px;animation:hbBob 1.6s ease-in-out infinite}
+.hb-film{max-width:960px;margin:28px auto 0}
+.hb-mob{display:none}
+}
+@keyframes hbBob{0%,100%{transform:translateY(0)}50%{transform:translateY(7px)}}
+@media(prefers-reduced-motion:reduce){.hb-note svg,.hb-mob svg{animation:none}}
+@media(max-width:900px){
+.hb-right{display:none!important}
+.hero.hero-c{display:flex!important;flex-direction:column!important;gap:0!important}
+.hb-grid,.hb-left,.hb-film{display:contents}
+.hb-left .hero-h{order:1;margin-bottom:0!important}
+.hb-film .hv-video{margin-top:16px!important}
+.hb-mob{order:2;display:flex;align-items:center;justify-content:center;gap:8px;box-sizing:border-box;width:100%;max-width:100%;padding:0 16px;margin:14px auto -4px;color:#7EB3FF;text-decoration:none;font-family:'Caveat',cursive;font-size:min(21px,calc((100vw - 120px) / 14));line-height:1.05}
+.hb-faces{display:flex;flex-shrink:0}
+.hb-faces img{width:36px;height:36px;border-radius:50%;border:2px solid #2F6FED;background:#0E1018;display:block}
+.hb-faces img+img{margin-left:-10px}
+.hb-hi{transform:rotate(-3deg);white-space:nowrap}
+.hb-mob svg{flex-shrink:0;width:20px;height:24px;margin-top:14px;animation:hbBob 1.6s ease-in-out infinite}
+.hb-film .hv-video{order:3}
+.hb-left .hcta{order:4;margin-bottom:0!important}
+.hb-left .hs-v{order:5}
+.hb-left .hstats{order:6}
+}
+</style>
 </head>
 </head>
 <body>
@@ -2325,10 +2364,21 @@ a.hstat:hover .hs-lab{color:rgba(255,255,255,.8)}
 </style>
 <div class="hero-wrap">
 <div class="hero hero-c">
-<h1 class="hero-h">
+<div class="hb-grid"><div class="hb-left"><h1 class="hero-h">
 <span class="blue">Een remote setter</span> die afspraken in je agenda zet
       </h1>
-<div class="hv-video" id="hvVideo">
+<a class="hb-mob" href="#hvVideo"><span class="hb-faces"><img src="/assets/img/face-anne-roos.png" width="160" height="160" alt="Anne-Roos"/><img src="/assets/img/face-demi.png" width="160" height="160" alt="Demi"/></span><span class="hb-hi">Check even de korte video hieronder</span><svg viewBox="0 0 40 46" width="26" height="30" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4c14 2 18 14 16 34"/><path d="M14 30l8 10 8-10"/></svg></a>
+<div class="hcta">
+<a class="hcta-main" href="/book" target="_blank"><span>Plan je gratis matchgesprek</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</div>
+<p class="hero-sub hs-v">Een <b>bewezen setter</b> die jouw leads belt en opvolgt, <b>binnen 14 dagen actief</b>.<span class="hs-end">Jij voert alleen nog het gesprek.</span></p>
+<div class="hstats">
+<a class="hstat" href="#reviews" aria-label="4,8 van 5 sterren op Google Reviews"><svg class="hs-g" aria-hidden="true" fill="none" height="18" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"></path><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path></svg><span class="hs-body"><b>4,8 <span class="hs-stars" aria-hidden="true">★★★★★</span></b><span class="hs-lab">Google Reviews</span></span></a>
+<a class="hstat" href="#garantie"><span class="hs-ic hs-ic-green" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></span><span class="hs-body"><b>Garantie</b><span class="hs-lab">binnen 14 dagen</span></span></a>
+<a class="hstat" href="#resultaten"><span class="hs-ic hs-ic-blue" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><span class="hs-body"><b>100+</b><span class="hs-lab">setters geplaatst</span></span></a>
+</div>
+</div><div class="hb-right"><picture><source srcset="/assets/img/oprichters-hero.webp" type="image/webp"/><img src="/assets/img/oprichters-hero.png" width="625" height="714" alt="Anne-Roos en Demi, de oprichters van Link2Talent" loading="lazy"/></picture><span class="hb-name">Anne-Roos &amp; Demi<small>oprichters Link2Talent</small></span><a class="hb-note" href="#hvVideo"><svg viewBox="0 0 70 60" width="58" height="50" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M62 8C40 4 32 24 32 56"/><path d="M23 46l9 11 9-11"/></svg><span>In 40 seconden zie je hoe het werkt</span></a></div></div>
+<div class="hb-film"><div class="hv-video" id="hvVideo">
 <video data-src="/assets/video/herofilm-l2t-v2.mp4" poster="/assets/video/herofilm-l2t-v2-poster.jpg" data-src-en="/assets/video/herofilm-l2t-v2-en.mp4" data-poster-en="/assets/video/herofilm-l2t-v2-en-poster.jpg" autoplay muted playsinline preload="none"></video>
 <button class="hv-unmute" type="button">
 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg><span>Geluid aan</span></button>
@@ -2381,17 +2431,7 @@ function begin(){swap();v.muted=true;var pr=v.play();if(pr&&pr.catch)pr.catch(fu
   else{autoMuted=true;arm();}ui();}
 if(document.readyState==='complete')begin();else window.addEventListener('load',begin);
 })();
-</script>
-
-<div class="hcta">
-<a class="hcta-main" href="/book" target="_blank"><span>Plan je gratis matchgesprek</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-</div>
-<p class="hero-sub hs-v">Een <b>bewezen setter</b> die jouw leads belt en opvolgt, <b>binnen 14 dagen actief</b>.<span class="hs-end">Jij voert alleen nog het gesprek.</span></p>
-<div class="hstats">
-<a class="hstat" href="#reviews" aria-label="4,8 van 5 sterren op Google Reviews"><svg class="hs-g" aria-hidden="true" fill="none" height="18" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"></path><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path></svg><span class="hs-body"><b>4,8 <span class="hs-stars" aria-hidden="true">★★★★★</span></b><span class="hs-lab">Google Reviews</span></span></a>
-<a class="hstat" href="#garantie"><span class="hs-ic hs-ic-green" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></span><span class="hs-body"><b>Garantie</b><span class="hs-lab">binnen 14 dagen</span></span></a>
-<a class="hstat" href="#resultaten"><span class="hs-ic hs-ic-blue" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><span class="hs-body"><b>100+</b><span class="hs-lab">setters geplaatst</span></span></a>
-</div>
+</script></div>
 </div>
 </div>
 
@@ -3480,7 +3520,7 @@ if (starsEl) for (let i = 0; i < 60; i++) {
   starsEl.appendChild(s);
 }
 </script>
-<script src="/assets/i18n/l2t-i18n.js?v=11"></script>
+<script src="/assets/i18n/l2t-i18n.js?v=12"></script>
 <script src="/assets/tracking.js?v=2" defer></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.

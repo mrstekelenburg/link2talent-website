@@ -1,3 +1,8 @@
+**6 november 2026: foto van Anne-Roos en Demi in de hero**
+- Desktop: kop links met knop, tekst en cijfers, rechts een uitgeknipte foto van Anne-Roos en Demi met label en handgeschreven "In 40 seconden zie je hoe het werkt" met pijltje naar de film. Film daaronder.
+- Mobiel: zelfde volgorde als eerst, met tussen kop en film twee gezichtjes en "Check even de korte video hieronder". Film blijft direct in beeld.
+- Zelfde opzet als link2leads.nl. Engels in `assets/i18n/l2t-i18n-data.js`, `l2t-i18n.js?v=12`.
+
 **6 november 2026: accenten en trema's waar de spelling ze vraagt**
 - "Je krijgt één van ons tweeën aan de lijn" en categorieën rechtgezet. Sleutel in `assets/i18n/l2t-i18n-data.js` mee aangepast, homepage op `l2t-i18n.js?v=11`.
 
