@@ -2382,6 +2382,7 @@ a.hstat:hover .hs-lab{color:rgba(255,255,255,.8)}
 <a class="hstat" href="#garantie"><span class="hs-ic hs-ic-green" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></span><span class="hs-body"><b>Garantie</b><span class="hs-lab">binnen 14 dagen</span></span></a>
 <a class="hstat" href="#resultaten"><span class="hs-ic hs-ic-blue" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><span class="hs-body"><b>100+</b><span class="hs-lab">setters geplaatst</span></span></a>
 </div>
+<style>.hstat b{white-space:nowrap;font-variant-numeric:tabular-nums}@media(min-width:900px){.hstat .hs-lab{white-space:nowrap}}</style>
 <script id="l2l-teller">(function(){var D=',',T='.';
 var els=document.querySelectorAll('.hstats .hstat b');if(!els.length||!window.IntersectionObserver)return;
 if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)return;
@@ -2390,7 +2391,7 @@ var m=raw.match(new RegExp('^([^0-9]*)([0-9'+esc(T)+']+(?:'+esc(D)+'[0-9]+)?)(.*
 var n=m[2],dp=n.indexOf(D)>-1?n.split(D)[1].length:0,target=parseFloat(n.split(T).join('').replace(D,'.'));if(!target)return;
 var big=n.indexOf(T)>-1,t0=null,dur=1600;
 function fmt(v){var s=v.toFixed(dp).split('.');if(big)s[0]=s[0].replace(/\B(?=(\d{3})+(?!\d))/g,T);return m[1]+s.join(D)+m[3];}
-b.style.fontVariantNumeric='tabular-nums';el.nodeValue=fmt(0);
+b.style.fontVariantNumeric='tabular-nums';b.style.whiteSpace='nowrap';b.style.display='block';b.style.minWidth=Math.ceil(b.getBoundingClientRect().width)+'px';var hs=b.closest('.hstat');if(hs)hs.style.minWidth=Math.ceil(hs.getBoundingClientRect().width)+'px';el.nodeValue=fmt(0);
 function step(ts){if(!t0)t0=ts;var k=Math.min(1,(ts-t0)/dur),e=1-Math.pow(1-k,3);el.nodeValue=fmt(target*e);if(k<1)requestAnimationFrame(step);else el.nodeValue=raw;}
 requestAnimationFrame(step);}
 var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){run(e.target);io.unobserve(e.target);}});},{threshold:.5});
