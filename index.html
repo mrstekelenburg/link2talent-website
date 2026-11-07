@@ -2154,11 +2154,20 @@ html body .l2n-menu a.l2n-mcta{margin-top:20px;background:#2F6FED;color:#fff;tex
 .hb-film .hv-video{order:3}
 .hb-left .hcta{order:4;margin-bottom:0!important}
 .hb-left .hs-v{order:5}
-.hb-left .hstats{order:6}
+.hb-left .hstats,.hb-film .hstats{order:6}
 }
 </style>
 <style id="l2l-progress-css">html body #l2l-progress{position:fixed!important;top:0!important;left:0!important;right:0!important;height:2px!important;z-index:2147483000!important;margin:0!important;background:#2F6FED;transform:scaleX(0);transform-origin:0 50%;pointer-events:none}html body #l2l-progress{background:#5B8FF5!important;box-shadow:0 0 8px rgba(91,143,245,.6)}</style>
 <style>.p-features li.cm-li{color:#fff;font-weight:600;align-items:center}.p-features li.cm-li::before{content:none}.cm-faces{display:inline-flex;flex-shrink:0}.cm-faces img{width:24px;height:24px;border-radius:50%;object-fit:cover;border:1.5px solid #5B8DEF;background:#fff}.cm-faces img+img{margin-left:-7px}.who-l{display:flex;align-items:center;gap:9px;margin:12px 0 0;font-size:13.5px;font-weight:600;color:rgba(255,255,255,.85)!important;font-size:13.5px!important;line-height:1.4!important}.who-l.who-c{justify-content:center}.who-wrap{display:flex;flex-direction:column;align-items:center}</style>
+<style id="hero-cijfers-film">
+@media(min-width:901px){
+.hero-c .hb-film .hstats{display:grid!important;width:min(1080px,100%,max(480px,calc((100svh - 372px) * 16 / 9)))!important;max-width:100%!important;margin:0 auto!important;padding-top:20px!important;grid-template-columns:repeat(3,auto)!important;justify-content:space-evenly!important}
+.hb-film .hv-video{margin-top:22px}
+}
+.hv-unmute{top:auto!important;bottom:64px!important}
+@media(max-width:560px){.hv-unmute{bottom:54px!important}}
+.hs-v .hs-end{display:inline!important;margin:0 0 0 .3em!important;font-size:inherit!important}
+</style>
 </head>
 </head>
 <body>
@@ -2377,7 +2386,10 @@ a.hstat:hover .hs-lab{color:rgba(255,255,255,.8)}
 <a class="hcta-main" href="/book" target="_blank"><span>Plan je gratis matchgesprek</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
 </div>
 <p class="hero-sub hs-v">Een <b>bewezen setter</b> die jouw leads belt en opvolgt, <b>binnen 14 dagen actief</b>.<span class="hs-end">Jij voert alleen nog het gesprek.</span></p>
-<div class="hstats">
+
+
+</div><div class="hb-right"><picture><source srcset="/assets/img/oprichters-hero.webp?v=2" type="image/webp"/><img src="/assets/img/oprichters-hero.png?v=2" width="625" height="714" alt="Anne-Roos en Demi, de oprichters van Link2Talent" loading="lazy"/></picture><span class="hb-name">Anne-Roos &amp; Demi<small>oprichters Link2Talent</small></span><a class="hb-note" href="#hvVideo"><svg viewBox="0 0 70 60" width="58" height="50" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M62 8C40 4 32 24 32 56"/><path d="M23 46l9 11 9-11"/></svg><span>In 40 seconden zie je hoe het werkt</span></a></div></div>
+<div class="hb-film"><div class="hstats">
 <a class="hstat" href="#reviews" aria-label="4,8 van 5 sterren op Google Reviews"><svg class="hs-g" aria-hidden="true" fill="none" height="18" viewBox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"></path><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path></svg><span class="hs-body"><b>4,8 <span class="hs-stars" aria-hidden="true">★★★★★</span></b><span class="hs-lab">Google Reviews</span></span></a>
 <a class="hstat" href="#garantie"><span class="hs-ic hs-ic-green" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></span><span class="hs-body"><b>Garantie</b><span class="hs-lab">binnen 14 dagen</span></span></a>
 <a class="hstat" href="#resultaten"><span class="hs-ic hs-ic-blue" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><span class="hs-body"><b>100+</b><span class="hs-lab">setters geplaatst</span></span></a>
@@ -2395,10 +2407,7 @@ b.style.fontVariantNumeric='tabular-nums';b.style.whiteSpace='nowrap';b.style.di
 function step(ts){if(!t0)t0=ts;var k=Math.min(1,(ts-t0)/dur),e=1-Math.pow(1-k,3);el.nodeValue=fmt(target*e);if(k<1)requestAnimationFrame(step);else el.nodeValue=raw;}
 requestAnimationFrame(step);}
 var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){run(e.target);io.unobserve(e.target);}});},{threshold:.5});
-Array.prototype.forEach.call(els,function(el){if(/[0-9]/.test(el.textContent))io.observe(el);});})();</script>
-
-</div><div class="hb-right"><picture><source srcset="/assets/img/oprichters-hero.webp?v=2" type="image/webp"/><img src="/assets/img/oprichters-hero.png?v=2" width="625" height="714" alt="Anne-Roos en Demi, de oprichters van Link2Talent" loading="lazy"/></picture><span class="hb-name">Anne-Roos &amp; Demi<small>oprichters Link2Talent</small></span><a class="hb-note" href="#hvVideo"><svg viewBox="0 0 70 60" width="58" height="50" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M62 8C40 4 32 24 32 56"/><path d="M23 46l9 11 9-11"/></svg><span>In 40 seconden zie je hoe het werkt</span></a></div></div>
-<div class="hb-film"><div class="hv-video" id="hvVideo">
+Array.prototype.forEach.call(els,function(el){if(/[0-9]/.test(el.textContent))io.observe(el);});})();</script><div class="hv-video" id="hvVideo">
 <video data-src="/assets/video/herofilm-l2t-v2.mp4" poster="/assets/video/herofilm-l2t-v2-poster.jpg" data-src-en="/assets/video/herofilm-l2t-v2-en.mp4" data-poster-en="/assets/video/herofilm-l2t-v2-en-poster.jpg" autoplay muted playsinline preload="none"></video>
 <button class="hv-unmute" type="button">
 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M19 5a10 10 0 0 1 0 14"/></svg><span>Geluid aan</span></button>
