@@ -12,14 +12,15 @@ const TZ = 'Europe/Amsterdam';
 
 function pad(n) { return String(n).padStart(2, '0'); }
 
-/* Het standaardrooster: ma t/m do 09:00-16:30, vr 09:00-12:30. */
+/* Het standaardrooster (Nederlandse tijd), laatste starttijd inclusief:
+   ma t/m do 09:30-16:30, vr 09:30-13:00. */
 function baseSlots(dateKey) {
   const [y, m, d] = dateKey.split('-').map(Number);
   const day = new Date(Date.UTC(y, m - 1, d)).getUTCDay();
   if (day === 0 || day === 6) return [];
-  const endH = day === 5 ? 12.5 : 16.5;
+  const endH = day === 5 ? 13 : 16.5;
   const out = [];
-  for (let h = 9; h <= endH; h += 0.5) {
+  for (let h = 9.5; h <= endH; h += 0.5) {
     out.push(pad(Math.floor(h)) + ':' + (h % 1 ? '30' : '00'));
   }
   return out;
@@ -59,42 +60,20 @@ function rngFrom(seed) {
   };
 }
 
-/* Blokt een deel van de vrije tijden zodat de agenda gevuld oogt. Alles wat
-   echt bezet is blijft bezet; dit haalt er alleen extra opties af.
-   De uitkomst is vast per datum, dus een refresh geeft hetzelfde beeld. */
+/* Blokt precies een derde van de vrije tijden zodat de agenda gevuld oogt.
+   Alles wat echt bezet is blijft bezet; dit haalt er alleen extra opties af.
+   Welke tijden dicht gaan is vast per datum, dus een refresh of een ander
+   toestel geeft hetzelfde beeld. Uitzetten kan met SCARCITY_ENABLED=0. */
 function applyScarcity(dateKey, freeSlots) {
   if (String(process.env.SCARCITY_ENABLED || '1') !== '1') return freeSlots;
   if (!freeSlots.length) return freeSlots;
 
-  const cutoff  = toMin(process.env.SCARCITY_AFTERNOON_FROM || '12:30');
-  const rateAM  = Number(process.env.SCARCITY_MORNING_RATE   || 0.4);
-  const ratePM  = Number(process.env.SCARCITY_AFTERNOON_RATE || 0.5);
-  const minFree = Number(process.env.SCARCITY_MIN_FREE || 2);
-
   const rnd = rngFrom(seedFrom(dateKey + '|' + (process.env.SCARCITY_SALT || 'l2l')));
+  const scored = freeSlots.map(t => ({ t, r: rnd() }));
+  const dicht = Math.round(freeSlots.length / 3);
+  const weg = scored.slice().sort((a, b) => a.r - b.r).slice(0, dicht).map(x => x.t);
 
-  /* Per blok een vaste worp. We loten eerst alle waardes zodat de volgorde
-     van de slots bepaalt wie er dicht gaat, niet de volgorde van de code. */
-  const scored = freeSlots.map(t => ({
-    t,
-    r: rnd(),
-    rate: toMin(t) >= cutoff ? ratePM : rateAM
-  }));
-
-  let kept = scored.filter(x => x.r >= x.rate).map(x => x.t);
-
-  /* Nooit een dag die per ongeluk helemaal dicht valt: vul aan met de
-     blokken die het dichtst bij vrij zaten. */
-  if (kept.length < minFree) {
-    const extra = scored
-      .filter(x => kept.indexOf(x.t) < 0)
-      .sort((a, b) => (b.r - b.rate) - (a.r - a.rate))
-      .slice(0, minFree - kept.length)
-      .map(x => x.t);
-    kept = kept.concat(extra);
-  }
-
-  return kept.sort((a, b) => toMin(a) - toMin(b));
+  return freeSlots.filter(t => weg.indexOf(t) < 0);
 }
 
 module.exports = async (req, res) => {

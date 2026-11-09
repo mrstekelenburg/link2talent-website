@@ -151,6 +151,14 @@ function utcToAmsterdam(isoZonderZone) {
   };
 }
 
+/* Woorden in een hele-dag-item die betekenen dat Demi die dag niet beschikbaar is. */
+const DAG_DICHT = /\b(vrij|vrije|vakantie|verlof|vrijaf|dagje|uit eten|eten|etentje|lunch|diner|bruiloft|feest|verjaardag|jarig|ziek|weg|offline|niet beschikbaar|onbeschikbaar|geen werk|geen calls|geen meetings|blok|geblokt|bezet|afwezig|day off|holiday|vacation|ooo|out of office|vlucht|flight|reisdag|verhuizing|verhuizen)\b/i;
+
+function blocksWholeDay(ev) {
+  if (ev.showAs === 'oof') return true;
+  return DAG_DICHT.test(String(ev.subject || ''));
+}
+
 /* Leest de daadwerkelijke agenda-items tussen twee tijdstippen.
    Anders dan de vrij/bezet-weergave telt hier ALLES mee wat in de agenda
    staat, ook items die als "Vrij" gemarkeerd zijn. Geannuleerde items
@@ -178,7 +186,7 @@ async function getBusy(dateKey) {
   for (const cal of cals) {
     const url = `${GRAPH}/users/${encodeURIComponent(cal)}/calendarView` +
       `?startDateTime=${from}&endDateTime=${to}` +
-      `&$select=subject,start,end,isAllDay,isCancelled&$top=250&$orderby=start/dateTime`;
+      `&$select=subject,start,end,isAllDay,isCancelled,showAs&$top=250&$orderby=start/dateTime`;
 
     // Bewust geen Prefer-header: Microsoft levert dan wereldtijd,
     // en die rekenen we hieronder zelf om naar Amsterdamse tijd.
@@ -199,6 +207,19 @@ async function getBusy(dateKey) {
       if (rs.length < 16 || re.length < 16) continue;
 
       let sDate, sMin, eDate, eMin, sLabel, eLabel;
+
+      // Een item van een hele dag blokt alleen als het om vrij of weg zijn
+      // gaat (dagje vrij, vakantie, uit eten) of als Afwezig staat aangevinkt.
+      // Een plaats of geheugensteuntje als "Malaga" laat de dag boekbaar.
+      if (ev.isAllDay && !blocksWholeDay(ev)) {
+        module.exports.lastRaw.push({
+          onderwerp: ev.subject || '(geen onderwerp)',
+          heleDag: true,
+          blokt: false,
+          wereldtijd: rs.slice(0, 16) + ' tot ' + re.slice(0, 16)
+        });
+        continue;
+      }
 
       if (ev.isAllDay) {
         // Bij afspraken van een hele dag staat er geen echt tijdstip in;

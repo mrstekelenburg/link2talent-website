@@ -854,9 +854,9 @@ let vY = now.getFullYear(), vM = now.getMonth(), selD = null, selSlot = null;
 function getSlots(d) {
   const day = d.getDay();
   if (!day || day === 6) return [];
-  const endH = day === 5 ? 12.5 : 16.5;
+  const endH = day === 5 ? 13 : 16.5;
   const out = [];
-  for (let h = 9; h <= endH; h += .5) {
+  for (let h = 9.5; h <= endH; h += .5) {
     const hh = Math.floor(h), mm = h % 1 ? '30' : '00';
     out.push(`${String(hh).padStart(2,'0')}:${mm}`);
   }
@@ -902,9 +902,9 @@ function fallbackDay(d){
   for(let i=0;i<key.length;i++){h^=key.charCodeAt(i);h=Math.imul(h,16777619);}
   let s=h>>>0;
   const rnd=function(){s^=s<<13;s>>>=0;s^=s>>17;s^=s<<5;s>>>=0;return s/4294967296;};
-  const cut=12*60+30, free=[];
-  grid.forEach(function(t){if(rnd()>=(toMin(t)>=cut?0.5:0.4))free.push(t);});
-  if(free.length<2){grid.slice(0,2).forEach(function(t){if(free.indexOf(t)<0)free.push(t);});free.sort(function(a,b){return toMin(a)-toMin(b);});}
+  const sc=grid.map(function(t){return{t:t,r:rnd()};});
+  const weg=sc.slice().sort(function(a,b){return a.r-b.r;}).slice(0,Math.round(grid.length/3)).map(function(x){return x.t;});
+  const free=grid.filter(function(t){return weg.indexOf(t)<0;});
   return{free:free,taken:grid.filter(function(t){return free.indexOf(t)<0;})};
 }
 
