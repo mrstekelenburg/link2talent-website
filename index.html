@@ -3465,6 +3465,7 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
     // De rest van de flow (gegevens, korte vragen, vragenlijst) blijft op /book.
     var q=new URLSearchParams(location.search), out=new URLSearchParams();
     ['lang','utm_source','utm_medium','utm_campaign','naam','email','bedrijf','tel'].forEach(function(p){var v=q.get(p); if(v) out.set(p,v);});
+    Object.keys(extra).forEach(function(k){ out.set(k,extra[k]); });
     out.set('datum',key(sel)); out.set('tijd',t);
     if(!out.get('utm_source')) out.set('utm_source','home-agenda');
     location.href='/book?'+out.toString();
@@ -3474,7 +3475,9 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
   document.addEventListener('l2l:langchange',function(){ renderCal(); renderSlots(); });
   // Eerste werkdag met vrije tijden staat direct open, zoals bij een gewone agenda.
   // Pas laden als het blok bijna in beeld komt, zodat de homepage niet trager wordt.
+  var started=false;
   function start(){
+    if(started) return; started=true;
     var d=new Date(today), tries=0;
     (function step(){
       while(!weekday(d)) d.setDate(d.getDate()+1);
@@ -3486,7 +3489,20 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
     })();
   }
   renderCal();
-  var sec=document.getElementById('plan');
+  var sec=document.getElementById('plan'), extra={};
+  // Elke fitcheck-knop op deze pagina scrolt naar deze agenda in plaats van naar /book.
+  // Wat de knop meegaf (bijv. ?pakket=&addons= uit de samensteller) gaat mee bij het kiezen van een tijd.
+  document.addEventListener('click',function(e){
+    var a=e.target.closest('a[href^="/book"]'); if(!a||sec.contains(a)) return;
+    if(e.defaultPrevented||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey||e.button) return;
+    e.preventDefault();
+    extra={}; try{ new URL(a.href,location.href).searchParams.forEach(function(v,k){ extra[k]=v; }); }catch(x){}
+    if(window.l2nClose) l2nClose();
+    start();
+    sec.scrollIntoView({behavior:'smooth',block:'start'});
+    try{ history.replaceState(null,'','#plan'); }catch(x){}
+    if(window.l2lTrack) l2lTrack('fitcheck_naar_agenda');
+  });
   if('IntersectionObserver' in window){
     var io=new IntersectionObserver(function(es){ if(es[0].isIntersecting){ io.disconnect(); start(); } },{rootMargin:'600px 0px'});
     io.observe(sec);

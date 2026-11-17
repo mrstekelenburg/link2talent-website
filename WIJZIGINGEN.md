@@ -1,3 +1,6 @@
+**17 november 2026: matchgesprek-knoppen gaan naar de agenda**
+- Op de homepage scrolt elke matchgesprek-knop naar de agenda (#plan) in plaats van /book te openen. Op alle andere pagina's gaan die links naar `/#plan`. /book zelf blijft bestaan voor persoonlijke links en mails. Event `fitcheck_naar_agenda`.
+
 **17 november 2026: agenda direct op de homepage**
 - Boven de contactsectie een blok "Kies direct een moment voor je gratis matchgesprek" (#plan), zelfde opzet als link2leads.nl: links Anne-Roos of Demi, in het midden de maandkalender, rechts de tijden van de gekozen dag. De eerste werkdag met vrije tijden staat direct open. Zelfde beschikbaarheid als /book via `/api/slots`, opgehaald als het blok bijna in beeld komt.
 - Klik op een tijd gaat naar `/book?datum=&tijd=&utm_source=home-agenda`; /book zet datum en tijd klaar en springt naar de gegevensstap. Is de tijd intussen bezet, dan staat de dag open om opnieuw te kiezen.
