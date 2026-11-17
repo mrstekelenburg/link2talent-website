@@ -3287,8 +3287,9 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
 <!-- CONTACT -->
 <section class="hag-section" id="plan">
 <style>
-  .hag-section{padding:90px 24px 70px;max-width:1140px;margin:0 auto;scroll-margin-top:70px;}
-  .hag-head{text-align:center;margin-bottom:34px;}
+  .hag-section{padding:70px 24px 60px;max-width:1140px;margin:0 auto;scroll-margin-top:80px;}
+  .hag-head{text-align:center;margin-bottom:26px;}
+  .hag-head .big-h{font-size:clamp(28px,3.2vw,40px);line-height:1.15;}
   .hag-head .big-sub{margin-left:auto;margin-right:auto;max-width:640px;}
   .hag-card{display:grid;grid-template-columns:260px minmax(0,1fr) 230px;background:var(--card-bg);
     border:1px solid rgba(255,255,255,.14);border-radius:20px;overflow:hidden;box-shadow:0 26px 60px rgba(0,0,0,.42);}
@@ -3311,7 +3312,7 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
   .hag-btn:disabled{opacity:.3;cursor:default;background:rgba(255,255,255,.035);border-color:rgba(255,255,255,.14);color:rgba(255,255,255,.7);}
   .hag-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;}
   .hag-dh{text-align:center;font-size:12px;font-weight:700;color:var(--muted);letter-spacing:.6px;padding:4px 0 8px;}
-  .hag-d{aspect-ratio:1;max-height:62px;border-radius:10px;display:flex;align-items:center;justify-content:center;
+  .hag-d{height:44px;border-radius:10px;display:flex;align-items:center;justify-content:center;
     font-size:15px;font-weight:500;color:rgba(255,255,255,.28);position:relative;border:0;background:none;font-family:inherit;}
   .hag-d.avail{cursor:pointer;color:var(--white);font-weight:700;background:rgba(255,255,255,.07);transition:background .12s;}
   .hag-d.avail:hover{background:rgba(47,111,237,.28);}
@@ -3321,7 +3322,7 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
   .hag-d:focus-visible,.hag-slot:focus-visible,.hag-btn:focus-visible{outline:2px solid #BFD4FF;outline-offset:2px;}
   .hag-times{padding:24px 20px;display:flex;flex-direction:column;min-height:0;}
   .hag-day{font-size:16px;font-weight:700;color:var(--white);margin-bottom:14px;}
-  .hag-slots{display:flex;flex-direction:column;gap:8px;max-height:420px;overflow-y:auto;padding-right:4px;}
+  .hag-slots{display:flex;flex-direction:column;gap:8px;max-height:350px;overflow-y:auto;padding-right:4px;}
   .hag-slots::-webkit-scrollbar{width:3px;}
   .hag-slots::-webkit-scrollbar-thumb{background:rgba(255,255,255,.18);border-radius:3px;}
   .hag-slot{display:block;width:100%;padding:12px 8px;border-radius:10px;border:1px solid rgba(255,255,255,.16);
@@ -3346,7 +3347,7 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
     .hag-info{padding:18px;}
     .hag-cal{border-right:0;border-bottom:1px solid var(--border);padding:18px 14px;}
     .hag-grid{gap:4px;}
-    .hag-d{font-size:14px;border-radius:8px;}
+    .hag-d{font-size:14px;border-radius:8px;height:40px;}
     .hag-times{padding:18px 14px 20px;}
     .hag-slots{display:grid;grid-template-columns:repeat(3,1fr);max-height:none;overflow:visible;padding:0;}
     .hag-slot{padding:11px 4px;font-size:14.5px;}
@@ -3423,15 +3424,16 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
   function renderCal(){
     monthEl.textContent=MN[lang()][vM]+' '+vY;
     prev.disabled=(vY===today.getFullYear()&&vM===today.getMonth());
-    var h=DN[lang()].map(function(x){return '<div class="hag-dh">'+x+'</div>';}).join('');
-    var first=new Date(vY,vM,1), last=new Date(vY,vM+1,0), off=(first.getDay()+6)%7;
-    for(var i=0;i<off;i++) h+='<div></div>';
+    var first=new Date(vY,vM,1), last=new Date(vY,vM+1,0), off=(first.getDay()+6)%7, cells=[];
+    for(var i=0;i<off;i++) cells.push({x:'<div></div>',past:true});
     for(var d=1;d<=last.getDate();d++){
       var dt=new Date(vY,vM,d), ok=dt>=today&&weekday(dt);
       var c='hag-d'+(ok?' avail':'')+(dt.getTime()===today.getTime()?' today':'')+(sel&&dt.getTime()===sel.getTime()?' sel':'');
-      h+=ok?'<button type="button" class="'+c+'" data-d="'+d+'">'+d+'</button>':'<div class="'+c+'">'+d+'</div>';
+      cells.push({x:ok?'<button type="button" class="'+c+'" data-d="'+d+'">'+d+'</button>':'<div class="'+c+'">'+d+'</div>',past:dt<today});
     }
-    grid.innerHTML=h;
+    // Weken die helemaal voorbij zijn laten we weg, dan blijft de agenda compact.
+    while(cells.length>7&&cells.slice(0,7).every(function(c){return c.past;})) cells=cells.slice(7);
+    grid.innerHTML=DN[lang()].map(function(x){return '<div class="hag-dh">'+x+'</div>';}).join('')+cells.map(function(c){return c.x;}).join('');
   }
   function renderSlots(){
     if(!sel){dayEl.innerHTML='&nbsp;';return;}
@@ -3439,14 +3441,12 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
     dayEl.textContent=lbl.charAt(0).toUpperCase()+lbl.slice(1);
     var data=cache[key(sel)];
     if(!data){slotsEl.innerHTML='<div class="hag-empty">'+(EN()?'Checking availability...':'Beschikbaarheid ophalen...')+'</div>';return;}
-    var all=data.slots.concat(data.taken).sort(function(a,b){return toMin(a)-toMin(b);});
+    var all=data.slots.slice().sort(function(a,b){return toMin(a)-toMin(b);});
     if(!data.slots.length){
       slotsEl.innerHTML='<div class="hag-empty">'+(EN()?'This day is fully booked. Pick another date.':'Deze dag is volgeboekt. Kies een andere datum.')+'</div>';return;
     }
     slotsEl.innerHTML=all.map(function(t){
-      return data.slots.indexOf(t)>=0
-        ? '<button type="button" class="hag-slot" data-t="'+t+'">'+t+'</button>'
-        : '<button type="button" class="hag-slot taken" disabled title="'+(EN()?'Taken':'Bezet')+'">'+t+'</button>';
+      return '<button type="button" class="hag-slot" data-t="'+t+'">'+t+'</button>';
     }).join('');
   }
   function pick(d){
@@ -3483,7 +3483,7 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
       while(!weekday(d)) d.setDate(d.getDate()+1);
       var cand=new Date(d);
       load(cand).then(function(data){
-        if(data.slots.length||tries>=10){ vY=cand.getFullYear(); vM=cand.getMonth(); pick(cand); return; }
+        if(data.slots.length>=3||tries>=10){ vY=cand.getFullYear(); vM=cand.getMonth(); pick(cand); return; }
         tries++; d.setDate(d.getDate()+1); step();
       });
     })();
@@ -3499,7 +3499,11 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
     extra={}; try{ new URL(a.href,location.href).searchParams.forEach(function(v,k){ extra[k]=v; }); }catch(x){}
     if(window.l2nClose) l2nClose();
     start();
-    sec.scrollIntoView({behavior:'smooth',block:'start'});
+    // Kop plus agenda in beeld als dat past, anders de agenda zelf bovenaan.
+    var head=sec.querySelector('.hag-head'), card=sec.querySelector('.hag-card'), off=window.pageYOffset;
+    var hTop=head.getBoundingClientRect().top+off, cTop=card.getBoundingClientRect().top+off;
+    var past=(cTop+card.offsetHeight)-hTop+140<=window.innerHeight;
+    window.scrollTo({top:Math.max(0,(past?hTop:cTop)-115),behavior:'smooth'});
     try{ history.replaceState(null,'','#plan'); }catch(x){}
     if(window.l2lTrack) l2lTrack('fitcheck_naar_agenda');
   });
