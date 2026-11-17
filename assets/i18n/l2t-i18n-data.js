@@ -4790,5 +4790,32 @@ window.L2T_I18N_DATA = {
 },
 "Bij Link2Leads werkt een setter via Link2Talent op commissie: 10 procent van het maandbedrag van elke aangebrachte klant, zolang die klant blijft.": {
 "en": "At Link2Leads a setter works through Link2Talent on commission: 10 percent of the monthly fee of every client he brings in, for as long as they stay."
+},
+"Kies direct een moment voor je": {
+"en": "Pick a time for your"
+},
+"gratis matchgesprek": {
+"en": "free matching call"
+},
+"In 30 minuten bespreken we jullie salesinrichting, doelen en welk commercieel profiel daar het meeste impact maakt.": {
+"en": "In 30 minutes we discuss your sales setup, your goals and which commercial profile will have the most impact."
+},
+"Anne-Roos of Demi": {
+"en": "Anne-Roos or Demi"
+},
+"Je spreekt één van ons tweeën, geen accountmanager. We plaatsten al 100+ setters, dus je krijgt een eerlijk advies op basis van wat werkt.": {
+"en": "You talk to one of the two of us, not an account manager. We have placed 100+ setters, so you get honest advice based on what works."
+},
+"Nederlandse tijd": {
+"en": "Dutch time"
+},
+"Beschikbaarheid ophalen...": {
+"en": "Checking availability..."
+},
+"Na het kiezen vul je je gegevens en vier korte vragen in. Liever eerst een vraag stellen?": {
+"en": "After choosing, you fill in your details and four short questions. Rather ask a question first?"
+},
+"Dat kan hieronder": {
+"en": "You can do that below"
 }
 };
