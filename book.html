@@ -1081,11 +1081,35 @@ function reset() {
 }
 
 renderCal();
+
+// Tijd al gekozen in de agenda op de homepage (?datum=JJJJ-MM-DD&tijd=HH:MM):
+// datum en tijd staan klaar en de bezoeker gaat direct door naar zijn gegevens.
+// Is het tijdstip intussen bezet, dan staat de dag open en kiest hij opnieuw.
+document.addEventListener('DOMContentLoaded',function(){
+  try{
+    var q=new URLSearchParams(location.search), dk=q.get('datum'), t=q.get('tijd');
+    if(!dk||!/^\d{4}-\d{2}-\d{2}$/.test(dk))return;
+    var p=dk.split('-').map(Number), d=new Date(p[0],p[1]-1,p[2]);
+    var today=new Date();today.setHours(0,0,0,0);
+    if(isNaN(d)||d<today||!d.getDay()||d.getDay()===6)return;
+    vY=d.getFullYear();vM=d.getMonth();
+    pickD(d);
+    loadSlots(d).then(function(){
+      if(!selD||dateKeyOf(selD)!==dk)return;
+      var vrij=slotCache[dk]||[];
+      if(t&&vrij.indexOf(t)>=0){
+        pickSlot(t);
+        if(window.l2lTrack)l2lTrack('book_vanaf_home_agenda');
+        goS2();
+      }
+    });
+  }catch(e){}
+});
 renderSlots();
 </script>
 
 <script src="/assets/tracking.js?v=2" defer></script>
-<script src="/assets/i18n/l2t-i18n.js?v=13"></script><!-- Vaste WhatsApp-knop rechtsonder, op elke pagina. Pure HTML en CSS, geen script. -->
+<script src="/assets/i18n/l2t-i18n.js?v=14"></script><!-- Vaste WhatsApp-knop rechtsonder, op elke pagina. Pure HTML en CSS, geen script. -->
 <style>
 #l2l-fab{position:fixed !important;right:20px !important;bottom:20px !important;z-index:400;
   width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;

@@ -1,3 +1,8 @@
+**17 november 2026: agenda direct op de homepage**
+- Boven de contactsectie een blok "Kies direct een moment voor je gratis matchgesprek" (#plan), zelfde opzet als link2leads.nl: links Anne-Roos of Demi, in het midden de maandkalender, rechts de tijden van de gekozen dag. De eerste werkdag met vrije tijden staat direct open. Zelfde beschikbaarheid als /book via `/api/slots`, opgehaald als het blok bijna in beeld komt.
+- Klik op een tijd gaat naar `/book?datum=&tijd=&utm_source=home-agenda`; /book zet datum en tijd klaar en springt naar de gegevensstap. Is de tijd intussen bezet, dan staat de dag open om opnieuw te kiezen.
+- Engels in `assets/i18n/l2t-i18n-data.js`, homepage en /book op `l2t-i18n.js?v=14`.
+
 **6 november 2026: SEO- en LLM-fixes**
 - Homepage-titel met het zoekwoord vooraan, net als link2leads.nl: "Remote setters en closers voor B2B | Link2Talent". Social titels zonder pijl: "Remote setter binnen 14 dagen | Link2Talent".
 - Privacy, algemene voorwaarden en omzetcalculator hadden "Link2Talent ->" of een lang streepje in de titel; nu "Privacybeleid | Link2Talent", "Algemene voorwaarden | Link2Talent" en "Omzetcalculator voor remote setters | Link2Talent", ook in het schema.

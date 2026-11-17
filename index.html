@@ -3285,6 +3285,215 @@ if(document.readyState==='complete')begin();else window.addEventListener('load',
   </p>
 </section>
 <!-- CONTACT -->
+<section class="hag-section" id="plan">
+<style>
+  .hag-section{padding:90px 24px 70px;max-width:1140px;margin:0 auto;scroll-margin-top:70px;}
+  .hag-head{text-align:center;margin-bottom:34px;}
+  .hag-head .big-sub{margin-left:auto;margin-right:auto;max-width:640px;}
+  .hag-card{display:grid;grid-template-columns:260px minmax(0,1fr) 230px;background:var(--card-bg);
+    border:1px solid rgba(255,255,255,.14);border-radius:20px;overflow:hidden;box-shadow:0 26px 60px rgba(0,0,0,.42);}
+  .hag-info{padding:28px 24px;border-right:1px solid var(--border);display:flex;flex-direction:column;gap:14px;}
+  .hag-info .cm-faces img{width:38px;height:38px;}
+  .hag-info .cm-faces img+img{margin-left:-10px;}
+  .hag-info small{display:block;font-size:13.5px;font-weight:600;color:var(--muted);}
+  .hag-info h3{font-size:21px;font-weight:800;letter-spacing:-.4px;line-height:1.2;color:var(--white);margin:0;}
+  .hag-info p{font-size:14.5px;line-height:1.6;color:rgba(255,255,255,.66);margin:0;}
+  .hag-meta{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:11px;}
+  .hag-meta li{display:flex;align-items:center;gap:10px;font-size:14px;font-weight:600;color:rgba(255,255,255,.85);}
+  .hag-meta svg{width:18px;height:18px;flex-shrink:0;color:var(--accent2);}
+  .hag-cal{padding:24px 26px;border-right:1px solid var(--border);}
+  .hag-cal-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;}
+  .hag-month{font-size:16px;font-weight:700;letter-spacing:-.2px;color:var(--white);}
+  .hag-btns{display:flex;gap:6px;}
+  .hag-btn{width:34px;height:34px;border-radius:8px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.035);
+    color:rgba(255,255,255,.7);font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .15s;}
+  .hag-btn:hover{background:var(--accent);border-color:var(--accent);color:#fff;}
+  .hag-btn:disabled{opacity:.3;cursor:default;background:rgba(255,255,255,.035);border-color:rgba(255,255,255,.14);color:rgba(255,255,255,.7);}
+  .hag-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;}
+  .hag-dh{text-align:center;font-size:12px;font-weight:700;color:var(--muted);letter-spacing:.6px;padding:4px 0 8px;}
+  .hag-d{aspect-ratio:1;max-height:62px;border-radius:10px;display:flex;align-items:center;justify-content:center;
+    font-size:15px;font-weight:500;color:rgba(255,255,255,.28);position:relative;border:0;background:none;font-family:inherit;}
+  .hag-d.avail{cursor:pointer;color:var(--white);font-weight:700;background:rgba(255,255,255,.07);transition:background .12s;}
+  .hag-d.avail:hover{background:rgba(47,111,237,.28);}
+  .hag-d.sel{background:var(--accent) !important;color:#fff;}
+  .hag-d.today::after{content:'';position:absolute;bottom:6px;left:50%;transform:translateX(-50%);width:4px;height:4px;border-radius:50%;background:var(--accent2);}
+  .hag-d.sel.today::after{background:rgba(255,255,255,.7);}
+  .hag-d:focus-visible,.hag-slot:focus-visible,.hag-btn:focus-visible{outline:2px solid #BFD4FF;outline-offset:2px;}
+  .hag-times{padding:24px 20px;display:flex;flex-direction:column;min-height:0;}
+  .hag-day{font-size:16px;font-weight:700;color:var(--white);margin-bottom:14px;}
+  .hag-slots{display:flex;flex-direction:column;gap:8px;max-height:420px;overflow-y:auto;padding-right:4px;}
+  .hag-slots::-webkit-scrollbar{width:3px;}
+  .hag-slots::-webkit-scrollbar-thumb{background:rgba(255,255,255,.18);border-radius:3px;}
+  .hag-slot{display:block;width:100%;padding:12px 8px;border-radius:10px;border:1px solid rgba(255,255,255,.16);
+    background:rgba(255,255,255,.035);color:var(--white);font-family:inherit;font-size:15px;font-weight:600;text-align:center;
+    cursor:pointer;transition:border-color .15s,background .15s,color .15s;}
+  .hag-slot:hover{border-color:var(--accent);background:rgba(47,111,237,.16);}
+  .hag-slot.taken{cursor:not-allowed;color:rgba(255,255,255,.28);background:rgba(220,60,60,.06);border-color:rgba(220,60,60,.22);
+    text-decoration:line-through;text-decoration-thickness:1px;}
+  .hag-slot.taken:hover{background:rgba(220,60,60,.06);border-color:rgba(220,60,60,.22);}
+  .hag-empty{font-size:14px;line-height:1.55;color:var(--muted);}
+  .hag-foot{text-align:center;margin:22px 0 0;font-size:14px;line-height:1.6;color:var(--muted);}
+  .hag-foot a{color:var(--accent2);text-decoration:underline;text-underline-offset:3px;}
+  @media(max-width:1040px){
+    .hag-card{grid-template-columns:minmax(0,1fr) 230px;}
+    .hag-info{grid-column:1 / -1;border-right:0;border-bottom:1px solid var(--border);flex-direction:row;flex-wrap:wrap;align-items:center;gap:10px 24px;padding:20px 24px;}
+    .hag-info p{display:none;}
+    .hag-meta{display:flex;flex-wrap:wrap;gap:8px 20px;margin:0;}
+  }
+  @media(max-width:700px){
+    .hag-section{padding:70px 16px 50px;}
+    .hag-card{grid-template-columns:1fr;}
+    .hag-info{padding:18px;}
+    .hag-cal{border-right:0;border-bottom:1px solid var(--border);padding:18px 14px;}
+    .hag-grid{gap:4px;}
+    .hag-d{font-size:14px;border-radius:8px;}
+    .hag-times{padding:18px 14px 20px;}
+    .hag-slots{display:grid;grid-template-columns:repeat(3,1fr);max-height:none;overflow:visible;padding:0;}
+    .hag-slot{padding:11px 4px;font-size:14.5px;}
+  }
+</style>
+<div class="hag-head reveal">
+<h2 class="big-h">Kies direct een moment voor je <span class="blue">gratis matchgesprek</span></h2>
+<p class="big-sub">In 30 minuten bespreken we jullie salesinrichting, doelen en welk commercieel profiel daar het meeste impact maakt.</p>
+</div>
+<div class="hag-card reveal">
+<div class="hag-info">
+<span class="cm-faces"><img alt="Anne-Roos" height="44" src="/assets/img/face-anne-roos.png?v=3" width="44"/><img alt="Demi" height="44" src="/assets/img/face-demi.png?v=3" width="44"/></span>
+<div><small>Anne-Roos of Demi</small><h3>Gratis matchgesprek</h3></div>
+<p>Je spreekt één van ons tweeën, geen accountmanager. We plaatsten al 100+ setters, dus je krijgt een eerlijk advies op basis van wat werkt.</p>
+<ul class="hag-meta">
+<li><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5.2l3.2 1.9"></path></svg><span>30 minuten</span></li>
+<li><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24"><rect height="12" rx="2.5" width="14" x="2.5" y="6"></rect><path d="m16.5 10.5 5-3v9l-5-3"></path></svg><span>Microsoft Teams</span></li>
+<li><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M3.2 9h17.6M3.2 15h17.6"></path><path d="M12 3c2.4 2.5 3.6 5.5 3.6 9s-1.2 6.5-3.6 9c-2.4-2.5-3.6-5.5-3.6-9S9.6 5.5 12 3Z"></path></svg><span>Nederlandse tijd</span></li>
+</ul>
+</div>
+<div class="hag-cal">
+<div class="hag-cal-top">
+<div class="hag-month" id="hagMonth">&nbsp;</div>
+<div class="hag-btns">
+<button aria-label="Vorige maand" class="hag-btn" id="hagPrev" type="button">&lsaquo;</button>
+<button aria-label="Volgende maand" class="hag-btn" id="hagNext" type="button">&rsaquo;</button>
+</div>
+</div>
+<div class="hag-grid" id="hagGrid"></div>
+</div>
+<div class="hag-times">
+<div class="hag-day" id="hagDay">&nbsp;</div>
+<div class="hag-slots" id="hagSlots"><div class="hag-empty">Beschikbaarheid ophalen...</div></div>
+</div>
+</div>
+<p class="hag-foot">Na het kiezen vul je je gegevens en vier korte vragen in. Liever eerst een vraag stellen? <a href="#contact">Dat kan hieronder</a>.</p>
+<script>
+(function(){
+  var EN=function(){return (document.documentElement.getAttribute('lang')||'nl').slice(0,2)==='en';};
+  var MN={nl:['januari','februari','maart','april','mei','juni','juli','augustus','september','oktober','november','december'],
+          en:['January','February','March','April','May','June','July','August','September','October','November','December']};
+  var DN={nl:['ma','di','wo','do','vr','za','zo'],en:['Mon','Tue','Wed','Thu','Fri','Sat','Sun']};
+  var DL={nl:['zondag','maandag','dinsdag','woensdag','donderdag','vrijdag','zaterdag'],en:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']};
+  var grid=document.getElementById('hagGrid'), slotsEl=document.getElementById('hagSlots'),
+      dayEl=document.getElementById('hagDay'), monthEl=document.getElementById('hagMonth'),
+      prev=document.getElementById('hagPrev'), next=document.getElementById('hagNext');
+  if(!grid) return;
+  var today=new Date(); today.setHours(0,0,0,0);
+  var vY=today.getFullYear(), vM=today.getMonth(), sel=null, cache={}, busy={};
+  function pad(n){return String(n).padStart(2,'0');}
+  function key(d){return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());}
+  function weekday(d){var w=d.getDay();return w>0&&w<6;}
+  function lang(){return EN()?'en':'nl';}
+  function toMin(t){return +t.slice(0,2)*60+ +t.slice(3,5);}
+  // Zelfde rooster en zelfde terugval als /book, voor als /api/slots niet antwoordt.
+  function fallback(d){
+    var w=d.getDay(); if(!w||w===6) return {slots:[],taken:[]};
+    var end=w===5?13:16.5, g=[]; for(var h=9.5;h<=end;h+=.5){g.push(pad(Math.floor(h))+':'+(h%1?'30':'00'));}
+    var k=key(d), s=2166136261; for(var i=0;i<k.length;i++){s^=k.charCodeAt(i);s=Math.imul(s,16777619);} s=s>>>0;
+    var rnd=function(){s^=s<<13;s>>>=0;s^=s>>17;s^=s<<5;s>>>=0;return s/4294967296;};
+    var sc=g.map(function(t){return {t:t,r:rnd()};});
+    var weg=sc.slice().sort(function(a,b){return a.r-b.r;}).slice(0,Math.round(g.length/3)).map(function(x){return x.t;});
+    return {slots:g.filter(function(t){return weg.indexOf(t)<0;}),taken:weg};
+  }
+  function load(d){
+    var k=key(d);
+    if(cache[k]) return Promise.resolve(cache[k]);
+    if(busy[k]) return busy[k];
+    busy[k]=fetch('/api/slots?date='+k).then(function(r){return r.json();}).then(function(j){
+      cache[k]=Array.isArray(j.slots)?{slots:j.slots,taken:Array.isArray(j.taken)?j.taken:[]}:fallback(d); return cache[k];
+    }).catch(function(){cache[k]=fallback(d);return cache[k];});
+    return busy[k];
+  }
+  function renderCal(){
+    monthEl.textContent=MN[lang()][vM]+' '+vY;
+    prev.disabled=(vY===today.getFullYear()&&vM===today.getMonth());
+    var h=DN[lang()].map(function(x){return '<div class="hag-dh">'+x+'</div>';}).join('');
+    var first=new Date(vY,vM,1), last=new Date(vY,vM+1,0), off=(first.getDay()+6)%7;
+    for(var i=0;i<off;i++) h+='<div></div>';
+    for(var d=1;d<=last.getDate();d++){
+      var dt=new Date(vY,vM,d), ok=dt>=today&&weekday(dt);
+      var c='hag-d'+(ok?' avail':'')+(dt.getTime()===today.getTime()?' today':'')+(sel&&dt.getTime()===sel.getTime()?' sel':'');
+      h+=ok?'<button type="button" class="'+c+'" data-d="'+d+'">'+d+'</button>':'<div class="'+c+'">'+d+'</div>';
+    }
+    grid.innerHTML=h;
+  }
+  function renderSlots(){
+    if(!sel){dayEl.innerHTML='&nbsp;';return;}
+    var l=lang(), lbl=DL[l][sel.getDay()]+' '+sel.getDate()+' '+MN[l][sel.getMonth()];
+    dayEl.textContent=lbl.charAt(0).toUpperCase()+lbl.slice(1);
+    var data=cache[key(sel)];
+    if(!data){slotsEl.innerHTML='<div class="hag-empty">'+(EN()?'Checking availability...':'Beschikbaarheid ophalen...')+'</div>';return;}
+    var all=data.slots.concat(data.taken).sort(function(a,b){return toMin(a)-toMin(b);});
+    if(!data.slots.length){
+      slotsEl.innerHTML='<div class="hag-empty">'+(EN()?'This day is fully booked. Pick another date.':'Deze dag is volgeboekt. Kies een andere datum.')+'</div>';return;
+    }
+    slotsEl.innerHTML=all.map(function(t){
+      return data.slots.indexOf(t)>=0
+        ? '<button type="button" class="hag-slot" data-t="'+t+'">'+t+'</button>'
+        : '<button type="button" class="hag-slot taken" disabled title="'+(EN()?'Taken':'Bezet')+'">'+t+'</button>';
+    }).join('');
+  }
+  function pick(d){
+    sel=d; renderCal(); renderSlots();
+    load(d).then(function(){ if(sel&&key(sel)===key(d)) renderSlots(); });
+  }
+  grid.addEventListener('click',function(e){
+    var b=e.target.closest('.hag-d.avail'); if(!b) return;
+    pick(new Date(vY,vM,+b.getAttribute('data-d')));
+    if(window.l2lTrack) l2lTrack('home_agenda_datum');
+  });
+  slotsEl.addEventListener('click',function(e){
+    var b=e.target.closest('.hag-slot'); if(!b||b.disabled||!sel) return;
+    var t=b.getAttribute('data-t');
+    if(window.l2lTrack) l2lTrack('home_agenda_tijd',{tijd:t});
+    // De rest van de flow (gegevens, korte vragen, vragenlijst) blijft op /book.
+    var q=new URLSearchParams(location.search), out=new URLSearchParams();
+    ['lang','utm_source','utm_medium','utm_campaign','naam','email','bedrijf','tel'].forEach(function(p){var v=q.get(p); if(v) out.set(p,v);});
+    out.set('datum',key(sel)); out.set('tijd',t);
+    if(!out.get('utm_source')) out.set('utm_source','home-agenda');
+    location.href='/book?'+out.toString();
+  });
+  prev.addEventListener('click',function(){ if(prev.disabled) return; vM--; if(vM<0){vM=11;vY--;} renderCal(); });
+  next.addEventListener('click',function(){ vM++; if(vM>11){vM=0;vY++;} renderCal(); });
+  document.addEventListener('l2l:langchange',function(){ renderCal(); renderSlots(); });
+  // Eerste werkdag met vrije tijden staat direct open, zoals bij een gewone agenda.
+  // Pas laden als het blok bijna in beeld komt, zodat de homepage niet trager wordt.
+  function start(){
+    var d=new Date(today), tries=0;
+    (function step(){
+      while(!weekday(d)) d.setDate(d.getDate()+1);
+      var cand=new Date(d);
+      load(cand).then(function(data){
+        if(data.slots.length||tries>=10){ vY=cand.getFullYear(); vM=cand.getMonth(); pick(cand); return; }
+        tries++; d.setDate(d.getDate()+1); step();
+      });
+    })();
+  }
+  renderCal();
+  var sec=document.getElementById('plan');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){ if(es[0].isIntersecting){ io.disconnect(); start(); } },{rootMargin:'600px 0px'});
+    io.observe(sec);
+  } else start();
+})();
+</script>
+</section>
 <section class="contact-section" id="contact">
 <style>
     .contact-section{padding:40px 24px 110px;max-width:1000px;margin:0 auto;scroll-margin-top:60px;}
@@ -3555,7 +3764,7 @@ if (starsEl) for (let i = 0; i < 60; i++) {
   starsEl.appendChild(s);
 }
 </script>
-<script src="/assets/i18n/l2t-i18n.js?v=13"></script>
+<script src="/assets/i18n/l2t-i18n.js?v=14"></script>
 <script src="/assets/tracking.js?v=2" defer></script>
 <script>
 /* Zet bij elke tabel die breder is dan het scherm een hint en een verloop aan de rechterkant.
