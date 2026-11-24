@@ -1,3 +1,11 @@
+**25 november 2026: homepage korter, hero naast elkaar (zoals link2leads.nl)**
+- Hero: kop links en foto rechts op elke breedte, ook op halfscreen en mobiel; cijfers en film eronder. De gezichtjes-regel op mobiel vervalt, het naamlabel valt op telefoons weg.
+- Prijsblok: "Wie doet wat?" (dubbel met de vier stappen) en "Garantie en flexibiliteit" (dubbel met het garantieblok en de FAQ) weg. "Wat zit er in de fee?" blijft. Link "Hoe werkt de garantie?" weg.
+- Vergelijking: openingszin boven de tabel weg.
+- Losse reviewkaarten van 4 naar 2: Jamie na de stappen, Dick bij de modellen.
+- Afsluiting: tweede CTA "Zelf blijven bellen, of een setter erop zetten?" weg; het agendablok is de afsluiter, daaronder foto met LinkedIn naast het vraagformulier.
+- FAQ: "Kan ik de setter later zelf in dienst nemen?" erbij (ook in schema.org). Engels in `l2t-i18n-data.js`, `l2t-i18n.js?v=15`.
+
 **17 november 2026: matchgesprek-knoppen gaan naar de agenda**
 - Op de homepage scrolt elke matchgesprek-knop naar de agenda (#plan) in plaats van /book te openen. Op alle andere pagina's gaan die links naar `/#plan`. /book zelf blijft bestaan voor persoonlijke links en mails. Event `fitcheck_naar_agenda`.
 
