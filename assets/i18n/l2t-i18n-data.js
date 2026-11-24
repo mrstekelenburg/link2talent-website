@@ -4817,5 +4817,8 @@ window.L2T_I18N_DATA = {
 },
 "Dat kan hieronder": {
 "en": "You can do that below"
+},
+"Kan ik de setter later zelf in dienst nemen?": {
+"en": "Can I hire the setter myself later on?"
 }
 };
