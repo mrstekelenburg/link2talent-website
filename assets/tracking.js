@@ -1,5 +1,5 @@
 /* Link2Talent - tracking
-   Google Analytics + Meta Pixel (alleen na toestemming) + Vercel Web Analytics.
+   Google Analytics (alleen na toestemming) + Vercel Web Analytics.
    Gebruik l2tTrack('naam', {..}) om een gebeurtenis te loggen.
    Legt ook de bron van een bezoeker vast (zie onderaan), zodat bij elke
    boeking, vragenlijst en contactaanvraag in de notificatiemail staat
@@ -13,7 +13,7 @@
   window.__l2tTracking = true;
 
   var GA = 'G-JFRR6RDMND';
-  var PIXEL = '35218029017788041';
+  var PIXEL = ''; // geen ads, dus geen Meta Pixel (26-11-2026)
 
   // Google Analytics en Meta Pixel laden pas na toestemming (Telecommunicatiewet
   // art. 11.7a). Keuze wordt 12 maanden bewaard. l2tCookies() opent de melding opnieuw.
@@ -61,8 +61,8 @@
   }
 
   var TXT = {
-    nl: { t: 'Mogen we cookies gebruiken om te meten hoe de site gebruikt wordt en hoe onze advertenties werken? Zonder akkoord laden we alleen wat nodig is.', ja: 'Akkoord', nee: 'Alleen noodzakelijk', meer: 'Meer info', kort: 'Cookies voor statistieken en advertenties?', url: '/privacy#cookies' },
-    en: { t: 'May we use cookies to measure how the site is used and how our ads perform? Without your consent we only load what is necessary.', ja: 'Accept', nee: 'Necessary only', meer: 'More info', kort: 'Cookies for analytics and ads?', url: '/privacy#cookies' }
+    nl: { t: 'Mogen we cookies gebruiken om te meten hoe de site gebruikt wordt? Zonder akkoord laden we alleen wat nodig is.', ja: 'Akkoord', nee: 'Alleen noodzakelijk', meer: 'Meer info', kort: 'Cookies voor statistieken?', url: '/privacy#cookies' },
+    en: { t: 'May we use cookies to measure how the site is used? Without your consent we only load what is necessary.', ja: 'Accept', nee: 'Necessary only', meer: 'More info', kort: 'Cookies for analytics?', url: '/privacy#cookies' }
   };
 
   function showBanner() {
