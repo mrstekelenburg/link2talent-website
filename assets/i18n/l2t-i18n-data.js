@@ -4899,8 +4899,8 @@ window.L2T_I18N_DATA = {
 "Zakelijk contact met mogelijke opdrachtgevers: gerechtvaardigd belang": {
 "en": "Business contact with potential clients: legitimate interest"
 },
-"Websitestatistieken en advertenties: toestemming": {
-"en": "Website analytics and advertising: consent"
+"Websitestatistieken: toestemming": {
+"en": "Website analytics: consent"
 },
 "Administratie: wettelijke verplichting": {
 "en": "Accounting: legal obligation"
@@ -5010,8 +5010,8 @@ window.L2T_I18N_DATA = {
 "De Meta Pixel, om het effect van onze advertenties te meten": {
 "en": "The Meta Pixel, to measure the effect of our advertising"
 },
-"Die laden pas nadat je daar in de cookiemelding akkoord op geeft. Google en Meta kunnen daarbij gegevens buiten de EU verwerken. Je kunt je keuze op elk moment wijzigen.": {
-"en": "These only load after you agree in the cookie notice. Google and Meta may process data outside the EU in doing so. You can change your choice at any time."
+"Die laadt pas nadat je daar in de cookiemelding akkoord op geeft. Google kan daarbij gegevens buiten de EU verwerken. Je kunt je keuze op elk moment wijzigen.": {
+"en": "This only loads after you agree in the cookie notice. Google may process data outside the EU in doing so. You can change your choice at any time."
 },
 "Cookiekeuze wijzigen": {
 "en": "Change cookie choice"
