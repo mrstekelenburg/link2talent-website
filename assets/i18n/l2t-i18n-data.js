@@ -4820,5 +4820,212 @@ window.L2T_I18N_DATA = {
 },
 "Kan ik de setter later zelf in dienst nemen?": {
 "en": "Can I hire the setter myself later on?"
+},
+"Juridisch": {
+"en": "Legal"
+},
+"Laatst bijgewerkt: 26 november 2026": {
+"en": "Last updated: 26 November 2026"
+},
+"Wij gaan zorgvuldig om met gegevens van opdrachtgevers, setters, closers, kandidaten en bezoekers van onze website.": {
+"en": "We handle the data of clients, setters, closers, candidates and visitors to our website with care."
+},
+"Wie wij zijn": {
+"en": "Who we are"
+},
+"Link2Talent is een handelsnaam van Link2Group vof. Wij koppelen B2B-bedrijven aan remote setters en closers. Link2Group is verwerkingsverantwoordelijke voor de persoonsgegevens die via Link2Talent worden verwerkt.": {
+"en": "Link2Talent is a trade name of Link2Group vof. We connect B2B companies with remote setters and closers. Link2Group is the data controller for the personal data processed through Link2Talent."
+},
+"Link2Group vof, Frederik Hendrikstraat 59H, 1052 HL Amsterdam, KvK 42025671, btw NL869359460B01.": {
+"en": "Link2Group vof, Frederik Hendrikstraat 59H, 1052 HL Amsterdam, the Netherlands, Chamber of Commerce 42025671, VAT NL869359460B01."
+},
+"Welke gegevens we verwerken": {
+"en": "What data we process"
+},
+"Van opdrachtgevers": {
+"en": "From clients"
+},
+"Naam en contactgegevens": {
+"en": "Name and contact details"
+},
+"Bedrijfsinformatie en de antwoorden uit onze vragenlijst": {
+"en": "Company information and the answers to our questionnaire"
+},
+"Afspraken over de opdracht, uren en resultaten": {
+"en": "Agreements about the assignment, hours and results"
+},
+"Factuurgegevens": {
+"en": "Invoice details"
+},
+"Van setters, closers en kandidaten": {
+"en": "From setters, closers and candidates"
+},
+"Cv, werkervaring, beschikbaarheid en tarief": {
+"en": "CV, work experience, availability and rate"
+},
+"Gegevens over je prestaties bij een opdracht, zoals afspraken en uren": {
+"en": "Data about your performance on an assignment, such as appointments and hours"
+},
+"Gegevens voor de uitbetaling en facturatie": {
+"en": "Data for payment and invoicing"
+},
+"Van bezoekers van onze website": {
+"en": "From visitors to our website"
+},
+"Wat je invult als je een gesprek boekt of een formulier invult": {
+"en": "What you enter when you book a call or submit a form"
+},
+"Via welke site of campagne je binnenkwam (zie artikel 09)": {
+"en": "Which site or campaign brought you to us (see section 09)"
+},
+"Gebruiksgegevens via cookies, alleen als je daar toestemming voor geeft": {
+"en": "Usage data via cookies, only if you consent to that"
+},
+"Van gesprekken": {
+"en": "From calls"
+},
+"Een opname en uitgeschreven tekst van een kennismakingsgesprek, als wij dat aan het begin van het gesprek hebben gemeld": {
+"en": "A recording and transcript of an introductory call, if we announced this at the start of the call"
+},
+"Waarom we dit doen en op welke grond": {
+"en": "Why we do this and on what basis"
+},
+"Opdrachten uitvoeren, matchen, plannen en factureren: uitvoering van een overeenkomst": {
+"en": "Running assignments, matching, scheduling and invoicing: performance of a contract"
+},
+"Kandidaten werven en beoordelen: gerechtvaardigd belang, en toestemming als wij je gegevens langer bewaren": {
+"en": "Recruiting and assessing candidates: legitimate interest, and consent if we keep your data longer"
+},
+"Zakelijk contact met mogelijke opdrachtgevers: gerechtvaardigd belang": {
+"en": "Business contact with potential clients: legitimate interest"
+},
+"Websitestatistieken en advertenties: toestemming": {
+"en": "Website analytics and advertising: consent"
+},
+"Administratie: wettelijke verplichting": {
+"en": "Accounting: legal obligation"
+},
+"Setters bij een opdrachtgever": {
+"en": "Setters working for a client"
+},
+"Een setter of closer werkt voor een opdrachtgever met diens leads en klantgegevens. Voor die gegevens is de opdrachtgever verantwoordelijk. Wij leggen in de afspraken met setters vast dat zij alleen in de omgeving van de opdrachtgever werken, niets voor zichzelf bewaren, geheimhouding betrachten en alles verwijderen als de opdracht stopt.": {
+"en": "A setter or closer works for a client with that client’s leads and customer data. The client is responsible for that data. Our agreements with setters state that they only work within the client’s environment, keep nothing for themselves, observe confidentiality and delete everything when the assignment ends."
+},
+"Bewaartermijnen": {
+"en": "Retention periods"
+},
+"Kandidaten die niet geplaatst worden: maximaal 4 weken na afronding van de procedure, of maximaal 1 jaar als je daar toestemming voor geeft": {
+"en": "Candidates who are not placed: up to 4 weeks after the procedure ends, or up to 1 year if you consent to that"
+},
+"Setters en closers die voor ons werken: zolang de samenwerking loopt en daarna maximaal 2 jaar": {
+"en": "Setters and closers working with us: for as long as the relationship lasts and up to 2 years after that"
+},
+"Opdrachtgevers: zolang de samenwerking loopt": {
+"en": "Clients: for as long as the relationship lasts"
+},
+"Opnames en uitgeschreven tekst van gesprekken: maximaal 12 maanden": {
+"en": "Call recordings and transcripts: up to 12 months"
+},
+"Boekingen en formulieren van wie geen klant wordt: maximaal 24 maanden": {
+"en": "Bookings and forms of people who do not become clients: up to 24 months"
+},
+"Facturen: 7 jaar, conform de wettelijke bewaarplicht": {
+"en": "Invoices: 7 years, in line with the statutory retention obligation"
+},
+"Ontvangers en doorgifte": {
+"en": "Recipients and transfers"
+},
+"Wij delen gegevens alleen als dat nodig is. Een opdrachtgever ziet het profiel van een setter die wij voor hem voordragen. Daarnaast werken wij met leveranciers voor hosting, e-mail, agenda en videobellen, documenten en ondertekening, betalingen en websitestatistieken.": {
+"en": "We only share data when necessary. A client sees the profile of a setter we put forward to them. We also work with providers for hosting, email, calendar and video calls, documents and signing, payments and website analytics."
+},
+"Met leveranciers die persoonsgegevens voor ons verwerken, sluiten wij een verwerkersovereenkomst. Een deel van hen zit buiten de Europese Economische Ruimte, vooral in de Verenigde Staten. Gegevens gaan daar alleen naartoe op basis van het EU-US Data Privacy Framework of de standaardcontractbepalingen van de Europese Commissie.": {
+"en": "We conclude a data processing agreement with providers that process personal data for us. Some of them are based outside the European Economic Area, mainly in the United States. Data only goes there on the basis of the EU-US Data Privacy Framework or the standard contractual clauses of the European Commission."
+},
+"Beveiliging": {
+"en": "Security"
+},
+"Toegang alleen voor wie die nodig heeft voor het werk": {
+"en": "Access only for people who need it for their work"
+},
+"Beveiligde verbindingen": {
+"en": "Secured connections"
+},
+"Een vaste procedure voor datalekken, inclusief melding aan de Autoriteit Persoonsgegevens binnen 72 uur waar dat nodig is": {
+"en": "A fixed procedure for data breaches, including notification to the Dutch Data Protection Authority within 72 hours where required"
+},
+"Jouw rechten": {
+"en": "Your rights"
+},
+"Je hebt het recht om:": {
+"en": "You have the right to:"
+},
+"Inzage te vragen in de gegevens die wij over je hebben": {
+"en": "Access the data we hold about you"
+},
+"Gegevens te laten corrigeren": {
+"en": "Have data corrected"
+},
+"Gegevens te laten verwijderen": {
+"en": "Have data deleted"
+},
+"De verwerking te laten beperken": {
+"en": "Have the processing restricted"
+},
+"Je gegevens in een gangbaar bestand te ontvangen": {
+"en": "Receive your data in a common file format"
+},
+"Bezwaar te maken tegen de verwerking": {
+"en": "Object to the processing"
+},
+"Een gegeven toestemming in te trekken": {
+"en": "Withdraw consent you have given"
+},
+"Een verzoek kun je sturen naar": {
+"en": "You can send a request to"
+},
+"Wij reageren binnen een werkdag en handelen een verzoek uiterlijk binnen een maand volledig af. Ben je het niet met ons eens, dan kun je een klacht indienen bij de Autoriteit Persoonsgegevens.": {
+"en": "We respond within one working day and fully handle a request within one month at the latest. If you disagree with us, you can file a complaint with the Dutch Data Protection Authority (Autoriteit Persoonsgegevens)."
+},
+"Cookies en bronvermelding": {
+"en": "Cookies and source tracking"
+},
+"Altijd": {
+"en": "Always"
+},
+"Functionele opslag die nodig is om de site te laten werken, zoals je taalkeuze en je cookiekeuze": {
+"en": "Functional storage that the site needs to work, such as your language choice and your cookie choice"
+},
+"Cookieloze bezoekersstatistieken die geen persoon herkennen": {
+"en": "Cookieless visitor statistics that do not identify a person"
+},
+"Via welke site of campagne je binnenkwam, 90 dagen bewaard in je eigen browser en alleen meegestuurd als je een gesprek boekt of een formulier invult": {
+"en": "Which site or campaign brought you to us, stored for 90 days in your own browser and only sent along when you book a call or submit a form"
+},
+"Alleen met je toestemming": {
+"en": "Only with your consent"
+},
+"Google Analytics, om het gebruik van de site te meten": {
+"en": "Google Analytics, to measure how the site is used"
+},
+"De Meta Pixel, om het effect van onze advertenties te meten": {
+"en": "The Meta Pixel, to measure the effect of our advertising"
+},
+"Die laden pas nadat je daar in de cookiemelding akkoord op geeft. Google en Meta kunnen daarbij gegevens buiten de EU verwerken. Je kunt je keuze op elk moment wijzigen.": {
+"en": "These only load after you agree in the cookie notice. Google and Meta may process data outside the EU in doing so. You can change your choice at any time."
+},
+"Cookiekeuze wijzigen": {
+"en": "Change cookie choice"
+},
+"Wijzigingen": {
+"en": "Changes"
+},
+"Dit beleid kan worden aangepast. De meest actuele versie staat altijd op onze website.": {
+"en": "This policy may be updated. The most recent version is always on our website."
+},
+"Link2Talent, handelsnaam van Link2Group vof, Frederik Hendrikstraat 59H, 1052 HL Amsterdam, KvK 42025671.": {
+"en": "Link2Talent, trade name of Link2Group vof, Frederik Hendrikstraat 59H, 1052 HL Amsterdam, the Netherlands, Chamber of Commerce 42025671."
+},
+"E-mail:": {
+"en": "Email:"
 }
 };

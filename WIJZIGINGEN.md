@@ -1,3 +1,9 @@
+**26 november 2026: privacyverklaring herschreven en cookiemelding**
+- `privacy.html` herschreven: Link2Talent als handelsnaam van Link2Group vof, gegevens van opdrachtgevers, setters, closers, kandidaten en bezoekers, grondslagen, afspraken met setters over gegevens van opdrachtgevers, bewaartermijnen (kandidaten 4 weken, met toestemming 1 jaar), ontvangers en doorgifte buiten de EER, alle rechten en een eigen sectie Cookies (`/privacy#cookies`) met knop om de keuze te wijzigen.
+- `assets/tracking.js`: Google Analytics en de Meta Pixel laden pas na akkoord in een cookiemelding. Keuze 12 maanden in `localStorage` onder `l2t_consent`. `l2tCookies()` opent de melding opnieuw. Pixel-ID nu in `tracking.js`.
+- Homepage: de losse Meta Pixel en de Google-tag van Link2Leads (G-Q4JTLMX0B7) bovenaan `index.html` weggehaald. Die laadden zonder toestemming en telden L2T-bezoek mee in de L2L-cijfers.
+- Alle pagina's op `tracking.js?v=3` en `l2t-i18n.js?v=16`, Engels voor alle nieuwe teksten in `l2t-i18n-data.js`.
+
 **25 november 2026: homepage korter, hero naast elkaar (zoals link2leads.nl)**
 - Hero: kop links en foto rechts op elke breedte, ook op halfscreen en mobiel; cijfers en film eronder. De gezichtjes-regel op mobiel vervalt, het naamlabel valt op telefoons weg.
 - Prijsblok: "Wie doet wat?" (dubbel met de vier stappen) en "Garantie en flexibiliteit" (dubbel met het garantieblok en de FAQ) weg. "Wat zit er in de fee?" blijft. Link "Hoe werkt de garantie?" weg.
