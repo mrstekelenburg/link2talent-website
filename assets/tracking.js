@@ -61,8 +61,8 @@
   }
 
   var TXT = {
-    nl: { t: 'Mogen we cookies gebruiken om te meten hoe de site gebruikt wordt en hoe onze advertenties werken? Zonder akkoord laden we alleen wat nodig is.', ja: 'Akkoord', nee: 'Alleen noodzakelijk', meer: 'Meer info', url: '/privacy#cookies' },
-    en: { t: 'May we use cookies to measure how the site is used and how our ads perform? Without your consent we only load what is necessary.', ja: 'Accept', nee: 'Necessary only', meer: 'More info', url: '/privacy#cookies' }
+    nl: { t: 'Mogen we cookies gebruiken om te meten hoe de site gebruikt wordt en hoe onze advertenties werken? Zonder akkoord laden we alleen wat nodig is.', ja: 'Akkoord', nee: 'Alleen noodzakelijk', meer: 'Meer info', kort: 'Cookies voor statistieken en advertenties?', url: '/privacy#cookies' },
+    en: { t: 'May we use cookies to measure how the site is used and how our ads perform? Without your consent we only load what is necessary.', ja: 'Accept', nee: 'Necessary only', meer: 'More info', kort: 'Cookies for analytics and ads?', url: '/privacy#cookies' }
   };
 
   function showBanner() {
@@ -77,14 +77,16 @@
       + '#l2l-cc .r{display:flex;gap:10px;flex-wrap:wrap;}#l2l-cc button{font:inherit;font-weight:700;border-radius:100px;'
       + 'padding:9px 18px;cursor:pointer;border:1px solid #2F6FED;}#l2l-cc .ja{background:#2F6FED;color:#fff;}'
       + '#l2l-cc .nee{background:transparent;color:#F0EFED;border-color:rgba(255,255,255,.3);}'
-      + '@media(max-width:640px){#l2l-cc{left:12px;right:12px;bottom:84px;max-width:none;}}';
+      + '@media(max-width:640px){#l2l-cc{left:10px;right:80px;bottom:16px;max-width:none;padding:10px 12px;border-radius:12px;font-size:12.5px;line-height:1.4;}'
+      + '#l2l-cc p{margin:0 0 8px;}#l2l-cc .r{gap:6px;flex-wrap:nowrap;}#l2l-cc button{padding:6px 12px;font-size:12.5px;}}';
     document.head.appendChild(st);
     var d = document.createElement('div');
     d.id = 'l2l-cc';
     d.setAttribute('role', 'dialog');
     d.setAttribute('aria-label', 'Cookies');
     d.setAttribute('data-i18n-skip', '');
-    d.innerHTML = '<p>' + T.t + ' <a href="' + T.url + '">' + T.meer + '</a></p>'
+    var tekst = window.innerWidth <= 640 ? T.kort : T.t;
+    d.innerHTML = '<p>' + tekst + ' <a href="' + T.url + '">' + T.meer + '</a></p>'
       + '<div class="r"><button type="button" class="ja">' + T.ja + '</button>'
       + '<button type="button" class="nee">' + T.nee + '</button></div>';
     d.querySelector('.ja').addEventListener('click', function () { saveConsent('ja'); d.remove(); loadMarketing(); });
